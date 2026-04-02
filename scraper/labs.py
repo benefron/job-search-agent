@@ -71,18 +71,36 @@ TOPICS = [
     "systems neuroscience",
     "brain-computer interface",
     "brain-machine interface",
-    "bio-inspired computing",
-    "experimental neuroscience electrophysiology",
-    "embedded AI edge computing",
-    "robotics perception neural",
+    "event-driven neuromorphic sensor",
+    "in vivo electrophysiology neural recording",
+    "spike-based computing hardware",
+    "neurorobotics sensory",
+    "sensory encoding neural population",
+    "embedded neural inference edge",
 ]
 
+# Exclude researchers whose OpenAlex topics/concepts include these fields
 EXCLUDE_TERMS = [
     "molecular",
     "genetic",
     "genomics",
     "single-cell",
     "transcriptomics",
+    "oncology",
+    "cancer",
+    "cardiology",
+    "vascular",
+    "pulmonary",
+    "epidemiology",
+    "gastroenterology",
+    "immunology",
+    "hydrology",
+    "atmospheric",
+    "climate",
+    "geoscience",
+    "geophysics",
+    "sociology",
+    "psychology clinical",
 ]
 
 
@@ -113,8 +131,64 @@ def _match_target_city(inst_name: str) -> str | None:
     return None
 
 
+def _batch_verify_nl_current(author_ids: list[str]) -> dict[str, dict]:
+    """Batch-fetch author records; return only those whose *current* institution is NL.
+
+    OpenAlex `last_known_institutions` reflects where the author is now,
+    not where they did a past PhD. This filters out former NL students abroad.
+    Returned dict maps full OpenAlex author URL → enriched author record.
+    """
+    if not author_ids:
+        return {}
+
+    BATCH = 50  # OpenAlex OR-filter limit
+    verified: dict[str, dict] = {}
+
+    for i in range(0, len(author_ids), BATCH):
+        chunk = author_ids[i : i + BATCH]
+        short_ids = [aid.split("/")[-1] for aid in chunk]
+        filter_str = "|".join(short_ids)
+        try:
+            resp = requests.get(
+                f"{OPENALEX_BASE}/authors",
+                params={
+                    "filter": f"ids.openalex:{filter_str}",
+                    "per-page": len(short_ids),
+                    "select": "id,display_name,last_known_institutions,ids,works_count,topics",
+                },
+                timeout=TIMEOUT,
+                headers={"User-Agent": "job-search-agent/1.0 (mailto:research@example.com)"},
+            )
+            resp.raise_for_status()
+            results = resp.json().get("results", [])
+        except Exception as exc:
+            logger.warning("Author batch fetch failed: %s", exc)
+            continue
+
+        for a in results:
+            institutions = a.get("last_known_institutions") or []
+            if not institutions:
+                continue
+            if institutions[0].get("country_code") != "NL":
+                continue  # currently abroad
+
+            # Field-based exclusion: check top topics/concepts for irrelevant fields
+            topic_labels = " ".join(
+                (t.get("display_name") or "").lower()
+                for t in (a.get("topics") or [])[:10]
+            )
+            if any(term in topic_labels for term in EXCLUDE_TERMS):
+                continue
+
+            verified[a["id"]] = a
+        time.sleep(0.5)  # be polite between batches
+
+    return verified
+
+
 def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
-    """Query recent NL-affiliated works for a topic and return deduped author dicts."""
+    """Two-step pipeline: find NL paper authors, then verify current NL affiliation."""
+    # --- Phase 1: /works search (may include past affiliations on older papers) ---
     try:
         resp = requests.get(
             f"{OPENALEX_BASE}/works",
@@ -134,15 +208,15 @@ def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
         logger.warning("Works query failed for topic '%s': %s", topic, exc)
         return []
 
-    authors: dict[str, dict] = {}
+    # Collect candidate authors (NL institution on the paper)
+    candidates: dict[str, dict] = {}  # author_id → {inst_name, city_label, name}
     for work in works:
         for authorship in work.get("authorships", []):
             author_meta = authorship.get("author") or {}
             author_id = (author_meta.get("id") or "").strip()
-            if not author_id or author_id in authors:
+            if not author_id or author_id in candidates:
                 continue
 
-            # Find NL institution in this authorship
             nl_inst = None
             for inst in authorship.get("institutions", []):
                 if inst.get("country_code") == "NL":
@@ -160,22 +234,67 @@ def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
             if not name:
                 continue
 
-            # Exclude molecular/genomics researchers
+            # Quick name-based exclusion (catches obvious mismatches)
             label_check = f"{name} {inst_name}".lower()
             if any(t in label_check for t in EXCLUDE_TERMS):
                 continue
 
-            authors[author_id] = {
-                "id": _id(author_id),
+            candidates[author_id] = {
                 "name": name,
-                "lab": inst_name,
-                "location": city_label.title(),
-                "topic": topic,
-                "url": author_id,
-                "source": "openalex",
+                "inst_name": inst_name,
+                "city_label": city_label,
             }
 
-    return list(authors.values())
+    if not candidates:
+        return []
+
+    # --- Phase 2: verify current NL affiliation via /authors batch fetch ---
+    verified = _batch_verify_nl_current(list(candidates.keys()))
+
+    # --- Phase 3: build enriched entries ---
+    results: list[dict] = []
+    for author_id, cand in candidates.items():
+        if author_id not in verified:
+            continue  # no longer in NL
+
+        adat = verified[author_id]
+
+        # Prefer current institution from /authors over paper's institution
+        current_insts = adat.get("last_known_institutions") or []
+        current_inst_name = (
+            current_insts[0].get("display_name") or cand["inst_name"]
+        ) if current_insts else cand["inst_name"]
+        city_label = _match_target_city(current_inst_name) or cand["city_label"]
+
+        orcid = (adat.get("ids") or {}).get("orcid") or ""
+        orcid_url = orcid if orcid.startswith("http") else (
+            f"https://orcid.org/{orcid}" if orcid else ""
+        )
+        name = adat.get("display_name") or cand["name"]
+        google_url = (
+            "https://www.google.com/search?q="
+            + requests.utils.quote(f'{name} {current_inst_name} neuroscience research')
+        )
+        scholar_url = (
+            "https://scholar.google.com/scholar?q="
+            + requests.utils.quote(f'{name} {current_inst_name}')
+        )
+
+        results.append({
+            "id": _id(author_id),
+            "name": name,
+            "lab": current_inst_name,
+            "location": city_label.title(),
+            "topic": topic,
+            "url": author_id,
+            "orcid_url": orcid_url,
+            "google_url": google_url,
+            "scholar_url": scholar_url,
+            "works_count": adat.get("works_count") or 0,
+            "source": "openalex",
+        })
+
+    return results
 
 
 def refresh_labs_if_due(force: bool = False) -> None:
