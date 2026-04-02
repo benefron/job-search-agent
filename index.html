@@ -80,8 +80,10 @@
     .btn-icon.active-interested { background: #dbeafe; border-color: var(--accent); }
     .btn-icon.active-applied { background: #f0fdf4; border-color: var(--green); font-weight: 600; }
     .status-select { font-size: 0.75rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.15rem 0.3rem; }
-    .card-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; margin-left: auto; }
+    .card-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; }
     .card-link:hover { text-decoration: underline; }
+    .card-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-left: auto; align-items: center; }
+    .card-meta { display: flex; gap: 0.4rem; align-items: center; }
 
     /* Connection dropdown */
     .connect-dropdown { position: relative; display: inline-block; }
@@ -434,6 +436,10 @@ function renderLabs() {
     const notes = rec.connection_notes || "";
     const card = document.createElement("div");
     card.className = "job-card";
+    const worksCount = lab.works_count ? `<span class="score-badge">${lab.works_count} papers</span>` : "";
+    const orcidLink = lab.orcid_url ? `<a class="card-link" href="${esc(lab.orcid_url)}" target="_blank" rel="noopener">ORCID →</a>` : "";
+    const scholarUrl = lab.scholar_url || `https://scholar.google.com/scholar?q=${encodeURIComponent((lab.name||"")+" "+(lab.lab||""))}`;
+    const googleUrl = lab.google_url || `https://www.google.com/search?q=${encodeURIComponent((lab.name||"")+" "+(lab.lab||"")+" research")}`;
     card.innerHTML = `
       <div class="card-header">
         <div>
@@ -441,7 +447,7 @@ function renderLabs() {
           <div class="card-company">${esc(lab.lab)}</div>
           <div class="card-location">${esc(lab.location)} • ${esc(lab.topic)}</div>
         </div>
-        <div class="card-source">lab-map</div>
+        <div class="card-meta">${worksCount}<span class="card-source">lab-map</span></div>
       </div>
       <div class="card-body">
         <div class="notes-label">Outreach notes</div>
@@ -454,7 +460,12 @@ function renderLabs() {
           <option value="applied" ${status==="applied"?"selected":""}>Contacted</option>
           <option value="delete" ${status==="delete"?"selected":""}>Delete</option>
         </select>
-        <a class="card-link" href="${lab.url}" target="_blank" rel="noopener">Open profile →</a>
+        <div class="card-links">
+          <a class="card-link" href="${esc(lab.url)}" target="_blank" rel="noopener">OpenAlex →</a>
+          ${orcidLink}
+          <a class="card-link" href="${esc(scholarUrl)}" target="_blank" rel="noopener">Scholar →</a>
+          <a class="card-link" href="${esc(googleUrl)}" target="_blank" rel="noopener">🔍 Google</a>
+        </div>
       </div>
     `;
 
