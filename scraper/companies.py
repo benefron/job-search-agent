@@ -45,8 +45,8 @@ class CompanyJob:
 # ---------------------------------------------------------------------------
 COMPANIES = {
     "Innatera": {
-        "type": "html",
-        "url": "https://www.innatera.com/careers",
+        "type": "ashby",
+        "url": "https://jobs.ashbyhq.com/innatera",
         "linkedin_slug": "innatera",
     },
     "imec": {
@@ -174,6 +174,76 @@ def _scrape_html(company: str, url: str) -> list[CompanyJob]:
 
     # Limit to avoid noise from non-career-page anchors
     return jobs[:30]
+
+
+# ---------------------------------------------------------------------------
+# Ashby scraper (e.g., Innatera) — only real openings from the Ashby board
+# ---------------------------------------------------------------------------
+def _scrape_ashby(company: str, board_url: str) -> list[CompanyJob]:
+    try:
+        resp = requests.get(board_url, headers=HEADERS, timeout=TIMEOUT)
+        resp.raise_for_status()
+    except Exception as exc:
+        logger.warning("Ashby fetch failed for %s: %s", company, exc)
+        return []
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    jobs = []
+    seen_urls: set[str] = set()
+
+    # Real openings live at jobs.ashbyhq.com/{org}/{uuid}
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href.startswith("https://jobs.ashbyhq.com/"):
+            continue
+        parts = href.rstrip("/").split("/")
+        if len(parts) < 5:
+            continue
+        slug = parts[-1]
+        # Keep only job detail URLs (uuid-like)
+        if not re.match(r"^[0-9a-fA-F-]{30,}$", slug):
+            continue
+        if href in seen_urls:
+            continue
+        seen_urls.add(href)
+
+        title = a.get_text(" ", strip=True)
+        if not title or len(title) < 4:
+            continue
+
+        # Fetch detail page to get a real description payload
+        try:
+            detail = requests.get(href, headers=HEADERS, timeout=TIMEOUT)
+            detail.raise_for_status()
+            dsoup = BeautifulSoup(detail.text, "html.parser")
+            h1 = dsoup.find("h1")
+            if h1 and len(h1.get_text(strip=True)) >= len(title):
+                title = h1.get_text(strip=True)
+
+            description = dsoup.get_text(separator=" ", strip=True)
+            description = re.sub(r"\s+", " ", description)[:4000]
+
+            location = ""
+            for marker in ["Location", "Employment Type", "Location Type"]:
+                marker_el = dsoup.find(string=re.compile(fr"^{marker}$", re.I))
+                if marker_el:
+                    sib = marker_el.find_parent().find_next_sibling() if marker_el.find_parent() else None
+                    if sib:
+                        location = (location + " " + sib.get_text(" ", strip=True)).strip()
+        except Exception:
+            description = f"[Visit {href} for full description]"
+            location = ""
+
+        jobs.append(CompanyJob(
+            url=href,
+            title=title,
+            company=company,
+            location=location,
+            description=description,
+            source="ashby",
+        ))
+
+    return jobs
 
 
 # ---------------------------------------------------------------------------
@@ -321,6 +391,8 @@ def scrape_companies() -> list[CompanyJob]:
         logger.info("Scraping company: %s", company)
         if config["type"] == "greenhouse":
             jobs = _scrape_greenhouse(company, config["board_token"])
+        elif config["type"] == "ashby":
+            jobs = _scrape_ashby(company, config["url"])
         elif config["type"] == "imec":
             jobs = _scrape_imec(config["url"])
         elif config["type"] == "html":

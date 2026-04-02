@@ -5,6 +5,7 @@ Anonymous session only (no credentials needed for public job listings).
 
 import time
 import logging
+import re
 from dataclasses import dataclass
 
 try:
@@ -46,6 +47,8 @@ SEARCH_QUERIES = [
     # Academic postdocs
     ("postdoctoral researcher computational neuroscience", "Netherlands"),
     ("postdoc neuroengineering", "Netherlands"),
+    ("postdoctoral researcher neuroscience", "Netherlands"),
+    ("experimental neuroscience", "Netherlands"),
 ]
 
 SITES = ["linkedin", "indeed"]
@@ -53,10 +56,19 @@ SITES = ["linkedin", "indeed"]
 # ---------------------------------------------------------------------------
 # Pre-save filters — drop jobs we never want
 # ---------------------------------------------------------------------------
-_EXCLUDE_TITLE_PATTERNS = [
-    "phd", "ph.d", "doctorate", "doctoral",
-    "internship", "intern ", "stage ", "stagiair",
-    "werkstudent", "working student",
+_EXCLUDE_TITLE_REGEX = [
+    # Exclude PhD/doctoral tracks, but keep postdoc/postdoctoral positions.
+    r"\bph\.?d\b",
+    r"\bdoctorate\b",
+    r"\bdoctoral\s+(candidate|student|researcher|position)\b",
+    r"\bpromotie\b",
+    r"\bpromovend(us|i|a)?\b",
+    # Student/internship tracks
+    r"\bintern(ship)?\b",
+    r"\bstage\b",
+    r"\bstagiair\b",
+    r"\bwerkstudent\b",
+    r"\bworking\s+student\b",
 ]
 
 # Common Dutch words that signal a Dutch-language posting
@@ -83,10 +95,14 @@ def _should_exclude(title: str, description: str) -> str | None:
     t = title.lower()
     d = description.lower()
 
-    # Title-based exclusion
-    for pat in _EXCLUDE_TITLE_PATTERNS:
-        if pat in t:
-            return f"excluded by title pattern: {pat}"
+    # Keep postdocs explicitly.
+    if "postdoc" in t or "postdoctoral" in t:
+        pass
+    else:
+        # Title-based exclusion
+        for pat in _EXCLUDE_TITLE_REGEX:
+            if re.search(pat, t):
+                return f"excluded by title pattern: {pat}"
 
     # Dutch-language description
     dutch_hits = sum(1 for s in _DUTCH_SIGNALS if s in d)
