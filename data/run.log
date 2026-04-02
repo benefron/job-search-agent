@@ -250,3 +250,401 @@
 2026-04-02 11:56:01,076 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-02 11:56:01,076 [INFO] Stats: {'total': 80, 'scored': 80, 'liked': 0, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-02T11:56:01.076713'}
 2026-04-02 11:56:01,077 [INFO] Done. Total: 80 | Scored: 80 | Strong+: 0
+2026-04-02 12:28:30,229 [INFO] Initialising database…
+2026-04-02 12:28:30,230 [INFO] Ingesting feedback…
+2026-04-02 12:28:30,230 [INFO] No feedback.json found — skipping feedback ingestion.
+2026-04-02 12:28:30,230 [INFO] Scraping job boards…
+2026-04-02 12:28:30,230 [INFO] Searching: 'neuromorphic engineer' in Netherlands
+2026-04-02 12:28:49,838 [INFO]   Found 8 new results so far (this query).
+2026-04-02 12:28:57,839 [INFO] Searching: 'spiking neural network engineer' in Netherlands
+2026-04-02 12:28:58,085 [INFO]   No results.
+2026-04-02 12:29:06,085 [INFO] Searching: 'brain-inspired computing' in Netherlands
+2026-04-02 12:29:06,302 [INFO]   No results.
+2026-04-02 12:29:14,303 [INFO] Searching: 'neuromorphic AI' in Netherlands
+2026-04-02 12:29:14,596 [INFO]   Found 8 new results so far (this query).
+2026-04-02 12:29:22,596 [INFO] Searching: 'neuroengineering' in Netherlands
+2026-04-02 12:29:22,803 [INFO]   No results.
+2026-04-02 12:29:30,804 [INFO] Searching: 'neurotech scientist' in Netherlands
+2026-04-02 12:29:41,373 [INFO]   Found 12 new results so far (this query).
+2026-04-02 12:29:49,373 [INFO] Searching: 'computational neuroscience' in Netherlands
+2026-04-02 12:29:49,578 [INFO]   No results.
+2026-04-02 12:29:57,579 [INFO] Searching: 'edge AI scientist' in Netherlands
+2026-04-02 12:30:17,409 [INFO]   Found 25 new results so far (this query).
+2026-04-02 12:30:25,410 [INFO] Searching: 'embedded AI engineer' in Netherlands
+2026-04-02 12:30:53,253 [INFO]   Found 34 new results so far (this query).
+2026-04-02 12:31:01,254 [INFO] Searching: 'embedded sensing engineer' in Netherlands
+2026-04-02 12:31:01,596 [INFO]   Found 34 new results so far (this query).
+2026-04-02 12:31:09,596 [INFO] Searching: 'R&D scientist sensing' in Netherlands
+2026-04-02 12:31:09,814 [INFO]   No results.
+2026-04-02 12:31:17,815 [INFO] Searching: 'applied scientist signal processing' in Netherlands
+2026-04-02 12:31:27,698 [INFO]   Found 37 new results so far (this query).
+2026-04-02 12:31:35,698 [INFO] Searching: 'research scientist neuromorphic' in Netherlands
+2026-04-02 12:31:44,183 [INFO]   Found 39 new results so far (this query).
+2026-04-02 12:31:52,183 [INFO] Searching: 'neuromorphic' in Leuven Belgium
+2026-04-02 12:31:52,445 [INFO]   No results.
+2026-04-02 12:32:00,446 [INFO] Searching: 'neuroengineering' in Leuven Belgium
+2026-04-02 12:32:00,747 [INFO]   No results.
+2026-04-02 12:32:08,747 [INFO] Searching: 'embedded AI' in Eindhoven Netherlands
+2026-04-02 12:32:18,741 [INFO]   Found 46 new results so far (this query).
+2026-04-02 12:32:26,741 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Netherlands
+2026-04-02 12:32:26,981 [INFO]   No results.
+2026-04-02 12:32:34,982 [INFO] Searching: 'postdoc neuroengineering' in Netherlands
+2026-04-02 12:32:35,246 [INFO]   No results.
+2026-04-02 12:32:43,246 [INFO] Searching: 'postdoctoral researcher neuroscience' in Netherlands
+2026-04-02 12:33:01,308 [INFO]   Found 61 new results so far (this query).
+2026-04-02 12:33:09,308 [INFO] Searching: 'experimental neuroscience' in Netherlands
+2026-04-02 12:33:15,305 [INFO]   Found 62 new results so far (this query).
+2026-04-02 12:33:23,305 [INFO] Scrape complete. 62 new jobs found.
+2026-04-02 12:33:23,384 [INFO] Saved 62 new jobs to database.
+2026-04-02 12:33:23,384 [INFO] Job boards: 62 new jobs saved
+2026-04-02 12:33:23,384 [INFO] Scraping company career pages…
+2026-04-02 12:33:23,384 [INFO] Scraping company: Innatera
+2026-04-02 12:33:23,649 [INFO]   Innatera: 0 listings found.
+2026-04-02 12:33:25,650 [INFO] Scraping company: imec
+2026-04-02 12:33:25,911 [INFO]   imec: 0 job links found on listing page, fetching details…
+2026-04-02 12:33:25,912 [INFO]   imec: 0 listings found.
+2026-04-02 12:33:27,913 [INFO] Scraping company: Axelera AI
+2026-04-02 12:33:28,087 [WARNING] Greenhouse fetch failed for Axelera AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/axeleraai/jobs?content=true
+2026-04-02 12:33:28,089 [INFO]   Axelera AI: 0 listings found.
+2026-04-02 12:33:30,089 [INFO] Scraping company: Prophesee
+2026-04-02 12:33:30,169 [WARNING] Greenhouse fetch failed for Prophesee: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/prophesee/jobs?content=true
+2026-04-02 12:33:30,170 [INFO]   Prophesee: 0 listings found.
+2026-04-02 12:33:32,171 [INFO] Scraping company: Noldus
+2026-04-02 12:33:33,001 [WARNING] HTML fetch failed for Noldus: 404 Client Error: Not Found for url: https://noldus.com/about/jobs
+2026-04-02 12:33:33,003 [INFO]   Noldus: 0 listings found.
+2026-04-02 12:33:35,004 [INFO] Scraping company: Demcon
+2026-04-02 12:33:37,039 [WARNING] HTML fetch failed for Demcon: 404 Client Error: Not Found for url: https://demcon.com/en/vacancies
+2026-04-02 12:33:37,040 [INFO]   Demcon: 0 listings found.
+2026-04-02 12:33:39,041 [INFO] Scraping company: TNO
+2026-04-02 12:33:40,134 [INFO]   TNO: 30 listings found.
+2026-04-02 12:34:01,668 [INFO] AcademicTransfer: found 0 positions.
+2026-04-02 12:34:01,674 [INFO] Company monitor: 30 scraped, 30 after filter, 0 new.
+2026-04-02 12:34:01,675 [INFO] Saved 0 new company jobs to database.
+2026-04-02 12:34:01,675 [INFO] Company pages: 0 new jobs saved
+2026-04-02 12:34:01,675 [INFO] Scoring pending jobs…
+2026-04-02 12:34:01,676 [INFO] Scoring 141 jobs...
+2026-04-02 12:34:03,861 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:03,870 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud Universiteit — The position requires a Master's degree and is primarily in Dutch, which disqual
+2026-04-02 12:34:07,794 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:07,796 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud Universiteit — The position is a research assistant role requiring a Master's degree and offers
+2026-04-02 12:34:11,322 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:11,324 [INFO]   Scored: [30] Technical Project Manager (Airborne Systems) - RF/Digital/Hardware at KRUSH Labs B.V. — While there are some transferable skills in project management and technical lea
+2026-04-02 12:34:14,746 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:14,749 [INFO]   Scored: [0] 2 PhD positions in large-scale computer systems for AI, big data, and 6G apps at Vrije Universiteit Amsterdam — This job is a PhD position, which is a hard exclusion for Ben, making it a poor 
+2026-04-02 12:34:18,266 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:18,268 [INFO]   Scored: [0] Product Design Engineer at Aquablu B.V — The position is not aligned with Ben's expertise in systems neuroscience and neu
+2026-04-02 12:34:21,796 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:21,799 [INFO]   Scored: [0] Product Design Engineer at Fugro — The position is not aligned with Ben's expertise in systems neuroscience and neu
+2026-04-02 12:34:25,577 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:25,580 [INFO]   Scored: [30] QA / Test Engineer at Blinqx — While there are some transferable skills, the role is primarily focused on QA an
+2026-04-02 12:34:29,586 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:29,588 [INFO]   Scored: [50] Calibration Algorithm Engineer at TMC — While there are relevant skills in algorithm development and data analysis, the 
+2026-04-02 12:34:33,557 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:33,560 [INFO]   Scored: [30] Sensing Architect (hardware & algorithm) at TMC — While there are some relevant skills and experience, the focus on optics and the
+2026-04-02 12:34:37,087 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:37,089 [INFO]   Scored: [30] Director of AI enablement at Bleckmann — While there are some transferable skills in AI strategy and collaboration, the r
+2026-04-02 12:34:40,081 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:40,083 [INFO]   Scored: [0] PhD in Optimizing patient transition indications through multiparametric sensing at Eindhoven University of Technology — This is a PhD position and the job description is primarily in Dutch, which disq
+2026-04-02 12:34:43,303 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:43,305 [INFO]   Scored: [0] EngD in Designing Human-System Interaction at Eindhoven University of Technology — The position is a PhD role and the job description is primarily in Dutch, which 
+2026-04-02 12:34:46,517 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:46,520 [INFO]   Scored: [90] Spiking Neural Processor Pulsar at Innatera — The position aligns perfectly with Ben's expertise in spiking neural processors 
+2026-04-02 12:34:50,054 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:50,057 [INFO]   Scored: [0] Talamo SDK at Innatera — The job posting is primarily in Dutch and likely requires a PhD position, which 
+2026-04-02 12:34:53,059 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:34:53,062 [INFO]   Scored: [0] Technology at Innatera — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:34:54,577 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:34:54,577 [INFO] Retrying request to /chat/completions in 7.000000 seconds
+2026-04-02 12:35:01,854 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:35:01,855 [INFO] Retrying request to /chat/completions in 0.972962 seconds
+2026-04-02 12:35:05,123 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:05,125 [INFO]   Scored: [0] Partners at Innatera — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:08,810 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:08,812 [INFO]   Scored: [0] Newsroom at Innatera — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:12,051 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:12,053 [INFO]   Scored: [0] Get in touch at Innatera — The job posting lacks a clear description and does not provide any relevant info
+2026-04-02 12:35:15,437 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:15,440 [INFO]   Scored: [0] Discover open roles at Innatera — The job posting lacks specific details and does not meet the criteria for evalua
+2026-04-02 12:35:18,458 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:18,461 [INFO]   Scored: [0] Expertise at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:21,580 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:21,582 [INFO]   Scored: [0] What we offer at imec — The job posting lacks essential information to evaluate fit, and the title does 
+2026-04-02 12:35:24,915 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:24,917 [INFO]   Scored: [100] Applications at imec — The position at imec perfectly aligns with Ben's expertise in neuromorphic compu
+2026-04-02 12:35:28,325 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:28,328 [INFO]   Scored: [100] Your career at imec — The position at imec aligns perfectly with Ben's expertise in systems neuroscien
+2026-04-02 12:35:31,123 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:31,125 [INFO]   Scored: [0] CMOS: advanced and beyond at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:34,150 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:34,153 [INFO]   Scored: [0] Integrated photonics at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:37,504 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:37,507 [INFO]   Scored: [100] Health technologies at imec — The position at imec aligns perfectly with Ben's expertise in systems neuroscien
+2026-04-02 12:35:40,787 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:40,790 [INFO]   Scored: [90] Sensing and actuation at imec — The position at imec aligns perfectly with Ben's expertise in systems neuroscien
+2026-04-02 12:35:43,586 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:43,589 [INFO]   Scored: [0] Connectivity technology at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:35:47,173 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:47,175 [INFO]   Scored: [90] Research at imec — This position at imec is a perfect fit for Ben's expertise in systems neuroscien
+2026-04-02 12:35:50,473 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:35:50,476 [INFO]   Scored: [0] Manufacturing at imec — The job posting lacks specific alignment with Ben's expertise and is too general
+2026-04-02 12:35:51,993 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:35:51,993 [INFO] Retrying request to /chat/completions in 11.000000 seconds
+2026-04-02 12:36:03,035 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:36:03,036 [INFO] Retrying request to /chat/completions in 0.943641 seconds
+2026-04-02 12:36:05,706 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:05,708 [INFO]   Scored: [0] Venturing and startups at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:09,127 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:09,130 [INFO]   Scored: [0] Education and workforce development at imec — The job is not aligned with Ben's expertise in systems neuroscience and neuroeng
+2026-04-02 12:36:12,378 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:12,380 [INFO]   Scored: [0] NanoIC pilot line at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:15,997 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:15,999 [INFO]   Scored: [0] Semiconductor technology at imec — The job focuses on semiconductor technology, which does not align with Ben's exp
+2026-04-02 12:36:19,905 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:19,907 [INFO]   Scored: [0] Data and telecommunication at imec — The job description is primarily in Dutch and likely targets PhD candidates, whi
+2026-04-02 12:36:23,408 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:23,411 [INFO]   Scored: [0] Automotive technologies at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:26,170 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:26,172 [INFO]   Scored: [0] Robotics technology for Industry 4.0 at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:29,540 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:29,542 [INFO]   Scored: [100] Artificial intelligence at imec — The position at imec aligns perfectly with Ben's expertise in artificial intelli
+2026-04-02 12:36:32,370 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:32,372 [INFO]   Scored: [0] Life sciences at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:35,476 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:35,478 [INFO]   Scored: [0] Life sciences and health solutions at imec — The job posting is primarily in Dutch and likely targets PhD candidates, which d
+2026-04-02 12:36:38,470 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:38,472 [INFO]   Scored: [0] Job opportunities at imec — The job posting lacks specific details about the role, making it impossible to a
+2026-04-02 12:36:42,024 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:42,026 [INFO]   Scored: [100] Academic Excellence at imec — The position at imec perfectly aligns with Ben's expertise in systems neuroscien
+2026-04-02 12:36:45,438 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:45,441 [INFO]   Scored: [0] Infrastructure at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:36:48,527 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:48,529 [INFO]   Scored: [0] Organization at imec — The job posting lacks essential details about the role and responsibilities, mak
+2026-04-02 12:36:51,814 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:36:51,817 [INFO]   Scored: [0] Press releases at imec — The job posting does not align with Ben's expertise or target roles, and lacks r
+2026-04-02 12:36:53,330 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:36:53,330 [INFO] Retrying request to /chat/completions in 10.000000 seconds
+2026-04-02 12:37:03,527 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:37:03,528 [INFO] Retrying request to /chat/completions in 0.980526 seconds
+2026-04-02 12:37:06,307 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:06,309 [INFO]   Scored: [0] Event calendar at imec — The job posting does not provide any relevant information or role that aligns wi
+2026-04-02 12:37:09,425 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:09,427 [INFO]   Scored: [0] Publications at imec — The job posting does not specify a role and lacks alignment with Ben's expertise
+2026-04-02 12:37:12,780 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:12,782 [INFO]   Scored: [100] imec the Netherlands at imec — The position at imec perfectly aligns with Ben's expertise in systems neuroscien
+2026-04-02 12:37:15,749 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:15,751 [INFO]   Scored: [0] imec USA at imec — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:18,626 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:18,628 [INFO]   Scored: [0] Nederlands at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:21,894 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:21,897 [INFO]   Scored: [0] Circular and industrial construction at TNO — The job is unrelated to Ben's expertise in systems neuroscience and does not fit
+2026-04-02 12:37:24,957 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:24,959 [INFO]   Scored: [0] Bio-based building materials at TNO — The job is focused on bio-based building materials, which is outside of Ben's ar
+2026-04-02 12:37:28,242 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:28,245 [INFO]   Scored: [0] Building materials at TNO — The job posting is unrelated to Ben's field of expertise and does not meet any o
+2026-04-02 12:37:31,349 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:31,352 [INFO]   Scored: [0] Industrial and conceptual construction at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:34,390 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:34,392 [INFO]   Scored: [0] Safe efficient care building at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:37,524 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:37,527 [INFO]   Scored: [0] Safety of buildings at TNO — The job title and description are unrelated to Ben's expertise in systems neuros
+2026-04-02 12:37:40,850 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:40,856 [INFO]   Scored: [0] Asset lifecycle information management at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:43,791 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:43,794 [INFO]   Scored: [0] Earth observation at TNO — The job description is primarily in Dutch, which is a hard exclusion criterion.
+2026-04-02 12:37:46,933 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:46,936 [INFO]   Scored: [0] TANGO satellite at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:49,675 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:37:49,677 [INFO]   Scored: [0] EarthCARE at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:37:51,194 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:37:51,194 [INFO] Retrying request to /chat/completions in 13.000000 seconds
+2026-04-02 12:38:04,454 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:38:04,455 [INFO] Retrying request to /chat/completions in 0.771245 seconds
+2026-04-02 12:38:07,284 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:07,286 [INFO]   Scored: [0] Clear Air consortium at TNO — The job posting is primarily in Dutch and requires Dutch fluency, which disquali
+2026-04-02 12:38:10,538 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:10,540 [INFO]   Scored: [0] Sentinel-5 at TNO — The job posting is primarily in Dutch and requires Dutch fluency, which disquali
+2026-04-02 12:38:13,743 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:13,745 [INFO]   Scored: [0] Energy in the built environment at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:16,935 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:16,937 [INFO]   Scored: [0] Accelerating towards a climate-neutral built environment at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:20,057 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:20,060 [INFO]   Scored: [0] Energy storage at TNO — The job title and description do not relate to Ben's expertise in systems neuros
+2026-04-02 12:38:23,498 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:23,500 [INFO]   Scored: [0] Heating and cooling systems at TNO — The job is not aligned with Ben's background in systems neuroscience and neuroen
+2026-04-02 12:38:26,676 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:26,678 [INFO]   Scored: [0] Monitoring installations, components, and energy at TNO — The job does not align with Ben's background in systems neuroscience and neuroen
+2026-04-02 12:38:29,710 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:29,712 [INFO]   Scored: [0] Greenhouse horticulture at TNO — The job in greenhouse horticulture is completely unrelated to Ben's expertise in
+2026-04-02 12:38:32,906 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:32,909 [INFO]   Scored: [0] Energy supply at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:36,045 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:36,047 [INFO]   Scored: [0] Solar applications at TNO — The job is unrelated to Ben's expertise in systems neuroscience and neuroenginee
+2026-04-02 12:38:39,409 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:39,411 [INFO]   Scored: [0] Sustainable solar panels at TNO — The job is unrelated to Ben's field of systems neuroscience and neuromorphic com
+2026-04-02 12:38:42,662 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:42,665 [INFO]   Scored: [0] Solar device technology at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:45,688 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:45,690 [INFO]   Scored: [0] Accelerating offshore wind farms at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:48,909 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:48,911 [INFO]   Scored: [0] Energy systems transition at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:52,024 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:38:52,028 [INFO]   Scored: [0] Industry at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:38:53,546 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:38:53,547 [INFO] Retrying request to /chat/completions in 11.000000 seconds
+2026-04-02 12:39:04,583 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:39:04,584 [INFO] Retrying request to /chat/completions in 0.917365 seconds
+2026-04-02 12:39:07,439 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:07,441 [INFO]   Scored: [0] Circular feedstock processes at TNO — The job description is primarily in Dutch, which is a hard exclusion rule.
+2026-04-02 12:39:12,429 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:12,431 [INFO]   Scored: [0] Carbon neutral industry at TNO — The job posting is primarily in Dutch and requires Dutch fluency, which disquali
+2026-04-02 12:39:15,919 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:15,921 [INFO]   Scored: [0] Sustainable materials at TNO — The job posting is unrelated to Ben's expertise in systems neuroscience and does
+2026-04-02 12:39:19,633 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:19,636 [INFO]   Scored: [0] Energy infrastructure at TNO — The job does not align with Ben's primary domain of expertise in systems neurosc
+2026-04-02 12:39:23,599 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:23,602 [INFO]   Scored: [30] Senior Founding Engineer at Syntera — While there are some relevant skills in Python and software development, the rol
+2026-04-02 12:39:27,091 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:27,093 [INFO]   Scored: [0] Safety Officer/Engineer (Tanajib) - مسؤول السلامة / مهندس سلامة (تناجيب) at Alturki Holding — The job is unrelated to Ben's expertise in systems neuroscience and is primarily
+2026-04-02 12:39:30,366 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:30,369 [INFO]   Scored: [0] Senior Engineer at Sia — The job requires Dutch fluency and does not align with Ben's expertise in system
+2026-04-02 12:39:33,790 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:33,793 [INFO]   Scored: [0] Engineer at Recense - Professionals in recruitment — The job description is primarily in Dutch and does not align with Ben's expertis
+2026-04-02 12:39:37,264 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:37,266 [INFO]   Scored: [0] Engineer W at SPIE Nederland — The job posting is primarily in Dutch and does not align with Ben's expertise in
+2026-04-02 12:39:40,426 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:40,428 [INFO]   Scored: [0] Traineeship Engineer – ontwikkel jezelf tot technisch specialist at YER — The position is a traineeship and primarily in Dutch, which disqualifies it from
+2026-04-02 12:39:43,435 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:43,438 [INFO]   Scored: [0] OEM Engineer at ALGOTEQUE Innovation Hub — The position is unrelated to Ben's expertise in systems neuroscience and neuroen
+2026-04-02 12:39:46,675 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:46,677 [INFO]   Scored: [0] Engineer at Russell Tobin — The job posting is primarily in Dutch and requires Dutch fluency, which disquali
+2026-04-02 12:39:50,353 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:50,356 [INFO]   Scored: [30] Experienced Scientist Source Apportionment of atmospheric pollutant concentrations | Utrecht at TNO — While the position is in a relevant research environment and location, the focus
+2026-04-02 12:39:53,696 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:53,698 [INFO]   Scored: [0] Sr. Protein Scientist (6 months Temporary Mission) at Danone — The job is unrelated to Ben's background in systems neuroscience and neuroengine
+2026-04-02 12:39:57,432 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:39:57,435 [INFO]   Scored: [0] Lifecycle Analysis Scientist (LCA) - Relocate To Saudi Arabia at aramco — The position is unrelated to Ben's expertise in systems neuroscience and is loca
+2026-04-02 12:39:58,951 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:39:58,951 [INFO] Retrying request to /chat/completions in 6.000000 seconds
+2026-04-02 12:40:04,981 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:40:04,982 [INFO] Retrying request to /chat/completions in 0.850947 seconds
+2026-04-02 12:40:08,206 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:08,209 [INFO]   Scored: [30] medior scientist cyber security | The Hague, Groningen of Eindhoven at TNO — While there are some transferable skills, the role's focus on cyber security and
+2026-04-02 12:40:12,308 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:12,311 [INFO]   Scored: [30] Machine Learning Engineer – Cloud | MLOps | GenAI (Relocation provided) at Wypoon Technologies — While there are some relevant skills, the role's focus on machine learning engin
+2026-04-02 12:40:16,212 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:16,214 [INFO]   Scored: [30] Machine Learning Engineer at SIRE® Life Sciences 🧬 — While there are some relevant skills in Python and machine learning, the role's 
+2026-04-02 12:40:19,564 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:19,567 [INFO]   Scored: [30] Sr. Machine Learning Engineer at Merqato — While there are relevant skills in machine learning and software engineering, th
+2026-04-02 12:40:22,920 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:22,922 [INFO]   Scored: [0] AI/ML Engineer With Dutch at Us3 Consulting — The job requires Dutch fluency, which is a hard exclusion rule, resulting in an 
+2026-04-02 12:40:26,054 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:26,056 [INFO]   Scored: [0] Senior Machine Learning & Data Engineer at Ubique Systems — The job requires Dutch fluency, which is a hard exclusion rule, resulting in an 
+2026-04-02 12:40:29,750 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:29,752 [INFO]   Scored: [30] ML / AI Data Engineer at GeekSoft Consulting — While there are some relevant skills in Python and data processing, the role's f
+2026-04-02 12:40:33,895 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:33,897 [INFO]   Scored: [30] Machine learning engineer/data (platform) engineer at SLTN — While there are some relevant skills in Python and machine learning, the role's 
+2026-04-02 12:40:37,489 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:37,492 [INFO]   Scored: [30] Machine Learning Engineer at Search X Recruitment — While there are some relevant skills and experiences, the focus on trading and s
+2026-04-02 12:40:41,251 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:41,254 [INFO]   Scored: [30] Senior Data Scientist at Magno IT Recruitment — While there are some relevant skills in data analysis and machine learning, the 
+2026-04-02 12:40:45,547 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:45,550 [INFO]   Scored: [50] Machine Learning Engineer (AI Core Team) at Manychat — While there are relevant skills in Python and machine learning, the role's focus
+2026-04-02 12:40:48,940 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:48,942 [INFO]   Scored: [30] Staff Software Engineer - Traffic Machine Learning at Uber — While there are some transferable skills, the role's focus on traffic systems an
+2026-04-02 12:40:52,770 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:52,773 [INFO]   Scored: [30] Machine Learning Engineer - Europe at FareHarbor — While there are some relevant skills in Python and ML, the role's focus on prici
+2026-04-02 12:40:56,568 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:56,570 [INFO]   Scored: [30] AI Engineer/Data Scientist at EPAM Systems — While there are some transferable skills, the primary focus on NLP and the requi
+2026-04-02 12:40:59,979 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:40:59,981 [INFO]   Scored: [0] Technical Writer at Nebius — The position is a Technical Writer role, which is not aligned with Ben's experti
+2026-04-02 12:41:01,494 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:41:01,495 [INFO] Retrying request to /chat/completions in 4.000000 seconds
+2026-04-02 12:41:05,512 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:41:05,512 [INFO] Retrying request to /chat/completions in 0.945623 seconds
+2026-04-02 12:41:08,477 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:08,480 [INFO]   Scored: [30] AI Engineer at MarvelX AI — While there are some relevant skills in AI and Python, the focus on regulated in
+2026-04-02 12:41:11,799 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:11,802 [INFO]   Scored: [30] AI Engineer (Product-focused) at Zeno — While there are some relevant engineering skills, the role's focus on legal AI a
+2026-04-02 12:41:15,069 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:15,071 [INFO]   Scored: [0] AI Automation Engineer at AFS Group — The job is not aligned with Ben's expertise in systems neuroscience and requires
+2026-04-02 12:41:18,274 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:18,276 [INFO]   Scored: [0] AI Developer (.NET/Azure AI Foundry) at Devoteam — The job posting is primarily in Dutch and requires Dutch fluency, which disquali
+2026-04-02 12:41:21,820 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:21,823 [INFO]   Scored: [30] Data Scientist at Gazelle Global — While there are some relevant programming and data science skills, the focus on 
+2026-04-02 12:41:25,395 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:25,397 [INFO]   Scored: [30] Embedded Software Engineer at Darwin Recruitment — While there are some relevant skills and the location is preferred, the role's f
+2026-04-02 12:41:28,797 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:28,799 [INFO]   Scored: [30] AI Engineer at Code for Good — While there are some relevant skills in Python and AI, the role's focus on softw
+2026-04-02 12:41:32,462 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:32,465 [INFO]   Scored: [30] Artificial Intelligence Engineer at Airswift — While there are some relevant skills in data engineering and AI, the role's focu
+2026-04-02 12:41:36,095 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:36,097 [INFO]   Scored: [30] Audio signal processing and coding supporting standardisation at Philips — While there are some relevant skills in algorithm development and Python, the fo
+2026-04-02 12:41:39,627 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:39,630 [INFO]   Scored: [50] Data Scientist - Control Systems at Source.ag — While there are relevant skills in control systems and data science, the focus o
+2026-04-02 12:41:43,154 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:43,157 [INFO]   Scored: [30] Lead InSAR Engineer at SkyGeo Netherlands B.V. — While there are some transferable skills, the role's focus on InSAR data and geo
+2026-04-02 12:41:47,078 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:47,081 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud Summer School — The position is a Research Assistant role which does not align with Ben's qualif
+2026-04-02 12:41:50,523 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:50,526 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud University — The position is a research assistant role requiring a Master's degree, which is 
+2026-04-02 12:41:53,932 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:53,934 [INFO]   Scored: [0] Artificial Intelligence Engineer at Kingfisher Recruitment — The job requires Dutch fluency and the description is primarily in Dutch, which 
+2026-04-02 12:41:57,622 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:41:57,624 [INFO]   Scored: [30] Hardware Full Stack Developer at Next Generation Sensors B.V. — While there are some relevant skills, the focus on mass spectrometry and NIR tec
+2026-04-02 12:41:59,142 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:41:59,142 [INFO] Retrying request to /chat/completions in 7.000000 seconds
+2026-04-02 12:42:06,179 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:42:06,179 [INFO] Retrying request to /chat/completions in 0.906923 seconds
+2026-04-02 12:42:09,001 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:09,003 [INFO]   Scored: [0] Senior Enterprise C/C++ and .NET Developer at Spilberg — The job is a software development role with no alignment to Ben's expertise in s
+2026-04-02 12:42:13,049 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:13,051 [INFO]   Scored: [30] Data Scientist at Trinamics — While there are some relevant skills in data science and AI, the primary focus o
+2026-04-02 12:42:16,764 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:16,767 [INFO]   Scored: [30] Director of AI enablement at Bleckmann — While there are some relevant skills in AI and operational efficiency, the role'
+2026-04-02 12:42:20,419 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:20,422 [INFO]   Scored: [30] Senior AI Program Manager | AI Transformation | Data & Analytics at Akkodis — While the role involves AI and data analytics, it is more focused on program man
+2026-04-02 12:42:23,785 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:23,788 [INFO]   Scored: [85] Senior AI Architect (Systems & Algorithms) at imec the Netherlands — The role aligns well with Ben's expertise in systems neuroscience and spiking ne
+2026-04-02 12:42:26,985 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:26,987 [INFO]   Scored: [50] Postdoctoral Researcher in Neuroimaging of Language at Universiteit Leiden — While the position is a postdoctoral role and involves data analysis, it primari
+2026-04-02 12:42:30,191 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:30,193 [INFO]   Scored: [0] PostDoc in Hybrid Intelligence: to-align-or-not-to-align. at Athena - Research and Education Institute — This position is a postdoctoral role but requires a PhD in a different field and
+2026-04-02 12:42:33,186 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:33,189 [INFO]   Scored: [0] Postdoc project: Neuron-glia interactions in memory at Athena - Research and Education Institute — The job requires experimental animal work, which Ben is not interested in, leadi
+2026-04-02 12:42:36,527 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:36,529 [INFO]   Scored: [30] PostDoc in Hybrid Intelligence: to-align-or-not-to-align. at Vrije Universiteit Amsterdam (VU Amsterdam) — While the position aligns with Ben's research experience, the focus on computati
+2026-04-02 12:42:40,236 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:40,238 [INFO]   Scored: [0] Postdoc project: Neuron-glia interactions in memory at Vrije Universiteit Amsterdam (VU Amsterdam) — This is a postdoc position focused on experimental animal work, which Ben is not
+2026-04-02 12:42:43,316 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:43,318 [INFO]   Scored: [0] Research Assistant at KNAW - Koninklijke Nederlandse Akademie van Wetenschappen — The position requires Dutch fluency and has the possibility of extending to a Ph
+2026-04-02 12:42:46,411 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:46,413 [INFO]   Scored: [0] Post Doc Position “In-situ Diagnostics for PLD4Energy” at DIFFER — This position is a PhD role focused on materials science, which does not align w
+2026-04-02 12:42:49,493 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:49,495 [INFO]   Scored: [0] Postdoc position: Stress responses in bacteria during processing at Vrije Universiteit Amsterdam (VU Amsterdam) — The position is focused on microbiology and does not align with Ben's expertise 
+2026-04-02 12:42:52,879 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:52,882 [INFO]   Scored: [0] Postdoc onderzoeker educatie participatie jongeren voor 4 jaar at Erasmus MC Academie — The job is primarily in Dutch and focuses on education and youth support, which 
+2026-04-02 12:42:56,067 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:42:56,069 [INFO]   Scored: [0] Postdoc Global mapping of Natural and Anthropogenic Erosion at University of Amsterdam — The position is a postdoc but is unrelated to Ben's field of systems neuroscienc
+2026-04-02 12:42:57,589 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:42:57,590 [INFO] Retrying request to /chat/completions in 9.000000 seconds
+2026-04-02 12:43:06,634 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 12:43:06,635 [INFO] Retrying request to /chat/completions in 0.900655 seconds
+2026-04-02 12:43:09,719 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:09,722 [INFO]   Scored: [70] Postdoc on Robot World Models (UvA+TOYOTA) at University of Amsterdam — The position is a strong fit due to its postdoctoral nature and location, but it
+2026-04-02 12:43:13,394 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:13,397 [INFO]   Scored: [0] Postdoctoral Researcher: Media & Web Diets Observatory at University of Amsterdam — This is a PhD position focused on social sciences, which does not align with Ben
+2026-04-02 12:43:16,704 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:16,707 [INFO]   Scored: [0] Postdoctoral Researcher – AI Imaging Biomarkers in Oncology (CLARITY Project)- NL at Amsterdam UMC — The job is a postdoctoral position but does not align with Ben's expertise in sy
+2026-04-02 12:43:20,223 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:20,226 [INFO]   Scored: [0] Postdoctoral Researcher in Neuroimaging of Language- NL at Leiden University — The position is not aligned with Ben's primary research interests and expertise 
+2026-04-02 12:43:23,137 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:23,139 [INFO]   Scored: [0] Postdoc in Ethics of Technology: Innovating Methods for the Ethics of Socially Disruptive Technologies at Eindhoven University of Technology — The job is a postdoctoral position in ethics of technology, which is unrelated t
+2026-04-02 12:43:26,370 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 12:43:26,373 [INFO]   Scored: [0] Postdoc project: Neuron-glia interactions in memory at Vrije Universiteit Amsterdam — The position requires significant animal handling and surgery, which Ben is not 
+2026-04-02 12:43:27,873 [INFO] Scoring complete. 141/141 jobs scored.
+2026-04-02 12:43:27,873 [INFO] Scored 141 jobs
+2026-04-02 12:43:27,873 [INFO] Exporting data…
+2026-04-02 12:43:27,875 [INFO] Exported 15 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-02 12:43:27,875 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-02 12:43:27,877 [INFO] Stats: {'total': 141, 'scored': 141, 'liked': 0, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-02T14:43:27+02:00'}
+2026-04-02 12:43:27,877 [INFO] Done. Total: 141 | Scored: 141 | Strong+: 0
