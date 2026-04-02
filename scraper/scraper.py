@@ -49,6 +49,11 @@ SEARCH_QUERIES = [
     ("postdoc neuroengineering", "Netherlands"),
     ("postdoctoral researcher neuroscience", "Netherlands"),
     ("experimental neuroscience", "Netherlands"),
+    # Embedded / robotics / BMI / BCI
+    ("embedded systems engineer ai", "Netherlands"),
+    ("robotics engineer perception", "Netherlands"),
+    ("brain computer interface", "Netherlands"),
+    ("brain machine interface", "Netherlands"),
 ]
 
 SITES = ["linkedin", "indeed"]

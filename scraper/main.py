@@ -27,7 +27,7 @@ log = logging.getLogger(__name__)
 
 
 def main() -> None:
-    from scraper import db, scraper, companies, export
+    from scraper import db, scraper, companies, export, labs
     from scorer import scorer
 
     # ── 1. Init database ──
@@ -37,6 +37,14 @@ def main() -> None:
     # ── 2. Ingest any user feedback committed since last run ──
     log.info("Ingesting feedback…")
     export.ingest_feedback()
+
+    # ── 2b. Prune known historical noise pages ──
+    try:
+        pruned = db.prune_known_noise_jobs()
+        if pruned:
+            log.info("Pruned %d historical noise rows (imec/Innatera generic pages)", pruned)
+    except Exception:
+        log.exception("Noise-prune step failed — continuing")
 
     # ── 3. Scrape job boards (LinkedIn + Indeed) ──
     log.info("Scraping job boards…")
@@ -68,6 +76,13 @@ def main() -> None:
             log.exception("Scoring failed — continuing with export")
 
     # ── 6. Export JSON + CSV for dashboard ──
+    log.info("Refreshing lab map (monthly cadence)…")
+    try:
+        labs.refresh_labs_if_due()
+    except Exception:
+        log.exception("Lab mapping failed — continuing with export")
+
+    # ── 7. Export JSON + CSV for dashboard ──
     log.info("Exporting data…")
     export.export_jobs()
     export.export_stats()

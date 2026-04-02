@@ -46,11 +46,17 @@ HARD EXCLUSION RULES (score 0 immediately if any apply):
 - Job description is primarily in Dutch (not English)
 - Job requires Dutch fluency / native-level Dutch as a hard requirement
 
+ELIGIBILITY NOTE:
+- Ben has both MSc and PhD. Roles requiring MSc are fully eligible and should not be penalized.
+
 VISA & SALARY CONSTRAINT:
 - Ben needs a work visa for the Netherlands, which requires a minimum gross salary of ~€5,000/month.
 - Score down (max 30) any industry job that likely pays below this threshold.
 - EXCEPTION: postdoctoral positions, university positions, medical centers, and publicly funded research institutes
   (e.g. universities, UMCs, NWO, KNAW, TNO) may be exempt from the salary threshold for visa purposes — do NOT penalise these.
+
+DOMAIN FIT BOOST:
+- Also treat embedded systems, robotics/perception, brain-machine interface (BMI), and brain-computer interface (BCI) as relevant domains.
 
 Score rubric:
 - 90-100: Perfect fit — domain, role, location, and level are all aligned

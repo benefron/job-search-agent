@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/stats.json data/jobs_export.csv data/run.log || true
+          git add data/jobs.json data/stats.json data/labs.json data/labs_meta.json data/jobs_export.csv data/run.log || true
           git diff --cached --quiet || git commit -m "chore: daily job search update [skip ci]"
           git push
         env:
@@ -71,6 +71,7 @@ jobs:
           # Copy JSON exports so dashboard can fetch data/jobs.json relative to root
           cp data/jobs.json  _deploy/data/jobs.json  2>/dev/null || echo '{}' > _deploy/data/jobs.json
           cp data/stats.json _deploy/data/stats.json 2>/dev/null || echo '{}' > _deploy/data/stats.json
+          cp data/labs.json  _deploy/data/labs.json  2>/dev/null || echo '{"labs":[]}' > _deploy/data/labs.json
 
       # ── 9. Deploy to GitHub Pages ──
       - name: Deploy to GitHub Pages

@@ -6,7 +6,7 @@ import sqlite3
 import hashlib
 import json
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 DB_PATH = Path(__file__).parent.parent / "data" / "jobs.db"
@@ -51,6 +51,16 @@ def init_db() -> None:
                 notes        TEXT
             )
         """)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS hidden_items (
+                id           TEXT NOT NULL,
+                entity_type  TEXT NOT NULL,
+                url          TEXT NOT NULL,
+                label        TEXT DEFAULT '',
+                deleted_at   TEXT NOT NULL,
+                PRIMARY KEY (id, entity_type)
+            )
+        """)
 
 
 def _job_id(url: str) -> str:
@@ -58,9 +68,59 @@ def _job_id(url: str) -> str:
 
 
 def is_seen(url: str) -> bool:
+    job_id = _job_id(url)
     with _get_conn() as conn:
-        row = conn.execute("SELECT 1 FROM jobs WHERE id = ?", (_job_id(url),)).fetchone()
-        return row is not None
+        row = conn.execute("SELECT 1 FROM jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is not None:
+            return True
+        hidden = conn.execute(
+            "SELECT 1 FROM hidden_items WHERE id = ? AND entity_type = 'job'",
+            (job_id,),
+        ).fetchone()
+        return hidden is not None
+
+
+def is_hidden_entity(url: str, entity_type: str) -> bool:
+    entity_id = _job_id(url)
+    with _get_conn() as conn:
+        row = conn.execute(
+            "SELECT 1 FROM hidden_items WHERE id = ? AND entity_type = ?",
+            (entity_id, entity_type),
+        ).fetchone()
+    return row is not None
+
+
+def hide_entity(url: str, entity_type: str, label: str = "") -> None:
+    entity_id = _job_id(url)
+    with _get_conn() as conn:
+        conn.execute(
+            """
+            INSERT OR IGNORE INTO hidden_items (id, entity_type, url, label, deleted_at)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (entity_id, entity_type, url, label, datetime.utcnow().isoformat()),
+        )
+
+
+def delete_job_and_tombstone(job_id: str, reason: str = "") -> None:
+    with _get_conn() as conn:
+        row = conn.execute(
+            "SELECT id, url, title, company FROM jobs WHERE id = ?",
+            (job_id,),
+        ).fetchone()
+        if row is None:
+            return
+        label = f"{row['title']} at {row['company']}"
+        if reason:
+            label = f"{label} [{reason}]"
+        conn.execute(
+            """
+            INSERT OR IGNORE INTO hidden_items (id, entity_type, url, label, deleted_at)
+            VALUES (?, 'job', ?, ?, ?)
+            """,
+            (row["id"], row["url"], label, datetime.utcnow().isoformat()),
+        )
+        conn.execute("DELETE FROM jobs WHERE id = ?", (job_id,))
 
 
 def insert_job(
@@ -117,9 +177,44 @@ def apply_feedback(feedback_records: list[dict]) -> None:
     """Apply feedback from dashboard export to the DB."""
     with _get_conn() as conn:
         for rec in feedback_records:
+            record_type = rec.get("record_type", "job")
+
+            # Labs are tracked as hidden URLs if user marks delete.
+            if record_type == "lab":
+                if rec.get("status") == "delete" and rec.get("url"):
+                    hide_entity(
+                        url=rec["url"],
+                        entity_type="lab",
+                        label=rec.get("name", ""),
+                    )
+                continue
+
             job_id = rec.get("id")
             if not job_id:
                 continue
+
+            if rec.get("status") == "delete":
+                # Hard-delete job from exportable pool but keep tombstone to avoid re-ingestion.
+                row = conn.execute(
+                    "SELECT id, url, title, company FROM jobs WHERE id = ?",
+                    (job_id,),
+                ).fetchone()
+                if row is not None:
+                    conn.execute(
+                        """
+                        INSERT OR IGNORE INTO hidden_items (id, entity_type, url, label, deleted_at)
+                        VALUES (?, 'job', ?, ?, ?)
+                        """,
+                        (
+                            row["id"],
+                            row["url"],
+                            f"{row['title']} at {row['company']}",
+                            datetime.utcnow().isoformat(),
+                        ),
+                    )
+                    conn.execute("DELETE FROM jobs WHERE id = ?", (job_id,))
+                continue
+
             conn.execute(
                 "UPDATE jobs SET feedback = ?, status = ?, connection_notes = ? WHERE id = ?",
                 (
@@ -183,6 +278,38 @@ def get_unscored_jobs() -> list[dict]:
             "SELECT id, title, company, location, description FROM jobs WHERE score IS NULL",
         ).fetchall()
     return [dict(r) for r in rows]
+
+
+def prune_known_noise_jobs() -> int:
+    """Remove historical noisy pages and tombstone them to prevent re-ingestion."""
+    removed = 0
+    with _get_conn() as conn:
+        rows = conn.execute(
+            """
+            SELECT id, url, title, company
+            FROM jobs
+            WHERE
+                (company IN ('imec', 'Innatera') AND source = 'company_html')
+                OR (company = 'Innatera' AND url LIKE 'https://www.innatera.com/%')
+            """
+        ).fetchall()
+
+        for r in rows:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO hidden_items (id, entity_type, url, label, deleted_at)
+                VALUES (?, 'job', ?, ?, ?)
+                """,
+                (
+                    r["id"],
+                    r["url"],
+                    f"{r['title']} at {r['company']} [auto-pruned-noise]",
+                    datetime.utcnow().isoformat(),
+                ),
+            )
+            conn.execute("DELETE FROM jobs WHERE id = ?", (r["id"],))
+            removed += 1
+    return removed
 
 
 def get_stats() -> dict:

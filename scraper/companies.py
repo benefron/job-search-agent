@@ -210,6 +210,8 @@ def _scrape_ashby(company: str, board_url: str) -> list[CompanyJob]:
         title = a.get_text(" ", strip=True)
         if not title or len(title) < 4:
             continue
+        if "learn more" in title.lower() or "privacy" in title.lower():
+            continue
 
         # Fetch detail page to get a real description payload
         try:
@@ -233,6 +235,10 @@ def _scrape_ashby(company: str, board_url: str) -> list[CompanyJob]:
         except Exception:
             description = f"[Visit {href} for full description]"
             location = ""
+
+        # Skip non-job pages / noise
+        if len(description) < 120:
+            continue
 
         jobs.append(CompanyJob(
             url=href,
@@ -304,6 +310,12 @@ def _scrape_imec(url: str) -> list[CompanyJob]:
             if intro_el:
                 parts.insert(0, intro_el.get_text(separator=" ", strip=True)[:500])
             description = "\n\n".join(parts)[:4000] if parts else f"[Visit {job_url} for full description]"
+
+            page_text = dsoup.get_text(separator=" ", strip=True).lower()
+            has_apply = "apply" in page_text
+            has_role_sections = ("what you will do" in page_text) or ("who you are" in page_text)
+            if not (has_apply and has_role_sections):
+                continue
 
             # Extract location from the detail page
             location = ""

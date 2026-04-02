@@ -111,6 +111,11 @@
   </div>
 </header>
 
+<div id="view-tabs" style="background:white;border-bottom:1px solid var(--border);padding:0.6rem 1.5rem;display:flex;gap:0.5rem;">
+  <button class="btn btn-primary" id="tab-jobs">Jobs</button>
+  <button class="btn btn-outline" id="tab-labs">Labs</button>
+</div>
+
 <div id="controls">
   <label>Min score: <span id="score-val">35</span></label>
   <input type="range" id="filter-score" min="0" max="100" value="35" step="5" />
@@ -132,6 +137,8 @@
       <option value="linkedin">LinkedIn</option>
       <option value="indeed">Indeed</option>
       <option value="greenhouse">Company (Greenhouse)</option>
+      <option value="ashby">Company (Ashby)</option>
+      <option value="imec_career">imec careers</option>
       <option value="company_html">Company (HTML)</option>
       <option value="academictransfer">AcademicTransfer</option>
     </select>
@@ -144,6 +151,7 @@
       <option value="interested">Interested</option>
       <option value="applied">Applied</option>
       <option value="skip">Skip</option>
+      <option value="delete">Delete</option>
     </select>
   </label>
 
@@ -157,14 +165,28 @@
   <div id="empty-state">Loading jobs…</div>
 </div>
 
+<div id="labs-controls" style="display:none;background:white;border-bottom:1px solid var(--border);padding:0.75rem 1.5rem;gap:0.75rem;align-items:center;flex-wrap:wrap;">
+  <label>Location:
+    <select id="filter-lab-location">
+      <option value="">All</option>
+    </select>
+  </label>
+  <input type="text" id="search-labs" placeholder="Search researcher / lab / topic…" />
+  <button class="btn btn-outline" id="btn-clear-lab-filters">Clear filters</button>
+</div>
+
+<div id="labs-grid" style="display:none;grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap:1rem; padding:1.25rem 1.5rem;"></div>
+
 <div id="export-bar">
-  <span>After rating jobs, click <strong>Export Feedback</strong> → save the file → commit it to <code>data/feedback.json</code></span>
+  <span>After reviewing jobs/labs, click <strong>Export Feedback</strong> and commit it to <code>data/feedback.json</code> (including delete actions).</span>
   <span id="feedback-count">0 items with feedback</span>
 </div>
 
 <script>
 // ─── State ───────────────────────────────────────────────────────────────────
 let allJobs = [];
+let allLabs = [];
+let activeView = "jobs";
 const LS_KEY = "job_dashboard_feedback";
 
 function loadFeedback() {
@@ -183,9 +205,10 @@ async function loadJobs() {
     const base = window.location.protocol === "file:"
       ? "../data"
       : "data";
-    const [jobsResp, statsResp] = await Promise.all([
+    const [jobsResp, statsResp, labsResp] = await Promise.all([
       fetch(`${base}/jobs.json`),
       fetch(`${base}/stats.json`).catch(() => null),
+      fetch(`${base}/labs.json`).catch(() => null),
     ]);
 
     if (!jobsResp.ok) {
@@ -195,6 +218,7 @@ async function loadJobs() {
 
     const data = await jobsResp.json();
     allJobs = data.jobs || [];
+    allLabs = [];
 
     // Merge saved feedback
     const fb = loadFeedback();
@@ -210,11 +234,43 @@ async function loadJobs() {
       document.getElementById("stat-applied").textContent = stats.applied + " applied";
     }
 
+    if (labsResp && labsResp.ok) {
+      const labsData = await labsResp.json();
+      allLabs = labsData.labs || [];
+    }
+
+    hydrateLabLocationFilter();
+
     updateFeedbackCount();
     render();
+    renderLabs();
   } catch (e) {
     document.getElementById("empty-state").textContent = "Error loading data: " + e.message;
   }
+}
+
+function hydrateLabLocationFilter() {
+  const sel = document.getElementById("filter-lab-location");
+  const existing = new Set(Array.from(sel.options).map(o => o.value));
+  const locations = [...new Set(allLabs.map(l => l.location).filter(Boolean))].sort();
+  locations.forEach(loc => {
+    if (existing.has(loc)) return;
+    const opt = document.createElement("option");
+    opt.value = loc;
+    opt.textContent = loc;
+    sel.appendChild(opt);
+  });
+}
+
+function setView(view) {
+  activeView = view;
+  const jobsActive = view === "jobs";
+  document.getElementById("tab-jobs").className = jobsActive ? "btn btn-primary" : "btn btn-outline";
+  document.getElementById("tab-labs").className = jobsActive ? "btn btn-outline" : "btn btn-primary";
+  document.getElementById("controls").style.display = jobsActive ? "flex" : "none";
+  document.getElementById("jobs-grid").style.display = jobsActive ? "grid" : "none";
+  document.getElementById("labs-controls").style.display = jobsActive ? "none" : "flex";
+  document.getElementById("labs-grid").style.display = jobsActive ? "none" : "grid";
 }
 
 // ─── Rendering ────────────────────────────────────────────────────────────────
@@ -308,6 +364,7 @@ function render() {
           <option value="interested" ${currentStatus==="interested"?"selected":""}>Interested</option>
           <option value="applied" ${currentStatus==="applied"?"selected":""}>Applied ✓</option>
           <option value="skip" ${currentStatus==="skip"?"selected":""}>Skip</option>
+          <option value="delete" ${currentStatus==="delete"?"selected":""}>Delete</option>
         </select>
         <a class="card-link" href="${job.url}" target="_blank" rel="noopener">View posting →</a>
       </div>
@@ -332,6 +389,7 @@ function updateJob(jobId, el) {
   const fb = loadFeedback();
   fb[jobId] = fb[jobId] || {};
   const action = el.dataset.action;
+  const job = allJobs.find(j => j.id === jobId) || {};
 
   if (action === "like") {
     fb[jobId].feedback = fb[jobId].feedback === 1 ? 0 : 1;
@@ -341,8 +399,92 @@ function updateJob(jobId, el) {
     fb[jobId].status = el.value;
   }
   fb[jobId].id = jobId;
+  fb[jobId].record_type = "job";
+  fb[jobId].url = job.url || fb[jobId].url;
+  fb[jobId].name = job.title || fb[jobId].name;
   saveFeedback(fb);
   render();
+}
+
+function renderLabs() {
+  const grid = document.getElementById("labs-grid");
+  const fb = loadFeedback();
+  const q = (document.getElementById("search-labs").value || "").toLowerCase();
+  const loc = document.getElementById("filter-lab-location").value;
+
+  const labs = allLabs.filter(l => {
+    if (loc && l.location !== loc) return false;
+    if (!q) return true;
+    const hay = `${l.name} ${l.lab} ${l.topic} ${l.location}`.toLowerCase();
+    return hay.includes(q);
+  });
+
+  grid.innerHTML = "";
+  if (!labs.length) {
+    grid.innerHTML = '<div id="empty-state">No labs match the current filters.</div>';
+    return;
+  }
+
+  labs.forEach(lab => {
+    const key = `lab:${lab.id}`;
+    const rec = fb[key] || {};
+    const status = rec.status || "new";
+    const notes = rec.connection_notes || "";
+    const card = document.createElement("div");
+    card.className = "job-card";
+    card.innerHTML = `
+      <div class="card-header">
+        <div>
+          <div class="card-title">${esc(lab.name)}</div>
+          <div class="card-company">${esc(lab.lab)}</div>
+          <div class="card-location">${esc(lab.location)} • ${esc(lab.topic)}</div>
+        </div>
+        <div class="card-source">lab-map</div>
+      </div>
+      <div class="card-body">
+        <div class="notes-label">Outreach notes</div>
+        <textarea class="notes-input" rows="2" placeholder="e.g. potential postdoc fit, shared methods, intro path…">${esc(notes)}</textarea>
+      </div>
+      <div class="card-footer">
+        <select class="status-select" data-lab-action="status">
+          <option value="new" ${status==="new"?"selected":""}>New</option>
+          <option value="interested" ${status==="interested"?"selected":""}>Interested</option>
+          <option value="applied" ${status==="applied"?"selected":""}>Contacted</option>
+          <option value="delete" ${status==="delete"?"selected":""}>Delete</option>
+        </select>
+        <a class="card-link" href="${lab.url}" target="_blank" rel="noopener">Open profile →</a>
+      </div>
+    `;
+
+    card.querySelector("[data-lab-action='status']").addEventListener("change", (e) => {
+      const next = loadFeedback();
+      next[key] = {
+        ...(next[key] || {}),
+        id: lab.id,
+        record_type: "lab",
+        url: lab.url,
+        name: lab.name,
+        status: e.target.value,
+      };
+      saveFeedback(next);
+      renderLabs();
+    });
+
+    card.querySelector(".notes-input").addEventListener("input", (e) => {
+      const next = loadFeedback();
+      next[key] = {
+        ...(next[key] || {}),
+        id: lab.id,
+        record_type: "lab",
+        url: lab.url,
+        name: lab.name,
+        connection_notes: e.target.value,
+      };
+      saveFeedback(next);
+    });
+
+    grid.appendChild(card);
+  });
 }
 
 function esc(str) {
@@ -353,7 +495,12 @@ function esc(str) {
 
 function updateFeedbackCount() {
   const fb = loadFeedback();
-  const count = Object.values(fb).filter(v => v.feedback !== 0 || v.status !== "new" || v.connection_notes).length;
+  const count = Object.values(fb).filter(v => {
+    const feedbackChanged = (v.feedback ?? 0) !== 0;
+    const statusChanged = v.status && v.status !== "new";
+    const notesChanged = !!v.connection_notes;
+    return feedbackChanged || statusChanged || notesChanged;
+  }).length;
   document.getElementById("feedback-count").textContent = count + " items with feedback";
 }
 
@@ -376,10 +523,28 @@ document.getElementById("btn-clear-filters").addEventListener("click", () => {
   render();
 });
 
+document.getElementById("tab-jobs").addEventListener("click", () => setView("jobs"));
+document.getElementById("tab-labs").addEventListener("click", () => {
+  setView("labs");
+  renderLabs();
+});
+document.getElementById("filter-lab-location").addEventListener("change", renderLabs);
+document.getElementById("search-labs").addEventListener("input", renderLabs);
+document.getElementById("btn-clear-lab-filters").addEventListener("click", () => {
+  document.getElementById("filter-lab-location").value = "";
+  document.getElementById("search-labs").value = "";
+  renderLabs();
+});
+
 // ─── Export feedback ──────────────────────────────────────────────────────────
 document.getElementById("btn-export").addEventListener("click", () => {
   const fb = loadFeedback();
-  const records = Object.values(fb);
+  const records = Object.values(fb).filter(v => {
+    const feedbackChanged = (v.feedback ?? 0) !== 0;
+    const statusChanged = v.status && v.status !== "new";
+    const notesChanged = !!v.connection_notes;
+    return feedbackChanged || statusChanged || notesChanged;
+  });
   const blob = new Blob([JSON.stringify(records, null, 2)], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
@@ -388,6 +553,7 @@ document.getElementById("btn-export").addEventListener("click", () => {
 });
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
+setView("jobs");
 loadJobs();
 </script>
 </body>
