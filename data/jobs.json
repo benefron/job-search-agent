@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T11:56:01.074703",
+  "generated": "2026-04-02T12:43:27.874732",
   "jobs": [
     {
       "id": "15b3757e4e79a126",
@@ -10,15 +10,15 @@
       "location": "",
       "date_posted": null,
       "date_found": "2026-04-02T11:35:33.698180",
-      "score": 95,
+      "score": 100,
       "fit_category": "perfect",
       "key_matches": [
-        "location in the Netherlands",
-        "company imec aligns with current role",
-        "focus on neuromorphic computing"
+        "Systems neuroscience expertise",
+        "Experience with neuromorphic computing",
+        "Alignment with imec's research focus"
       ],
       "key_gaps": [],
-      "rationale": "This position at imec in the Netherlands perfectly aligns with Ben's expertise in systems neuroscience and neuromorphic computing.",
+      "rationale": "The position at imec perfectly aligns with Ben's expertise in systems neuroscience and neuromorphic computing, making it an ideal fit.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -30,79 +30,135 @@
       }
     },
     {
-      "id": "b635767297f9fc4a",
+      "id": "0b242b7cbdaf9f78",
       "source": "company_html",
-      "url": "https://www.imec-int.com/en/usa",
-      "title": "imec USA",
+      "url": "https://www.imec-int.com/en/academicexcellence",
+      "title": "Academic Excellence",
       "company": "imec",
       "location": "",
       "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.699077",
-      "score": 90,
+      "date_found": "2026-04-02T11:35:33.692659",
+      "score": 100,
       "fit_category": "perfect",
       "key_matches": [
-        "imec affiliation",
+        "aligned with neuromorphic computing",
+        "position at imec",
+        "relevant academic environment"
+      ],
+      "key_gaps": [],
+      "rationale": "The position at imec perfectly aligns with Ben's expertise in systems neuroscience and neuromorphic computing, with no exclusions or salary concerns.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "2f3417f5f4f03bd2",
+      "source": "company_html",
+      "url": "https://www.imec-int.com/en/artificial-intelligence",
+      "title": "Artificial intelligence",
+      "company": "imec",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-04-02T11:35:33.688886",
+      "score": 100,
+      "fit_category": "perfect",
+      "key_matches": [
+        "Artificial intelligence",
+        "imec",
+        "neuroengineering"
+      ],
+      "key_gaps": [],
+      "rationale": "The position at imec aligns perfectly with Ben's expertise in artificial intelligence and neuroengineering, and it is located in a preferred area.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "f801453db545269b",
+      "source": "company_html",
+      "url": "https://www.imec-int.com/en/expertise/health-technologies",
+      "title": "Health technologies",
+      "company": "imec",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-04-02T11:35:33.678453",
+      "score": 100,
+      "fit_category": "perfect",
+      "key_matches": [
+        "Health technologies domain",
+        "Research and development focus",
+        "Imec as a reputable employer"
+      ],
+      "key_gaps": [],
+      "rationale": "The position at imec aligns perfectly with Ben's expertise in systems neuroscience and neuroengineering, and it is at a leading research institute.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "052d34c7e7b2b18e",
+      "source": "company_html",
+      "url": "https://www.imec-int.com/en/careers",
+      "title": "Your career",
+      "company": "imec",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-04-02T11:35:33.675370",
+      "score": 100,
+      "fit_category": "perfect",
+      "key_matches": [
+        "Systems neuroscience",
+        "Neuromorphic computing",
+        "Research engineer role"
+      ],
+      "key_gaps": [],
+      "rationale": "The position at imec aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, and imec is a leading research institute in these fields.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "f08034bae06b029f",
+      "source": "company_html",
+      "url": "https://www.imec-int.com/en/applications",
+      "title": "Applications",
+      "company": "imec",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-04-02T11:35:33.674382",
+      "score": 100,
+      "fit_category": "perfect",
+      "key_matches": [
         "neuromorphic computing",
-        "research scientist role"
+        "neuroengineering",
+        "experimental neuroscience"
       ],
       "key_gaps": [],
-      "rationale": "The position at imec USA aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, as well as his current affiliation with imec.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "fefd62b8ebaa58be",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/organization",
-      "title": "Organization",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.694598",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "Company: imec",
-        "Domain: neuromorphic computing",
-        "Location: Belgium"
-      ],
-      "key_gaps": [],
-      "rationale": "The job at imec aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, and it is located in Belgium, which is one of his preferred locations.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "65e6d43db260e90d",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/work-at-imec/job-opportunities",
-      "title": "Job opportunities",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.691789",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "systems neuroscience",
-        "neuromorphic computing",
-        "research scientist"
-      ],
-      "key_gaps": [],
-      "rationale": "The job at imec aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, as well as his current affiliation with imec.",
+      "rationale": "The position at imec perfectly aligns with Ben's expertise in neuromorphic computing and neuroengineering, and it is located in a preferred area.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -125,124 +181,12 @@
       "score": 90,
       "fit_category": "perfect",
       "key_matches": [
-        "Research role aligns with systems neuroscience expertise",
-        "Imec is a relevant and preferred employer",
-        "Focus on neuromorphic computing matches candidate's interests"
+        "Research role aligns with systems neuroscience",
+        "Imec is a leading research institute in neuromorphic computing",
+        "Location in the Netherlands"
       ],
       "key_gaps": [],
-      "rationale": "The job at imec perfectly aligns with Ben Efron's expertise in systems neuroscience and neuromorphic computing, making it an ideal fit.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "052d34c7e7b2b18e",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/careers",
-      "title": "Your career",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.675370",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "company imec aligns with current role",
-        "focus on neuromorphic computing",
-        "location preference met"
-      ],
-      "key_gaps": [],
-      "rationale": "The job at imec is a perfect fit as it aligns with Ben's expertise in neuromorphic computing and his current role.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "f08034bae06b029f",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/applications",
-      "title": "Applications",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.674382",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "systems neuroscience",
-        "neuromorphic computing",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [],
-      "rationale": "The role at imec aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, and it is located at a preferred company.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "d6681cdaa9b8b2f3",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/what-we-offer",
-      "title": "What we offer",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.673453",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "Company is imec",
-        "Relevant domain of neuromorphic computing",
-        "Potential for R&D scientist role"
-      ],
-      "key_gaps": [],
-      "rationale": "The job is with imec, aligning perfectly with Ben's expertise in neuromorphic computing and research interests.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "52c5703baebca31e",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/expertise",
-      "title": "Expertise",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.672507",
-      "score": 90,
-      "fit_category": "perfect",
-      "key_matches": [
-        "systems neuroscience",
-        "neuromorphic computing",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [],
-      "rationale": "The job at imec aligns perfectly with Ben's expertise in systems neuroscience and neuromorphic computing, along with his experience at imec.",
+      "rationale": "This position at imec is a perfect fit for Ben's expertise in systems neuroscience and neuromorphic computing.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -262,18 +206,15 @@
       "location": "",
       "date_posted": null,
       "date_found": "2026-04-02T11:35:33.679348",
-      "score": 85,
-      "fit_category": "strong",
+      "score": 90,
+      "fit_category": "perfect",
       "key_matches": [
-        "neuromorphic computing",
-        "bio-inspired algorithms",
-        "embedded AI"
+        "systems neuroscience",
+        "neuroengineering",
+        "bio-inspired algorithms"
       ],
-      "key_gaps": [
-        "specific focus on actuation may not align with primary interests",
-        "location not specified"
-      ],
-      "rationale": "The role aligns well with Ben's expertise in neuromorphic computing and bio-inspired algorithms, but the focus on actuation introduces some uncertainty regarding fit.",
+      "key_gaps": [],
+      "rationale": "The position at imec aligns perfectly with Ben's expertise in systems neuroscience and neuroengineering, and it is located in a preferred area.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -293,18 +234,15 @@
       "location": "",
       "date_posted": null,
       "date_found": "2026-04-02T11:35:33.664533",
-      "score": 85,
-      "fit_category": "strong",
+      "score": 90,
+      "fit_category": "perfect",
       "key_matches": [
         "spiking neural processors",
         "neuromorphic computing",
-        "bio-inspired algorithms"
+        "neuroengineering"
       ],
-      "key_gaps": [
-        "specific location not provided",
-        "potential focus on hardware design"
-      ],
-      "rationale": "The role aligns well with Ben's expertise in spiking neural networks and neuromorphic computing, though the lack of a specified location and possible emphasis on hardware design present minor gaps.",
+      "key_gaps": [],
+      "rationale": "The position aligns perfectly with Ben's expertise in spiking neural processors and neuromorphic computing, making it an ideal fit.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -316,220 +254,159 @@
       }
     },
     {
-      "id": "3acf72c9115c61d7",
+      "id": "e3b3dc73fc3a235b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4382588088",
+      "title": "Senior AI Architect (Systems & Algorithms)",
+      "company": "imec the Netherlands",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-02T12:33:23.362320",
+      "score": 85,
+      "fit_category": "strong",
+      "key_matches": [
+        "Edge AI systems",
+        "spiking neural networks",
+        "algorithm development"
+      ],
+      "key_gaps": [
+        "focus on robotics and automotive systems",
+        "less emphasis on neuroengineering"
+      ],
+      "rationale": "The role aligns well with Ben's expertise in systems neuroscience and spiking neural networks, though it leans more towards robotics and automotive applications than his primary interests.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20the%20Netherlands&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20the%20Netherlands&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20the%20Netherlands&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20the%20Netherlands"
+      }
+    },
+    {
+      "id": "2df7aff6dec4933b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4382942962",
+      "title": "Postdoc on Robot World Models (UvA+TOYOTA)",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-03-30",
+      "date_found": "2026-04-02T12:33:23.376727",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "postdoctoral position",
+        "location in Amsterdam",
+        "collaboration with research institutions"
+      ],
+      "key_gaps": [
+        "focus on robotics rather than neuroscience",
+        "less emphasis on systems neuroscience"
+      ],
+      "rationale": "The position is a strong fit due to its postdoctoral nature and location, but it primarily focuses on robotics, which is a slight deviation from Ben's core expertise in systems neuroscience.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
+      }
+    },
+    {
+      "id": "1a574cac48c00bb1",
       "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=858e07bd696d8c54",
-      "title": "Research Assistant at the Donders Centre for Cognition",
-      "company": "Radboud Universiteit",
-      "location": "Nijmegen, GE, NL",
+      "url": "https://nl.indeed.com/viewjob?jk=3fbd0e416ada2a7e",
+      "title": "Postdoctoral Researcher in Neuroimaging of Language",
+      "company": "Universiteit Leiden",
+      "location": "Leiden, ZH, NL",
       "date_posted": "2026-04-01",
-      "date_found": "2026-04-02T11:34:51.001851",
-      "score": 75,
-      "fit_category": "strong",
-      "key_matches": [
-        "neuromorphic computing",
-        "Python programming skills",
-        "machine learning approaches"
-      ],
-      "key_gaps": [
-        "Master's degree requirement",
-        "focus on robotics environments"
-      ],
-      "rationale": "The role aligns well with Ben's expertise in neuromorphic computing and machine learning, but the Master's degree requirement and emphasis on robotics present minor gaps.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Universiteit"
-      }
-    },
-    {
-      "id": "0b242b7cbdaf9f78",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/academicexcellence",
-      "title": "Academic Excellence",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.692659",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "systems neuroscience",
-        "neuroengineering",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [
-        "specific role details not provided",
-        "location not specified"
-      ],
-      "rationale": "The job aligns well with Ben's expertise in systems neuroscience and neuroengineering, but lacks specific role and location details.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "d5d8fc363592409a",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/lifesciences",
-      "title": "Life sciences",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.689795",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "systems neuroscience",
-        "neuroengineering",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [
-        "specific role details not provided",
-        "location not specified"
-      ],
-      "rationale": "The position at imec aligns well with Ben's expertise in systems neuroscience and neuroengineering, but lacks specific role and location details.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "2f3417f5f4f03bd2",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/artificial-intelligence",
-      "title": "Artificial intelligence",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.688886",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "artificial intelligence",
-        "imec",
-        "neuroengineering"
-      ],
-      "key_gaps": [
-        "lack of specific focus on neuromorphic computing",
-        "role description not detailed"
-      ],
-      "rationale": "The position at imec aligns well with Ben's expertise in artificial intelligence and neuroengineering, but lacks a specific focus on his primary interest in neuromorphic computing.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "f801453db545269b",
-      "source": "company_html",
-      "url": "https://www.imec-int.com/en/expertise/health-technologies",
-      "title": "Health technologies",
-      "company": "imec",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.678453",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "health technologies",
-        "imec",
-        "neuroengineering"
-      ],
-      "key_gaps": [
-        "specific focus on health technologies may not align with primary interests",
-        "role type not explicitly defined"
-      ],
-      "rationale": "The position at imec aligns well with Ben's background in neuroengineering and systems neuroscience, but the specific focus on health technologies introduces some uncertainty regarding fit.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
-      }
-    },
-    {
-      "id": "420749b062d603b0",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=62e5aa4814da7240",
-      "title": "Research Assistant at the Donders Centre for Cognition",
-      "company": "Radboud Universiteit",
-      "location": "Nijmegen, GE, NL",
-      "date_posted": "2026-04-01",
-      "date_found": "2026-04-02T11:34:51.003752",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "machine learning",
-        "Python programming skills",
-        "neuromorphic computing"
-      ],
-      "key_gaps": [
-        "Master\u2019s degree requirement",
-        "focus on robotics and control theory"
-      ],
-      "rationale": "The role aligns well with Ben's skills in machine learning and neuromorphic computing, but the requirement for a Master's degree and emphasis on robotics presents minor gaps.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Universiteit&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Universiteit"
-      }
-    },
-    {
-      "id": "ec11ce808e42be66",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=34aa2427605fd213",
-      "title": "Sensing Architect (hardware & algorithm)",
-      "company": "TMC",
-      "location": "Eindhoven, NB, NL",
-      "date_posted": "2026-03-31",
-      "date_found": "2026-04-02T11:34:51.013401",
-      "score": 60,
+      "date_found": "2026-04-02T12:33:23.363988",
+      "score": 50,
       "fit_category": "moderate",
       "key_matches": [
-        "experience in systems neuroscience",
-        "strong programming skills in Python and MATLAB",
-        "experience with data analysis and modeling"
+        "postdoctoral position",
+        "neuroimaging",
+        "data analysis"
       ],
       "key_gaps": [
-        "focus on optics and photonics which is not Ben's primary domain",
-        "requires 5-10 years of experience which may exceed Ben's current experience level"
+        "focus on language rather than systems neuroscience",
+        "lack of direct experience in fMRI studies"
       ],
-      "rationale": "While Ben has relevant skills in systems neuroscience and programming, the emphasis on optics and the required experience level present significant gaps.",
+      "rationale": "While the position is a postdoctoral role and involves data analysis, it primarily focuses on language neuroimaging, which is outside Ben's primary domain of systems neuroscience.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "3de798b83de8ddd1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4382480078",
+      "title": "Data Scientist - Control Systems",
+      "company": "Source.ag",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-02T12:33:23.349063",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "data-driven control logic",
+        "signal processing",
+        "collaborative environment"
+      ],
+      "key_gaps": [
+        "focus on greenhouse technology",
+        "specific control systems experience",
+        "not primarily in systems neuroscience"
+      ],
+      "rationale": "While there are relevant skills in control systems and data science, the focus on greenhouse technology and the specific application area diverges from Ben's primary expertise in systems neuroscience.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Source.ag&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Source.ag&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Source.ag&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Source.ag"
+      }
+    },
+    {
+      "id": "fc012ed2c45ce5e6",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4280911565",
+      "title": "Machine Learning Engineer (AI Core Team)",
+      "company": "Manychat",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-03-30",
+      "date_found": "2026-04-02T12:33:23.331038",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong Python engineering background",
+        "Experience with PyTorch",
+        "Collaboration with product and engineering teams"
+      ],
+      "key_gaps": [
+        "Lack of direct experience in chat marketing or conversational AI",
+        "Focus on ML/LLM rather than systems neuroscience"
+      ],
+      "rationale": "While there are relevant skills in Python and machine learning, the role's focus on chat marketing and LLMs diverges from Ben's primary expertise in systems neuroscience.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Manychat&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Manychat&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Manychat&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Manychat"
       }
     },
     {
@@ -541,18 +418,18 @@
       "location": "Eindhoven, NB, NL",
       "date_posted": "2026-03-31",
       "date_found": "2026-04-02T11:34:51.012068",
-      "score": 60,
+      "score": 50,
       "fit_category": "moderate",
       "key_matches": [
-        "Proficiency in Python",
-        "Experience with simulation frameworks",
+        "Proficiency in Python and MATLAB",
+        "Experience with data analysis and model validation",
         "Strong analytical mindset"
       ],
       "key_gaps": [
-        "Lack of direct experience in calibration algorithms",
-        "Not primarily focused on systems neuroscience or neuroengineering"
+        "Focus on calibration algorithms rather than systems neuroscience",
+        "Requires MSc or PhD in a different field than systems neuroscience"
       ],
-      "rationale": "While there are relevant skills in algorithm development and Python proficiency, the role's focus on calibration algorithms and systems dynamics does not align closely with Ben's primary expertise in systems neuroscience and neuroengineering.",
+      "rationale": "While there are relevant skills in algorithm development and data analysis, the focus on calibration algorithms and the required educational background create a moderate fit for Ben's profile.",
       "status": "new",
       "feedback": 0,
       "connection_notes": "",
@@ -561,192 +438,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
-      }
-    },
-    {
-      "id": "667984e267ceadba",
-      "source": "company_html",
-      "url": "https://www.tno.nl/en/sustainable/industry/",
-      "title": "Industry",
-      "company": "TNO",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.723263",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "systems neuroscience",
-        "neuroengineering",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [
-        "specific role details not provided",
-        "location not specified"
-      ],
-      "rationale": "The job aligns with Ben's expertise in systems neuroscience and neuroengineering, but lacks specific details on the role and location.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TNO"
-      }
-    },
-    {
-      "id": "f4dd60eddbf6fea7",
-      "source": "company_html",
-      "url": "https://www.tno.nl/nl/werken-bij-tno/vacatures/",
-      "title": "Nederlands",
-      "company": "TNO",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.699917",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "systems neuroscience",
-        "neuroengineering",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [
-        "specific role details not provided",
-        "location not specified"
-      ],
-      "rationale": "The job aligns with Ben's expertise in systems neuroscience and neuroengineering, but lacks specific details on the role and location.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TNO"
-      }
-    },
-    {
-      "id": "4e7e1dc37db55c61",
-      "source": "company_html",
-      "url": "https://jobs.ashbyhq.com/innatera",
-      "title": "Discover open roles",
-      "company": "Innatera",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.671644",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "systems neuroscience",
-        "neuroengineering",
-        "bio-inspired algorithms"
-      ],
-      "key_gaps": [
-        "lack of specific role details",
-        "unclear alignment with preferred locations"
-      ],
-      "rationale": "The job posting lacks specific details about the role and location, making it a moderate fit despite relevant domain alignment.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera"
-      }
-    },
-    {
-      "id": "f8b98de27caca779",
-      "source": "company_html",
-      "url": "https://www.innatera.com/technology/",
-      "title": "Technology",
-      "company": "Innatera",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.666854",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "neuromorphic computing",
-        "bio-inspired algorithms",
-        "computational neuroscience"
-      ],
-      "key_gaps": [
-        "lack of specific role alignment",
-        "unclear focus on R&D or applied science"
-      ],
-      "rationale": "The job aligns with Ben's interests in neuromorphic computing and bio-inspired algorithms, but lacks clarity on the specific role and responsibilities.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera"
-      }
-    },
-    {
-      "id": "c222421a6b55150e",
-      "source": "company_html",
-      "url": "https://www.innatera.com/software-and-tools/",
-      "title": "Talamo SDK",
-      "company": "Innatera",
-      "location": "",
-      "date_posted": null,
-      "date_found": "2026-04-02T11:35:33.665847",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "neuromorphic computing",
-        "bio-inspired algorithms",
-        "Python"
-      ],
-      "key_gaps": [
-        "specific role details not provided",
-        "location not specified"
-      ],
-      "rationale": "The job aligns with Ben's interests in neuromorphic computing and bio-inspired algorithms, but lacks specific details on the role and location.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera"
-      }
-    },
-    {
-      "id": "78c058d7a1f7967e",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=d8f3c416a0e5780a",
-      "title": "PhD in Optimizing patient transition indications through multiparametric sensing",
-      "company": "Eindhoven University of Technology",
-      "location": "Eindhoven, NB, NL",
-      "date_posted": "2026-03-30",
-      "date_found": "2026-04-02T11:34:51.015946",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "AI integration",
-        "data analysis",
-        "interdisciplinary collaboration"
-      ],
-      "key_gaps": [
-        "focus on clinical applications",
-        "lack of direct relevance to systems neuroscience"
-      ],
-      "rationale": "While there are overlaps in AI and data analysis, the focus on clinical applications and patient care transitions diverges significantly from Dr. Efron's expertise in systems neuroscience and neuroengineering.",
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Eindhoven%20University%20of%20Technology"
       }
     }
   ]
