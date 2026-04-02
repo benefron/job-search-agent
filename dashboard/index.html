@@ -370,10 +370,12 @@ function render() {
       </div>
     `;
 
-    // Event handlers
+    // Event handlers — buttons get click, selects only get change (click fires before selection)
     card.querySelectorAll("[data-action]").forEach(el => {
       el.addEventListener("change", () => updateJob(job.id, el));
-      el.addEventListener("click", () => updateJob(job.id, el));
+      if (el.tagName !== "SELECT") {
+        el.addEventListener("click", () => updateJob(job.id, el));
+      }
     });
     card.querySelector(".notes-input").addEventListener("input", e => {
       const fb = loadFeedback();

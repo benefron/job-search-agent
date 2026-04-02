@@ -107,8 +107,15 @@ Return JSON with exactly these fields:
 """.strip()
 
 
+# Sentinel to signal the caller to stop scoring (rate-limit hit)
+class _RateLimitExceeded(Exception):
+    pass
+
+
 def score_job(job: dict, client: OpenAI, feedback_context: dict, profile_text: str) -> dict | None:
-    """Score a single job. Returns parsed JSON dict or None on failure."""
+    """Score a single job. Returns parsed JSON dict or None on failure.
+    Raises _RateLimitExceeded if the API returns a 429 so the caller can stop.
+    """
     prompt = _build_user_prompt(job, feedback_context, profile_text)
     try:
         response = client.chat.completions.create(
@@ -131,25 +138,42 @@ def score_job(job: dict, client: OpenAI, feedback_context: dict, profile_text: s
         logger.warning("JSON parse error for job %s: %s", job.get("id"), exc)
         return None
     except Exception as exc:
+        exc_str = str(exc)
+        # 429 / rate-limit errors — propagate so caller can stop cleanly
+        if "429" in exc_str or "rate limit" in exc_str.lower() or "RateLimitError" in type(exc).__name__:
+            raise _RateLimitExceeded(exc_str) from exc
         logger.warning("Scoring API error for job %s: %s", job.get("id"), exc)
         return None
 
 
-def score_all_pending(delay: float = 1.5) -> int:
-    """Score all unscored jobs in the DB. Returns number of jobs scored."""
+def score_all_pending(delay: float = 3.0, max_per_run: int = 30) -> int:
+    """Score unscored jobs in the DB (newest first). Returns number scored.
+
+    Stops early on rate-limit errors to avoid burning the daily quota.
+    ``max_per_run`` caps how many we attempt per workflow run to stay within
+    GitHub Models free-tier limits (~15 RPM, ~150 RPD for gpt-4o-mini).
+    """
     pending = db.get_unscored_jobs()
     if not pending:
         logger.info("No unscored jobs.")
         return 0
 
-    logger.info("Scoring %d jobs...", len(pending))
+    # Prioritise recently-found jobs; cap to avoid blowing the quota.
+    pending = pending[:max_per_run]
+    logger.info("Scoring %d pending jobs (cap=%d)…", len(pending), max_per_run)
+
     client = _get_client()
     feedback_context = db.get_recent_feedback()
     profile_text = get_profile_text()
     scored = 0
 
     for job in pending:
-        result = score_job(job, client, feedback_context, profile_text)
+        try:
+            result = score_job(job, client, feedback_context, profile_text)
+        except _RateLimitExceeded as exc:
+            logger.warning("Rate limit hit after %d jobs — stopping scoring for this run: %s", scored, exc)
+            break
+
         if result is None:
             logger.warning("  Skipping job %s (scoring failed).", job["id"])
             time.sleep(delay)
@@ -164,12 +188,12 @@ def score_all_pending(delay: float = 1.5) -> int:
             rationale=str(result.get("rationale", "")),
         )
         logger.info(
-            "  Scored: [%d] %s at %s — %s",
+            "  Scored [%d] %s at %s — %s",
             result.get("score", 0), job["title"], job["company"],
             result.get("rationale", "")[:80],
         )
         scored += 1
         time.sleep(delay)
 
-    logger.info("Scoring complete. %d/%d jobs scored.", scored, len(pending))
+    logger.info("Scoring complete. %d/%d attempted.", scored, len(pending))
     return scored

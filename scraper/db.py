@@ -248,8 +248,8 @@ def get_recent_feedback(n_positive: int = 5, n_negative: int = 5) -> dict:
     }
 
 
-def get_jobs_for_export(min_score: int = 40) -> list[dict]:
-    """Return all scored jobs above min_score, sorted by score descending."""
+def get_jobs_for_export(min_score: int = 35) -> list[dict]:
+    """Return scored jobs (>= min_score) plus all unscored jobs, sorted by score desc."""
     with _get_conn() as conn:
         rows = conn.execute(
             """
@@ -257,8 +257,8 @@ def get_jobs_for_export(min_score: int = 40) -> list[dict]:
                    score, fit_category, key_matches, key_gaps, rationale,
                    status, feedback, connection_notes
             FROM jobs
-            WHERE score IS NOT NULL AND score >= ?
-            ORDER BY score DESC, date_found DESC
+            WHERE score IS NULL OR score >= ?
+            ORDER BY score DESC NULLS LAST, date_found DESC
             """,
             (min_score,),
         ).fetchall()

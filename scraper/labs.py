@@ -1,6 +1,10 @@
 """
 Monthly lab mapping for potential outreach (even without open positions).
 Uses OpenAlex public API to discover researchers/labs in target NL locations.
+
+Strategy: search recent WORKS (papers) from NL institutions by topic keyword,
+then collect unique authors with their institutions. This is more reliable than
+searching author names (which is what /authors?search= does).
 """
 
 from __future__ import annotations
@@ -37,29 +41,40 @@ TARGET_CITIES = {
     "nijmegen",
 }
 
+# Maps institution names (lowercase) to city label
 LOCATION_HINTS = {
     "delft": ["delft university of technology", "tudelft", "tu delft"],
-    "rotterdam": ["erasmus mc", "erasmus university rotterdam"],
+    "rotterdam": ["erasmus mc", "erasmus university rotterdam", "erasmus university"],
     "the hague": ["hague", "den haag", "leiden university medical center"],
-    "amsterdam": ["university of amsterdam", "vu amsterdam", "amsterdam umc"],
-    "leiden": ["leiden university", "lumc", "leiden"],
-    "utrecht": ["utrecht university", "umc utrecht", "utrecht"],
-    "eindhoven": ["eindhoven university of technology", "tu/e", "holst", "imec the netherlands"],
+    "amsterdam": ["university of amsterdam", "vu amsterdam", "amsterdam umc", "vrije universiteit"],
+    "leiden": ["leiden university", "lumc", "universiteit leiden"],
+    "utrecht": ["utrecht university", "umc utrecht", "universiteit utrecht"],
+    "eindhoven": [
+        "eindhoven university of technology",
+        "tu/e",
+        "tu eindhoven",
+        "holst",
+        "imec the netherlands",
+        "imec nl",
+        "philips research",
+        "nxp",
+    ],
     "haarlem": ["haarlem"],
     "nijmegen": ["radboud university", "radboudumc", "nijmegen"],
 }
 
+# Topics to search as paper keywords (results = NL authors publishing on these topics)
 TOPICS = [
-    "neuromorphic",
+    "neuromorphic computing",
+    "spiking neural network",
     "computational neuroscience",
     "systems neuroscience",
-    "brain computer interface",
-    "brain machine interface",
-    "bio inspired",
-    "biomimetic",
-    "experimental neuroscience",
-    "robotics",
-    "embedded ai",
+    "brain-computer interface",
+    "brain-machine interface",
+    "bio-inspired computing",
+    "experimental neuroscience electrophysiology",
+    "embedded AI edge computing",
+    "robotics perception neural",
 ]
 
 EXCLUDE_TERMS = [
@@ -89,66 +104,78 @@ def _is_due(force: bool = False, every_days: int = 30) -> bool:
     return delta.days >= every_days
 
 
-def _fetch_institution_city(inst_id: str, cache: dict[str, str]) -> str:
-    if inst_id in cache:
-        return cache[inst_id]
-    try:
-        r = requests.get(f"{OPENALEX_BASE}/institutions/{inst_id.split('/')[-1]}", timeout=TIMEOUT)
-        r.raise_for_status()
-        obj = r.json()
-        city = ((obj.get("geo") or {}).get("city") or "").strip().lower()
-        cache[inst_id] = city
-        return city
-    except Exception:
-        cache[inst_id] = ""
-        return ""
-
-
-def _match_target_city(inst_name: str, city: str) -> str | None:
-    inst_name_l = inst_name.lower()
-    if city in TARGET_CITIES:
-        return city
-    for target, hints in LOCATION_HINTS.items():
-        if any(h in inst_name_l for h in hints):
-            return target
+def _match_target_city(inst_name: str) -> str | None:
+    """Map institution display name to a target city label, or None."""
+    name_l = inst_name.lower()
+    for city, hints in LOCATION_HINTS.items():
+        if any(h in name_l for h in hints):
+            return city
     return None
 
 
-def _author_to_lab(author: dict, topic: str, city_label: str) -> dict | None:
-    name = (author.get("display_name") or "").strip()
-    if not name:
-        return None
-    institution = ""
-    institution_url = ""
-    lki = author.get("last_known_institutions") or []
-    if lki:
-        inst = lki[0]
-        institution = (inst.get("display_name") or "").strip()
-        institution_url = (inst.get("id") or "").strip()
+def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
+    """Query recent NL-affiliated works for a topic and return deduped author dicts."""
+    try:
+        resp = requests.get(
+            f"{OPENALEX_BASE}/works",
+            params={
+                "filter": "authorships.institutions.country_code:NL",
+                "search": topic,
+                "per-page": 50,
+                "select": "id,title,authorships",
+                "sort": "cited_by_count:desc",
+            },
+            timeout=TIMEOUT,
+            headers={"User-Agent": "job-search-agent/1.0 (mailto:research@example.com)"},
+        )
+        resp.raise_for_status()
+        works = resp.json().get("results", [])
+    except Exception as exc:
+        logger.warning("Works query failed for topic '%s': %s", topic, exc)
+        return []
 
-    if not institution:
-        return None
+    authors: dict[str, dict] = {}
+    for work in works:
+        for authorship in work.get("authorships", []):
+            author_meta = authorship.get("author") or {}
+            author_id = (author_meta.get("id") or "").strip()
+            if not author_id or author_id in authors:
+                continue
 
-    # Build a stable URL for researcher profile when possible.
-    url = (author.get("id") or "").strip()
-    if not url:
-        return None
+            # Find NL institution in this authorship
+            nl_inst = None
+            for inst in authorship.get("institutions", []):
+                if inst.get("country_code") == "NL":
+                    nl_inst = inst
+                    break
+            if nl_inst is None:
+                continue
 
-    label = f"{name} — {institution}".lower()
-    if any(t in label for t in EXCLUDE_TERMS):
-        return None
+            inst_name = (nl_inst.get("display_name") or "").strip()
+            city_label = _match_target_city(inst_name)
+            if city_label is None:
+                continue
 
-    return {
-        "id": _id(url),
-        "name": name,
-        "lab": institution,
-        "location": city_label.title(),
-        "topic": topic,
-        "url": url,
-        "institution_url": institution_url,
-        "works_count": author.get("works_count", 0),
-        "source": "openalex",
-    }
+            name = (author_meta.get("display_name") or "").strip()
+            if not name:
+                continue
+
+            # Exclude molecular/genomics researchers
+            label_check = f"{name} {inst_name}".lower()
+            if any(t in label_check for t in EXCLUDE_TERMS):
+                continue
+
+            authors[author_id] = {
+                "id": _id(author_id),
+                "name": name,
+                "lab": inst_name,
+                "location": city_label.title(),
+                "topic": topic,
+                "url": author_id,
+                "source": "openalex",
+            }
+
+    return list(authors.values())
 
 
 def refresh_labs_if_due(force: bool = False) -> None:
@@ -158,51 +185,24 @@ def refresh_labs_if_due(force: bool = False) -> None:
         logger.info("Lab mapping not due yet — keeping existing labs.json")
         return
 
-    logger.info("Refreshing potential labs/researchers map…")
-    institution_city_cache: dict[str, str] = {}
-    found: dict[str, dict] = {}
+    logger.info("Refreshing potential labs/researchers map via OpenAlex works…")
+    found: dict[str, dict] = {}  # keyed by OpenAlex author URL
 
     for topic in TOPICS:
-        for city in sorted(TARGET_CITIES):
-            q = f"{topic} {city} netherlands"
-            try:
-                resp = requests.get(
-                    f"{OPENALEX_BASE}/authors",
-                    params={"search": q, "per-page": 20},
-                    timeout=TIMEOUT,
-                )
-                resp.raise_for_status()
-                results = (resp.json() or {}).get("results", [])
-            except Exception as exc:
-                logger.warning("Lab query failed for '%s': %s", q, exc)
-                time.sleep(1)
+        logger.info("  Querying NL works for topic: %s", topic)
+        authors = _fetch_nl_authors_for_topic(topic)
+        for a in authors:
+            url = a["url"]
+            if db.is_hidden_entity(url, "lab"):
                 continue
-
-            for author in results:
-                lki = author.get("last_known_institutions") or []
-                if not lki:
-                    continue
-                inst = lki[0]
-                inst_name = (inst.get("display_name") or "")
-                inst_id = (inst.get("id") or "")
-                inst_city = _fetch_institution_city(inst_id, institution_city_cache) if inst_id else ""
-                city_label = _match_target_city(inst_name, inst_city)
-                if not city_label:
-                    continue
-                lab_item = _author_to_lab(author, topic, city_label)
-                if not lab_item:
-                    continue
-                if db.is_hidden_entity(lab_item["url"], "lab"):
-                    continue
-                # Keep best signal per author URL
-                prev = found.get(lab_item["url"])
-                if prev is None or lab_item.get("works_count", 0) > prev.get("works_count", 0):
-                    found[lab_item["url"]] = lab_item
-            time.sleep(0.6)
+            if url not in found:
+                found[url] = a
+            # Keep the entry but record all topics (first match wins for display)
+        time.sleep(0.5)
 
     labs = sorted(
         found.values(),
-        key=lambda x: (x.get("location", ""), -int(x.get("works_count", 0)), x.get("name", "")),
+        key=lambda x: (x.get("location", ""), x.get("name", "")),
     )
 
     payload = {
@@ -215,3 +215,4 @@ def refresh_labs_if_due(force: bool = False) -> None:
         json.dumps({"last_run_utc": datetime.now(timezone.utc).isoformat()}, indent=2)
     )
     logger.info("Labs map exported: %d entries", len(labs))
+

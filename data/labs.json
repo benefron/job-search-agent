@@ -1,5 +1,4263 @@
 {
-  "generated": "2026-04-02T13:29:53.827951",
-  "count": 0,
-  "labs": []
+  "generated": "2026-04-02T15:14:13.834496",
+  "count": 473,
+  "labs": [
+    {
+      "id": "54bf7e3855d26722",
+      "name": "A. E. Eiben",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5074492402",
+      "source": "openalex"
+    },
+    {
+      "id": "eb8d999be21167d4",
+      "name": "A.W.M. Smeulders",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5052299650",
+      "source": "openalex"
+    },
+    {
+      "id": "68223190324ab213",
+      "name": "Adela\u2010Maria Isvoranu",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5020295767",
+      "source": "openalex"
+    },
+    {
+      "id": "0856ceb09e85c125",
+      "name": "Adrianus J. de Langen",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5066714040",
+      "source": "openalex"
+    },
+    {
+      "id": "1cf381ff3ed1e879",
+      "name": "Adrienne Vancura",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5019244046",
+      "source": "openalex"
+    },
+    {
+      "id": "650cb54911bffdbe",
+      "name": "Alexander Ly",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5017160078",
+      "source": "openalex"
+    },
+    {
+      "id": "3d3a9b0bcbc15175",
+      "name": "Alfons G. Hoekstra",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5083188322",
+      "source": "openalex"
+    },
+    {
+      "id": "15a873fce5e56b27",
+      "name": "Ameen Abu\u2010Hanna",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5075388940",
+      "source": "openalex"
+    },
+    {
+      "id": "3f86b5ea3b392738",
+      "name": "Andrea Ridolfi",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5053729358",
+      "source": "openalex"
+    },
+    {
+      "id": "888d6ff1b908d04d",
+      "name": "Andreas Daffertshofer",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5009184962",
+      "source": "openalex"
+    },
+    {
+      "id": "5ac0452fdc707541",
+      "name": "Aniko V. Fejes",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5067234987",
+      "source": "openalex"
+    },
+    {
+      "id": "c13b8b6758d3edeb",
+      "name": "Anna E. Huis in \u2018t Veld",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5112044493",
+      "source": "openalex"
+    },
+    {
+      "id": "1fb758f3f9a69853",
+      "name": "Anna-Larissa N. Niemeijer",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5110551143",
+      "source": "openalex"
+    },
+    {
+      "id": "7131566e104f1f5f",
+      "name": "Antske Fokkens",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5074075557",
+      "source": "openalex"
+    },
+    {
+      "id": "495d741f1211b032",
+      "name": "Arjan W. Griffioen",
+      "lab": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5011288026",
+      "source": "openalex"
+    },
+    {
+      "id": "fcbd9252d5c8fa4f",
+      "name": "Astrid M. L. Kappers",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5048993641",
+      "source": "openalex"
+    },
+    {
+      "id": "e45184f104f63acf",
+      "name": "Aysu Okbay",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5104470074",
+      "source": "openalex"
+    },
+    {
+      "id": "7d5bdb989617cb6d",
+      "name": "Bahar Yetkin-Arik",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5091329513",
+      "source": "openalex"
+    },
+    {
+      "id": "331e302d5d7233bf",
+      "name": "Bauke Ylstra",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5003271927",
+      "source": "openalex"
+    },
+    {
+      "id": "a1c92781af14b0c4",
+      "name": "Berend Smit",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5075317126",
+      "source": "openalex"
+    },
+    {
+      "id": "386f4bab65d1d730",
+      "name": "Bernadette C.M. van Wijk",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5087594334",
+      "source": "openalex"
+    },
+    {
+      "id": "e247b35c257174ee",
+      "name": "Brenda W.J.H. Penninx",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5055183685",
+      "source": "openalex"
+    },
+    {
+      "id": "69c7f5cbc3ed5c98",
+      "name": "Chris H. Polman",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5109933973",
+      "source": "openalex"
+    },
+    {
+      "id": "09dc6e25c9ca014f",
+      "name": "Christian N. L. Olivers",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5028257885",
+      "source": "openalex"
+    },
+    {
+      "id": "7de27ba115806c15",
+      "name": "Christof Monz",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5109059955",
+      "source": "openalex"
+    },
+    {
+      "id": "20dc231391ec3c61",
+      "name": "Claudia D. van Borkulo",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5022109854",
+      "source": "openalex"
+    },
+    {
+      "id": "314ebd4060f2e6f4",
+      "name": "Clayton Hickey",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5071937666",
+      "source": "openalex"
+    },
+    {
+      "id": "d83fa4d4c8264681",
+      "name": "Conor V. Dolan",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5033802658",
+      "source": "openalex"
+    },
+    {
+      "id": "8105079bb406f9db",
+      "name": "Cornelis J. Stam",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5015546124",
+      "source": "openalex"
+    },
+    {
+      "id": "7bafbb280dc97dc4",
+      "name": "Cyra E Leurs",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5050514154",
+      "source": "openalex"
+    },
+    {
+      "id": "fd85c50158047712",
+      "name": "Cyriel M. A. Pennartz",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5051130900",
+      "source": "openalex"
+    },
+    {
+      "id": "e3b60473e0939eeb",
+      "name": "Dan Balliet",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5056871856",
+      "source": "openalex"
+    },
+    {
+      "id": "ad8892c44db46a43",
+      "name": "Danielle L. Champagne",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5061987395",
+      "source": "openalex"
+    },
+    {
+      "id": "12acaf5634940f87",
+      "name": "Dani\u00ebl Schreij",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5050849138",
+      "source": "openalex"
+    },
+    {
+      "id": "62040320b233a0ea",
+      "name": "Dariu M. Gavrila",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5085298812",
+      "source": "openalex"
+    },
+    {
+      "id": "920f817c0f3657e0",
+      "name": "David P. Noske",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5051927182",
+      "source": "openalex"
+    },
+    {
+      "id": "d0b87cbb526e9a2b",
+      "name": "Denny Borsboom",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5029100305",
+      "source": "openalex"
+    },
+    {
+      "id": "06d390ecaf733961",
+      "name": "Dorret I. Boomsma",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5079752137",
+      "source": "openalex"
+    },
+    {
+      "id": "e945e50f2e3c36a6",
+      "name": "Dung M. Chu",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5065296528",
+      "source": "openalex"
+    },
+    {
+      "id": "606af9a3e5fe627b",
+      "name": "Durk Talsma",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5079934098",
+      "source": "openalex"
+    },
+    {
+      "id": "5124c89b33c70a3c",
+      "name": "D\u00f3ra Matzke",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5034870294",
+      "source": "openalex"
+    },
+    {
+      "id": "7eba048b55c52aa8",
+      "name": "Edward P. Post",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5048988655",
+      "source": "openalex"
+    },
+    {
+      "id": "081967b679e482bd",
+      "name": "Egbert F. Smit",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5016904876",
+      "source": "openalex"
+    },
+    {
+      "id": "1cb31e26fcf9a452",
+      "name": "Elisa Giovannetti",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5041229832",
+      "source": "openalex"
+    },
+    {
+      "id": "16b8ac4be87b88b6",
+      "name": "Eric\u2010Jan Wagenmakers",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5063079579",
+      "source": "openalex"
+    },
+    {
+      "id": "0f77f42ec559c521",
+      "name": "Erik Rietveld",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5002678933",
+      "source": "openalex"
+    },
+    {
+      "id": "3b05345157c765fa",
+      "name": "Eveline A. Crone",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5064580768",
+      "source": "openalex"
+    },
+    {
+      "id": "52a28584a161b163",
+      "name": "F. C. MacKintosh",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5067373320",
+      "source": "openalex"
+    },
+    {
+      "id": "15f711f8dc1d2fa6",
+      "name": "F. H. Lopes da Silva",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5001254788",
+      "source": "openalex"
+    },
+    {
+      "id": "29f97963b2dff4b3",
+      "name": "Fabian B. Flohr",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5007686963",
+      "source": "openalex"
+    },
+    {
+      "id": "c351947599de9751",
+      "name": "Fernando H. Lopes da Silva",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5042934428",
+      "source": "openalex"
+    },
+    {
+      "id": "fdb53c2d213ae982",
+      "name": "Floris G. Wouterlood",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5025806011",
+      "source": "openalex"
+    },
+    {
+      "id": "d34b70b00c5ad2b8",
+      "name": "Francesca Favaro",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5006899408",
+      "source": "openalex"
+    },
+    {
+      "id": "f854d7eb143db315",
+      "name": "Francesco P. Battaglia",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5009988687",
+      "source": "openalex"
+    },
+    {
+      "id": "4025962ec57fb382",
+      "name": "Frank A. W. Coumans",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5108112327",
+      "source": "openalex"
+    },
+    {
+      "id": "5dea634925239f68",
+      "name": "Frank van Harmelen",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5029130731",
+      "source": "openalex"
+    },
+    {
+      "id": "0a69df589f5a55ac",
+      "name": "Fran\u00e7ois Rustenburg",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5012601212",
+      "source": "openalex"
+    },
+    {
+      "id": "91046a1db6dbacdc",
+      "name": "Frederik Barkhof",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5064378373",
+      "source": "openalex"
+    },
+    {
+      "id": "76c766ca8b582eda",
+      "name": "Freek Ariese",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5027525221",
+      "source": "openalex"
+    },
+    {
+      "id": "c159acf8cfbe914e",
+      "name": "Gary Aston\u2010Jones",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5030113568",
+      "source": "openalex"
+    },
+    {
+      "id": "6d9f9703930df9d7",
+      "name": "Geert Kazemier",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5061582249",
+      "source": "openalex"
+    },
+    {
+      "id": "f6cbf3e05cb7f0eb",
+      "name": "Gerben A. van Kleef",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5056808390",
+      "source": "openalex"
+    },
+    {
+      "id": "ebc707574fc7a95e",
+      "name": "Gijs J. L. Wuite",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5002177010",
+      "source": "openalex"
+    },
+    {
+      "id": "1007a465609b7599",
+      "name": "Guido R. van der Werf",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5085138972",
+      "source": "openalex"
+    },
+    {
+      "id": "2ea68e89a2f05b99",
+      "name": "Guszti Eiben",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5062327378",
+      "source": "openalex"
+    },
+    {
+      "id": "a3f6636ac311f7c8",
+      "name": "Hanne Meijers\u2010Heijboer",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5076448508",
+      "source": "openalex"
+    },
+    {
+      "id": "a8159444aeace67d",
+      "name": "Hanneke K. M. Meeren",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5071209865",
+      "source": "openalex"
+    },
+    {
+      "id": "1fbca7ac22f53074",
+      "name": "Harm Jan Bogaard",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5053967967",
+      "source": "openalex"
+    },
+    {
+      "id": "611f7905397acb30",
+      "name": "Heleen Verschueren",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5060866807",
+      "source": "openalex"
+    },
+    {
+      "id": "34beea21894a1727",
+      "name": "Henk J. Groenewegen",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5078593206",
+      "source": "openalex"
+    },
+    {
+      "id": "d0341f8acc8bf66c",
+      "name": "Herke van Hoof",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5057277609",
+      "source": "openalex"
+    },
+    {
+      "id": "94e9bba85130d4e3",
+      "name": "Ian D. Jones",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5101539598",
+      "source": "openalex"
+    },
+    {
+      "id": "4feb539c8942a307",
+      "name": "Ingeborg Klaassen",
+      "lab": "Amsterdam UMC Location University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5088114897",
+      "source": "openalex"
+    },
+    {
+      "id": "be526b8d2e5241b7",
+      "name": "Irsan Kooi",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5020528206",
+      "source": "openalex"
+    },
+    {
+      "id": "89b25cbbec4b9509",
+      "name": "Irune Guerra San Juan",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5057763809",
+      "source": "openalex"
+    },
+    {
+      "id": "cc3803f4ff1950fc",
+      "name": "Ivo H. M. van Stokkum",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5088438784",
+      "source": "openalex"
+    },
+    {
+      "id": "4ec0b72dd133ce3b",
+      "name": "Jaap C. Reijneveld",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5015612720",
+      "source": "openalex"
+    },
+    {
+      "id": "a6699948602db144",
+      "name": "Jan Theeuwes",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5006722682",
+      "source": "openalex"
+    },
+    {
+      "id": "22f6acaf80469d51",
+      "name": "Jelle Bruineberg",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5076229839",
+      "source": "openalex"
+    },
+    {
+      "id": "8799b70b88a592b6",
+      "name": "Jelle Wesseling",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5020517461",
+      "source": "openalex"
+    },
+    {
+      "id": "ec6b0810cd301bbf",
+      "name": "Jilian D. Schoonhoven",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5024806601",
+      "source": "openalex"
+    },
+    {
+      "id": "cef8e08584304511",
+      "name": "Jillian Wilhelmina Paulina Bracht",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5009827598",
+      "source": "openalex"
+    },
+    {
+      "id": "d1aaf898ee5929dd",
+      "name": "Jocelyne Vreede",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5026467337",
+      "source": "openalex"
+    },
+    {
+      "id": "9ee2d47f6f672a18",
+      "name": "Joep Killestein",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5078507054",
+      "source": "openalex"
+    },
+    {
+      "id": "b707b78df859797d",
+      "name": "Johannes C. Baayen",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5019800110",
+      "source": "openalex"
+    },
+    {
+      "id": "6b464c220d1bf630",
+      "name": "Jonathan D. Cohen",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5088141761",
+      "source": "openalex"
+    },
+    {
+      "id": "9f7284424cf7eec8",
+      "name": "Jonathon Love",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5072286005",
+      "source": "openalex"
+    },
+    {
+      "id": "535c6abfa352a7ac",
+      "name": "Joris J. Snellenburg",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5058019645",
+      "source": "openalex"
+    },
+    {
+      "id": "fbeb8ab3841856b0",
+      "name": "Jose Gomez\u2010Arroyo",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5047479690",
+      "source": "openalex"
+    },
+    {
+      "id": "957fff4948b462b3",
+      "name": "Joseph A. Sergeant",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5108541668",
+      "source": "openalex"
+    },
+    {
+      "id": "be19bfffeaa2f2fd",
+      "name": "Josine Verhagen",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5053496122",
+      "source": "openalex"
+    },
+    {
+      "id": "deb43cb7ef216669",
+      "name": "Judy R. van Beijnum",
+      "lab": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5088748023",
+      "source": "openalex"
+    },
+    {
+      "id": "966b72ad687ffc80",
+      "name": "Julia Beitner",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5033307361",
+      "source": "openalex"
+    },
+    {
+      "id": "e47fce186e07eebc",
+      "name": "Julian F. P. Kooij",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5074902093",
+      "source": "openalex"
+    },
+    {
+      "id": "f44b6b46e4148316",
+      "name": "K. Richard Ridderinkhof",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5064459907",
+      "source": "openalex"
+    },
+    {
+      "id": "40f871495a019ef9",
+      "name": "Koen V. Hindriks",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5071518251",
+      "source": "openalex"
+    },
+    {
+      "id": "3646937e18ddc70f",
+      "name": "Laura L. Meijer",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5030102466",
+      "source": "openalex"
+    },
+    {
+      "id": "aa4da22705e02d1a",
+      "name": "Laurine E. Wedekind",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5052098442",
+      "source": "openalex"
+    },
+    {
+      "id": "9c77ef228f7865d4",
+      "name": "Leon J. Wils",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5032641226",
+      "source": "openalex"
+    },
+    {
+      "id": "679604f93e21d909",
+      "name": "Linda M.P. Wesselman",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5083447880",
+      "source": "openalex"
+    },
+    {
+      "id": "6d2f8726fbf237cc",
+      "name": "Lourens Waldorp",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5064926593",
+      "source": "openalex"
+    },
+    {
+      "id": "c8a559ca13c62aac",
+      "name": "M KRANENBURG",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5079628369",
+      "source": "openalex"
+    },
+    {
+      "id": "09c2d6f91ef08bc6",
+      "name": "Maarten Marsman",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5018217587",
+      "source": "openalex"
+    },
+    {
+      "id": "e7c089f3b0c932ce",
+      "name": "Marian Jo\u00ebls",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5069823044",
+      "source": "openalex"
+    },
+    {
+      "id": "437203a896a11075",
+      "name": "Marijn van Wingerden",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5079857242",
+      "source": "openalex"
+    },
+    {
+      "id": "def2af068ef4ff34",
+      "name": "Mari\u00ebtte Huizinga",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5033503721",
+      "source": "openalex"
+    },
+    {
+      "id": "9461ac8bd79eba5f",
+      "name": "Mark J. D. Jordans",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5083847436",
+      "source": "openalex"
+    },
+    {
+      "id": "c791d6ac82139eea",
+      "name": "Maurits W. van der Molen",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5089188254",
+      "source": "openalex"
+    },
+    {
+      "id": "82e669f1043c2ec2",
+      "name": "Max Welling",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5087368991",
+      "source": "openalex"
+    },
+    {
+      "id": "a19698c2b5a9138e",
+      "name": "Maxim A. Yurkin",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5011186655",
+      "source": "openalex"
+    },
+    {
+      "id": "991aa8eea718fab0",
+      "name": "Menno P. Witter",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5057031090",
+      "source": "openalex"
+    },
+    {
+      "id": "467236b2c4f02b5c",
+      "name": "Michael S. Marshall",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5075308601",
+      "source": "openalex"
+    },
+    {
+      "id": "1ff5f4af0ed36ecd",
+      "name": "Michael X Cohen",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5023822672",
+      "source": "openalex"
+    },
+    {
+      "id": "f483b936b98e9ad3",
+      "name": "Michelle Esenkbrink",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5056987893",
+      "source": "openalex"
+    },
+    {
+      "id": "437291aa8841b606",
+      "name": "Mirjam M. C. Wamelink",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5000647338",
+      "source": "openalex"
+    },
+    {
+      "id": "0f7763ec9c9bc314",
+      "name": "Myron G. Best",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5028528916",
+      "source": "openalex"
+    },
+    {
+      "id": "4ded524e0cd22995",
+      "name": "N. F. de Keizer",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5108109798",
+      "source": "openalex"
+    },
+    {
+      "id": "3ca52793312efef8",
+      "name": "Nicolas Schneider",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5035087509",
+      "source": "openalex"
+    },
+    {
+      "id": "9bcfd9ef34740cd4",
+      "name": "Nik Sol",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5072034767",
+      "source": "openalex"
+    },
+    {
+      "id": "3ace76743ab5320f",
+      "name": "Ole A. Andreassen",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5020215901",
+      "source": "openalex"
+    },
+    {
+      "id": "7001dc6e6064404b",
+      "name": "Otto S. Hoekstra",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5087967286",
+      "source": "openalex"
+    },
+    {
+      "id": "419c06469ece77c5",
+      "name": "Patrick M. Bossuyt",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5061726857",
+      "source": "openalex"
+    },
+    {
+      "id": "9e1b98031b26f1a2",
+      "name": "Pepijn Schellen",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5048117410",
+      "source": "openalex"
+    },
+    {
+      "id": "a58cf22806c9accc",
+      "name": "Peter G. Bolhuis",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5065938694",
+      "source": "openalex"
+    },
+    {
+      "id": "dda3b472b469f66d",
+      "name": "Philip Scheltens",
+      "lab": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5025870220",
+      "source": "openalex"
+    },
+    {
+      "id": "d1f09d6efcfa39a5",
+      "name": "Philipp Koellinger",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5059104743",
+      "source": "openalex"
+    },
+    {
+      "id": "ba5b3ad782bf3c8c",
+      "name": "Piek Vossen",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5003791447",
+      "source": "openalex"
+    },
+    {
+      "id": "dbcd21d158cf0626",
+      "name": "Quentin F. Gronau",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5090294872",
+      "source": "openalex"
+    },
+    {
+      "id": "4bf2089d25ca2a05",
+      "name": "R. Jonas A. Nilsson",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5063683198",
+      "source": "openalex"
+    },
+    {
+      "id": "47a11cf8e7b16389",
+      "name": "Ravi Selker",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5026889712",
+      "source": "openalex"
+    },
+    {
+      "id": "22d8a5aa24a177e7",
+      "name": "Reinier O. Schlingemann",
+      "lab": "Amsterdam UMC Location University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5059883802",
+      "source": "openalex"
+    },
+    {
+      "id": "1c32cefa3e9f9241",
+      "name": "Richard Karlsson Linn\u00e9r",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5081750325",
+      "source": "openalex"
+    },
+    {
+      "id": "a04ffbc705b21f89",
+      "name": "Rishi Panday",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5006956240",
+      "source": "openalex"
+    },
+    {
+      "id": "03d958075614590d",
+      "name": "Rogier W. Sanders",
+      "lab": "Amsterdam UMC Location University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5087473572",
+      "source": "openalex"
+    },
+    {
+      "id": "da6d2eea841581ca",
+      "name": "Sacha Epskamp",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5076683363",
+      "source": "openalex"
+    },
+    {
+      "id": "216227478079dbc5",
+      "name": "Sander Idema",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5053305431",
+      "source": "openalex"
+    },
+    {
+      "id": "19396e290431ae31",
+      "name": "Sander Nieuwenhuis",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5065568884",
+      "source": "openalex"
+    },
+    {
+      "id": "7a664dca3f49f7af",
+      "name": "Sebastiaan Math\u00f4t",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5028639334",
+      "source": "openalex"
+    },
+    {
+      "id": "423a95777044878b",
+      "name": "Shahram Janbaz",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5019088287",
+      "source": "openalex"
+    },
+    {
+      "id": "648e9c3aa5b22268",
+      "name": "Sjors G. J. G. In \u2018t Veld",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5040862816",
+      "source": "openalex"
+    },
+    {
+      "id": "284c1d923d93cec0",
+      "name": "Sophie van der Sluis",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5057583708",
+      "source": "openalex"
+    },
+    {
+      "id": "ac828aac9ae0623f",
+      "name": "Stefan Schlobach",
+      "lab": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5075365612",
+      "source": "openalex"
+    },
+    {
+      "id": "80df8a5a2f27ed80",
+      "name": "Tahira Jamil",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5050680337",
+      "source": "openalex"
+    },
+    {
+      "id": "5ebebfabb94486ca",
+      "name": "Tessa Y. Le Large",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5072573863",
+      "source": "openalex"
+    },
+    {
+      "id": "2453da3a171427ed",
+      "name": "Thomas W\u00fcrdinger",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5103044043",
+      "source": "openalex"
+    },
+    {
+      "id": "ded227aebd3765c6",
+      "name": "Tobias H. Donner",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5062951163",
+      "source": "openalex"
+    },
+    {
+      "id": "1d7773b210e307cb",
+      "name": "W. Peter Vandertop",
+      "lab": "Amsterdam UMC Location VUmc",
+      "location": "Amsterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5004632162",
+      "source": "openalex"
+    },
+    {
+      "id": "77a07edba458fe66",
+      "name": "Wery van den Wildenberg",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5059264767",
+      "source": "openalex"
+    },
+    {
+      "id": "261a1f0c0ce3820a",
+      "name": "Wim van den Brink",
+      "lab": "Amsterdam UMC Location University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5071695786",
+      "source": "openalex"
+    },
+    {
+      "id": "1eaf8a8774a12d52",
+      "name": "Zeynep Akata",
+      "lab": "University of Amsterdam",
+      "location": "Amsterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5040372929",
+      "source": "openalex"
+    },
+    {
+      "id": "c334e93cac4e0883",
+      "name": "Abhairaj Singh",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5056263300",
+      "source": "openalex"
+    },
+    {
+      "id": "230836ef671ed1f0",
+      "name": "Adam Pomorski",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5037505569",
+      "source": "openalex"
+    },
+    {
+      "id": "597309a0f7be9781",
+      "name": "Aimee van Wynsberghe",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5056384285",
+      "source": "openalex"
+    },
+    {
+      "id": "98f4beb4fe2e8894",
+      "name": "Alejandro M. Arag\u00f3n",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5067455650",
+      "source": "openalex"
+    },
+    {
+      "id": "ca762ced5c431637",
+      "name": "Amir A. Zadpoor",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5085851098",
+      "source": "openalex"
+    },
+    {
+      "id": "ff79b358d4cac9d0",
+      "name": "Bart De Schutter",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5026547410",
+      "source": "openalex"
+    },
+    {
+      "id": "204275a18c19d952",
+      "name": "C. Meijneke",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5020880014",
+      "source": "openalex"
+    },
+    {
+      "id": "f5cdd2fb569ef6d3",
+      "name": "Catherine De Wolf",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5052546899",
+      "source": "openalex"
+    },
+    {
+      "id": "c447281032df87b2",
+      "name": "Cees Dekker",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5089996499",
+      "source": "openalex"
+    },
+    {
+      "id": "ca4585b842d7a040",
+      "name": "Chirlmin Joo",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5088856493",
+      "source": "openalex"
+    },
+    {
+      "id": "1961a6c03ed4d440",
+      "name": "Costanza Culmone",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5054155456",
+      "source": "openalex"
+    },
+    {
+      "id": "7f232be3bea14cd4",
+      "name": "D. W. F. van Krevelen",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5033629142",
+      "source": "openalex"
+    },
+    {
+      "id": "a08e0d27ef4477c2",
+      "name": "E. Echavarr\u00eda",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5043100310",
+      "source": "openalex"
+    },
+    {
+      "id": "89acc00ec745d441",
+      "name": "Federico Paredes-Vall\u00e9s",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5045868980",
+      "source": "openalex"
+    },
+    {
+      "id": "3e575d3d9037abe9",
+      "name": "Gerwin Smit",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5026332309",
+      "source": "openalex"
+    },
+    {
+      "id": "6d3f27036faab53a",
+      "name": "Guido de Croon",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5058902676",
+      "source": "openalex"
+    },
+    {
+      "id": "08016d04fe6f97f1",
+      "name": "Hayley Hung",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5061353073",
+      "source": "openalex"
+    },
+    {
+      "id": "21e998f29c430b73",
+      "name": "Heike Vallery",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5007760731",
+      "source": "openalex"
+    },
+    {
+      "id": "c7a071d66adf03d5",
+      "name": "Herman van der Kooij",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5083232835",
+      "source": "openalex"
+    },
+    {
+      "id": "143a8ec6d9381e0f",
+      "name": "Hitoshi Komoto",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5037117733",
+      "source": "openalex"
+    },
+    {
+      "id": "844576d8ed2c8b5a",
+      "name": "Javier Alonso\u2013Mora",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5013297671",
+      "source": "openalex"
+    },
+    {
+      "id": "ce9b5c19cabc02c6",
+      "name": "Jeff Potter",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5011633762",
+      "source": "openalex"
+    },
+    {
+      "id": "e92c9a24d3684e07",
+      "name": "Jens Kober",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5035229829",
+      "source": "openalex"
+    },
+    {
+      "id": "82c078722c68e528",
+      "name": "Jesus Lago",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5017142204",
+      "source": "openalex"
+    },
+    {
+      "id": "39a2cac194e7d3fe",
+      "name": "Joost de Winter",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5037003206",
+      "source": "openalex"
+    },
+    {
+      "id": "9ab68e3aaa07bdfb",
+      "name": "Joris J. Carmiggelt",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5081255156",
+      "source": "openalex"
+    },
+    {
+      "id": "8b1107bbba37b6cd",
+      "name": "Juan M. Dur\u00e1n",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5049888291",
+      "source": "openalex"
+    },
+    {
+      "id": "25a1f63709e7e5c4",
+      "name": "Julien Dupeyroux",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5070590126",
+      "source": "openalex"
+    },
+    {
+      "id": "a11a4805cfbb968a",
+      "name": "Jun Wu",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5008305704",
+      "source": "openalex"
+    },
+    {
+      "id": "c4a90802b622bbeb",
+      "name": "June Sallou",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5040439036",
+      "source": "openalex"
+    },
+    {
+      "id": "205fab407d132a2e",
+      "name": "Kirk Y. W. Scheper",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5090706019",
+      "source": "openalex"
+    },
+    {
+      "id": "a0ea8ce3448c90c2",
+      "name": "Koen Bertels",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5058128591",
+      "source": "openalex"
+    },
+    {
+      "id": "c1d638a712babf01",
+      "name": "Laddaporn Ruangpan",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5023406691",
+      "source": "openalex"
+    },
+    {
+      "id": "9c5f2069ab9bd3f5",
+      "name": "Laurens van der Maaten",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5109065097",
+      "source": "openalex"
+    },
+    {
+      "id": "4a923907e1b6c6ca",
+      "name": "Lei Xie",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5101446253",
+      "source": "openalex"
+    },
+    {
+      "id": "f1123a311f094b7e",
+      "name": "Lucia Nicola",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5057776328",
+      "source": "openalex"
+    },
+    {
+      "id": "5b4319d421a0c234",
+      "name": "Lu\u00eds Cruz",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5004310055",
+      "source": "openalex"
+    },
+    {
+      "id": "0c1c7a75b7868385",
+      "name": "Marijn Janssen",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5062073470",
+      "source": "openalex"
+    },
+    {
+      "id": "55ff4f49b5a59690",
+      "name": "Martin D. Verweij",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5015661248",
+      "source": "openalex"
+    },
+    {
+      "id": "2d30630d9355b3d2",
+      "name": "Matthew R. Sanderson",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5001783283",
+      "source": "openalex"
+    },
+    {
+      "id": "d6e648f093bcd1f4",
+      "name": "Michael E. McClain",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5091324749",
+      "source": "openalex"
+    },
+    {
+      "id": "dfdf75d8d37233bf",
+      "name": "Mike Filius",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5009156147",
+      "source": "openalex"
+    },
+    {
+      "id": "2b09e96c3c17de03",
+      "name": "Mohammad J. Mirzaali",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5046772634",
+      "source": "openalex"
+    },
+    {
+      "id": "05a418f5fe3c72c3",
+      "name": "Mustafa Suphi Erden",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5090243306",
+      "source": "openalex"
+    },
+    {
+      "id": "2f9cd2e6fd7dab73",
+      "name": "Paul Breedveld",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5017683959",
+      "source": "openalex"
+    },
+    {
+      "id": "fa1ec32f669936b5",
+      "name": "Paul Walton",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5109157215",
+      "source": "openalex"
+    },
+    {
+      "id": "cb8ac52a4e2be9d9",
+      "name": "Peggy R. Bohl\u00e4nder",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5004430592",
+      "source": "openalex"
+    },
+    {
+      "id": "1b32eb711e83bc2f",
+      "name": "Reginald L. Lagendijk",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5030656291",
+      "source": "openalex"
+    },
+    {
+      "id": "771d49ec6b81c346",
+      "name": "Rienk Eelkema",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5084672238",
+      "source": "openalex"
+    },
+    {
+      "id": "fdba8a298a4ff23d",
+      "name": "Roeland De Breuker",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5066790805",
+      "source": "openalex"
+    },
+    {
+      "id": "2edb71f68f2b2150",
+      "name": "Ronald Poelman",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5031901931",
+      "source": "openalex"
+    },
+    {
+      "id": "9723eeb1dbf4b5e3",
+      "name": "Said Hamdioui",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5005739146",
+      "source": "openalex"
+    },
+    {
+      "id": "575ca825265fcf78",
+      "name": "Saket Pande",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5046961194",
+      "source": "openalex"
+    },
+    {
+      "id": "2e632bb8287d51ac",
+      "name": "Samuel D. Gosling",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5077287995",
+      "source": "openalex"
+    },
+    {
+      "id": "eb92d1b1f603c62d",
+      "name": "Shiqian Wang",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5065616704",
+      "source": "openalex"
+    },
+    {
+      "id": "9c59321d654de73f",
+      "name": "Simon de Vries",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5113119181",
+      "source": "openalex"
+    },
+    {
+      "id": "d3b30b36689acab7",
+      "name": "Sorin Cot\u00f6fan\u0103",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5057424352",
+      "source": "openalex"
+    },
+    {
+      "id": "90971be7028ad143",
+      "name": "Stephanie Tan",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5036606121",
+      "source": "openalex"
+    },
+    {
+      "id": "b71bf50a37b4a89c",
+      "name": "Sultan \u00c7etin",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5069324912",
+      "source": "openalex"
+    },
+    {
+      "id": "fee0f537987db81f",
+      "name": "Sung Hyun Kim",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5100450426",
+      "source": "openalex"
+    },
+    {
+      "id": "a145f2d9c2acbd25",
+      "name": "Tegwen Malik",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5090009163",
+      "source": "openalex"
+    },
+    {
+      "id": "cab59eeb716f6017",
+      "name": "Tetsuo Tomiyama",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5073117672",
+      "source": "openalex"
+    },
+    {
+      "id": "22c4f145ea2e77ba",
+      "name": "Thom J. van Beek",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5007012439",
+      "source": "openalex"
+    },
+    {
+      "id": "2769e2314c77ffa9",
+      "name": "Thomas H\u00f6llt",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5019308726",
+      "source": "openalex"
+    },
+    {
+      "id": "a630cebe2946728f",
+      "name": "Tim de Bruin",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5033347648",
+      "source": "openalex"
+    },
+    {
+      "id": "8a506a980b56b892",
+      "name": "Toeno van der Sar",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5085376455",
+      "source": "openalex"
+    },
+    {
+      "id": "600414765ad4c3e0",
+      "name": "Valentina D\u2019Amelio",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5066757384",
+      "source": "openalex"
+    },
+    {
+      "id": "f00449c740f7ee4d",
+      "name": "Virginia Dignum",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5050532928",
+      "source": "openalex"
+    },
+    {
+      "id": "92c1c8817547d472",
+      "name": "Wil van der Aalst",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5114045133",
+      "source": "openalex"
+    },
+    {
+      "id": "5f9fb62dcd4c14c8",
+      "name": "Yaroslav M. Blanter",
+      "lab": "Delft University of Technology",
+      "location": "Delft",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5022612682",
+      "source": "openalex"
+    },
+    {
+      "id": "1773a7938391e927",
+      "name": "Attilio Belmonte",
+      "lab": "Imec the Netherlands",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5055437400",
+      "source": "openalex"
+    },
+    {
+      "id": "6e3f3c84dacd5d23",
+      "name": "B. Koopmans",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5088246391",
+      "source": "openalex"
+    },
+    {
+      "id": "89823ff44e940d56",
+      "name": "Bert Blocken",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5031926871",
+      "source": "openalex"
+    },
+    {
+      "id": "de81987351064691",
+      "name": "Bert de Vries",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5019806922",
+      "source": "openalex"
+    },
+    {
+      "id": "c0b153297f311b6e",
+      "name": "Bin Shi",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5010158838",
+      "source": "openalex"
+    },
+    {
+      "id": "d7b6722e3243add8",
+      "name": "Bin Yu",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5067057037",
+      "source": "openalex"
+    },
+    {
+      "id": "1804234b789e18ae",
+      "name": "Charles\u2010Th\u00e9ophile Coen",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5067163660",
+      "source": "openalex"
+    },
+    {
+      "id": "7a304842920c9491",
+      "name": "Chris Baeken",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5026672890",
+      "source": "openalex"
+    },
+    {
+      "id": "a6a63534bc5f0ce8",
+      "name": "Christoph Bartneck",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5013327637",
+      "source": "openalex"
+    },
+    {
+      "id": "4ad15efb982e4588",
+      "name": "Clint van Hoesel",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5078173442",
+      "source": "openalex"
+    },
+    {
+      "id": "e8a5f3ece89f3c3b",
+      "name": "Dani\u00ebl Lakens",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5007175111",
+      "source": "openalex"
+    },
+    {
+      "id": "aa92127489a8965e",
+      "name": "Dennis Dams",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5111928766",
+      "source": "openalex"
+    },
+    {
+      "id": "e0224c75622a3be9",
+      "name": "Diederik van Luijk",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5006049800",
+      "source": "openalex"
+    },
+    {
+      "id": "639d6d0de99d53a2",
+      "name": "Dimitrios A. Koutsouras",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5001944472",
+      "source": "openalex"
+    },
+    {
+      "id": "3f6f2d56c07c9db5",
+      "name": "Evangelia Demerouti",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5027950123",
+      "source": "openalex"
+    },
+    {
+      "id": "9f226a52eb5c95c3",
+      "name": "Eveline R. W. van Doremaele",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5012955499",
+      "source": "openalex"
+    },
+    {
+      "id": "487dd67c90c048da",
+      "name": "Federico Corradi",
+      "lab": "Imec the Netherlands",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5071837932",
+      "source": "openalex"
+    },
+    {
+      "id": "ea8d170381523cfb",
+      "name": "Feng Yan",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5010044441",
+      "source": "openalex"
+    },
+    {
+      "id": "75d7875597255dc6",
+      "name": "G. M. W. Kroesen",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5110145675",
+      "source": "openalex"
+    },
+    {
+      "id": "40fcdf208f8d473e",
+      "name": "Haifeng Ling",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5020958148",
+      "source": "openalex"
+    },
+    {
+      "id": "ea300fbe67b068a8",
+      "name": "Hao Gao",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5006604864",
+      "source": "openalex"
+    },
+    {
+      "id": "8f93778d98f8955a",
+      "name": "Henk Corporaal",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5081768631",
+      "source": "openalex"
+    },
+    {
+      "id": "c70b6c02e08ef699",
+      "name": "Hessel Wijkstra",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5041526805",
+      "source": "openalex"
+    },
+    {
+      "id": "6884f865307cc496",
+      "name": "Imke Krauhausen",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5041948431",
+      "source": "openalex"
+    },
+    {
+      "id": "c5be2a14c1d21f38",
+      "name": "J. Melke",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5010956350",
+      "source": "openalex"
+    },
+    {
+      "id": "54bd4da25515f21f",
+      "name": "J.A.W. van Dommelen",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5071233759",
+      "source": "openalex"
+    },
+    {
+      "id": "9b29a236589498c8",
+      "name": "Jaime G\u00f3mez Rivas",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5027404812",
+      "source": "openalex"
+    },
+    {
+      "id": "31f16dd26e11d3df",
+      "name": "Joaquin Vanschoren",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5016794035",
+      "source": "openalex"
+    },
+    {
+      "id": "83890de5763135c3",
+      "name": "Ludovic Goux",
+      "lab": "Imec the Netherlands",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5103502143",
+      "source": "openalex"
+    },
+    {
+      "id": "e4cea7d0f6bb98ae",
+      "name": "M.G.D. Geers",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5057263022",
+      "source": "openalex"
+    },
+    {
+      "id": "cbb0e4232f6c2f2b",
+      "name": "Mario Konijnenburg",
+      "lab": "Holst Centre (Netherlands)",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5007174194",
+      "source": "openalex"
+    },
+    {
+      "id": "6d74cf01176fdd11",
+      "name": "Nicola Calabretta",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5080891126",
+      "source": "openalex"
+    },
+    {
+      "id": "c21377daf6f40fdb",
+      "name": "Panos Markopoulos",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5047194405",
+      "source": "openalex"
+    },
+    {
+      "id": "d99e17a81bcf4fbf",
+      "name": "Paschalis Gkoupidenis",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5057996124",
+      "source": "openalex"
+    },
+    {
+      "id": "a1784f199c671ee7",
+      "name": "Peder Mortvedt Isager",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5037893321",
+      "source": "openalex"
+    },
+    {
+      "id": "f6e26aa077ed7873",
+      "name": "Qi Wang",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5115602040",
+      "source": "openalex"
+    },
+    {
+      "id": "7de61a503a544947",
+      "name": "Rint P. Sijbesma",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5089313957",
+      "source": "openalex"
+    },
+    {
+      "id": "bb0a8371a80e51f5",
+      "name": "Rob Gerth",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5109397865",
+      "source": "openalex"
+    },
+    {
+      "id": "482ca6a86a6c40c0",
+      "name": "Ronald M. Aarts",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5040056296",
+      "source": "openalex"
+    },
+    {
+      "id": "7b2e0c62d6e5841c",
+      "name": "Roy van der Meel",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5061977961",
+      "source": "openalex"
+    },
+    {
+      "id": "348214ff5d465dd7",
+      "name": "Ruud J. G. van Sloun",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5042985821",
+      "source": "openalex"
+    },
+    {
+      "id": "218597594c7112dc",
+      "name": "Sandra Hofmann",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5091827843",
+      "source": "openalex"
+    },
+    {
+      "id": "0ff0339c5bbda590",
+      "name": "Setareh Kazemzadeh",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5080106488",
+      "source": "openalex"
+    },
+    {
+      "id": "9266744b8f5e1f1e",
+      "name": "Shrishail Patki",
+      "lab": "Holst Centre (Netherlands)",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5020732098",
+      "source": "openalex"
+    },
+    {
+      "id": "2c4f4b6f65408b18",
+      "name": "Simone Spolaor",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5081323030",
+      "source": "openalex"
+    },
+    {
+      "id": "8a3990961af640a9",
+      "name": "Tim Stevens",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5016497661",
+      "source": "openalex"
+    },
+    {
+      "id": "af8395a14c037565",
+      "name": "Yanxi Zhang",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5004351493",
+      "source": "openalex"
+    },
+    {
+      "id": "17d3e051cc0b5fd5",
+      "name": "Yina Liu",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5004188977",
+      "source": "openalex"
+    },
+    {
+      "id": "405c618679f069f3",
+      "name": "Yinjun Chen",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5066346607",
+      "source": "openalex"
+    },
+    {
+      "id": "c9d71e2eac3dc7b1",
+      "name": "Yoeri van de Burgt",
+      "lab": "Eindhoven University of Technology",
+      "location": "Eindhoven",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5089563832",
+      "source": "openalex"
+    },
+    {
+      "id": "b19b3e31c87473e4",
+      "name": "Andr\u00e9 Deutz",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5085426879",
+      "source": "openalex"
+    },
+    {
+      "id": "13da241a442bda56",
+      "name": "Anne E Urai",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5009268760",
+      "source": "openalex"
+    },
+    {
+      "id": "784678092ac4a1ae",
+      "name": "Aske Plaat",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5085542421",
+      "source": "openalex"
+    },
+    {
+      "id": "302f536ed540e4c1",
+      "name": "Bart Verkuil",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5080653938",
+      "source": "openalex"
+    },
+    {
+      "id": "1e54a977672dab80",
+      "name": "Catholijn M. Jonker",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5074074791",
+      "source": "openalex"
+    },
+    {
+      "id": "aa73d39efa435607",
+      "name": "Eduard Fosch\u2010Villaronga",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5074444599",
+      "source": "openalex"
+    },
+    {
+      "id": "290790152bb24204",
+      "name": "Eiko I. Fried",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5072520929",
+      "source": "openalex"
+    },
+    {
+      "id": "7b91d06703d6884b",
+      "name": "Gianclaudio Malgieri",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5066246956",
+      "source": "openalex"
+    },
+    {
+      "id": "85c87bd917e92241",
+      "name": "Holger H. Hoos",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5025342513",
+      "source": "openalex"
+    },
+    {
+      "id": "999c33abe8a2af63",
+      "name": "Huan Yang",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5037505637",
+      "source": "openalex"
+    },
+    {
+      "id": "7f773a48ea1007cd",
+      "name": "Joost Broekens",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5027253360",
+      "source": "openalex"
+    },
+    {
+      "id": "ccb953f07c3bf1ec",
+      "name": "Laura Steenbergen",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5039030658",
+      "source": "openalex"
+    },
+    {
+      "id": "f00d89fbe2a5c817",
+      "name": "Leo Price",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5000581416",
+      "source": "openalex"
+    },
+    {
+      "id": "7b49c402a36ff69e",
+      "name": "Maria Daglia",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5015562906",
+      "source": "openalex"
+    },
+    {
+      "id": "38501115e03f188b",
+      "name": "Marian J. Bakermans\u2010Kranenburg",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5011041797",
+      "source": "openalex"
+    },
+    {
+      "id": "0b33bf474db268fa",
+      "name": "Marieke Jepma",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5042529459",
+      "source": "openalex"
+    },
+    {
+      "id": "78403d6c9f46745c",
+      "name": "Marinus H. van IJzendoorn",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5048314918",
+      "source": "openalex"
+    },
+    {
+      "id": "3813f46ab1ba0729",
+      "name": "Markus Ullsperger",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5038257034",
+      "source": "openalex"
+    },
+    {
+      "id": "eaa97856bb13b2bb",
+      "name": "Michael Emmerich",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5007378438",
+      "source": "openalex"
+    },
+    {
+      "id": "dd36ac03c07c16a2",
+      "name": "Ronan M. T. Fleming",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5069362994",
+      "source": "openalex"
+    },
+    {
+      "id": "d9cdfeb40d74b423",
+      "name": "Thomas M. Moerland",
+      "lab": "Leiden University",
+      "location": "Leiden",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5003595753",
+      "source": "openalex"
+    },
+    {
+      "id": "596f7f42c8c0893f",
+      "name": "A. John Van Opstal",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5002997012",
+      "source": "openalex"
+    },
+    {
+      "id": "2413e87bb1ff5ead",
+      "name": "A. Kirilyuk",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5020777636",
+      "source": "openalex"
+    },
+    {
+      "id": "bf53e07b390d09a0",
+      "name": "A. V. Kimel",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5000014202",
+      "source": "openalex"
+    },
+    {
+      "id": "7070a1e580441c47",
+      "name": "A.M.L. Coenen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5048880890",
+      "source": "openalex"
+    },
+    {
+      "id": "8e7eef49454290ac",
+      "name": "Alan G. Sanfey",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5007591459",
+      "source": "openalex"
+    },
+    {
+      "id": "cf0756ca3c6ab963",
+      "name": "Ali Mazaheri",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5022612099",
+      "source": "openalex"
+    },
+    {
+      "id": "e3eafd348a657bf8",
+      "name": "Anna C. Aschenbrenner",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5049008492",
+      "source": "openalex"
+    },
+    {
+      "id": "879326e1d36cbe24",
+      "name": "Anouk Scheres",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5033425071",
+      "source": "openalex"
+    },
+    {
+      "id": "d4b46e12dc582363",
+      "name": "Ardi Roelofs",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5059738649",
+      "source": "openalex"
+    },
+    {
+      "id": "d1059615217d22d0",
+      "name": "Arnt Schellekens",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5027407982",
+      "source": "openalex"
+    },
+    {
+      "id": "74e3539e6bbc802a",
+      "name": "Atsuko Takashima",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5038911901",
+      "source": "openalex"
+    },
+    {
+      "id": "a78c4bee72f7278e",
+      "name": "Barbara Franke",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5038874292",
+      "source": "openalex"
+    },
+    {
+      "id": "76fc325fe7948fdf",
+      "name": "Bas E. Dutilh",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5084321697",
+      "source": "openalex"
+    },
+    {
+      "id": "f7d219ea497a7ec0",
+      "name": "Beat\u00e9 St Pourcain",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5067420890",
+      "source": "openalex"
+    },
+    {
+      "id": "08b7bdb805dff362",
+      "name": "Bram van Ginneken",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5042982766",
+      "source": "openalex"
+    },
+    {
+      "id": "5946c98e9840b9c6",
+      "name": "Caroline Hoeks",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5022119080",
+      "source": "openalex"
+    },
+    {
+      "id": "5a393beaf5e927cc",
+      "name": "Cathelijne M.J.Y. Tesink",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5073116851",
+      "source": "openalex"
+    },
+    {
+      "id": "c9f56b84413d30ae",
+      "name": "Christian F. Beckmann",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5057492639",
+      "source": "openalex"
+    },
+    {
+      "id": "3b2a314fd0807ea0",
+      "name": "Colin Jacobs",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5020018643",
+      "source": "openalex"
+    },
+    {
+      "id": "2f1dc3a370fa7f50",
+      "name": "D. Afanasiev",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5040591262",
+      "source": "openalex"
+    },
+    {
+      "id": "3fac5ca954826549",
+      "name": "D. van den Brink",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5077606910",
+      "source": "openalex"
+    },
+    {
+      "id": "415202cf50691560",
+      "name": "Daria Osipova",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5109938373",
+      "source": "openalex"
+    },
+    {
+      "id": "0f7caa35a30bf244",
+      "name": "Dorothee J. Chwilla",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5074682619",
+      "source": "openalex"
+    },
+    {
+      "id": "869b4d9dabc8278d",
+      "name": "E.L.J.M. van Luijtelaar",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5113458586",
+      "source": "openalex"
+    },
+    {
+      "id": "97bab9de59bcc584",
+      "name": "Eric Maris",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5091232686",
+      "source": "openalex"
+    },
+    {
+      "id": "48eba5d695f75d25",
+      "name": "Erno J. Hermans",
+      "lab": "Radboud University Medical Center",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5077600021",
+      "source": "openalex"
+    },
+    {
+      "id": "f8230ecb9675ead4",
+      "name": "Floris P. de Lange",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5091104349",
+      "source": "openalex"
+    },
+    {
+      "id": "42357d2d10c9d9a4",
+      "name": "Gabriel Efrain Humpire Mamani",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5051871464",
+      "source": "openalex"
+    },
+    {
+      "id": "2adc423d33562f8c",
+      "name": "Gabri\u00eblle Ras",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5030651516",
+      "source": "openalex"
+    },
+    {
+      "id": "37b1e36400d4fcfb",
+      "name": "Geert Litjens",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5055697525",
+      "source": "openalex"
+    },
+    {
+      "id": "2718ec55815231b4",
+      "name": "Gert Vriend",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5075419050",
+      "source": "openalex"
+    },
+    {
+      "id": "c87aa7b8ec64d75f",
+      "name": "Grzegorz Chlebus",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5026098790",
+      "source": "openalex"
+    },
+    {
+      "id": "0c7d9a0a093d1d44",
+      "name": "Guill\u00e9n Fern\u00e1ndez",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5064429146",
+      "source": "openalex"
+    },
+    {
+      "id": "91d919d8ebae0bc7",
+      "name": "H. Bekkering",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5038010509",
+      "source": "openalex"
+    },
+    {
+      "id": "1c8d231a1ebd400e",
+      "name": "Henkjan Huisman",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5054345200",
+      "source": "openalex"
+    },
+    {
+      "id": "b39d23888077be17",
+      "name": "Ilze Donderwinkel",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5003437641",
+      "source": "openalex"
+    },
+    {
+      "id": "a6537048a1f78e8b",
+      "name": "J. Buitelaar",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5108530075",
+      "source": "openalex"
+    },
+    {
+      "id": "c4e8a9066a4747e6",
+      "name": "J.R.M. Cruysberg",
+      "lab": "Radboud University Medical Center",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5070699207",
+      "source": "openalex"
+    },
+    {
+      "id": "ee694aaf026a08d0",
+      "name": "James Meakin",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5031501951",
+      "source": "openalex"
+    },
+    {
+      "id": "b360bcf84c1278db",
+      "name": "Jan C. Brammer",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5080360925",
+      "source": "openalex"
+    },
+    {
+      "id": "57a0f82f2a19f94b",
+      "name": "Jan C. M. van Hest",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5016767643",
+      "source": "openalex"
+    },
+    {
+      "id": "5a939be9a2b33177",
+      "name": "Jan K. Buitelaar",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5009149756",
+      "source": "openalex"
+    },
+    {
+      "id": "dce51996a974debc",
+      "name": "Jan\u2010Mathijs Schoffelen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5043239814",
+      "source": "openalex"
+    },
+    {
+      "id": "4054d05540c57172",
+      "name": "Jason Farquhar",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5054009418",
+      "source": "openalex"
+    },
+    {
+      "id": "9e92309d7d114363",
+      "name": "Jeroen Geuze",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5069430000",
+      "source": "openalex"
+    },
+    {
+      "id": "6574d7ee0b8904ff",
+      "name": "Johan H. Mentink",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5055320150",
+      "source": "openalex"
+    },
+    {
+      "id": "fa0ebadf5829a288",
+      "name": "Johan Mentink",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5063322048",
+      "source": "openalex"
+    },
+    {
+      "id": "33611b4c318f4d58",
+      "name": "John D. McPherson",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5047690257",
+      "source": "openalex"
+    },
+    {
+      "id": "0133cccdd0bbf904",
+      "name": "Jurgen A.H.R. Claassen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5012964731",
+      "source": "openalex"
+    },
+    {
+      "id": "ef74f25f2db55269",
+      "name": "K.M.W. Verhoef",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5079105613",
+      "source": "openalex"
+    },
+    {
+      "id": "234638e4681fdd80",
+      "name": "L.G. Vuurpijl",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5026398230",
+      "source": "openalex"
+    },
+    {
+      "id": "7e2645bda2c8c60a",
+      "name": "Lorena Deuker",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5001691739",
+      "source": "openalex"
+    },
+    {
+      "id": "f8e1e7fa82128166",
+      "name": "Louise Gallagher",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5063304682",
+      "source": "openalex"
+    },
+    {
+      "id": "e603be967c490b6d",
+      "name": "M. I. Katsnelson",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5052554493",
+      "source": "openalex"
+    },
+    {
+      "id": "49c5aa40cd35a432",
+      "name": "Maarten A. Frens",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5012691736",
+      "source": "openalex"
+    },
+    {
+      "id": "39f0dfabf887d96e",
+      "name": "Marcel van Gerven",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5074794877",
+      "source": "openalex"
+    },
+    {
+      "id": "7065cc6ad0082802",
+      "name": "Marloes J. A. G. Henckens",
+      "lab": "Radboud University Medical Center",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5022806109",
+      "source": "openalex"
+    },
+    {
+      "id": "1a39de01f4365dd7",
+      "name": "Mathilde Bonnefond",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5007626084",
+      "source": "openalex"
+    },
+    {
+      "id": "18fd2429f8a80b75",
+      "name": "Micha Heilbron",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5016647182",
+      "source": "openalex"
+    },
+    {
+      "id": "47f199782422d5a3",
+      "name": "Michael J. Owen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5104706908",
+      "source": "openalex"
+    },
+    {
+      "id": "b2962b8294444078",
+      "name": "Michiel F. Dirkx",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5058082155",
+      "source": "openalex"
+    },
+    {
+      "id": "fed251fcf2d8e308",
+      "name": "Mihai G. Netea",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5027955775",
+      "source": "openalex"
+    },
+    {
+      "id": "72f88d2b575a1374",
+      "name": "Mohsen Kaboli",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5030520581",
+      "source": "openalex"
+    },
+    {
+      "id": "aaa12092f23b8bc5",
+      "name": "Ole Jensen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5079095273",
+      "source": "openalex"
+    },
+    {
+      "id": "273069e55eb1bb11",
+      "name": "Pascal Fries",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5065034707",
+      "source": "openalex"
+    },
+    {
+      "id": "afb7af090b497376",
+      "name": "Peter Desain",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5028249400",
+      "source": "openalex"
+    },
+    {
+      "id": "1f084d5bf18494c6",
+      "name": "Peter Hagoort",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5031285239",
+      "source": "openalex"
+    },
+    {
+      "id": "0d5de80b72aa6cca",
+      "name": "Peter Indefrey",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5056970435",
+      "source": "openalex"
+    },
+    {
+      "id": "4448ec5b689ddb40",
+      "name": "Peter Pickkers",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5025445136",
+      "source": "openalex"
+    },
+    {
+      "id": "4597ebd68189e1bf",
+      "name": "Peter Siersema",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5043086857",
+      "source": "openalex"
+    },
+    {
+      "id": "56d87e3e066025d4",
+      "name": "Philip Rosenstiel",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5054564152",
+      "source": "openalex"
+    },
+    {
+      "id": "9a7e8b8dd8d45b5b",
+      "name": "Pim Haselager",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5050335741",
+      "source": "openalex"
+    },
+    {
+      "id": "f0f4a0f8b70bd1ba",
+      "name": "Rebecca Schaefer",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5014834937",
+      "source": "openalex"
+    },
+    {
+      "id": "42574153c00e7c1e",
+      "name": "Rick C. Helmich",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5025743783",
+      "source": "openalex"
+    },
+    {
+      "id": "5f6a039810a98d5c",
+      "name": "Robert F. van der Willigen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5005317244",
+      "source": "openalex"
+    },
+    {
+      "id": "986934da8e81fa0f",
+      "name": "Robert Oostenveld",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5064415146",
+      "source": "openalex"
+    },
+    {
+      "id": "b05b9c065bef1e2b",
+      "name": "Roel M. Willems",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5009732180",
+      "source": "openalex"
+    },
+    {
+      "id": "7a4141c70983b2a3",
+      "name": "Roemer van der Meij",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5002366101",
+      "source": "openalex"
+    },
+    {
+      "id": "f94266235abbdc4a",
+      "name": "Rolf K\u00f6tter",
+      "lab": "Radboud University Medical Center",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5111593893",
+      "source": "openalex"
+    },
+    {
+      "id": "59531e63da77799b",
+      "name": "Roshan Cools",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5072571980",
+      "source": "openalex"
+    },
+    {
+      "id": "7a74c3e398498956",
+      "name": "Rutger Vlek",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5065121776",
+      "source": "openalex"
+    },
+    {
+      "id": "26268d21e8bc0e8d",
+      "name": "Sabine A. E. Geurts",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5076766412",
+      "source": "openalex"
+    },
+    {
+      "id": "bf3c6c2c3c1ceed7",
+      "name": "Saskia Haegens",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5075857593",
+      "source": "openalex"
+    },
+    {
+      "id": "31b913f5174c21b6",
+      "name": "Sjoerd Kerkstra",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5087795930",
+      "source": "openalex"
+    },
+    {
+      "id": "8336d2a98c69dcdb",
+      "name": "Sonja C. Vernes",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5085492585",
+      "source": "openalex"
+    },
+    {
+      "id": "d5279ce78b43263d",
+      "name": "Stan Gielen",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5108399880",
+      "source": "openalex"
+    },
+    {
+      "id": "bdaa83db18a35c79",
+      "name": "Th. Rasing",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5033939277",
+      "source": "openalex"
+    },
+    {
+      "id": "f8fd0ff48b2c7a20",
+      "name": "Thomas L\u00fctteke",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5088409948",
+      "source": "openalex"
+    },
+    {
+      "id": "2250f58b51947bc0",
+      "name": "Til Ole Bergmann",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5065216525",
+      "source": "openalex"
+    },
+    {
+      "id": "1844145c55bff95e",
+      "name": "Tim C. Kietzmann",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "neuromorphic computing",
+      "url": "https://openalex.org/A5021717958",
+      "source": "openalex"
+    },
+    {
+      "id": "d19be654a0824c4b",
+      "name": "Vera Bla\u017eevi\u0107",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5047249173",
+      "source": "openalex"
+    },
+    {
+      "id": "a653809d23d829dc",
+      "name": "Wendy van de Ven",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5063445496",
+      "source": "openalex"
+    },
+    {
+      "id": "1cc1c06872b23f76",
+      "name": "Wilhelm T. S. Huck",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5057058267",
+      "source": "openalex"
+    },
+    {
+      "id": "8ca0c96bd77c6168",
+      "name": "Xiaobin Hu",
+      "lab": "Radboud University Nijmegen",
+      "location": "Nijmegen",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5101735199",
+      "source": "openalex"
+    },
+    {
+      "id": "83d3857f84fcbc13",
+      "name": "Aad van der Lugt",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5006225939",
+      "source": "openalex"
+    },
+    {
+      "id": "c846d6af4c836dd2",
+      "name": "Amber Yaqub",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5037593286",
+      "source": "openalex"
+    },
+    {
+      "id": "4d4475a6a11ed2c6",
+      "name": "Arnold B. Bakker",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5014550530",
+      "source": "openalex"
+    },
+    {
+      "id": "bde2b0011dc9d30e",
+      "name": "Carla A. Ibrahim\u2010Verbaas",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5069393328",
+      "source": "openalex"
+    },
+    {
+      "id": "3350bebbfb4735ad",
+      "name": "Carlos Cruchaga",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5040490170",
+      "source": "openalex"
+    },
+    {
+      "id": "1839ae4b91d1c2ba",
+      "name": "Daan van Knippenberg",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5001547897",
+      "source": "openalex"
+    },
+    {
+      "id": "6cd7bc3fa26751a5",
+      "name": "Diederik W.J. Dippel",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5048297907",
+      "source": "openalex"
+    },
+    {
+      "id": "823e2881bf0fc07c",
+      "name": "Dolores Buiza\u2010Rueda",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5051847810",
+      "source": "openalex"
+    },
+    {
+      "id": "1db00c3519af1cba",
+      "name": "Elena S. Martens\u2010Uzunova",
+      "lab": "Erasmus MC Cancer Institute",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5030220110",
+      "source": "openalex"
+    },
+    {
+      "id": "666c88647b081909",
+      "name": "Emi N. Harry",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5092765223",
+      "source": "openalex"
+    },
+    {
+      "id": "67cc069f27ff175d",
+      "name": "Erik Meijering",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5023548565",
+      "source": "openalex"
+    },
+    {
+      "id": "d4e7481718ae5ed5",
+      "name": "Ernst J. Kuipers",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5081503066",
+      "source": "openalex"
+    },
+    {
+      "id": "7ccb7e9d85bc6148",
+      "name": "Franziska Degenhardt",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5078644907",
+      "source": "openalex"
+    },
+    {
+      "id": "12775d83503a9589",
+      "name": "Fred Paas",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5028053852",
+      "source": "openalex"
+    },
+    {
+      "id": "1b53287ed20772de",
+      "name": "Hester F. Lingsma",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5026647662",
+      "source": "openalex"
+    },
+    {
+      "id": "cd1bbf171e1d7f2d",
+      "name": "Ivana Nedeljkovi\u0107",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5032899491",
+      "source": "openalex"
+    },
+    {
+      "id": "d023c390fff38214",
+      "name": "J. Kenneth Baillie",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5030523023",
+      "source": "openalex"
+    },
+    {
+      "id": "e74aa38b803cfacc",
+      "name": "Jean\u2010Charles Lambert",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5004893591",
+      "source": "openalex"
+    },
+    {
+      "id": "f386df1cfb09e51c",
+      "name": "Klazina Kooiman",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5011454757",
+      "source": "openalex"
+    },
+    {
+      "id": "0859726716d16dd4",
+      "name": "Luc E. Coffeng",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5080298922",
+      "source": "openalex"
+    },
+    {
+      "id": "49f067680c824b5e",
+      "name": "M. Arfan Ikram",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5036303967",
+      "source": "openalex"
+    },
+    {
+      "id": "70d78ce718740a8f",
+      "name": "Manon C.W. Spaander",
+      "lab": "Erasmus MC Cancer Institute",
+      "location": "Rotterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5025826957",
+      "source": "openalex"
+    },
+    {
+      "id": "d39359974976bd44",
+      "name": "Marco J. Bruno",
+      "lab": "Erasmus MC Cancer Institute",
+      "location": "Rotterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5042869763",
+      "source": "openalex"
+    },
+    {
+      "id": "1a88478c619f2f81",
+      "name": "Marta Andreatta",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5031542492",
+      "source": "openalex"
+    },
+    {
+      "id": "d87d67a13bf9a24b",
+      "name": "Martijn J. Schuemie",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5077586396",
+      "source": "openalex"
+    },
+    {
+      "id": "ae5976376f2ee225",
+      "name": "Martin J. van den Bent",
+      "lab": "Erasmus MC Cancer Institute",
+      "location": "Rotterdam",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5010891460",
+      "source": "openalex"
+    },
+    {
+      "id": "abe1dfbd322fbfed",
+      "name": "Micha\u00e9la C. Schippers",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5010715632",
+      "source": "openalex"
+    },
+    {
+      "id": "c92d4a3f7bd4e89a",
+      "name": "Najaf Amin",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5004324001",
+      "source": "openalex"
+    },
+    {
+      "id": "7211b4c6d109777e",
+      "name": "Natasja M.S. de Groot",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5042927743",
+      "source": "openalex"
+    },
+    {
+      "id": "bc61cf609f813370",
+      "name": "Ne\u015fe Direk",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5061624873",
+      "source": "openalex"
+    },
+    {
+      "id": "9d2052f5bb999122",
+      "name": "Nirmal Vadgama",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5073558951",
+      "source": "openalex"
+    },
+    {
+      "id": "abfb81e8d6b3967f",
+      "name": "Puck Fransen",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5110569625",
+      "source": "openalex"
+    },
+    {
+      "id": "e59ac359bb18158c",
+      "name": "Ren\u00e9 de Koster",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5087965800",
+      "source": "openalex"
+    },
+    {
+      "id": "06c76beea12a4c79",
+      "name": "Richard Franciscus Johannes Haans",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5050446223",
+      "source": "openalex"
+    },
+    {
+      "id": "51912e024ebbfe4b",
+      "name": "Simone A.G. Langeveld",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5010736266",
+      "source": "openalex"
+    },
+    {
+      "id": "7ff0a3028c92c6ca",
+      "name": "Sven J. van der Lee",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5057540991",
+      "source": "openalex"
+    },
+    {
+      "id": "9a6e78a717e9399d",
+      "name": "Vincent Chouraki",
+      "lab": "Erasmus MC",
+      "location": "Rotterdam",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5050456571",
+      "source": "openalex"
+    },
+    {
+      "id": "0eef3e0ff739fb24",
+      "name": "Werner M. Kistler",
+      "lab": "Erasmus University Rotterdam",
+      "location": "Rotterdam",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5079504672",
+      "source": "openalex"
+    },
+    {
+      "id": "4b5afa54845c6563",
+      "name": "Ahmed Mahfouz",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5006562407",
+      "source": "openalex"
+    },
+    {
+      "id": "a0b3076d6b7c54f5",
+      "name": "Albert Dahan",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "experimental neuroscience electrophysiology",
+      "url": "https://openalex.org/A5077603374",
+      "source": "openalex"
+    },
+    {
+      "id": "cc4bc9e3a83d28da",
+      "name": "Antonios Somarakis",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5004232884",
+      "source": "openalex"
+    },
+    {
+      "id": "d56c5ea19efb2b2b",
+      "name": "Baldur van Lew",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5064039493",
+      "source": "openalex"
+    },
+    {
+      "id": "bfe2159e554c6840",
+      "name": "Bastiaan T. Heijmans",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5073064298",
+      "source": "openalex"
+    },
+    {
+      "id": "3ef318980e3523f7",
+      "name": "Ben Van Calster",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5086320066",
+      "source": "openalex"
+    },
+    {
+      "id": "312d9ea342548920",
+      "name": "Boudewijn P. F. Lelieveldt",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5019003563",
+      "source": "openalex"
+    },
+    {
+      "id": "73d77d1ce009eb43",
+      "name": "Christine L. Mummery",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "brain-machine interface",
+      "url": "https://openalex.org/A5085628953",
+      "source": "openalex"
+    },
+    {
+      "id": "2090465253cd832d",
+      "name": "E. R. de Kloet",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5085514973",
+      "source": "openalex"
+    },
+    {
+      "id": "9111e1e572507c69",
+      "name": "Erno Vreugdenhil",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5044382168",
+      "source": "openalex"
+    },
+    {
+      "id": "e5a224725ac9cc15",
+      "name": "Indu Khatri",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5032153099",
+      "source": "openalex"
+    },
+    {
+      "id": "bedfa0d13e782f10",
+      "name": "Jelle J. Goeman",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5032056430",
+      "source": "openalex"
+    },
+    {
+      "id": "a2c4cdf58987b6bf",
+      "name": "Jeroen Eggermont",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5020220741",
+      "source": "openalex"
+    },
+    {
+      "id": "6e15fa94df7773ec",
+      "name": "Marcel Reinders",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5052699801",
+      "source": "openalex"
+    },
+    {
+      "id": "9bb8591af5610ab4",
+      "name": "Marike L. D. Broekman",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5063693691",
+      "source": "openalex"
+    },
+    {
+      "id": "4b3abe378617f85c",
+      "name": "Martin Giera",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5026554824",
+      "source": "openalex"
+    },
+    {
+      "id": "a8f3ffa560201f52",
+      "name": "Melly S. Oitzl",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5107484208",
+      "source": "openalex"
+    },
+    {
+      "id": "4b5f757fbda7078a",
+      "name": "Shahzad Ahmad",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5100745664",
+      "source": "openalex"
+    },
+    {
+      "id": "9af74e6e468545d3",
+      "name": "Szymon M. Kie\u0142basa",
+      "lab": "Leiden University Medical Center",
+      "location": "The Hague",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5021607152",
+      "source": "openalex"
+    },
+    {
+      "id": "f634bb3d84fc1ca4",
+      "name": "Alexander Leemans",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5030544325",
+      "source": "openalex"
+    },
+    {
+      "id": "a37e49d477d330f1",
+      "name": "Allert I. Bijleveld",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5078034455",
+      "source": "openalex"
+    },
+    {
+      "id": "29d10b85fbbcd043",
+      "name": "Anton Nijholt",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5091392919",
+      "source": "openalex"
+    },
+    {
+      "id": "91fe664b6c38665e",
+      "name": "Bert Brunekreef",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5025017022",
+      "source": "openalex"
+    },
+    {
+      "id": "4534e427a1f89db8",
+      "name": "Bianca Kramer",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5030014883",
+      "source": "openalex"
+    },
+    {
+      "id": "9d9a43ec1c8de853",
+      "name": "Duco Veen",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5000898333",
+      "source": "openalex"
+    },
+    {
+      "id": "6a46058213030539",
+      "name": "Elly M. Hol",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5013180706",
+      "source": "openalex"
+    },
+    {
+      "id": "b180b1a17516f24d",
+      "name": "Federica Esposito",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5002041922",
+      "source": "openalex"
+    },
+    {
+      "id": "a3f7b532245fa099",
+      "name": "Frank Biermann",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5010644863",
+      "source": "openalex"
+    },
+    {
+      "id": "b2c73cc8e3659e3e",
+      "name": "Frank Dignum",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5069927794",
+      "source": "openalex"
+    },
+    {
+      "id": "37907f657bccaf2b",
+      "name": "Gerard Pasterkamp",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5038272951",
+      "source": "openalex"
+    },
+    {
+      "id": "7300248d519965e8",
+      "name": "H. J. Hagenaar",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "embedded AI edge computing",
+      "url": "https://openalex.org/A5090294875",
+      "source": "openalex"
+    },
+    {
+      "id": "7941540f206de748",
+      "name": "Herbert Hoijtink",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "systems neuroscience",
+      "url": "https://openalex.org/A5081858769",
+      "source": "openalex"
+    },
+    {
+      "id": "505a10ae7599e54a",
+      "name": "Imo E. Hoefer",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5067234996",
+      "source": "openalex"
+    },
+    {
+      "id": "8e91cde8b9a4158d",
+      "name": "Jacqueline I. Goldstein",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5054213549",
+      "source": "openalex"
+    },
+    {
+      "id": "c9e17bafa455efbe",
+      "name": "Johannes B. Reitsma",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5007039126",
+      "source": "openalex"
+    },
+    {
+      "id": "2d511ae5880792b7",
+      "name": "Jos Malda",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5053597612",
+      "source": "openalex"
+    },
+    {
+      "id": "d2b71ee2b0e07c18",
+      "name": "Joukje E. Willemsen",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5088758897",
+      "source": "openalex"
+    },
+    {
+      "id": "ba6cbf7807bd33a3",
+      "name": "Karel G.M. Moons",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5083104697",
+      "source": "openalex"
+    },
+    {
+      "id": "a8f7f325df038a10",
+      "name": "Karin Jongsma",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5051588251",
+      "source": "openalex"
+    },
+    {
+      "id": "d94997ee1cb94895",
+      "name": "Keita Ito",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5085927001",
+      "source": "openalex"
+    },
+    {
+      "id": "9a9268b61e47cb83",
+      "name": "Linda van der Gaag",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "robotics perception neural",
+      "url": "https://openalex.org/A5110509159",
+      "source": "openalex"
+    },
+    {
+      "id": "80d00f29257d7a82",
+      "name": "Maarten van Smeden",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5067519537",
+      "source": "openalex"
+    },
+    {
+      "id": "194901f784bd2609",
+      "name": "Marco Helbich",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "brain-computer interface",
+      "url": "https://openalex.org/A5079634925",
+      "source": "openalex"
+    },
+    {
+      "id": "ef4eca243f4695ef",
+      "name": "Paulina N\u00fa\u00f1ez Bernal",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5068324864",
+      "source": "openalex"
+    },
+    {
+      "id": "e26fe50d31edc3ed",
+      "name": "Rens van de Schoot",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "spiking neural network",
+      "url": "https://openalex.org/A5041799420",
+      "source": "openalex"
+    },
+    {
+      "id": "37de9b741590c95f",
+      "name": "Riccardo Levato",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5052979435",
+      "source": "openalex"
+    },
+    {
+      "id": "ce41f3e01cf37d8c",
+      "name": "Rolf T. Urbanus",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5012431332",
+      "source": "openalex"
+    },
+    {
+      "id": "6c23d83347b203fb",
+      "name": "Susanna Piluso",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5055033830",
+      "source": "openalex"
+    },
+    {
+      "id": "0cf34f56f0fc1635",
+      "name": "Tom A. P. Driedonks",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "computational neuroscience",
+      "url": "https://openalex.org/A5055254489",
+      "source": "openalex"
+    },
+    {
+      "id": "c266f38abc4b1e99",
+      "name": "Yang Li",
+      "lab": "Utrecht University",
+      "location": "Utrecht",
+      "topic": "bio-inspired computing",
+      "url": "https://openalex.org/A5100421408",
+      "source": "openalex"
+    }
+  ]
 }
