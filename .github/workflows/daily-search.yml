@@ -21,12 +21,14 @@ jobs:
           fetch-depth: 1
 
       # ── 2. Restore persistent DB from previous run ──
+      # Use a unique key per run so the updated DB is always saved back.
+      # restore-keys provides a fallback to the latest previous save.
       - name: Restore jobs.db
         uses: actions/cache@v4.2.3
         with:
           path: data/jobs.db
-          key: jobs-db-${{ runner.os }}
-          restore-keys: jobs-db-
+          key: jobs-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: jobs-db-${{ runner.os }}-
 
       # ── 3. Python + deps ──
       - name: Set up Python
