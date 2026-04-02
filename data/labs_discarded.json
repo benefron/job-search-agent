@@ -1,0 +1,58 @@
+[
+  {
+    "id": "16b8ac4be87b88b6",
+    "name": "Eric‐Jan Wagenmakers",
+    "lab": "University of Amsterdam",
+    "location": "Amsterdam",
+    "topic": "computational neuroscience",
+    "url": "https://openalex.org/A5063079579",
+    "orcid_url": "https://orcid.org/0000-0003-1596-1034",
+    "google_url": "https://www.google.com/search?q=Eric%E2%80%90Jan%20Wagenmakers%20University%20of%20Amsterdam%20neuroscience%20research",
+    "scholar_url": "https://scholar.google.com/scholar?q=Eric%E2%80%90Jan%20Wagenmakers%20University%20of%20Amsterdam",
+    "works_count": 757,
+    "source": "openalex",
+    "discard_reason": "Bayesian statistics methodology - not neuroscience"
+  },
+  {
+    "id": "a8f3ffa560201f52",
+    "name": "Melly S. Oitzl",
+    "lab": "University of Amsterdam",
+    "location": "Amsterdam",
+    "topic": "spiking neural network",
+    "url": "https://openalex.org/A5107484208",
+    "orcid_url": "https://orcid.org/0000-0003-1255-0600",
+    "google_url": "https://www.google.com/search?q=Melly%20S.%20Oitzl%20University%20of%20Amsterdam%20neuroscience%20research",
+    "scholar_url": "https://scholar.google.com/scholar?q=Melly%20S.%20Oitzl%20University%20of%20Amsterdam",
+    "works_count": 156,
+    "source": "openalex",
+    "discard_reason": "neuroendocrinology (stress hormones) - retired 2017, not target domain"
+  },
+  {
+    "id": "1804234b789e18ae",
+    "name": "Charles‐Théophile Coen",
+    "lab": "Eindhoven University of Technology",
+    "location": "Eindhoven",
+    "topic": "neuromorphic computing",
+    "url": "https://openalex.org/A5067163660",
+    "orcid_url": "https://orcid.org/0000-0002-2496-4248",
+    "google_url": "https://www.google.com/search?q=Charles%E2%80%90Th%C3%A9ophile%20Coen%20Eindhoven%20University%20of%20Technology%20neuroscience%20research",
+    "scholar_url": "https://scholar.google.com/scholar?q=Charles%E2%80%90Th%C3%A9ophile%20Coen%20Eindhoven%20University%20of%20Technology",
+    "works_count": 4,
+    "source": "openalex",
+    "discard_reason": "TU/e neuromorphic - very junior (4 papers only)"
+  },
+  {
+    "id": "8556ec23c005cf1c",
+    "name": "Vitória Piai",
+    "lab": "Radboud University Nijmegen",
+    "location": "Nijmegen",
+    "topic": "spike-based computing hardware",
+    "url": "https://openalex.org/A5078253577",
+    "orcid_url": "https://orcid.org/0000-0002-4860-5952",
+    "google_url": "https://www.google.com/search?q=Vit%C3%B3ria%20Piai%20Radboud%20University%20Nijmegen%20neuroscience%20research",
+    "scholar_url": "https://scholar.google.com/scholar?q=Vit%C3%B3ria%20Piai%20Radboud%20University%20Nijmegen",
+    "works_count": 161,
+    "source": "openalex",
+    "discard_reason": "language neuroscience / word retrieval - primarily linguistic, not comp/neuromorphic"
+  }
+]

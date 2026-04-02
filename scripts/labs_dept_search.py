@@ -242,15 +242,15 @@ def scrape_dept_page(dept: dict, dry_run: bool = False) -> list[dict]:
                 txt = tag.get_text(" ", strip=True)
                 if len(txt) < 5 or len(txt) > 120:
                     continue
-                if is_relevant(txt, dept["keywords"]) or is_relevant(
-                    tag.find_next("p", limit=1).get_text() if tag.find_next("p") else "", dept["keywords"]
-                ):
+                next_p = tag.find_next("p")
+                next_p_text = next_p.get_text() if next_p else ""
+                if is_relevant(txt, dept["keywords"]) or is_relevant(next_p_text, dept["keywords"]):
                     href_tag = tag.find("a") or tag.find_next("a")
                     href = urljoin(dept["url"], href_tag["href"]) if href_tag and href_tag.get("href") else dept["url"]
                     relevant_blocks.append({
                         "group_name": txt,
                         "url": href,
-                        "snippet": (tag.find_next("p").get_text()[:250] if tag.find_next("p") else ""),
+                        "snippet": next_p_text[:250],
                     })
 
     for block in relevant_blocks:

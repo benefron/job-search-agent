@@ -1,0 +1,674 @@
+{
+  "888d6ff1b908d04d": {
+    "status": "keep",
+    "name": "Andreas Daffertshofer",
+    "lab": "Vrije Universiteit Amsterdam",
+    "notes": "neural oscillations / motor neuroscience, VU Amsterdam"
+  },
+  "386f4bab65d1d730": {
+    "status": "keep",
+    "name": "Bernadette C.M. van Wijk",
+    "lab": "Amsterdam Neuroscience",
+    "notes": "neural oscillations / computational neuroscience, Amsterdam Neuroscience"
+  },
+  "09dc6e25c9ca014f": {
+    "status": "keep",
+    "name": "Christian N. L. Olivers",
+    "lab": "Vrije Universiteit Amsterdam",
+    "notes": "visual working memory / attentional selection, VU Amsterdam"
+  },
+  "8105079bb406f9db": {
+    "status": "keep",
+    "name": "Cornelis J. Stam",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "brain network dynamics / computational neuroscience, NIN"
+  },
+  "fd85c50158047712": {
+    "status": "keep",
+    "name": "Cyriel M. A. Pennartz",
+    "lab": "University of Amsterdam",
+    "notes": "systems and computational neuroscience, UvA Amsterdam"
+  },
+  "15f711f8dc1d2fa6": {
+    "status": "keep",
+    "name": "F. H. Lopes da Silva",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "EEG pioneer / neural networks (NIN, emeritus — low priority)"
+  },
+  "c351947599de9751": {
+    "status": "keep",
+    "name": "Fernando H. Lopes da Silva",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "EEG pioneer (NIN) — same as above, duplicate"
+  },
+  "fdb53c2d213ae982": {
+    "status": "keep",
+    "name": "Floris G. Wouterlood",
+    "lab": "Amsterdam Neuroscience",
+    "notes": "neuroanatomy / tracing, Amsterdam Neuroscience"
+  },
+  "a6699948602db144": {
+    "status": "keep",
+    "name": "Jan Theeuwes",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "visual attention / oculomotor neuroscience, NIN Amsterdam"
+  },
+  "b48b1dc7a683f54b": {
+    "status": "keep",
+    "name": "Jeroen Meijer",
+    "lab": "Vrije Universiteit Amsterdam",
+    "notes": "circadian pacemaker / in vivo electrophysiology (NIN/VU Amsterdam)"
+  },
+  "100fa58afc64eb58": {
+    "status": "keep",
+    "name": "Jorge F. Mejías",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "theoretical / computational neuroscience, NIN — high priority!"
+  },
+  "f44b6b46e4148316": {
+    "status": "keep",
+    "name": "K. Richard Ridderinkhof",
+    "lab": "University of Amsterdam",
+    "notes": "cognitive neuroscience / executive control, UvA"
+  },
+  "437203a896a11075": {
+    "status": "keep",
+    "name": "Marijn van Wingerden",
+    "lab": "Tilburg University",
+    "notes": "electrophysiology of decision-making circuits, Tilburg"
+  },
+  "c791d6ac82139eea": {
+    "status": "keep",
+    "name": "Maurits W. van der Molen",
+    "lab": "University of Amsterdam",
+    "notes": "cognitive neuroscience / ERP, UvA Amsterdam"
+  },
+  "d8b3825afb9aea4e": {
+    "status": "keep",
+    "name": "Max C. Keuken",
+    "lab": "University of Amsterdam",
+    "notes": "basal ganglia ultra-high-field MRI, UvA Amsterdam"
+  },
+  "82e669f1043c2ec2": {
+    "status": "keep",
+    "name": "Max Welling",
+    "lab": "Microsoft (Netherlands)",
+    "notes": "deep learning / graph neural nets / equivariance, UvA/Microsoft"
+  },
+  "35e49ea150dcb441": {
+    "status": "keep",
+    "name": "Milan Jelisavcic",
+    "lab": "Vrije Universiteit Amsterdam",
+    "notes": "evolutionary robotics, VU Amsterdam"
+  },
+  "4ab56da1567f5013": {
+    "status": "keep",
+    "name": "Pieter R. Roelfsema",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "visual cortex computation / feedback / neuromorphic vision, NIN director — top priority!"
+  },
+  "ffb8a5f612b034ff": {
+    "status": "keep",
+    "name": "Sander M. Bohté",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "spiking neural networks / neuromorphic computing, NIN — top priority!"
+  },
+  "8a653bee69446266": {
+    "status": "keep",
+    "name": "Sindy Löwe",
+    "lab": "University of Amsterdam",
+    "notes": "self-supervised learning / neural latent structure, UvA"
+  },
+  "3ab3f2140d51c5de": {
+    "status": "keep",
+    "name": "Victor A. F. Lamme",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "visual cortex / feedforward-feedback dynamics, NIN"
+  },
+  "c334e93cac4e0883": {
+    "status": "keep",
+    "name": "Abhairaj Singh",
+    "lab": "Delft University of Technology",
+    "notes": "neuromorphic hardware / memristive devices, TU Delft"
+  },
+  "b84362a4a4428e80": {
+    "status": "keep",
+    "name": "Alfred C. Schouten",
+    "lab": "Delft University of Technology",
+    "notes": "neuro-robotics / brain-machine interface, TU Delft"
+  },
+  "a7ec1ce006f2f2f6": {
+    "status": "keep",
+    "name": "Anne C. Sittig",
+    "lab": "Delft University of Technology",
+    "notes": "haptic perception / sensorimotor neuroscience, TU Delft"
+  },
+  "32da9816221c817c": {
+    "status": "keep",
+    "name": "Charlotte Frenkel",
+    "lab": "Delft University of Technology",
+    "notes": "neuromorphic VLSI chip design, TU Delft — top priority!"
+  },
+  "158b83b411c42a09": {
+    "status": "keep",
+    "name": "David A. Abbink",
+    "lab": "Delft University of Technology",
+    "notes": "human-robot shared control / neural adaptation, TU Delft"
+  },
+  "f3dde2d8566b55ad": {
+    "status": "keep",
+    "name": "Gijs Huisman",
+    "lab": "Delft University of Technology",
+    "notes": "haptic technology / social touch, TU Delft"
+  },
+  "6d3f27036faab53a": {
+    "status": "keep",
+    "name": "Guido de Croon",
+    "lab": "Delft University of Technology",
+    "notes": "neuromorphic drone navigation / event cameras, TU Delft — top priority!"
+  },
+  "c7a071d66adf03d5": {
+    "status": "keep",
+    "name": "Herman van der Kooij",
+    "lab": "University of Twente",
+    "notes": "exoskeleton neurorehabilitation, U Twente (adjacent region)"
+  },
+  "1d6965a46e71ec0e": {
+    "status": "keep",
+    "name": "J. Micah Prendergast",
+    "lab": "Delft University of Technology",
+    "notes": "bio-inspired optical-flow sensing, TU Delft"
+  },
+  "94493f9a4e2f8a20": {
+    "status": "keep",
+    "name": "Luka Peternel",
+    "lab": "Delft University of Technology",
+    "notes": "adaptive human-in-the-loop robotics, TU Delft"
+  },
+  "f42e51725e01e21c": {
+    "status": "keep",
+    "name": "Nergis Tömen",
+    "lab": "Delft University of Technology",
+    "notes": "bio-inspired visual computing / attention, TU Delft"
+  },
+  "9723eeb1dbf4b5e3": {
+    "status": "keep",
+    "name": "Said Hamdioui",
+    "lab": "Delft University of Technology",
+    "notes": "neuromorphic in-memory computing, TU Delft — top priority!"
+  },
+  "d3b30b36689acab7": {
+    "status": "keep",
+    "name": "Sorin Cotöfană",
+    "lab": "Delft University of Technology",
+    "notes": "beyond-CMOS / neuromorphic circuits, TU Delft"
+  },
+  "e491a0eff0926a3f": {
+    "status": "keep",
+    "name": "Tom Driessen",
+    "lab": "Delft University of Technology",
+    "notes": "haptic interfaces / tactile feedback, TU Delft (junior)"
+  },
+  "2aab621fee9e7324": {
+    "status": "keep",
+    "name": "Amirreza Yousefzadeh",
+    "lab": "Imec the Netherlands",
+    "notes": "event-driven vision / SNN hardware, imec NL — top priority!"
+  },
+  "66c270864a2d8e2d": {
+    "status": "keep",
+    "name": "Chengyao Shi",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic sensor processing, imec NL"
+  },
+  "639d6d0de99d53a2": {
+    "status": "keep",
+    "name": "Dimitrios A. Koutsouras",
+    "lab": "Imec the Netherlands",
+    "notes": "organic neuromorphic transistors, imec NL — top priority!"
+  },
+  "6a3eecc0b26749ef": {
+    "status": "keep",
+    "name": "Emilia Barakova",
+    "lab": "Eindhoven University of Technology",
+    "notes": "social robotics / HRI, TU/e Eindhoven"
+  },
+  "ebbb18e0bc5ece03": {
+    "status": "keep",
+    "name": "Filip Sabo",
+    "lab": "Eindhoven University of Technology",
+    "notes": "neuromorphic signal processing, TU/e"
+  },
+  "a40b45d0fe8fb270": {
+    "status": "keep",
+    "name": "Geert Langereis",
+    "lab": "Imec the Netherlands",
+    "notes": "sensor IC / bioelectronics, imec NL"
+  },
+  "dd92e26b2aa96493": {
+    "status": "keep",
+    "name": "Gert-Jan van Schaik",
+    "lab": "Imec the Netherlands",
+    "notes": "neural signal processing, imec NL"
+  },
+  "20b662e21d9afa91": {
+    "status": "keep",
+    "name": "Guangzhi Tang",
+    "lab": "Imec the Netherlands",
+    "notes": "SNN for event cameras / robotics, imec NL — top priority!"
+  },
+  "8f93778d98f8955a": {
+    "status": "keep",
+    "name": "Henk Corporaal",
+    "lab": "Eindhoven University of Technology",
+    "notes": "embedded processor / neuromorphic architectures, TU/e"
+  },
+  "5d6668733d68ccb5": {
+    "status": "keep",
+    "name": "Jan Stuijt",
+    "lab": "Imec the Netherlands",
+    "notes": "ultra-low-power neuromorphic IC, imec NL"
+  },
+  "31f16dd26e11d3df": {
+    "status": "keep",
+    "name": "Joaquin Vanschoren",
+    "lab": "Eindhoven University of Technology",
+    "notes": "AutoML / meta-learning / OpenML, TU/e"
+  },
+  "93fb662c5aa9ff44": {
+    "status": "keep",
+    "name": "Kanishkan Vadivel",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic SNN hardware, imec NL"
+  },
+  "e1c0b4c56c040631": {
+    "status": "keep",
+    "name": "Kevin Shidqi",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic processor design, imec NL"
+  },
+  "4b4a9066f0222464": {
+    "status": "keep",
+    "name": "Koen de Bruin",
+    "lab": "Eindhoven University of Technology",
+    "notes": "spike-based computing (TU/e, junior)"
+  },
+  "ae14da8b1dbc1142": {
+    "status": "keep",
+    "name": "Manolis Sifalakis",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic computing systems, imec NL"
+  },
+  "cbb0e4232f6c2f2b": {
+    "status": "keep",
+    "name": "Mario Konijnenburg",
+    "lab": "Imec the Netherlands",
+    "notes": "mixed-signal IC / bioelectronics, imec NL"
+  },
+  "f77f965f55100014": {
+    "status": "keep",
+    "name": "Martijn Timmermans",
+    "lab": "Eindhoven University of Technology",
+    "notes": "event-driven sensor processing, TU/e"
+  },
+  "880c9312be7593f7": {
+    "status": "keep",
+    "name": "Paul Hueber",
+    "lab": "Imec the Netherlands",
+    "notes": "imec NL neuromorphic sensor"
+  },
+  "138afc18fa6c6a40": {
+    "status": "keep",
+    "name": "Pieter Harpe",
+    "lab": "Eindhoven University of Technology",
+    "notes": "ultra-low-power ADC / bioelectronics IC, TU/e"
+  },
+  "f0f94cab2399dad7": {
+    "status": "keep",
+    "name": "Sander Stuijk",
+    "lab": "Eindhoven University of Technology",
+    "notes": "embedded / dataflow computing for AI, TU/e"
+  },
+  "5e4fea06169118a9": {
+    "status": "keep",
+    "name": "Shenqi Wang",
+    "lab": "Imec the Netherlands",
+    "notes": "imec NL neuromorphic"
+  },
+  "9266744b8f5e1f1e": {
+    "status": "keep",
+    "name": "Shrishail Patki",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic computing, imec NL"
+  },
+  "10d92ddd243e78d0": {
+    "status": "keep",
+    "name": "Stan van der Ven",
+    "lab": "Imec the Netherlands",
+    "notes": "imec NL event-driven sensor IC"
+  },
+  "1bdc5efecdb3401d": {
+    "status": "keep",
+    "name": "Stefano Traferro",
+    "lab": "Imec the Netherlands",
+    "notes": "neuromorphic processor design, imec NL"
+  },
+  "3d359c2e63e01eae": {
+    "status": "keep",
+    "name": "Yingfu Xu",
+    "lab": "Imec the Netherlands",
+    "notes": "SNN accelerator IC design, imec NL"
+  },
+  "784678092ac4a1ae": {
+    "status": "keep",
+    "name": "Aske Plaat",
+    "lab": "Leiden University",
+    "notes": "deep reinforcement learning, Leiden University"
+  },
+  "cd50afab8ee2a3f6": {
+    "status": "keep",
+    "name": "Bernhard Hommel",
+    "lab": "Leiden University",
+    "notes": "action-perception coupling / cognitive neuroscience, Leiden"
+  },
+  "3b05345157c765fa": {
+    "status": "keep",
+    "name": "Eveline A. Crone",
+    "lab": "Leiden University",
+    "notes": "developmental cognitive neuroscience / fMRI, Leiden"
+  },
+  "5532323b8a05368a": {
+    "status": "keep",
+    "name": "Jesper E. van Engelen",
+    "lab": "Leiden University",
+    "notes": "semi-supervised / graph ML, Leiden (junior)"
+  },
+  "7f773a48ea1007cd": {
+    "status": "keep",
+    "name": "Joost Broekens",
+    "lab": "Leiden University",
+    "notes": "affective computing / HRI emotion, Leiden"
+  },
+  "0b33bf474db268fa": {
+    "status": "keep",
+    "name": "Marieke Jepma",
+    "lab": "Leiden University",
+    "notes": "pain neuroscience / pupil-linked arousal, Leiden"
+  },
+  "81f7b79c8905c300": {
+    "status": "keep",
+    "name": "Roman Yasenkov",
+    "lab": "Leiden University",
+    "notes": "in vivo sleep recording / Leiden"
+  },
+  "66871fd1d8b5abc4": {
+    "status": "keep",
+    "name": "Roy de Kleijn",
+    "lab": "Leiden University",
+    "notes": "neural models of saccades / robotics-neuro, Leiden"
+  },
+  "19396e290431ae31": {
+    "status": "keep",
+    "name": "Sander Nieuwenhuis",
+    "lab": "Leiden University",
+    "notes": "locus coeruleus-NE / pupil / cognitive control, Leiden — high priority!"
+  },
+  "2caae66c3271beda": {
+    "status": "keep",
+    "name": "Serge A.R.B. Rombouts",
+    "lab": "Leiden University",
+    "notes": "neuroimaging methods / MRI connectivity, Leiden"
+  },
+  "7070a1e580441c47": {
+    "status": "keep",
+    "name": "A.M.L. Coenen",
+    "lab": "Radboud University Nijmegen",
+    "notes": "EEG / epilepsy neurophysiology, Radboud"
+  },
+  "8e7eef49454290ac": {
+    "status": "keep",
+    "name": "Alan G. Sanfey",
+    "lab": "Radboud University Nijmegen",
+    "notes": "neuroeconomics / social decision neuroscience, Donders"
+  },
+  "dbcd6f4d3482ca20": {
+    "status": "keep",
+    "name": "André F. Marquand",
+    "lab": "Radboud University Nijmegen",
+    "notes": "normative modeling / comp psychiatry, Donders — high priority!"
+  },
+  "74e3539e6bbc802a": {
+    "status": "keep",
+    "name": "Atsuko Takashima",
+    "lab": "Radboud University Nijmegen",
+    "notes": "memory consolidation / sleep oscillations, Radboud"
+  },
+  "c9f56b84413d30ae": {
+    "status": "keep",
+    "name": "Christian F. Beckmann",
+    "lab": "Radboud University Nijmegen",
+    "notes": "fMRI methods / ICA / resting-state, Donders"
+  },
+  "97bab9de59bcc584": {
+    "status": "keep",
+    "name": "Eric Maris",
+    "lab": "Radboud University Nijmegen",
+    "notes": "EEG cluster permutation testing, Donders"
+  },
+  "48eba5d695f75d25": {
+    "status": "keep",
+    "name": "Erno J. Hermans",
+    "lab": "Radboud University Nijmegen",
+    "notes": "stress and episodic memory / neural systems, Donders"
+  },
+  "6660cb804d9a2774": {
+    "status": "keep",
+    "name": "Harold Bekkering",
+    "lab": "Radboud University Nijmegen",
+    "notes": "motor cognition / action understanding / development, Donders"
+  },
+  "4054d05540c57172": {
+    "status": "keep",
+    "name": "Jason Farquhar",
+    "lab": "Radboud University Nijmegen",
+    "notes": "BCI / EEG signal processing, Donders/MPI"
+  },
+  "545740512caea8dd": {
+    "status": "keep",
+    "name": "Lieke van Lieshout",
+    "lab": "Radboud University Nijmegen",
+    "notes": "motivation / motor cognition, Donders"
+  },
+  "93dc26d0af503715": {
+    "status": "keep",
+    "name": "Luke E. Miller",
+    "lab": "Radboud University Nijmegen",
+    "notes": "somatosensory / sensorimotor integration, Donders"
+  },
+  "ccf16dc8d70aa467": {
+    "status": "keep",
+    "name": "Maarten Peeters",
+    "lab": "Radboud University Nijmegen",
+    "notes": "in vivo electrophysiology (very junior, Radboud)"
+  },
+  "39f0dfabf887d96e": {
+    "status": "keep",
+    "name": "Marcel van Gerven",
+    "lab": "Netherlands Institute for Neuroscience",
+    "notes": "computational neuroscience / deep-net brain models, Donders — top priority!"
+  },
+  "7065cc6ad0082802": {
+    "status": "keep",
+    "name": "Marloes J. A. G. Henckens",
+    "lab": "Radboud University Nijmegen",
+    "notes": "stress-fear memory circuits / CRF, Donders"
+  },
+  "c011e960c55be193": {
+    "status": "keep",
+    "name": "Martin Vinck",
+    "lab": "Radboud University Nijmegen",
+    "notes": "neural population coding / gamma oscillations, Singer-Lab alumni / Donders"
+  },
+  "18fd2429f8a80b75": {
+    "status": "keep",
+    "name": "Micha Heilbron",
+    "lab": "Radboud University Nijmegen",
+    "notes": "predictive coding / linguistics EEG, Donders"
+  },
+  "1ff5f4af0ed36ecd": {
+    "status": "keep",
+    "name": "Michael X Cohen",
+    "lab": "Radboud University Nijmegen",
+    "notes": "EEG oscillation analysis / time-frequency methods, Donders"
+  },
+  "51bfa496766823c6": {
+    "status": "keep",
+    "name": "Pablo Lanillos",
+    "lab": "Radboud University Nijmegen",
+    "notes": "active inference / neurorobotics / body perception, Donders — top priority!"
+  },
+  "afb7af090b497376": {
+    "status": "keep",
+    "name": "Peter Desain",
+    "lab": "Radboud University Nijmegen",
+    "notes": "music BCI / neural decoding, Donders"
+  },
+  "1f084d5bf18494c6": {
+    "status": "keep",
+    "name": "Peter Hagoort",
+    "lab": "Radboud University Nijmegen",
+    "notes": "language neuroscience / semantic memory / MRI, Donders/MPI"
+  },
+  "0d5de80b72aa6cca": {
+    "status": "keep",
+    "name": "Peter Indefrey",
+    "lab": "Radboud University Nijmegen",
+    "notes": "language BCI / language neuroscience, Radboud"
+  },
+  "9a7e8b8dd8d45b5b": {
+    "status": "keep",
+    "name": "Pim Haselager",
+    "lab": "Radboud University Nijmegen",
+    "notes": "BCI ethics and applications, Donders"
+  },
+  "09f2e62ae0a15c3e": {
+    "status": "keep",
+    "name": "Robert J. van Beers",
+    "lab": "Radboud University Nijmegen",
+    "notes": "sensorimotor integration / Bayesian estimation, Radboud"
+  },
+  "986934da8e81fa0f": {
+    "status": "keep",
+    "name": "Robert Oostenveld",
+    "lab": "Radboud University Nijmegen",
+    "notes": "FieldTrip EEG/MEG toolbox / analysis methods, Donders"
+  },
+  "7a4141c70983b2a3": {
+    "status": "keep",
+    "name": "Roemer van der Meij",
+    "lab": "Radboud University Nijmegen",
+    "notes": "rhythmic dynamics / wavelet / TF analysis, Donders"
+  },
+  "f94266235abbdc4a": {
+    "status": "keep",
+    "name": "Rolf Kötter",
+    "lab": "Radboud University Nijmegen",
+    "notes": "computational connectomics / graph theory neuroscience, Radboud"
+  },
+  "59531e63da77799b": {
+    "status": "keep",
+    "name": "Roshan Cools",
+    "lab": "Radboud University Nijmegen",
+    "notes": "dopamine / cognitive control / decision making, Donders"
+  },
+  "cee8f86a73fb70c5": {
+    "status": "keep",
+    "name": "Sabine Hunnius",
+    "lab": "Radboud University Nijmegen",
+    "notes": "developmental sensorimotor / infant action learning, Donders"
+  },
+  "5cf84e4359496c4a": {
+    "status": "keep",
+    "name": "Sander M. Daselaar",
+    "lab": "Radboud University Nijmegen",
+    "notes": "episodic memory / fMRI, Donders"
+  },
+  "bf3c6c2c3c1ceed7": {
+    "status": "keep",
+    "name": "Saskia Haegens",
+    "lab": "Radboud University Nijmegen",
+    "notes": "alpha oscillations / somatosensory attention, Donders"
+  },
+  "d5279ce78b43263d": {
+    "status": "keep",
+    "name": "Stan Gielen",
+    "lab": "Radboud University Nijmegen",
+    "notes": "motor control / sensorimotor computation, Radboud"
+  },
+  "abe1dfbd322fbfed": {
+    "status": "keep",
+    "name": "Michaéla C. Schippers",
+    "lab": "Erasmus University Rotterdam",
+    "notes": "resilience neuroscience / fMRI, Erasmus University"
+  },
+  "a15ab28bbd0b460a": {
+    "status": "keep",
+    "name": "Dennis J.L.G. Schutter",
+    "lab": "Utrecht University",
+    "notes": "TMS / brain stimulation / psychophysiology, Utrecht"
+  },
+  "22a82ce2762fa9d3": {
+    "status": "keep",
+    "name": "Egon L. van den Broek",
+    "lab": "Utrecht University",
+    "notes": "affective multimodal biosignals / physiological computing, Utrecht"
+  },
+  "6a46058213030539": {
+    "status": "keep",
+    "name": "Elly M. Hol",
+    "lab": "Utrecht University",
+    "notes": "astrocyte biology / glial-neural interactions, Utrecht"
+  },
+  "7010b30bc38e380e": {
+    "status": "keep",
+    "name": "Louk J. M. J. Vanderschuren",
+    "lab": "University of Applied Sciences Utrecht",
+    "notes": "reward circuits / in vivo electrophysiology, Utrecht"
+  },
+  "dbc84c06983f1ec4": {
+    "status": "keep",
+    "name": "Lukas P.A. Arts",
+    "lab": "Utrecht University",
+    "notes": "spike-based computing / LC modeling (junior, Utrecht)"
+  },
+  "77a07edba458fe66": {
+    "status": "keep",
+    "name": "Wery van den Wildenberg",
+    "lab": "Vrije Universiteit Amsterdam",
+    "notes": "response inhibition / action selection neuroscience, VU Amsterdam"
+  },
+  "9a929246d1ab7feb": {
+    "status": "keep",
+    "name": "Aida Todri‐Sanial",
+    "lab": "Eindhoven University of Technology",
+    "notes": "neuromorphic circuit design (CNT transistor arrays), TU/e - top priority"
+  },
+  "dce51996a974debc": {
+    "status": "keep",
+    "name": "Jan‐Mathijs Schoffelen",
+    "lab": "Radboud University Nijmegen",
+    "notes": "MEG/EEG connectivity / network analysis, Donders"
+  },
+  "7e2645bda2c8c60a": {
+    "status": "keep",
+    "name": "Lorena Deuker",
+    "lab": "Radboud University Nijmegen",
+    "notes": "spatial memory coding / hippocampal place cells, Radboud"
+  },
+  "af8bd3ce91f8e8d6": {
+    "status": "keep",
+    "name": "Michele D’Asaro",
+    "lab": "Radboud University Nijmegen",
+    "notes": "neurorobotics and sensory integration, Radboud"
+  }
+}

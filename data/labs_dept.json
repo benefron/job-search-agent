@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cell and Systems Biology",
+    "lab": "University of Amsterdam",
+    "location": "Amsterdam",
+    "url": "https://www.sanquin.org/research/group-leader-overview/regulation-of-antigen-specific-b-and-cd4-t-cell-responses/index",
+    "source_dept": "UvA Swammerdam/CNS",
+    "snippet": " The UvA uses cookies to measure, optimise, and ensure the proper functioning of the website. Cookies are also placed in order to display third-party content and for marketing purposes. Click 'Accept' to agree to the placement of all cookies; if you ",
+    "source": "dept_scrape"
+  },
+  {
+    "name": "Neurosciences",
+    "lab": "University of Amsterdam",
+    "location": "Amsterdam",
+    "url": "https://sils.uva.nl/content/research-groups/cellular-and-computational-neuroscience/cellular-and-circuit-neuroscience.html",
+    "source_dept": "UvA Swammerdam/CNS",
+    "snippet": " The UvA uses cookies to measure, optimise, and ensure the proper functioning of the website. Cookies are also placed in order to display third-party content and for marketing purposes. Click 'Accept' to agree to the placement of all cookies; if you ",
+    "source": "dept_scrape"
+  },
+  {
+    "name": "Improve computer systems",
+    "lab": "Leiden University",
+    "location": "Leiden",
+    "url": "https://www.universiteitleiden.nl/en/science/computer-science/artificial-intelligence--machine-learning/asocial-creatures-lab",
+    "source_dept": "Leiden Institute of Advanced Computer Science",
+    "snippet": "With our research, we make computer systems faster and more efficient. Due to our improved algorithms and software, computers can compute faster and recognise patterns in large digital files at an earlier stage.",
+    "source": "dept_scrape"
+  },
+  {
+    "name": "Artificial intelligence and machine learning",
+    "lab": "Leiden University",
+    "location": "Leiden",
+    "url": "https://www.universiteitleiden.nl/en/science/computer-science/artificial-intelligence--machine-learning/asocial-creatures-lab",
+    "source_dept": "Leiden Institute of Advanced Computer Science",
+    "snippet": "\nMore research\n",
+    "source": "dept_scrape"
+  }
+]
