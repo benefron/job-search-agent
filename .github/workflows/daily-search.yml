@@ -1,0 +1,84 @@
+name: Daily Job Search
+
+on:
+  schedule:
+    # 04:00 UTC = 05:00 CET / 06:00 CEST
+    - cron: "0 4 * * *"
+  workflow_dispatch:          # allow manual trigger from Actions tab
+
+permissions:
+  contents: write             # needed to commit data/ and push gh-pages
+
+jobs:
+  scrape-and-score:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout repo ──
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. Restore persistent DB from previous run ──
+      - name: Restore jobs.db
+        uses: actions/cache@v4
+        with:
+          path: data/jobs.db
+          key: jobs-db-${{ runner.os }}
+          restore-keys: jobs-db-
+
+      # ── 3. Python + deps ──
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Create data/ dir in case cache miss ──
+      - name: Ensure data/ dir
+        run: mkdir -p data
+
+      # ── 5. Run pipeline ──
+      - name: Run job search pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m scraper.main
+
+      # ── 6. Persist DB via cache (already configured above) ──
+      # The cache@v4 action saves automatically at end of job.
+
+      # ── 7. Commit updated JSON exports to main branch ──
+      - name: Commit data exports
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/stats.json data/jobs_export.csv data/run.log || true
+          git diff --cached --quiet || git commit -m "chore: daily job search update [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 8. Bundle dashboard + data into a single deploy directory ──
+      - name: Prepare deploy directory
+        run: |
+          mkdir -p _deploy/data
+          cp dashboard/index.html _deploy/index.html
+          # Copy JSON exports so dashboard can fetch data/jobs.json relative to root
+          cp data/jobs.json  _deploy/data/jobs.json  2>/dev/null || echo '{}' > _deploy/data/jobs.json
+          cp data/stats.json _deploy/data/stats.json 2>/dev/null || echo '{}' > _deploy/data/stats.json
+
+      # ── 9. Deploy to GitHub Pages ──
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_deploy
+          publish_branch: gh-pages
+          keep_files: false
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "deploy: dashboard update [skip ci]"
