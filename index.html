@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben's Job Dashboard</title>
+  <style>
+    :root {
+      --primary: #1952a0;
+      --accent: #3c78c8;
+      --light: #ebf5ff;
+      --green: #16a34a;
+      --yellow: #ca8a04;
+      --gray: #6b7280;
+      --red: #dc2626;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+
+    /* Header */
+    header { background: var(--primary); color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+    header h1 { font-size: 1.2rem; font-weight: 700; }
+    header .meta { font-size: 0.78rem; opacity: 0.85; }
+    #stats-bar { display: flex; gap: 1rem; font-size: 0.78rem; flex-wrap: wrap; }
+    #stats-bar span { background: rgba(255,255,255,0.15); padding: 0.2rem 0.6rem; border-radius: 999px; }
+
+    /* Controls */
+    #controls { background: white; border-bottom: 1px solid var(--border); padding: 0.75rem 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+    #controls label { font-size: 0.8rem; color: var(--muted); }
+    #controls select, #controls input[type=range] { font-size: 0.82rem; border: 1px solid var(--border); border-radius: 6px; padding: 0.25rem 0.5rem; }
+    #score-val { font-size: 0.82rem; font-weight: 600; color: var(--primary); min-width: 2rem; }
+    #search-box { padding: 0.3rem 0.6rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.82rem; width: 180px; }
+    .btn { padding: 0.3rem 0.8rem; border-radius: 6px; border: none; font-size: 0.8rem; cursor: pointer; font-weight: 500; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-outline { background: white; color: var(--primary); border: 1px solid var(--primary); }
+    .btn:hover { opacity: 0.85; }
+
+    /* Job grid */
+    #jobs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1rem; padding: 1.25rem 1.5rem; }
+
+    /* Cards */
+    .job-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+    .card-header { padding: 0.8rem 1rem 0.6rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+    .card-title { font-size: 0.92rem; font-weight: 600; color: var(--text); flex: 1; }
+    .card-company { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+    .card-location { font-size: 0.75rem; color: var(--muted); }
+    .card-source { font-size: 0.7rem; background: var(--light); color: var(--primary); padding: 0.1rem 0.4rem; border-radius: 4px; white-space: nowrap; }
+
+    /* Score badge */
+    .score-badge { min-width: 2.5rem; text-align: center; font-size: 1rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 8px; }
+    .score-perfect  { background: #dcfce7; color: var(--green); }
+    .score-strong   { background: #dbeafe; color: var(--primary); }
+    .score-moderate { background: #fef9c3; color: var(--yellow); }
+    .score-stretch  { background: #f1f5f9; color: var(--gray); }
+    .score-poor     { background: #fee2e2; color: var(--red); }
+
+    /* Card body */
+    .card-body { padding: 0.7rem 1rem; flex: 1; display: flex; flex-direction: column; gap: 0.5rem; }
+    .rationale { font-size: 0.82rem; color: var(--text); font-style: italic; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .tag { font-size: 0.7rem; padding: 0.1rem 0.45rem; border-radius: 4px; }
+    .tag-match { background: #dcfce7; color: #166534; }
+    .tag-gap   { background: #fee2e2; color: #991b1b; }
+
+    /* Connection notes */
+    .notes-label { font-size: 0.72rem; color: var(--muted); margin-top: 0.3rem; }
+    .notes-input { width: 100%; font-size: 0.78rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.3rem 0.5rem; color: var(--text); resize: none; font-family: inherit; }
+
+    /* Card footer */
+    .card-footer { padding: 0.6rem 1rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; background: #fafafa; }
+    .btn-icon { background: none; border: 1px solid var(--border); border-radius: 6px; font-size: 0.78rem; padding: 0.2rem 0.5rem; cursor: pointer; }
+    .btn-icon:hover { background: var(--light); }
+    .btn-icon.active-like { background: #dcfce7; border-color: var(--green); }
+    .btn-icon.active-dislike { background: #fee2e2; border-color: var(--red); }
+    .btn-icon.active-interested { background: #dbeafe; border-color: var(--accent); }
+    .btn-icon.active-applied { background: #f0fdf4; border-color: var(--green); font-weight: 600; }
+    .status-select { font-size: 0.75rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.15rem 0.3rem; }
+    .card-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; margin-left: auto; }
+    .card-link:hover { text-decoration: underline; }
+
+    /* Connection dropdown */
+    .connect-dropdown { position: relative; display: inline-block; }
+    .connect-menu { display: none; position: absolute; bottom: 100%; left: 0; background: white; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); min-width: 200px; z-index: 100; padding: 0.3rem 0; }
+    .connect-dropdown:hover .connect-menu, .connect-dropdown:focus-within .connect-menu { display: block; }
+    .connect-menu a { display: block; padding: 0.35rem 0.75rem; font-size: 0.76rem; color: var(--text); text-decoration: none; }
+    .connect-menu a:hover { background: var(--light); }
+
+    /* Empty state */
+    #empty-state { text-align: center; color: var(--muted); padding: 3rem; grid-column: 1/-1; }
+
+    /* Export bar */
+    #export-bar { background: white; border-top: 1px solid var(--border); padding: 0.75rem 1.5rem; text-align: right; font-size: 0.8rem; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🔍 Ben's Job Search Dashboard</h1>
+    <div class="meta" id="meta-updated">Loading…</div>
+  </div>
+  <div id="stats-bar">
+    <span id="stat-total">– total</span>
+    <span id="stat-liked">– liked</span>
+    <span id="stat-applied">– applied</span>
+  </div>
+</header>
+
+<div id="controls">
+  <label>Min score: <span id="score-val">35</span></label>
+  <input type="range" id="filter-score" min="0" max="100" value="35" step="5" />
+
+  <label>Category:
+    <select id="filter-cat">
+      <option value="">All</option>
+      <option value="perfect">Perfect</option>
+      <option value="strong">Strong</option>
+      <option value="moderate">Moderate</option>
+      <option value="stretch">Stretch</option>
+      <option value="poor">Poor</option>
+    </select>
+  </label>
+
+  <label>Source:
+    <select id="filter-source">
+      <option value="">All</option>
+      <option value="linkedin">LinkedIn</option>
+      <option value="indeed">Indeed</option>
+      <option value="greenhouse">Company (Greenhouse)</option>
+      <option value="company_html">Company (HTML)</option>
+      <option value="academictransfer">AcademicTransfer</option>
+    </select>
+  </label>
+
+  <label>Status:
+    <select id="filter-status">
+      <option value="">All</option>
+      <option value="new">New</option>
+      <option value="interested">Interested</option>
+      <option value="applied">Applied</option>
+      <option value="skip">Skip</option>
+    </select>
+  </label>
+
+  <input type="text" id="search-box" placeholder="Search title / company…" />
+
+  <button class="btn btn-outline" id="btn-clear-filters">Clear filters</button>
+  <button class="btn btn-primary" id="btn-export">Export Feedback</button>
+</div>
+
+<div id="jobs-grid">
+  <div id="empty-state">Loading jobs…</div>
+</div>
+
+<div id="export-bar">
+  <span>After rating jobs, click <strong>Export Feedback</strong> → save the file → commit it to <code>data/feedback.json</code></span>
+  <span id="feedback-count">0 items with feedback</span>
+</div>
+
+<script>
+// ─── State ───────────────────────────────────────────────────────────────────
+let allJobs = [];
+const LS_KEY = "job_dashboard_feedback";
+
+function loadFeedback() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}"); }
+  catch { return {}; }
+}
+function saveFeedback(fb) {
+  localStorage.setItem(LS_KEY, JSON.stringify(fb));
+  updateFeedbackCount();
+}
+
+// ─── Fetch data ───────────────────────────────────────────────────────────────
+async function loadJobs() {
+  try {
+    // Works both on GitHub Pages (root) and local file:// (adjust if needed)
+    const base = window.location.protocol === "file:"
+      ? "../data"
+      : "data";
+    const [jobsResp, statsResp] = await Promise.all([
+      fetch(`${base}/jobs.json`),
+      fetch(`${base}/stats.json`).catch(() => null),
+    ]);
+
+    if (!jobsResp.ok) {
+      document.getElementById("empty-state").textContent = "No jobs data found. Run the scraper first.";
+      return;
+    }
+
+    const data = await jobsResp.json();
+    allJobs = data.jobs || [];
+
+    // Merge saved feedback
+    const fb = loadFeedback();
+    allJobs = allJobs.map(j => ({ ...j, ...( fb[j.id] || {}) }));
+
+    document.getElementById("meta-updated").textContent =
+      "Last updated: " + new Date(data.generated).toLocaleString();
+
+    if (statsResp && statsResp.ok) {
+      const stats = await statsResp.json();
+      document.getElementById("stat-total").textContent = stats.total + " total";
+      document.getElementById("stat-liked").textContent = stats.liked + " liked";
+      document.getElementById("stat-applied").textContent = stats.applied + " applied";
+    }
+
+    updateFeedbackCount();
+    render();
+  } catch (e) {
+    document.getElementById("empty-state").textContent = "Error loading data: " + e.message;
+  }
+}
+
+// ─── Rendering ────────────────────────────────────────────────────────────────
+function scoreClass(cat) {
+  return { perfect: "score-perfect", strong: "score-strong", moderate: "score-moderate",
+           stretch: "score-stretch", poor: "score-poor" }[cat] || "score-stretch";
+}
+
+function render() {
+  const minScore = parseInt(document.getElementById("filter-score").value);
+  const catFilter = document.getElementById("filter-cat").value;
+  const sourceFilter = document.getElementById("filter-source").value;
+  const statusFilter = document.getElementById("filter-status").value;
+  const searchQ = document.getElementById("search-box").value.toLowerCase();
+  const fb = loadFeedback();
+
+  let jobs = allJobs.filter(j => {
+    if ((j.score || 0) < minScore) return false;
+    if (catFilter && j.fit_category !== catFilter) return false;
+    if (sourceFilter && j.source !== sourceFilter) return false;
+    const status = (fb[j.id] || {}).status || j.status || "new";
+    if (statusFilter && status !== statusFilter) return false;
+    if (searchQ) {
+      const hay = (j.title + " " + j.company).toLowerCase();
+      if (!hay.includes(searchQ)) return false;
+    }
+    return true;
+  });
+
+  const grid = document.getElementById("jobs-grid");
+  grid.innerHTML = "";
+
+  if (!jobs.length) {
+    grid.innerHTML = '<div id="empty-state">No jobs match the current filters.</div>';
+    return;
+  }
+
+  jobs.forEach(job => {
+    const jobFb = fb[job.id] || {};
+    const currentFeedback = jobFb.feedback ?? job.feedback ?? 0;
+    const currentStatus = jobFb.status || job.status || "new";
+    const currentNotes = jobFb.connection_notes || job.connection_notes || "";
+
+    const matches = (job.key_matches || []).map(m =>
+      `<span class="tag tag-match">${m}</span>`).join("");
+    const gaps = (job.key_gaps || []).map(g =>
+      `<span class="tag tag-gap">${g}</span>`).join("");
+
+    // LinkedIn connection links
+    const li = job.linkedin_urls || {};
+    const connectMenu = li.combined ? `
+      <div class="connect-dropdown">
+        <button class="btn-icon">🔗 Connections ▾</button>
+        <div class="connect-menu">
+          <a href="${li.first_degree}" target="_blank" rel="noopener">1st-degree at ${job.company}</a>
+          <a href="${li.second_degree}" target="_blank" rel="noopener">2nd-degree at ${job.company}</a>
+          <a href="${li.combined}" target="_blank" rel="noopener">1st + 2nd degree</a>
+          <a href="${li.company_search}" target="_blank" rel="noopener">Find company page</a>
+        </div>
+      </div>` : "";
+
+    const card = document.createElement("div");
+    card.className = "job-card";
+    card.dataset.id = job.id;
+    card.innerHTML = `
+      <div class="card-header">
+        <div>
+          <div class="card-title">${esc(job.title)}</div>
+          <div class="card-company">${esc(job.company)}</div>
+          <div class="card-location">${esc(job.location || "")}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.25rem">
+          <div class="score-badge ${scoreClass(job.fit_category)}">${job.score ?? "?"}</div>
+          <div class="card-source">${esc(job.source)}</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="rationale">${esc(job.rationale || "")}</div>
+        <div class="tags">${matches}${gaps}</div>
+        <div>
+          <div class="notes-label">Connection notes (Capocaccia, PI links, mutual contacts…)</div>
+          <textarea class="notes-input" rows="2" placeholder="e.g. PI connected to Amir Zjajo, met at Capocaccia 2024…">${esc(currentNotes)}</textarea>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button class="btn-icon ${currentFeedback === 1 ? 'active-like' : ''}" data-action="like">👍</button>
+        <button class="btn-icon ${currentFeedback === -1 ? 'active-dislike' : ''}" data-action="dislike">👎</button>
+        ${connectMenu}
+        <select class="status-select" data-action="status">
+          <option value="new" ${currentStatus==="new"?"selected":""}>New</option>
+          <option value="interested" ${currentStatus==="interested"?"selected":""}>Interested</option>
+          <option value="applied" ${currentStatus==="applied"?"selected":""}>Applied ✓</option>
+          <option value="skip" ${currentStatus==="skip"?"selected":""}>Skip</option>
+        </select>
+        <a class="card-link" href="${job.url}" target="_blank" rel="noopener">View posting →</a>
+      </div>
+    `;
+
+    // Event handlers
+    card.querySelectorAll("[data-action]").forEach(el => {
+      el.addEventListener("change", () => updateJob(job.id, el));
+      el.addEventListener("click", () => updateJob(job.id, el));
+    });
+    card.querySelector(".notes-input").addEventListener("input", e => {
+      const fb = loadFeedback();
+      fb[job.id] = { ...( fb[job.id] || {}), connection_notes: e.target.value };
+      saveFeedback(fb);
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+function updateJob(jobId, el) {
+  const fb = loadFeedback();
+  fb[jobId] = fb[jobId] || {};
+  const action = el.dataset.action;
+
+  if (action === "like") {
+    fb[jobId].feedback = fb[jobId].feedback === 1 ? 0 : 1;
+  } else if (action === "dislike") {
+    fb[jobId].feedback = fb[jobId].feedback === -1 ? 0 : -1;
+  } else if (action === "status") {
+    fb[jobId].status = el.value;
+  }
+  fb[jobId].id = jobId;
+  saveFeedback(fb);
+  render();
+}
+
+function esc(str) {
+  return String(str || "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function updateFeedbackCount() {
+  const fb = loadFeedback();
+  const count = Object.values(fb).filter(v => v.feedback !== 0 || v.status !== "new" || v.connection_notes).length;
+  document.getElementById("feedback-count").textContent = count + " items with feedback";
+}
+
+// ─── Filters ──────────────────────────────────────────────────────────────────
+document.getElementById("filter-score").addEventListener("input", e => {
+  document.getElementById("score-val").textContent = e.target.value;
+  render();
+});
+["filter-cat", "filter-source", "filter-status"].forEach(id =>
+  document.getElementById(id).addEventListener("change", render)
+);
+document.getElementById("search-box").addEventListener("input", render);
+document.getElementById("btn-clear-filters").addEventListener("click", () => {
+  document.getElementById("filter-score").value = 35;
+  document.getElementById("score-val").textContent = 35;
+  document.getElementById("filter-cat").value = "";
+  document.getElementById("filter-source").value = "";
+  document.getElementById("filter-status").value = "";
+  document.getElementById("search-box").value = "";
+  render();
+});
+
+// ─── Export feedback ──────────────────────────────────────────────────────────
+document.getElementById("btn-export").addEventListener("click", () => {
+  const fb = loadFeedback();
+  const records = Object.values(fb);
+  const blob = new Blob([JSON.stringify(records, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "feedback.json";
+  a.click();
+});
+
+// ─── Boot ─────────────────────────────────────────────────────────────────────
+loadJobs();
+</script>
+</body>
+</html>
