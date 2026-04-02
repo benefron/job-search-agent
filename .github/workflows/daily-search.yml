@@ -46,6 +46,7 @@ jobs:
       - name: Run job search pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
         run: python -m scraper.main
 
       # ── 6. Persist DB via cache (already configured above) ──

@@ -21,11 +21,15 @@ MODEL = os.getenv("SCORING_MODEL", "gpt-4o-mini")
 
 
 def _get_client() -> OpenAI:
-    token = os.getenv("GITHUB_TOKEN")
+    # Prefer a dedicated PAT that has the 'models' permission.
+    # In Actions, store it as the MODELS_TOKEN repo secret.
+    # Locally, GITHUB_TOKEN (Copilot PAT) also works if it has models access.
+    token = os.getenv("MODELS_TOKEN") or os.getenv("GITHUB_TOKEN")
     if not token:
         raise RuntimeError(
-            "GITHUB_TOKEN environment variable not set. "
-            "Create a PAT with 'models:read' scope at https://github.com/settings/tokens"
+            "No token found for GitHub Models API. "
+            "Set MODELS_TOKEN (repo secret) to a PAT with 'models:read' scope: "
+            "https://github.com/settings/tokens"
         )
     return OpenAI(
         base_url=GITHUB_MODELS_BASE,

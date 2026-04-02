@@ -52,13 +52,13 @@ def main() -> None:
     try:
         company_jobs = companies.scrape_companies()
         c_saved = companies.save_company_jobs(company_jobs)
-        log.info("Company pages: %d new jobs saved", c_saved)
+        log.info("Company pages: %d new jobs saved", len(c_saved))
     except Exception:
         log.exception("Company scraping failed — continuing with scoring")
 
     # ── 5. Score all pending jobs via GitHub Models API ──
-    if not os.environ.get("GITHUB_TOKEN"):
-        log.warning("GITHUB_TOKEN not set — skipping scoring")
+    if not (os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")):
+        log.warning("MODELS_TOKEN not set — skipping scoring")
     else:
         log.info("Scoring pending jobs…")
         try:
