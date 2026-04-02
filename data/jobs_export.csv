@@ -1,3 +1,105 @@
 score,fit_category,title,company,location,date_posted,date_found,source,url,rationale,key_matches,key_gaps,status,feedback
-70,strong,Calibration Algorithm Engineer,TMC,"Eindhoven, NB, NL",2026-03-31,2026-04-02T11:34:51.012068,indeed,https://nl.indeed.com/viewjob?jk=ffa7a751e3628b50,"The role aligns well with Ben's programming skills and analytical experience, but the focus on calibration and the MSc requirement introduce some gaps.",Proficiency in Python and MATLAB; Experience with data analysis and model validation; Strong analytical mindset and collaborative spirit,Focus on calibration algorithms may not align directly with systems neuroscience; Requires MSc which may imply a preference for less experienced candidates,new,0
-50,moderate,Sensing Architect (hardware & algorithm),TMC,"Eindhoven, NB, NL",2026-03-31,2026-04-02T11:34:51.013401,indeed,https://nl.indeed.com/viewjob?jk=34aa2427605fd213,"While Ben has relevant skills in data analysis and modeling, the role's focus on sensing systems and the requirement for an MSc or PhD in a different field limit its alignment with his profile.",Experience in systems neuroscience; Strong skills in Python and MATLAB; Experience with data analysis and modeling,Focus on sensing systems rather than neuroscience; Requires MSc or PhD in a different field,new,0
+,,Energy infrastructure,TNO,,,2026-04-02T15:25:58.097292,company_html,https://www.tno.nl/en/sustainable/industry/energy-infrastructure/,,,,new,0
+,,Sustainable materials,TNO,,,2026-04-02T15:25:58.096137,company_html,https://www.tno.nl/en/sustainable/industry/sustainable-materials/,,,,new,0
+,,Carbon neutral industry,TNO,,,2026-04-02T15:25:58.095146,company_html,https://www.tno.nl/en/sustainable/industry/carbon-neutral-industry/,,,,new,0
+,,Circular feedstock processes,TNO,,,2026-04-02T15:25:58.094032,company_html,https://www.tno.nl/en/sustainable/industry/circular-feedstock-processes/,,,,new,0
+,,Industry,TNO,,,2026-04-02T15:25:58.092911,company_html,https://www.tno.nl/en/sustainable/industry/,,,,new,0
+,,Energy systems transition,TNO,,,2026-04-02T15:25:58.091544,company_html,https://www.tno.nl/en/sustainable/energy-supply/energy-systems-transition/,,,,new,0
+,,Accelerating offshore wind farms,TNO,,,2026-04-02T15:25:58.090571,company_html,https://www.tno.nl/en/sustainable/energy-supply/accelerating-offshore-wind-farms/,,,,new,0
+,,Solar device technology,TNO,,,2026-04-02T15:25:58.089627,company_html,https://www.tno.nl/en/sustainable/energy-supply/solar-device-technology/,,,,new,0
+,,Sustainable solar panels,TNO,,,2026-04-02T15:25:58.088745,company_html,https://www.tno.nl/en/sustainable/energy-supply/sustainable-solar-panels/,,,,new,0
+,,Solar applications,TNO,,,2026-04-02T15:25:58.087813,company_html,https://www.tno.nl/en/sustainable/energy-supply/solar-applications/,,,,new,0
+,,Energy supply,TNO,,,2026-04-02T15:25:58.086851,company_html,https://www.tno.nl/en/sustainable/energy-supply/,,,,new,0
+,,Greenhouse horticulture,TNO,,,2026-04-02T15:25:58.085892,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/greenhouse-horticulture/,,,,new,0
+,,"Monitoring installations, components, and energy",TNO,,,2026-04-02T15:25:58.084283,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/monitoring-energy-performance/,,,,new,0
+,,Heating and cooling systems,TNO,,,2026-04-02T15:25:58.083035,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/heating-cooling-systems/,,,,new,0
+,,Energy storage,TNO,,,2026-04-02T15:25:58.082032,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/energy-storage/,,,,new,0
+,,Accelerating towards a climate-neutral built environment,TNO,,,2026-04-02T15:25:58.081025,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/accelerating-towards-climate-neutral/,,,,new,0
+,,Energy in the built environment,TNO,,,2026-04-02T15:25:58.080048,company_html,https://www.tno.nl/en/sustainable/energy-built-environment/,,,,new,0
+,,Sentinel-5,TNO,,,2026-04-02T15:25:58.078945,company_html,https://www.tno.nl/en/sustainable/earth-observation/sentinel-5/,,,,new,0
+,,Clear Air consortium,TNO,,,2026-04-02T15:25:58.076548,company_html,https://www.tno.nl/en/sustainable/earth-observation/clear-air-consortium/,,,,new,0
+,,EarthCARE,TNO,,,2026-04-02T15:25:58.075319,company_html,https://www.tno.nl/en/sustainable/earth-observation/earthcare/,,,,new,0
+,,TANGO satellite,TNO,,,2026-04-02T15:25:58.074150,company_html,https://www.tno.nl/en/sustainable/earth-observation/tango-satellite/,,,,new,0
+,,Earth observation,TNO,,,2026-04-02T15:25:58.073084,company_html,https://www.tno.nl/en/sustainable/earth-observation/,,,,new,0
+,,Asset lifecycle information management,TNO,,,2026-04-02T15:25:58.072039,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/asset-lifecycle-information-management/,,,,new,0
+,,Safety of buildings,TNO,,,2026-04-02T15:25:58.070789,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/foundation-problems/,,,,new,0
+,,Safe efficient care building,TNO,,,2026-04-02T15:25:58.069805,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/building-safe-efficient-care-building/,,,,new,0
+,,Industrial and conceptual construction,TNO,,,2026-04-02T15:25:58.068592,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/industrial-construction/,,,,new,0
+,,Building materials,TNO,,,2026-04-02T15:25:58.067453,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/building-materials/,,,,new,0
+,,Bio-based building materials,TNO,,,2026-04-02T15:25:58.066249,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/bio-based-building-materials-market/,,,,new,0
+,,Circular and industrial construction,TNO,,,2026-04-02T15:25:58.065154,company_html,https://www.tno.nl/en/sustainable/circular-industrial-construction/,,,,new,0
+,,Nederlands,TNO,,,2026-04-02T15:25:58.062542,company_html,https://www.tno.nl/nl/werken-bij-tno/vacatures/,,,,new,0
+,,Applied Scientist / Research Engineer - Multimodal (Come to Singapore),Mistral AI,"Amsterdam, North Holland, Netherlands",nan,2026-04-02T15:25:20.471893,linkedin,https://www.linkedin.com/jobs/view/4394985242,,,,new,0
+,,Mechanical Engineer,Monumental,"Amsterdam, NH, NL",2026-04-01,2026-04-02T15:25:20.468838,indeed,https://nl.indeed.com/viewjob?jk=387d8beab69dc180,,,,new,0
+,,Embedded Software Engineer,Darwin Recruitment,"Delft, South Holland, Netherlands",nan,2026-04-02T15:25:20.467422,linkedin,https://www.linkedin.com/jobs/view/4393038021,,,,new,0
+,,Postdoc project: Neuron-glia interactions in memory,Vrije Universiteit Amsterdam,"Amsterdam Zuid, NH, NL",2026-04-01,2026-04-02T15:25:20.465349,indeed,https://nl.indeed.com/viewjob?jk=9ea3ed51bf3020a0,,,,new,0
+,,Postdoc in Ethics of Technology: Innovating Methods for the Ethics of Socially Disruptive Technologies,Eindhoven University of Technology,"Eindhoven, North Brabant, Netherlands",nan,2026-04-02T15:25:20.463891,linkedin,https://www.linkedin.com/jobs/view/4394687278,,,,new,0
+,,Postdoctoral Researcher in Neuroimaging of Language- NL,Leiden University,"Leiden, South Holland, Netherlands",nan,2026-04-02T15:25:20.461980,linkedin,https://www.linkedin.com/jobs/view/4394989174,,,,new,0
+,,Postdoctoral Researcher – AI Imaging Biomarkers in Oncology (CLARITY Project)- NL,Amsterdam UMC,"Amsterdam, North Holland, Netherlands",nan,2026-04-02T15:25:20.460648,linkedin,https://www.linkedin.com/jobs/view/4382783883,,,,new,0
+,,Postdoctoraal onderzoeker,Tilburg University,"Tilburg, North Brabant, Netherlands",nan,2026-04-02T15:25:20.458970,linkedin,https://www.linkedin.com/jobs/view/4393473403,,,,new,0
+,,Postdoc on Robot World Models (UvA+TOYOTA),University of Amsterdam,"Amsterdam, North Holland, Netherlands",2026-03-30,2026-04-02T15:25:20.457229,linkedin,https://www.linkedin.com/jobs/view/4382942962,,,,new,0
+,,Postdoc onderzoeker educatie participatie jongeren voor 4 jaar,Erasmus MC Academie,"Rotterdam, South Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.456121,linkedin,https://www.linkedin.com/jobs/view/4393548592,,,,new,0
+,,Postdoc position: Stress responses in bacteria during processing,Vrije Universiteit Amsterdam (VU Amsterdam),"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.454482,linkedin,https://www.linkedin.com/jobs/view/4392955170,,,,new,0
+,,Post Doc Position “In-situ Diagnostics for PLD4Energy”,DIFFER,"Eindhoven, North Brabant, Netherlands",2026-03-31,2026-04-02T15:25:20.453093,linkedin,https://www.linkedin.com/jobs/view/4382077258,,,,new,0
+,,Research Assistant,KNAW - Koninklijke Nederlandse Akademie van Wetenschappen,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.451126,linkedin,https://www.linkedin.com/jobs/view/4389079955,,,,new,0
+,,Postdoctoral Researcher: Media & Web Diets Observatory,University of Amsterdam,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.449333,linkedin,https://www.linkedin.com/jobs/view/4383774774,,,,new,0
+,,Postdoc project: Neuron-glia interactions in memory,Vrije Universiteit Amsterdam (VU Amsterdam),"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.447886,linkedin,https://www.linkedin.com/jobs/view/4393976528,,,,new,0
+,,PostDoc in Hybrid Intelligence: to-align-or-not-to-align.,Vrije Universiteit Amsterdam (VU Amsterdam),"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.446011,linkedin,https://www.linkedin.com/jobs/view/4393976526,,,,new,0
+,,Postdoc project: Neuron-glia interactions in memory,Athena - Research and Education Institute,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.444143,linkedin,https://www.linkedin.com/jobs/view/4396263534,,,,new,0
+,,PostDoc in Hybrid Intelligence: to-align-or-not-to-align.,Athena - Research and Education Institute,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.442623,linkedin,https://www.linkedin.com/jobs/view/4396263533,,,,new,0
+,,Postdoctoral Researcher in Neuroimaging of Language,Universiteit Leiden,"Leiden, ZH, NL",2026-04-01,2026-04-02T15:25:20.440946,indeed,https://nl.indeed.com/viewjob?jk=3fbd0e416ada2a7e,,,,new,0
+,,Senior AI Architect (Systems & Algorithms),imec the Netherlands,"Eindhoven, North Brabant, Netherlands",nan,2026-04-02T15:25:20.439610,linkedin,https://www.linkedin.com/jobs/view/4382588088,,,,new,0
+,,Senior AI Program Manager | AI Transformation | Data & Analytics,Akkodis,"Eindhoven, North Brabant, Netherlands",nan,2026-04-02T15:25:20.438191,linkedin,https://www.linkedin.com/jobs/view/4396946819,,,,new,0
+,,Director of AI enablement,Bleckmann,,nan,2026-04-02T15:25:20.436362,linkedin,https://www.linkedin.com/jobs/view/4393405668,,,,new,0
+,,Hardware Full Stack Developer,Next Generation Sensors B.V.,"Maastricht, Limburg, Netherlands",2026-03-31,2026-04-02T15:25:20.434677,linkedin,https://www.linkedin.com/jobs/view/4392415573,,,,new,0
+,,Artificial Intelligence Engineer,Kingfisher Recruitment,"Aarschot, Flemish Region, Belgium",2026-04-01,2026-04-02T15:25:20.433545,linkedin,https://www.linkedin.com/jobs/view/4396464235,,,,new,0
+,,Director of AI enablement,Bleckmann,"Eindhoven, NB, NL",2026-04-01,2026-04-02T15:25:20.431714,indeed,https://nl.indeed.com/viewjob?jk=35405a9dcc5e7b94,,,,new,0
+,,Research Assistant at the Donders Centre for Cognition,Radboud Summer School,"Nijmegen, Gelderland, Netherlands",nan,2026-04-02T15:25:20.430184,linkedin,https://www.linkedin.com/jobs/view/4394941799,,,,new,0
+,,Research Assistant at the Donders Centre for Cognition,Radboud University,"Nijmegen, Gelderland, Netherlands",2026-04-01,2026-04-02T15:25:20.428870,linkedin,https://www.linkedin.com/jobs/view/4394660683,,,,new,0
+,,Lead InSAR Engineer,SkyGeo Netherlands B.V.,"Delft, South Holland, Netherlands",nan,2026-04-02T15:25:20.426990,linkedin,https://www.linkedin.com/jobs/view/4382466940,,,,new,0
+,,Audio signal processing and coding supporting standardisation,Philips,"Eindhoven, North Brabant, Netherlands",2026-03-31,2026-04-02T15:25:20.425933,linkedin,https://www.linkedin.com/jobs/view/4376742150,,,,new,0
+,,Data Scientist - Control Systems,Source.ag,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.423943,linkedin,https://www.linkedin.com/jobs/view/4382480078,,,,new,0
+,,Sensing Architect (hardware & algorithm),TMC,"Eindhoven, NB, NL",2026-03-31,2026-04-02T15:25:20.422509,indeed,https://nl.indeed.com/viewjob?jk=34aa2427605fd213,,,,new,0
+,,Calibration Algorithm Engineer,TMC,"Eindhoven, NB, NL",2026-03-31,2026-04-02T15:25:20.420634,indeed,https://nl.indeed.com/viewjob?jk=ffa7a751e3628b50,,,,new,0
+,,Data Scientist,Maince,,nan,2026-04-02T15:25:20.418594,linkedin,https://www.linkedin.com/jobs/view/4394610650,,,,new,0
+,,AI Engineer,Wehkamp Retail Group,"Zwolle, Overijssel, Netherlands",nan,2026-04-02T15:25:20.416894,linkedin,https://www.linkedin.com/jobs/view/4395322802,,,,new,0
+,,AI Developer (.NET/Azure AI Foundry),Devoteam,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.414762,linkedin,https://www.linkedin.com/jobs/view/4372535644,,,,new,0
+,,AI Automation Engineer,AFS Group,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.413083,linkedin,https://www.linkedin.com/jobs/view/4393557929,,,,new,0
+,,AI Engineer (Product-focused),Zeno,"Rotterdam, South Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.411708,linkedin,https://www.linkedin.com/jobs/view/4393290942,,,,new,0
+,,Artificial Intelligence Engineer,Airswift,"The Hague, South Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.409755,linkedin,https://www.linkedin.com/jobs/view/4396649869,,,,new,0
+,,AI Engineer,Code for Good,"Eindhoven, North Brabant, Netherlands",2026-04-01,2026-04-02T15:25:20.408152,linkedin,https://www.linkedin.com/jobs/view/4394663048,,,,new,0
+,,QA / Test Engineer,Blinqx,"Amsterdam-Zuidoost, NH, NL",2026-03-17,2026-04-02T15:25:20.406601,indeed,https://nl.indeed.com/viewjob?jk=fc0dec79a6fcc3d9,,,,new,0
+,,Product Design Engineer,Fugro,"Nootdorp, ZH, NL",2026-03-31,2026-04-02T15:25:20.404351,indeed,https://nl.indeed.com/viewjob?jk=bd8b90fdad30dc91,,,,new,0
+,,Product Design Engineer,Aquablu B.V,"Amsterdam, NH, NL",2026-04-01,2026-04-02T15:25:20.402683,indeed,https://nl.indeed.com/viewjob?jk=84da2fc60477d486,,,,new,0
+,,Technical Writer,Nebius,"Amsterdam, NH, NL",2026-04-02,2026-04-02T15:25:20.400956,indeed,https://nl.indeed.com/viewjob?jk=dfed068b82f12cba,,,,new,0
+,,Senior Analog Electronic Engineer,Manus Machinae B.V.,"Geldrop, NB, NL",2026-04-02,2026-04-02T15:25:20.399274,indeed,https://nl.indeed.com/viewjob?jk=8553e86823ccbadb,,,,new,0
+,,Medior Embedded Software Engineer,Manus Machinae B.V.,"Geldrop, NB, NL",2026-04-02,2026-04-02T15:25:20.397567,indeed,https://nl.indeed.com/viewjob?jk=a509bb05cecb28e4,,,,new,0
+,,Senior Evaluation ML Engineer,kaiko.ai,"Amsterdam, North Holland, Netherlands",nan,2026-04-02T15:25:20.396001,linkedin,https://www.linkedin.com/jobs/view/4396739706,,,,new,0
+,,AI Engineer/Data Scientist,EPAM Systems,"Rijswijk, South Holland, Netherlands",nan,2026-04-02T15:25:20.394110,linkedin,https://www.linkedin.com/jobs/view/4350801136,,,,new,0
+,,Staff Software Engineer - Traffic Machine Learning,Uber,"Amsterdam, North Holland, Netherlands",nan,2026-04-02T15:25:20.390675,linkedin,https://www.linkedin.com/jobs/view/4366948311,,,,new,0
+,,Senior Data Scientist,Magno IT Recruitment,"Eindhoven, North Brabant, Netherlands",2026-03-30,2026-04-02T15:25:20.389393,linkedin,https://www.linkedin.com/jobs/view/4391879379,,,,new,0
+,,ML / AI Data Engineer,GeekSoft Consulting,"Eindhoven, North Brabant, Netherlands",2026-03-30,2026-04-02T15:25:20.388033,linkedin,https://www.linkedin.com/jobs/view/4392183976,,,,new,0
+,,Senior Data Scientist Energy Forecasting,Groendus,"Utrecht, Utrecht, Netherlands",2026-03-31,2026-04-02T15:25:20.386640,linkedin,https://www.linkedin.com/jobs/view/4392474398,,,,new,0
+,,Senior Machine Learning & Data Engineer,Ubique Systems,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.385528,linkedin,https://www.linkedin.com/jobs/view/4395679048,,,,new,0
+,,AI/ML Engineer With Dutch,Us3 Consulting,,2026-03-31,2026-04-02T15:25:20.383417,linkedin,https://www.linkedin.com/jobs/view/4393506936,,,,new,0
+,,Sr. Machine Learning Engineer,Merqato,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.381567,linkedin,https://www.linkedin.com/jobs/view/4393925405,,,,new,0
+,,Machine Learning Engineer,SIRE® Life Sciences 🧬,"Breda, North Brabant, Netherlands",2026-03-31,2026-04-02T15:25:20.379126,linkedin,https://www.linkedin.com/jobs/view/4392404408,,,,new,0
+,,Senior Data Scientist - Credit Risk,BridgeFund,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.377296,linkedin,https://www.linkedin.com/jobs/view/4394666553,,,,new,0
+,,Machine Learning Engineer – Cloud | MLOps | GenAI (Relocation provided),Wypoon Technologies,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.375718,linkedin,https://www.linkedin.com/jobs/view/4377724201,,,,new,0
+,,Machine Learning Engineer - Europe,FareHarbor,"Amsterdam, North Holland, Netherlands",2026-04-01,2026-04-02T15:25:20.374109,linkedin,https://www.linkedin.com/jobs/view/4372537229,,,,new,0
+,,Technical Project Manager (Airborne Systems) - RF/Digital/Hardware,KRUSH Labs B.V.,"Eindhoven, NB, NL",2026-03-31,2026-04-02T15:25:20.372796,indeed,https://nl.indeed.com/viewjob?jk=e9f9b3fe56c37259,,,,new,0
+,,"medior scientist cyber security | The Hague, Groningen of Eindhoven",TNO,"Groningen, Groningen, Netherlands",nan,2026-04-02T15:25:20.370908,linkedin,https://www.linkedin.com/jobs/view/4384333412,,,,new,0
+,,"medior scientist cyber security | The Hague, Groningen of Eindhoven",TNO,"The Hague, South Holland, Netherlands",nan,2026-04-02T15:25:20.369353,linkedin,https://www.linkedin.com/jobs/view/4384336395,,,,new,0
+,,Sr. Protein Scientist (6 months Temporary Mission),Danone,"Utrecht, Utrecht, Netherlands",nan,2026-04-02T15:25:20.367527,linkedin,https://www.linkedin.com/jobs/view/4395299464,,,,new,0
+,,Lifecycle Analysis Scientist (LCA) - Relocate To Saudi Arabia,aramco,,nan,2026-04-02T15:25:20.365732,linkedin,https://www.linkedin.com/jobs/view/4396956063,,,,new,0
+,,Experienced Scientist Source Apportionment of atmospheric pollutant concentrations | Utrecht,TNO,"Utrecht, Utrecht, Netherlands",2026-03-30,2026-04-02T15:25:20.363856,linkedin,https://www.linkedin.com/jobs/view/4393208979,,,,new,0
+,,Staff Program Manager,Innatera,"Rijswijk, South Holland, Netherlands",nan,2026-04-02T15:25:20.362293,linkedin,https://www.linkedin.com/jobs/view/4397038853,,,,new,0
+,,Research Assistant at the Donders Centre for Cognition,Radboud Universiteit,"Nijmegen, GE, NL",2026-04-01,2026-04-02T15:25:20.360359,indeed,https://nl.indeed.com/viewjob?jk=62e5aa4814da7240,,,,new,0
+,,Research Assistant at the Donders Centre for Cognition,Radboud Universiteit,"Nijmegen, GE, NL",2026-04-01,2026-04-02T15:25:20.358613,indeed,https://nl.indeed.com/viewjob?jk=858e07bd696d8c54,,,,new,0
+,,Staff Program Manager,Innatera Nanosystems,"Rijswijk, ZH, NL",2026-04-02,2026-04-02T15:25:20.356943,indeed,https://nl.indeed.com/viewjob?jk=0fd04699a6fd6a8e,,,,new,0
+,,Engineer,Russell Tobin,"Zeeland, Netherlands",nan,2026-04-02T15:25:20.355376,linkedin,https://www.linkedin.com/jobs/view/4396659626,,,,new,0
+,,OEM Engineer,ALGOTEQUE Innovation Hub,"Boxmeer, North Brabant, Netherlands",nan,2026-04-02T15:25:20.353402,linkedin,https://www.linkedin.com/jobs/view/4395246321,,,,new,0
+,,Engineer,Recense - Professionals in recruitment,"Rotterdam, South Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.351137,linkedin,https://www.linkedin.com/jobs/view/4393543468,,,,new,0
+,,Senior Engineer,Sia,"Amsterdam, North Holland, Netherlands",2026-03-31,2026-04-02T15:25:20.348882,linkedin,https://www.linkedin.com/jobs/view/4393531452,,,,new,0
+,,Safety Officer/Engineer (Tanajib) - مسؤول السلامة / مهندس سلامة (تناجيب),Alturki Holding,,2026-03-31,2026-04-02T15:25:20.347326,linkedin,https://www.linkedin.com/jobs/view/4392414553,,,,new,0
+,,Senior Founding Engineer,Syntera,,2026-04-01,2026-04-02T15:25:20.345812,linkedin,https://www.linkedin.com/jobs/view/4393500654,,,,new,0
