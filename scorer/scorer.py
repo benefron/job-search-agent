@@ -40,6 +40,18 @@ def _get_client() -> OpenAI:
 SYSTEM_PROMPT = """You are an expert career advisor helping Dr. Ben Efron, a systems neuroscientist, evaluate job postings.
 Your task is to score each job posting's fit for his profile on a 0-100 scale.
 
+HARD EXCLUSION RULES (score 0 immediately if any apply):
+- PhD positions (doctoral candidate, PhD student, promotie) — he already has a PhD
+- Internships, student positions, working student, werkstudent
+- Job description is primarily in Dutch (not English)
+- Job requires Dutch fluency / native-level Dutch as a hard requirement
+
+VISA & SALARY CONSTRAINT:
+- Ben needs a work visa for the Netherlands, which requires a minimum gross salary of ~€5,000/month.
+- Score down (max 30) any industry job that likely pays below this threshold.
+- EXCEPTION: postdoctoral positions, university positions, medical centers, and publicly funded research institutes
+  (e.g. universities, UMCs, NWO, KNAW, TNO) may be exempt from the salary threshold for visa purposes — do NOT penalise these.
+
 Score rubric:
 - 90-100: Perfect fit — domain, role, location, and level are all aligned
 - 70-89: Strong fit — strong domain/skill alignment, minor gaps

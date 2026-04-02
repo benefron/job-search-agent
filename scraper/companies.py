@@ -6,12 +6,15 @@ Also queries academictransfer.com for Dutch academic postdoc positions.
 """
 
 import logging
+import re
 import requests
 import time
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 
 from . import db
+from .scraper import _should_exclude
 
 logger = logging.getLogger(__name__)
 
@@ -47,7 +50,7 @@ COMPANIES = {
         "linkedin_slug": "innatera",
     },
     "imec": {
-        "type": "html",
+        "type": "imec",
         "url": "https://www.imec-int.com/en/work-at-imec/job-opportunities",
         "linkedin_slug": "imec",
     },
@@ -151,7 +154,6 @@ def _scrape_html(company: str, url: str) -> list[CompanyJob]:
             continue
         # Resolve relative URLs
         if href.startswith("/"):
-            from urllib.parse import urlparse
             parsed = urlparse(url)
             href = f"{parsed.scheme}://{parsed.netloc}{href}"
         elif not href.startswith("http"):
@@ -172,6 +174,89 @@ def _scrape_html(company: str, url: str) -> list[CompanyJob]:
 
     # Limit to avoid noise from non-career-page anchors
     return jobs[:30]
+
+
+# ---------------------------------------------------------------------------
+# imec dedicated scraper — only real job listings with full descriptions
+# ---------------------------------------------------------------------------
+_IMEC_JOB_PATH = "/en/work-at-imec/job-opportunities/"
+
+
+def _scrape_imec(url: str) -> list[CompanyJob]:
+    """Scrape imec job listings page, then fetch each job detail page for a real description."""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        resp.raise_for_status()
+    except Exception as exc:
+        logger.warning("imec listing fetch failed: %s", exc)
+        return []
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    job_links: list[tuple[str, str]] = []  # (url, title)
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        text = a.get_text(strip=True)
+        # Only keep links to individual job pages (not the listing page itself)
+        if not href.startswith(_IMEC_JOB_PATH):
+            continue
+        slug = href[len(_IMEC_JOB_PATH):].rstrip("/")
+        if not slug:  # skip the listing page link itself
+            continue
+        if not text or len(text) < 5:
+            continue
+        full_url = f"https://www.imec-int.com{href}"
+        if any(u == full_url for u, _ in job_links):
+            continue
+        job_links.append((full_url, text))
+
+    logger.info("  imec: %d job links found on listing page, fetching details…", len(job_links))
+    jobs = []
+    for job_url, title in job_links:
+        try:
+            detail = requests.get(job_url, headers=HEADERS, timeout=TIMEOUT)
+            detail.raise_for_status()
+            dsoup = BeautifulSoup(detail.text, "html.parser")
+            # Extract main content sections
+            parts = []
+            for section_title in ["What you will do", "Who you are", "What we do for you"]:
+                header = dsoup.find(lambda tag: tag.name in ("h2", "h3") and section_title.lower() in tag.get_text(strip=True).lower())
+                if header:
+                    # Collect sibling text until next header
+                    for sib in header.find_next_siblings():
+                        if sib.name in ("h2", "h3"):
+                            break
+                        t = sib.get_text(separator=" ", strip=True)
+                        if t:
+                            parts.append(t)
+            # Also grab intro paragraph before "What you will do"
+            intro_el = dsoup.find("div", class_=lambda c: c and "field--body" in c)
+            if intro_el:
+                parts.insert(0, intro_el.get_text(separator=" ", strip=True)[:500])
+            description = "\n\n".join(parts)[:4000] if parts else f"[Visit {job_url} for full description]"
+
+            # Extract location from the detail page
+            location = ""
+            loc_match = dsoup.find(string=re.compile(r"(Leuven|Eindhoven|Gent|Antwerp|Holst|Netherlands|Belgium|Germany|Japan|Spain)", re.I))
+            if loc_match:
+                location = loc_match.strip()[:80]
+
+        except Exception as exc:
+            logger.debug("  imec detail fetch failed for %s: %s", job_url, exc)
+            description = f"[Visit {job_url} for full description]"
+            location = ""
+        time.sleep(0.5)  # Be polite
+
+        jobs.append(CompanyJob(
+            url=job_url,
+            title=title,
+            company="imec",
+            location=location,
+            description=description,
+            source="imec_career",
+        ))
+
+    return jobs
 
 
 # ---------------------------------------------------------------------------
@@ -236,6 +321,8 @@ def scrape_companies() -> list[CompanyJob]:
         logger.info("Scraping company: %s", company)
         if config["type"] == "greenhouse":
             jobs = _scrape_greenhouse(company, config["board_token"])
+        elif config["type"] == "imec":
+            jobs = _scrape_imec(config["url"])
         elif config["type"] == "html":
             jobs = _scrape_html(company, config["url"])
         else:
@@ -246,9 +333,19 @@ def scrape_companies() -> list[CompanyJob]:
 
     all_jobs.extend(_scrape_academictransfer())
 
+    # Apply pre-save filters (Dutch, PhD, internship, etc.)
+    filtered = []
+    for j in all_jobs:
+        reason = _should_exclude(j.title, j.description)
+        if reason:
+            logger.info("  Filtered out '%s' at %s — %s", j.title, j.company, reason)
+        else:
+            filtered.append(j)
+
     # Filter to only new jobs
-    new_jobs = [j for j in all_jobs if not db.is_seen(j.url)]
-    logger.info("Company monitor: %d total, %d new.", len(all_jobs), len(new_jobs))
+    new_jobs = [j for j in filtered if not db.is_seen(j.url)]
+    logger.info("Company monitor: %d scraped, %d after filter, %d new.",
+                len(all_jobs), len(filtered), len(new_jobs))
     return new_jobs
 
 

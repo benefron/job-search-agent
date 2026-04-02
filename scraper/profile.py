@@ -127,6 +127,11 @@ PROFILE = {
         "VLSI",
         "digital design RTL",
         "VHDL Verilog",
+        "PhD position",
+        "doctoral candidate",
+        "internship",
+        "working student",
+        "Dutch fluency required",
     ],
 }
 

@@ -50,6 +50,56 @@ SEARCH_QUERIES = [
 
 SITES = ["linkedin", "indeed"]
 
+# ---------------------------------------------------------------------------
+# Pre-save filters — drop jobs we never want
+# ---------------------------------------------------------------------------
+_EXCLUDE_TITLE_PATTERNS = [
+    "phd", "ph.d", "doctorate", "doctoral",
+    "internship", "intern ", "stage ", "stagiair",
+    "werkstudent", "working student",
+]
+
+# Common Dutch words that signal a Dutch-language posting
+_DUTCH_SIGNALS = [
+    "functieomschrijving", "verantwoordelijkheden", "vereisten",
+    "wat ga je doen", "wat verwachten wij", "wat bieden wij",
+    "jouw profiel", "wij zoeken", "jouw taken", "je bent",
+    "wij bieden", "over ons", "als je", "ervaring met",
+    "kennis van", "je hebt", "je beschikt", "ons team",
+]
+
+_DUTCH_FLUENCY = [
+    "dutch fluency", "fluent in dutch", "fluent dutch",
+    "native dutch", "dutch native", "moedertaal nederlands",
+    "vloeiend nederlands", "dutch required", "dutch is required",
+    "knowledge of dutch", "proficiency in dutch",
+    "dutch language required", "nederlands vereist",
+    "beheersing van het nederlands", "goede kennis van het nederlands",
+]
+
+
+def _should_exclude(title: str, description: str) -> str | None:
+    """Return reason string if job should be excluded, else None."""
+    t = title.lower()
+    d = description.lower()
+
+    # Title-based exclusion
+    for pat in _EXCLUDE_TITLE_PATTERNS:
+        if pat in t:
+            return f"excluded by title pattern: {pat}"
+
+    # Dutch-language description
+    dutch_hits = sum(1 for s in _DUTCH_SIGNALS if s in d)
+    if dutch_hits >= 3:
+        return f"Dutch-language posting ({dutch_hits} signals)"
+
+    # Dutch fluency requirement
+    for pat in _DUTCH_FLUENCY:
+        if pat in d:
+            return f"requires Dutch fluency: {pat}"
+
+    return None
+
 
 @dataclass
 class RawJob:
@@ -83,6 +133,7 @@ def scrape_all(max_results_per_query: int = 20, delay_between_queries: float = 8
                 results_wanted=max_results_per_query,
                 hours_old=72,           # Only jobs posted in last 3 days
                 country_indeed="Netherlands",
+                linkedin_fetch_description=True,
                 verbose=0,
             )
         except Exception as exc:
@@ -114,6 +165,12 @@ def scrape_all(max_results_per_query: int = 20, delay_between_queries: float = 8
                 continue
             if len(description) < 50:
                 # Skip stub listings with no real description
+                continue
+
+            # Pre-save filter
+            reason = _should_exclude(title, description)
+            if reason:
+                logger.debug("  Filtered out '%s' — %s", title, reason)
                 continue
 
             new_jobs.append(RawJob(
