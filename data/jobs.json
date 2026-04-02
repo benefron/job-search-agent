@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T17:02:51.651733",
+  "generated": "2026-04-02T17:17:56.657819",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -280,6 +280,37 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "459cbbdfe4ad0304",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4382702764",
+      "title": "AI Engineer",
+      "company": "IBM",
+      "location": "Groningen, Groningen, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-02T16:12:00.363671",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "ML/AI solutions",
+        "cloud-native development practices"
+      ],
+      "key_gaps": [
+        "No direct experience in AI operationalization",
+        "Focus on software engineering rather than neuroscience"
+      ],
+      "rationale": "While there are relevant skills in Python and AI, the role's focus on software engineering and lack of direct neuroscience application creates a moderate fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IBM"
       }
     },
     {
@@ -628,30 +659,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "459cbbdfe4ad0304",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4382702764",
-      "title": "AI Engineer",
-      "company": "IBM",
-      "location": "Groningen, Groningen, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-02T16:12:00.363671",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IBM"
       }
     }
   ]
