@@ -43,7 +43,7 @@ def main() -> None:
     try:
         raw_jobs = scraper.scrape_all()
         saved = scraper.save_raw_jobs(raw_jobs)
-        log.info("Job boards: %d new jobs saved", saved)
+        log.info("Job boards: %d new jobs saved", len(saved))
     except Exception:
         log.exception("Job-board scraping failed — continuing with company scrape")
 

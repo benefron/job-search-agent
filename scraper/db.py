@@ -6,7 +6,8 @@ import sqlite3
 import hashlib
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 DB_PATH = Path(__file__).parent.parent / "data" / "jobs.db"
 
@@ -197,5 +198,5 @@ def get_stats() -> dict:
         "liked": liked,
         "skipped": skipped,
         "applied": applied,
-        "last_updated": datetime.utcnow().isoformat(),
+        "last_updated": datetime.now(ZoneInfo("Europe/Brussels")).isoformat(timespec="seconds"),
     }
