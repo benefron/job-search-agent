@@ -648,3 +648,799 @@
 2026-04-02 12:43:27,875 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-02 12:43:27,877 [INFO] Stats: {'total': 141, 'scored': 141, 'liked': 0, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-02T14:43:27+02:00'}
 2026-04-02 12:43:27,877 [INFO] Done. Total: 141 | Scored: 141 | Strong+: 0
+2026-04-02 13:04:54,439 [INFO] Initialising database…
+2026-04-02 13:04:54,443 [INFO] Ingesting feedback…
+2026-04-02 13:04:54,444 [INFO] No feedback.json found — skipping feedback ingestion.
+2026-04-02 13:04:54,447 [INFO] Pruned 37 historical noise rows (imec/Innatera generic pages)
+2026-04-02 13:04:54,448 [INFO] Scraping job boards…
+2026-04-02 13:04:54,448 [INFO] Searching: 'neuromorphic engineer' in Netherlands
+2026-04-02 13:05:15,547 [INFO]   Found 8 new results so far (this query).
+2026-04-02 13:05:23,547 [INFO] Searching: 'spiking neural network engineer' in Netherlands
+2026-04-02 13:05:23,872 [INFO]   No results.
+2026-04-02 13:05:31,872 [INFO] Searching: 'brain-inspired computing' in Netherlands
+2026-04-02 13:05:32,093 [INFO]   No results.
+2026-04-02 13:05:40,093 [INFO] Searching: 'neuromorphic AI' in Netherlands
+2026-04-02 13:05:40,400 [INFO]   Found 8 new results so far (this query).
+2026-04-02 13:05:48,400 [INFO] Searching: 'neuroengineering' in Netherlands
+2026-04-02 13:05:48,607 [INFO]   No results.
+2026-04-02 13:05:56,607 [INFO] Searching: 'neurotech scientist' in Netherlands
+2026-04-02 13:06:06,878 [INFO]   Found 13 new results so far (this query).
+2026-04-02 13:06:14,878 [INFO] Searching: 'computational neuroscience' in Netherlands
+2026-04-02 13:06:15,101 [INFO]   No results.
+2026-04-02 13:06:23,102 [INFO] Searching: 'edge AI scientist' in Netherlands
+2026-04-02 13:06:53,399 [INFO]   Found 26 new results so far (this query).
+2026-04-02 13:07:01,399 [INFO] Searching: 'embedded AI engineer' in Netherlands
+2026-04-02 13:07:25,470 [INFO]   Found 34 new results so far (this query).
+2026-04-02 13:07:33,471 [INFO] Searching: 'embedded sensing engineer' in Netherlands
+2026-04-02 13:07:33,777 [INFO]   Found 34 new results so far (this query).
+2026-04-02 13:07:41,777 [INFO] Searching: 'R&D scientist sensing' in Netherlands
+2026-04-02 13:07:41,976 [INFO]   No results.
+2026-04-02 13:07:49,976 [INFO] Searching: 'applied scientist signal processing' in Netherlands
+2026-04-02 13:08:01,801 [INFO]   Found 37 new results so far (this query).
+2026-04-02 13:08:09,801 [INFO] Searching: 'research scientist neuromorphic' in Netherlands
+2026-04-02 13:08:17,091 [INFO]   Found 39 new results so far (this query).
+2026-04-02 13:08:25,092 [INFO] Searching: 'neuromorphic' in Leuven Belgium
+2026-04-02 13:08:25,318 [INFO]   No results.
+2026-04-02 13:08:33,318 [INFO] Searching: 'neuroengineering' in Leuven Belgium
+2026-04-02 13:08:33,563 [INFO]   No results.
+2026-04-02 13:08:41,563 [INFO] Searching: 'embedded AI' in Eindhoven Netherlands
+2026-04-02 13:08:51,188 [INFO]   Found 46 new results so far (this query).
+2026-04-02 13:08:59,188 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Netherlands
+2026-04-02 13:08:59,396 [INFO]   No results.
+2026-04-02 13:09:07,396 [INFO] Searching: 'postdoc neuroengineering' in Netherlands
+2026-04-02 13:09:07,609 [INFO]   No results.
+2026-04-02 13:09:15,609 [INFO] Searching: 'postdoctoral researcher neuroscience' in Netherlands
+2026-04-02 13:09:36,402 [INFO]   Found 61 new results so far (this query).
+2026-04-02 13:09:44,402 [INFO] Searching: 'experimental neuroscience' in Netherlands
+2026-04-02 13:09:50,997 [INFO]   Found 62 new results so far (this query).
+2026-04-02 13:09:58,998 [INFO] Searching: 'embedded systems engineer ai' in Netherlands
+2026-04-02 13:10:07,945 [INFO]   Found 63 new results so far (this query).
+2026-04-02 13:10:15,945 [INFO] Searching: 'robotics engineer perception' in Netherlands
+2026-04-02 13:10:22,332 [INFO]   Found 65 new results so far (this query).
+2026-04-02 13:10:30,332 [INFO] Searching: 'brain computer interface' in Netherlands
+2026-04-02 13:10:30,560 [INFO]   No results.
+2026-04-02 13:10:38,560 [INFO] Searching: 'brain machine interface' in Netherlands
+2026-04-02 13:10:38,855 [INFO]   No results.
+2026-04-02 13:10:46,855 [INFO] Scrape complete. 65 new jobs found.
+2026-04-02 13:10:46,942 [INFO] Saved 65 new jobs to database.
+2026-04-02 13:10:46,942 [INFO] Job boards: 65 new jobs saved
+2026-04-02 13:10:46,942 [INFO] Scraping company career pages…
+2026-04-02 13:10:46,942 [INFO] Scraping company: Innatera
+2026-04-02 13:10:47,062 [INFO]   Innatera: 0 listings found.
+2026-04-02 13:10:49,062 [INFO] Scraping company: imec
+2026-04-02 13:10:49,559 [INFO]   imec: 0 job links found on listing page, fetching details…
+2026-04-02 13:10:49,560 [INFO]   imec: 0 listings found.
+2026-04-02 13:10:51,560 [INFO] Scraping company: Axelera AI
+2026-04-02 13:10:51,702 [WARNING] Greenhouse fetch failed for Axelera AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/axeleraai/jobs?content=true
+2026-04-02 13:10:51,703 [INFO]   Axelera AI: 0 listings found.
+2026-04-02 13:10:53,703 [INFO] Scraping company: Prophesee
+2026-04-02 13:10:53,783 [WARNING] Greenhouse fetch failed for Prophesee: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/prophesee/jobs?content=true
+2026-04-02 13:10:53,784 [INFO]   Prophesee: 0 listings found.
+2026-04-02 13:10:55,784 [INFO] Scraping company: Noldus
+2026-04-02 13:10:56,695 [WARNING] HTML fetch failed for Noldus: 404 Client Error: Not Found for url: https://noldus.com/about/jobs
+2026-04-02 13:10:56,697 [INFO]   Noldus: 0 listings found.
+2026-04-02 13:10:58,698 [INFO] Scraping company: Demcon
+2026-04-02 13:11:00,190 [WARNING] HTML fetch failed for Demcon: 404 Client Error: Not Found for url: https://demcon.com/en/vacancies
+2026-04-02 13:11:00,192 [INFO]   Demcon: 0 listings found.
+2026-04-02 13:11:02,192 [INFO] Scraping company: TNO
+2026-04-02 13:11:03,456 [INFO]   TNO: 30 listings found.
+2026-04-02 13:11:24,900 [INFO] AcademicTransfer: found 0 positions.
+2026-04-02 13:11:24,907 [INFO] Company monitor: 30 scraped, 30 after filter, 0 new.
+2026-04-02 13:11:24,907 [INFO] Saved 0 new company jobs to database.
+2026-04-02 13:11:24,907 [INFO] Company pages: 0 new jobs saved
+2026-04-02 13:11:24,907 [INFO] Scoring pending jobs…
+2026-04-02 13:11:24,909 [INFO] Scoring 107 jobs...
+2026-04-02 13:11:27,692 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:27,701 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud Universiteit — The position is a research assistant role requiring only a Master's degree, whic
+2026-04-02 13:11:31,416 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:31,418 [INFO]   Scored: [0] Research Assistant at the Donders Centre for Cognition at Radboud Universiteit — The position is a Research Assistant role requiring only a Master's degree and o
+2026-04-02 13:11:34,982 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:34,984 [INFO]   Scored: [30] Technical Project Manager (Airborne Systems) - RF/Digital/Hardware at KRUSH Labs B.V. — While there are some transferable skills, the role's focus on RF and UAV systems
+2026-04-02 13:11:38,119 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:38,121 [INFO]   Scored: [0] 2 PhD positions in large-scale computer systems for AI, big data, and 6G apps at Vrije Universiteit Amsterdam — This job is a PhD position, which is a hard exclusion rule for Ben.
+2026-04-02 13:11:41,756 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:41,758 [INFO]   Scored: [30] Product Design Engineer at Aquablu B.V — While there are some relevant skills in embedded systems and AI, the role primar
+2026-04-02 13:11:45,148 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:45,150 [INFO]   Scored: [30] Product Design Engineer at Fugro — While there are some overlaps in AI and engineering collaboration, the role is p
+2026-04-02 13:11:48,990 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:48,992 [INFO]   Scored: [30] QA / Test Engineer at Blinqx — While there are some transferable skills, the role is primarily focused on QA an
+2026-04-02 13:11:52,765 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:52,768 [INFO]   Scored: [70] Calibration Algorithm Engineer at TMC — The role aligns well with Ben's programming skills and analytical experience, bu
+2026-04-02 13:11:56,489 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 13:11:56,491 [INFO]   Scored: [50] Sensing Architect (hardware & algorithm) at TMC — While Ben has relevant skills in data analysis and modeling, the role's focus on
+2026-04-02 13:11:58,010 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:11:58,010 [INFO] Retrying request to /chat/completions in 0.428627 seconds
+2026-04-02 13:11:58,454 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:11:58,455 [INFO] Retrying request to /chat/completions in 0.917247 seconds
+2026-04-02 13:11:59,389 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:11:59,389 [WARNING] Scoring API error for job b5de93837e01ec24: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84122 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84122 seconds before retrying.'}}
+2026-04-02 13:11:59,389 [WARNING]   Skipping job b5de93837e01ec24 (scoring failed).
+2026-04-02 13:12:00,910 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:00,910 [INFO] Retrying request to /chat/completions in 0.378154 seconds
+2026-04-02 13:12:01,305 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:01,306 [INFO] Retrying request to /chat/completions in 0.998281 seconds
+2026-04-02 13:12:02,323 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:02,324 [WARNING] Scoring API error for job 78c058d7a1f7967e: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84119 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84119 seconds before retrying.'}}
+2026-04-02 13:12:02,324 [WARNING]   Skipping job 78c058d7a1f7967e (scoring failed).
+2026-04-02 13:12:03,843 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:03,844 [INFO] Retrying request to /chat/completions in 21.000000 seconds
+2026-04-02 13:12:24,877 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:24,877 [INFO] Retrying request to /chat/completions in 0.822212 seconds
+2026-04-02 13:12:25,722 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:25,723 [WARNING] Scoring API error for job 220fdabcf8ca5d57: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84096 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84096 seconds before retrying.'}}
+2026-04-02 13:12:25,723 [WARNING]   Skipping job 220fdabcf8ca5d57 (scoring failed).
+2026-04-02 13:12:27,239 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:27,239 [INFO] Retrying request to /chat/completions in 0.476752 seconds
+2026-04-02 13:12:27,730 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:27,731 [INFO] Retrying request to /chat/completions in 0.877844 seconds
+2026-04-02 13:12:28,628 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:28,628 [WARNING] Scoring API error for job f4dd60eddbf6fea7: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84093 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84093 seconds before retrying.'}}
+2026-04-02 13:12:28,628 [WARNING]   Skipping job f4dd60eddbf6fea7 (scoring failed).
+2026-04-02 13:12:30,145 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:30,145 [INFO] Retrying request to /chat/completions in 0.403797 seconds
+2026-04-02 13:12:30,563 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:30,563 [INFO] Retrying request to /chat/completions in 0.957938 seconds
+2026-04-02 13:12:31,537 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:31,537 [WARNING] Scoring API error for job c4754085eb1b3f35: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84090 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84090 seconds before retrying.'}}
+2026-04-02 13:12:31,538 [WARNING]   Skipping job c4754085eb1b3f35 (scoring failed).
+2026-04-02 13:12:33,052 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:33,053 [INFO] Retrying request to /chat/completions in 0.423549 seconds
+2026-04-02 13:12:33,492 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:33,493 [INFO] Retrying request to /chat/completions in 0.924925 seconds
+2026-04-02 13:12:34,432 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:34,432 [WARNING] Scoring API error for job 3c5cb865f62cb52d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84087 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84087 seconds before retrying.'}}
+2026-04-02 13:12:34,432 [WARNING]   Skipping job 3c5cb865f62cb52d (scoring failed).
+2026-04-02 13:12:35,949 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:35,950 [INFO] Retrying request to /chat/completions in 0.423368 seconds
+2026-04-02 13:12:36,387 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:36,387 [INFO] Retrying request to /chat/completions in 0.922270 seconds
+2026-04-02 13:12:37,327 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:37,328 [WARNING] Scoring API error for job d9bc108885ac7bd1: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84084 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84084 seconds before retrying.'}}
+2026-04-02 13:12:37,328 [WARNING]   Skipping job d9bc108885ac7bd1 (scoring failed).
+2026-04-02 13:12:38,842 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:38,843 [INFO] Retrying request to /chat/completions in 0.406059 seconds
+2026-04-02 13:12:39,265 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:39,265 [INFO] Retrying request to /chat/completions in 0.988870 seconds
+2026-04-02 13:12:40,267 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:40,268 [WARNING] Scoring API error for job da51a4be0c86aa32: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:12:40,268 [WARNING]   Skipping job da51a4be0c86aa32 (scoring failed).
+2026-04-02 13:12:41,782 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:12:41,783 [INFO] Retrying request to /chat/completions in 43.000000 seconds
+2026-04-02 13:13:25,315 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:25,316 [INFO] Retrying request to /chat/completions in 0.811481 seconds
+2026-04-02 13:13:26,379 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:26,379 [WARNING] Scoring API error for job 2bef16421172eff2: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84035 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84035 seconds before retrying.'}}
+2026-04-02 13:13:26,379 [WARNING]   Skipping job 2bef16421172eff2 (scoring failed).
+2026-04-02 13:13:27,905 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:27,906 [INFO] Retrying request to /chat/completions in 0.494237 seconds
+2026-04-02 13:13:28,415 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:28,416 [INFO] Retrying request to /chat/completions in 0.965341 seconds
+2026-04-02 13:13:29,399 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:29,400 [WARNING] Scoring API error for job b9a628856dc59a76: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84032 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84032 seconds before retrying.'}}
+2026-04-02 13:13:29,400 [WARNING]   Skipping job b9a628856dc59a76 (scoring failed).
+2026-04-02 13:13:30,914 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:30,914 [INFO] Retrying request to /chat/completions in 0.381516 seconds
+2026-04-02 13:13:31,315 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:31,316 [INFO] Retrying request to /chat/completions in 0.963270 seconds
+2026-04-02 13:13:32,292 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:32,293 [WARNING] Scoring API error for job ea7e63fe9948919c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84029 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84029 seconds before retrying.'}}
+2026-04-02 13:13:32,293 [WARNING]   Skipping job ea7e63fe9948919c (scoring failed).
+2026-04-02 13:13:33,812 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:33,812 [INFO] Retrying request to /chat/completions in 0.413551 seconds
+2026-04-02 13:13:34,239 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:34,240 [INFO] Retrying request to /chat/completions in 0.975326 seconds
+2026-04-02 13:13:35,233 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:35,233 [WARNING] Scoring API error for job e1de9f07d83f586f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84027 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84027 seconds before retrying.'}}
+2026-04-02 13:13:35,233 [WARNING]   Skipping job e1de9f07d83f586f (scoring failed).
+2026-04-02 13:13:36,747 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:36,748 [INFO] Retrying request to /chat/completions in 0.473967 seconds
+2026-04-02 13:13:37,240 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:37,240 [INFO] Retrying request to /chat/completions in 0.873265 seconds
+2026-04-02 13:13:38,127 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:38,127 [WARNING] Scoring API error for job aed04a47064b9f0b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84024 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 84024 seconds before retrying.'}}
+2026-04-02 13:13:38,127 [WARNING]   Skipping job aed04a47064b9f0b (scoring failed).
+2026-04-02 13:13:39,648 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:39,649 [INFO] Retrying request to /chat/completions in 0.469076 seconds
+2026-04-02 13:13:40,130 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:40,131 [INFO] Retrying request to /chat/completions in 0.931913 seconds
+2026-04-02 13:13:41,080 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:41,080 [WARNING] Scoring API error for job 51a1792ae99d8903: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:13:41,081 [WARNING]   Skipping job 51a1792ae99d8903 (scoring failed).
+2026-04-02 13:13:42,594 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:13:42,595 [INFO] Retrying request to /chat/completions in 43.000000 seconds
+2026-04-02 13:14:25,859 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:25,860 [INFO] Retrying request to /chat/completions in 0.951349 seconds
+2026-04-02 13:14:27,090 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:27,090 [WARNING] Scoring API error for job e59ec24ce06229c7: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83975 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83975 seconds before retrying.'}}
+2026-04-02 13:14:27,090 [WARNING]   Skipping job e59ec24ce06229c7 (scoring failed).
+2026-04-02 13:14:28,609 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:28,609 [INFO] Retrying request to /chat/completions in 0.478243 seconds
+2026-04-02 13:14:29,105 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:29,105 [INFO] Retrying request to /chat/completions in 0.976835 seconds
+2026-04-02 13:14:30,097 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:30,098 [WARNING] Scoring API error for job f8398d387cdfc7d8: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83972 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83972 seconds before retrying.'}}
+2026-04-02 13:14:30,098 [WARNING]   Skipping job f8398d387cdfc7d8 (scoring failed).
+2026-04-02 13:14:31,616 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:31,616 [INFO] Retrying request to /chat/completions in 0.433569 seconds
+2026-04-02 13:14:32,066 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:32,066 [INFO] Retrying request to /chat/completions in 0.948516 seconds
+2026-04-02 13:14:33,032 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:33,033 [WARNING] Scoring API error for job e48d1ce58348f88a: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83969 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83969 seconds before retrying.'}}
+2026-04-02 13:14:33,033 [WARNING]   Skipping job e48d1ce58348f88a (scoring failed).
+2026-04-02 13:14:34,549 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:34,549 [INFO] Retrying request to /chat/completions in 0.472610 seconds
+2026-04-02 13:14:35,038 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:35,039 [INFO] Retrying request to /chat/completions in 0.782504 seconds
+2026-04-02 13:14:35,837 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:35,837 [WARNING] Scoring API error for job a1fdc7ec24c1dc37: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83966 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83966 seconds before retrying.'}}
+2026-04-02 13:14:35,837 [WARNING]   Skipping job a1fdc7ec24c1dc37 (scoring failed).
+2026-04-02 13:14:37,355 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:37,355 [INFO] Retrying request to /chat/completions in 0.480961 seconds
+2026-04-02 13:14:37,852 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:37,853 [INFO] Retrying request to /chat/completions in 0.759299 seconds
+2026-04-02 13:14:38,628 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:38,629 [WARNING] Scoring API error for job 0931f3c1f50e8b3f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83963 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83963 seconds before retrying.'}}
+2026-04-02 13:14:38,629 [WARNING]   Skipping job 0931f3c1f50e8b3f (scoring failed).
+2026-04-02 13:14:40,146 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:40,146 [INFO] Retrying request to /chat/completions in 0.447581 seconds
+2026-04-02 13:14:40,610 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:40,611 [INFO] Retrying request to /chat/completions in 0.858014 seconds
+2026-04-02 13:14:41,485 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:41,485 [WARNING] Scoring API error for job acefc04c4cb75dbd: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:14:41,485 [WARNING]   Skipping job acefc04c4cb75dbd (scoring failed).
+2026-04-02 13:14:43,003 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:14:43,004 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:15:27,048 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:27,049 [INFO] Retrying request to /chat/completions in 0.890565 seconds
+2026-04-02 13:15:27,963 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:27,963 [WARNING] Scoring API error for job cc79b2fe3eecfc0c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83914 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83914 seconds before retrying.'}}
+2026-04-02 13:15:27,963 [WARNING]   Skipping job cc79b2fe3eecfc0c (scoring failed).
+2026-04-02 13:15:29,478 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:29,478 [INFO] Retrying request to /chat/completions in 0.395210 seconds
+2026-04-02 13:15:29,889 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:29,889 [INFO] Retrying request to /chat/completions in 0.846426 seconds
+2026-04-02 13:15:30,749 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:30,750 [WARNING] Scoring API error for job 581d50febdb07333: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83911 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83911 seconds before retrying.'}}
+2026-04-02 13:15:30,750 [WARNING]   Skipping job 581d50febdb07333 (scoring failed).
+2026-04-02 13:15:32,266 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:32,266 [INFO] Retrying request to /chat/completions in 0.393480 seconds
+2026-04-02 13:15:32,673 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:32,673 [INFO] Retrying request to /chat/completions in 0.859605 seconds
+2026-04-02 13:15:33,548 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:33,549 [WARNING] Scoring API error for job ce3a17ef46d29efb: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83908 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83908 seconds before retrying.'}}
+2026-04-02 13:15:33,549 [WARNING]   Skipping job ce3a17ef46d29efb (scoring failed).
+2026-04-02 13:15:35,063 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:35,064 [INFO] Retrying request to /chat/completions in 0.401888 seconds
+2026-04-02 13:15:35,481 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:35,482 [INFO] Retrying request to /chat/completions in 0.935770 seconds
+2026-04-02 13:15:36,431 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:36,432 [WARNING] Scoring API error for job 6f29de79315c043c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83905 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83905 seconds before retrying.'}}
+2026-04-02 13:15:36,432 [WARNING]   Skipping job 6f29de79315c043c (scoring failed).
+2026-04-02 13:15:37,949 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:37,950 [INFO] Retrying request to /chat/completions in 0.463850 seconds
+2026-04-02 13:15:38,428 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:38,428 [INFO] Retrying request to /chat/completions in 0.808516 seconds
+2026-04-02 13:15:39,254 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:39,255 [WARNING] Scoring API error for job 552c798812349dcb: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83903 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83903 seconds before retrying.'}}
+2026-04-02 13:15:39,255 [WARNING]   Skipping job 552c798812349dcb (scoring failed).
+2026-04-02 13:15:40,769 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:40,770 [INFO] Retrying request to /chat/completions in 0.381302 seconds
+2026-04-02 13:15:41,167 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:41,167 [INFO] Retrying request to /chat/completions in 0.799037 seconds
+2026-04-02 13:15:41,979 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:41,979 [WARNING] Scoring API error for job 8bcaa9f33b5737f0: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:15:41,979 [WARNING]   Skipping job 8bcaa9f33b5737f0 (scoring failed).
+2026-04-02 13:15:43,497 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:15:43,497 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:16:27,783 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:27,783 [INFO] Retrying request to /chat/completions in 0.826705 seconds
+2026-04-02 13:16:29,157 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:29,158 [WARNING] Scoring API error for job 881e8288fb50ff77: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83853 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83853 seconds before retrying.'}}
+2026-04-02 13:16:29,158 [WARNING]   Skipping job 881e8288fb50ff77 (scoring failed).
+2026-04-02 13:16:30,675 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:30,676 [INFO] Retrying request to /chat/completions in 0.428652 seconds
+2026-04-02 13:16:31,121 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:31,121 [INFO] Retrying request to /chat/completions in 0.811390 seconds
+2026-04-02 13:16:31,952 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:31,952 [WARNING] Scoring API error for job 844d110cd3cd371f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83850 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83850 seconds before retrying.'}}
+2026-04-02 13:16:31,952 [WARNING]   Skipping job 844d110cd3cd371f (scoring failed).
+2026-04-02 13:16:33,471 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:33,471 [INFO] Retrying request to /chat/completions in 0.494244 seconds
+2026-04-02 13:16:33,980 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:33,981 [INFO] Retrying request to /chat/completions in 0.825006 seconds
+2026-04-02 13:16:34,826 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:34,826 [WARNING] Scoring API error for job 667984e267ceadba: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83847 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83847 seconds before retrying.'}}
+2026-04-02 13:16:34,826 [WARNING]   Skipping job 667984e267ceadba (scoring failed).
+2026-04-02 13:16:36,344 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:36,344 [INFO] Retrying request to /chat/completions in 0.457856 seconds
+2026-04-02 13:16:36,821 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:36,822 [INFO] Retrying request to /chat/completions in 0.829990 seconds
+2026-04-02 13:16:37,668 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:37,669 [WARNING] Scoring API error for job b06242ee8f12a6da: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83844 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83844 seconds before retrying.'}}
+2026-04-02 13:16:37,669 [WARNING]   Skipping job b06242ee8f12a6da (scoring failed).
+2026-04-02 13:16:39,186 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:39,187 [INFO] Retrying request to /chat/completions in 0.385708 seconds
+2026-04-02 13:16:39,588 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:39,588 [INFO] Retrying request to /chat/completions in 0.876850 seconds
+2026-04-02 13:16:40,482 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:40,482 [WARNING] Scoring API error for job 97aadb506e5756e1: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83841 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83841 seconds before retrying.'}}
+2026-04-02 13:16:40,482 [WARNING]   Skipping job 97aadb506e5756e1 (scoring failed).
+2026-04-02 13:16:41,999 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:42,000 [INFO] Retrying request to /chat/completions in 0.410551 seconds
+2026-04-02 13:16:42,428 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:42,428 [INFO] Retrying request to /chat/completions in 0.987399 seconds
+2026-04-02 13:16:43,429 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:43,430 [WARNING] Scoring API error for job bc47c846086e74c8: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:16:43,430 [WARNING]   Skipping job bc47c846086e74c8 (scoring failed).
+2026-04-02 13:16:44,946 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:16:44,947 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:17:29,214 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:29,214 [INFO] Retrying request to /chat/completions in 0.864419 seconds
+2026-04-02 13:17:30,340 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:30,341 [WARNING] Scoring API error for job 90ccc189c858888f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83791 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83791 seconds before retrying.'}}
+2026-04-02 13:17:30,341 [WARNING]   Skipping job 90ccc189c858888f (scoring failed).
+2026-04-02 13:17:31,860 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:31,861 [INFO] Retrying request to /chat/completions in 0.381831 seconds
+2026-04-02 13:17:32,261 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:32,262 [INFO] Retrying request to /chat/completions in 0.762439 seconds
+2026-04-02 13:17:33,042 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:33,043 [WARNING] Scoring API error for job 34fc3d11e25e3c6e: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83789 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83789 seconds before retrying.'}}
+2026-04-02 13:17:33,043 [WARNING]   Skipping job 34fc3d11e25e3c6e (scoring failed).
+2026-04-02 13:17:34,559 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:34,559 [INFO] Retrying request to /chat/completions in 0.381654 seconds
+2026-04-02 13:17:34,959 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:34,960 [INFO] Retrying request to /chat/completions in 0.940392 seconds
+2026-04-02 13:17:35,913 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:35,914 [WARNING] Scoring API error for job d8c9db553c7c99b7: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83786 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83786 seconds before retrying.'}}
+2026-04-02 13:17:35,914 [WARNING]   Skipping job d8c9db553c7c99b7 (scoring failed).
+2026-04-02 13:17:37,433 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:37,433 [INFO] Retrying request to /chat/completions in 0.390052 seconds
+2026-04-02 13:17:37,837 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:37,838 [INFO] Retrying request to /chat/completions in 0.984190 seconds
+2026-04-02 13:17:38,840 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:38,841 [WARNING] Scoring API error for job 04c2ba45bb52153f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83783 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83783 seconds before retrying.'}}
+2026-04-02 13:17:38,841 [WARNING]   Skipping job 04c2ba45bb52153f (scoring failed).
+2026-04-02 13:17:40,357 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:40,357 [INFO] Retrying request to /chat/completions in 0.395836 seconds
+2026-04-02 13:17:40,772 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:40,772 [INFO] Retrying request to /chat/completions in 0.890317 seconds
+2026-04-02 13:17:41,677 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:41,677 [WARNING] Scoring API error for job 4d1f403ae08428fc: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83780 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83780 seconds before retrying.'}}
+2026-04-02 13:17:41,677 [WARNING]   Skipping job 4d1f403ae08428fc (scoring failed).
+2026-04-02 13:17:43,197 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:43,198 [INFO] Retrying request to /chat/completions in 0.441960 seconds
+2026-04-02 13:17:43,653 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:17:43,653 [INFO] Retrying request to /chat/completions in 45.000000 seconds
+2026-04-02 13:18:28,959 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:28,960 [WARNING] Scoring API error for job a91cc631b6dd76da: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 0 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 0 seconds before retrying.'}}
+2026-04-02 13:18:28,960 [WARNING]   Skipping job a91cc631b6dd76da (scoring failed).
+2026-04-02 13:18:30,808 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:30,809 [INFO] Retrying request to /chat/completions in 0.457150 seconds
+2026-04-02 13:18:31,282 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:31,283 [INFO] Retrying request to /chat/completions in 0.813119 seconds
+2026-04-02 13:18:32,118 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:32,118 [WARNING] Scoring API error for job b6a74905fbee1958: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83730 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83730 seconds before retrying.'}}
+2026-04-02 13:18:32,119 [WARNING]   Skipping job b6a74905fbee1958 (scoring failed).
+2026-04-02 13:18:33,634 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:33,634 [INFO] Retrying request to /chat/completions in 0.423729 seconds
+2026-04-02 13:18:34,074 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:34,074 [INFO] Retrying request to /chat/completions in 0.879252 seconds
+2026-04-02 13:18:34,969 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:34,970 [WARNING] Scoring API error for job a6ff9251a1c4853d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83727 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83727 seconds before retrying.'}}
+2026-04-02 13:18:34,970 [WARNING]   Skipping job a6ff9251a1c4853d (scoring failed).
+2026-04-02 13:18:36,487 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:36,487 [INFO] Retrying request to /chat/completions in 0.401545 seconds
+2026-04-02 13:18:36,904 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:36,904 [INFO] Retrying request to /chat/completions in 0.991683 seconds
+2026-04-02 13:18:37,915 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:37,915 [WARNING] Scoring API error for job e47594628b9bf14d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83724 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83724 seconds before retrying.'}}
+2026-04-02 13:18:37,915 [WARNING]   Skipping job e47594628b9bf14d (scoring failed).
+2026-04-02 13:18:39,431 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:39,432 [INFO] Retrying request to /chat/completions in 0.446266 seconds
+2026-04-02 13:18:39,897 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:39,897 [INFO] Retrying request to /chat/completions in 0.918801 seconds
+2026-04-02 13:18:40,832 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:40,832 [WARNING] Scoring API error for job d5d757eabf685030: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83721 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83721 seconds before retrying.'}}
+2026-04-02 13:18:40,833 [WARNING]   Skipping job d5d757eabf685030 (scoring failed).
+2026-04-02 13:18:42,350 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:42,350 [INFO] Retrying request to /chat/completions in 0.392286 seconds
+2026-04-02 13:18:42,762 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:42,763 [INFO] Retrying request to /chat/completions in 0.865719 seconds
+2026-04-02 13:18:43,646 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:43,646 [WARNING] Scoring API error for job 5031f993175e599c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83718 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83718 seconds before retrying.'}}
+2026-04-02 13:18:43,647 [WARNING]   Skipping job 5031f993175e599c (scoring failed).
+2026-04-02 13:18:45,163 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:18:45,164 [INFO] Retrying request to /chat/completions in 45.000000 seconds
+2026-04-02 13:19:30,730 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:30,730 [INFO] Retrying request to /chat/completions in 0.892739 seconds
+2026-04-02 13:19:31,861 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:31,862 [WARNING] Scoring API error for job 998df35721936588: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83670 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83670 seconds before retrying.'}}
+2026-04-02 13:19:31,862 [WARNING]   Skipping job 998df35721936588 (scoring failed).
+2026-04-02 13:19:33,381 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:33,382 [INFO] Retrying request to /chat/completions in 0.419242 seconds
+2026-04-02 13:19:33,814 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:33,815 [INFO] Retrying request to /chat/completions in 0.866137 seconds
+2026-04-02 13:19:34,702 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:34,703 [WARNING] Scoring API error for job 5ac535835b89d750: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83667 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83667 seconds before retrying.'}}
+2026-04-02 13:19:34,703 [WARNING]   Skipping job 5ac535835b89d750 (scoring failed).
+2026-04-02 13:19:36,217 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:36,217 [INFO] Retrying request to /chat/completions in 0.461821 seconds
+2026-04-02 13:19:36,697 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:36,697 [INFO] Retrying request to /chat/completions in 0.890719 seconds
+2026-04-02 13:19:37,602 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:37,603 [WARNING] Scoring API error for job 7ad3a0c0a1768c0d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83664 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83664 seconds before retrying.'}}
+2026-04-02 13:19:37,603 [WARNING]   Skipping job 7ad3a0c0a1768c0d (scoring failed).
+2026-04-02 13:19:39,121 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:39,122 [INFO] Retrying request to /chat/completions in 0.394401 seconds
+2026-04-02 13:19:39,529 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:39,530 [INFO] Retrying request to /chat/completions in 0.869142 seconds
+2026-04-02 13:19:40,423 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:40,424 [WARNING] Scoring API error for job c36c06785fa767ee: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83661 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83661 seconds before retrying.'}}
+2026-04-02 13:19:40,424 [WARNING]   Skipping job c36c06785fa767ee (scoring failed).
+2026-04-02 13:19:41,937 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:41,938 [INFO] Retrying request to /chat/completions in 0.431507 seconds
+2026-04-02 13:19:42,395 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:42,395 [INFO] Retrying request to /chat/completions in 0.877130 seconds
+2026-04-02 13:19:43,285 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:43,286 [WARNING] Scoring API error for job 48aa4cb58b0357c6: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83658 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83658 seconds before retrying.'}}
+2026-04-02 13:19:43,286 [WARNING]   Skipping job 48aa4cb58b0357c6 (scoring failed).
+2026-04-02 13:19:44,811 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:44,811 [INFO] Retrying request to /chat/completions in 0.472244 seconds
+2026-04-02 13:19:45,296 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:45,297 [INFO] Retrying request to /chat/completions in 0.850082 seconds
+2026-04-02 13:19:46,166 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:46,167 [WARNING] Scoring API error for job 587970ba9ffe0b27: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:19:46,167 [WARNING]   Skipping job 587970ba9ffe0b27 (scoring failed).
+2026-04-02 13:19:47,680 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:19:47,680 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:20:31,854 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:31,854 [INFO] Retrying request to /chat/completions in 0.929873 seconds
+2026-04-02 13:20:33,062 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:33,062 [WARNING] Scoring API error for job 32ef7591fc779bfd: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83609 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83609 seconds before retrying.'}}
+2026-04-02 13:20:33,062 [WARNING]   Skipping job 32ef7591fc779bfd (scoring failed).
+2026-04-02 13:20:34,580 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:34,581 [INFO] Retrying request to /chat/completions in 0.411972 seconds
+2026-04-02 13:20:35,008 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:35,008 [INFO] Retrying request to /chat/completions in 0.892236 seconds
+2026-04-02 13:20:35,917 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:35,917 [WARNING] Scoring API error for job f281448a5735192c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83606 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83606 seconds before retrying.'}}
+2026-04-02 13:20:35,917 [WARNING]   Skipping job f281448a5735192c (scoring failed).
+2026-04-02 13:20:37,433 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:37,433 [INFO] Retrying request to /chat/completions in 0.404703 seconds
+2026-04-02 13:20:37,857 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:37,858 [INFO] Retrying request to /chat/completions in 0.893153 seconds
+2026-04-02 13:20:38,766 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:38,767 [WARNING] Scoring API error for job df8065a51a376854: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83603 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83603 seconds before retrying.'}}
+2026-04-02 13:20:38,767 [WARNING]   Skipping job df8065a51a376854 (scoring failed).
+2026-04-02 13:20:40,288 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:40,288 [INFO] Retrying request to /chat/completions in 0.440416 seconds
+2026-04-02 13:20:40,744 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:40,745 [INFO] Retrying request to /chat/completions in 0.792407 seconds
+2026-04-02 13:20:41,554 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:41,554 [WARNING] Scoring API error for job 2a163c020209628f: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83600 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83600 seconds before retrying.'}}
+2026-04-02 13:20:41,554 [WARNING]   Skipping job 2a163c020209628f (scoring failed).
+2026-04-02 13:20:43,072 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:43,072 [INFO] Retrying request to /chat/completions in 0.391879 seconds
+2026-04-02 13:20:43,484 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:43,484 [INFO] Retrying request to /chat/completions in 0.855981 seconds
+2026-04-02 13:20:44,356 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:44,356 [WARNING] Scoring API error for job 900341c0cac98653: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83597 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83597 seconds before retrying.'}}
+2026-04-02 13:20:44,356 [WARNING]   Skipping job 900341c0cac98653 (scoring failed).
+2026-04-02 13:20:45,875 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:45,876 [INFO] Retrying request to /chat/completions in 0.395329 seconds
+2026-04-02 13:20:46,287 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:46,288 [INFO] Retrying request to /chat/completions in 0.889401 seconds
+2026-04-02 13:20:47,200 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:47,201 [WARNING] Scoring API error for job 9b71390e5cf77a5a: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:20:47,201 [WARNING]   Skipping job 9b71390e5cf77a5a (scoring failed).
+2026-04-02 13:20:48,716 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:20:48,716 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:21:32,747 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:32,748 [INFO] Retrying request to /chat/completions in 0.886955 seconds
+2026-04-02 13:21:33,658 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:33,659 [WARNING] Scoring API error for job fc012ed2c45ce5e6: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83548 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83548 seconds before retrying.'}}
+2026-04-02 13:21:33,659 [WARNING]   Skipping job fc012ed2c45ce5e6 (scoring failed).
+2026-04-02 13:21:35,174 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:35,174 [INFO] Retrying request to /chat/completions in 0.461353 seconds
+2026-04-02 13:21:35,652 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:35,653 [INFO] Retrying request to /chat/completions in 0.796736 seconds
+2026-04-02 13:21:36,464 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:36,464 [WARNING] Scoring API error for job fdf4b908f0353376: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83545 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83545 seconds before retrying.'}}
+2026-04-02 13:21:36,464 [WARNING]   Skipping job fdf4b908f0353376 (scoring failed).
+2026-04-02 13:21:37,983 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:37,983 [INFO] Retrying request to /chat/completions in 0.430615 seconds
+2026-04-02 13:21:38,427 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:38,428 [INFO] Retrying request to /chat/completions in 0.930922 seconds
+2026-04-02 13:21:39,375 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:39,375 [WARNING] Scoring API error for job f127d5bb50bef642: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83542 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83542 seconds before retrying.'}}
+2026-04-02 13:21:39,376 [WARNING]   Skipping job f127d5bb50bef642 (scoring failed).
+2026-04-02 13:21:40,890 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:40,891 [INFO] Retrying request to /chat/completions in 0.389845 seconds
+2026-04-02 13:21:41,297 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:41,297 [INFO] Retrying request to /chat/completions in 0.829387 seconds
+2026-04-02 13:21:42,140 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:42,141 [WARNING] Scoring API error for job 9316d2a782f2cf1b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83540 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83540 seconds before retrying.'}}
+2026-04-02 13:21:42,141 [WARNING]   Skipping job 9316d2a782f2cf1b (scoring failed).
+2026-04-02 13:21:43,659 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:43,659 [INFO] Retrying request to /chat/completions in 0.472992 seconds
+2026-04-02 13:21:44,152 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:44,153 [INFO] Retrying request to /chat/completions in 0.883235 seconds
+2026-04-02 13:21:45,059 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:45,060 [WARNING] Scoring API error for job c21d4ab631a003eb: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83537 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83537 seconds before retrying.'}}
+2026-04-02 13:21:45,060 [WARNING]   Skipping job c21d4ab631a003eb (scoring failed).
+2026-04-02 13:21:46,574 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:46,575 [INFO] Retrying request to /chat/completions in 0.472124 seconds
+2026-04-02 13:21:47,064 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:47,064 [INFO] Retrying request to /chat/completions in 0.839706 seconds
+2026-04-02 13:21:47,924 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:47,925 [WARNING] Scoring API error for job 8758d49360b3b7fa: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:21:47,925 [WARNING]   Skipping job 8758d49360b3b7fa (scoring failed).
+2026-04-02 13:21:49,443 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:21:49,443 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:22:33,691 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:33,691 [INFO] Retrying request to /chat/completions in 0.761620 seconds
+2026-04-02 13:22:34,708 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:34,709 [WARNING] Scoring API error for job 59e37d933075e0f5: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83487 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83487 seconds before retrying.'}}
+2026-04-02 13:22:34,709 [WARNING]   Skipping job 59e37d933075e0f5 (scoring failed).
+2026-04-02 13:22:36,228 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:36,228 [INFO] Retrying request to /chat/completions in 0.411635 seconds
+2026-04-02 13:22:36,660 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:36,661 [INFO] Retrying request to /chat/completions in 0.928653 seconds
+2026-04-02 13:22:37,610 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:37,611 [WARNING] Scoring API error for job 3e05fff7746c7538: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83484 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83484 seconds before retrying.'}}
+2026-04-02 13:22:37,611 [WARNING]   Skipping job 3e05fff7746c7538 (scoring failed).
+2026-04-02 13:22:39,127 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:39,127 [INFO] Retrying request to /chat/completions in 0.492345 seconds
+2026-04-02 13:22:39,638 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:39,639 [INFO] Retrying request to /chat/completions in 0.876670 seconds
+2026-04-02 13:22:40,529 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:40,529 [WARNING] Scoring API error for job ad06f5c4108c45f7: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83481 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83481 seconds before retrying.'}}
+2026-04-02 13:22:40,529 [WARNING]   Skipping job ad06f5c4108c45f7 (scoring failed).
+2026-04-02 13:22:42,050 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:42,050 [INFO] Retrying request to /chat/completions in 0.418375 seconds
+2026-04-02 13:22:42,481 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:42,482 [INFO] Retrying request to /chat/completions in 0.860532 seconds
+2026-04-02 13:22:43,360 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:43,360 [WARNING] Scoring API error for job efcdae0ecff09cc2: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83478 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83478 seconds before retrying.'}}
+2026-04-02 13:22:43,361 [WARNING]   Skipping job efcdae0ecff09cc2 (scoring failed).
+2026-04-02 13:22:44,875 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:44,876 [INFO] Retrying request to /chat/completions in 0.493210 seconds
+2026-04-02 13:22:45,388 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:45,388 [INFO] Retrying request to /chat/completions in 0.962042 seconds
+2026-04-02 13:22:46,363 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:46,364 [WARNING] Scoring API error for job 00565482545d1a32: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83475 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83475 seconds before retrying.'}}
+2026-04-02 13:22:46,364 [WARNING]   Skipping job 00565482545d1a32 (scoring failed).
+2026-04-02 13:22:47,887 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:47,887 [INFO] Retrying request to /chat/completions in 0.413778 seconds
+2026-04-02 13:22:48,313 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:22:48,313 [INFO] Retrying request to /chat/completions in 45.000000 seconds
+2026-04-02 13:23:33,353 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:33,354 [WARNING] Scoring API error for job 0259384ef4de43b5: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 0 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 0 seconds before retrying.'}}
+2026-04-02 13:23:33,354 [WARNING]   Skipping job 0259384ef4de43b5 (scoring failed).
+2026-04-02 13:23:34,879 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:34,880 [INFO] Retrying request to /chat/completions in 0.497314 seconds
+2026-04-02 13:23:35,391 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:35,391 [INFO] Retrying request to /chat/completions in 0.867076 seconds
+2026-04-02 13:23:36,277 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:36,278 [WARNING] Scoring API error for job 3de798b83de8ddd1: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83425 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83425 seconds before retrying.'}}
+2026-04-02 13:23:36,278 [WARNING]   Skipping job 3de798b83de8ddd1 (scoring failed).
+2026-04-02 13:23:37,792 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:37,793 [INFO] Retrying request to /chat/completions in 0.377883 seconds
+2026-04-02 13:23:38,195 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:38,196 [INFO] Retrying request to /chat/completions in 0.902346 seconds
+2026-04-02 13:23:39,116 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:39,117 [WARNING] Scoring API error for job 76390b7e96021a43: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83423 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83423 seconds before retrying.'}}
+2026-04-02 13:23:39,117 [WARNING]   Skipping job 76390b7e96021a43 (scoring failed).
+2026-04-02 13:23:40,638 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:40,638 [INFO] Retrying request to /chat/completions in 0.383533 seconds
+2026-04-02 13:23:41,038 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:41,039 [INFO] Retrying request to /chat/completions in 0.803418 seconds
+2026-04-02 13:23:41,862 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:41,863 [WARNING] Scoring API error for job 4cb5aea3073781cf: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83420 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83420 seconds before retrying.'}}
+2026-04-02 13:23:41,863 [WARNING]   Skipping job 4cb5aea3073781cf (scoring failed).
+2026-04-02 13:23:43,382 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:43,382 [INFO] Retrying request to /chat/completions in 0.472981 seconds
+2026-04-02 13:23:43,874 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:43,874 [INFO] Retrying request to /chat/completions in 0.987199 seconds
+2026-04-02 13:23:44,878 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:44,878 [WARNING] Scoring API error for job e4db6c6c5a8e5f95: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83417 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83417 seconds before retrying.'}}
+2026-04-02 13:23:44,879 [WARNING]   Skipping job e4db6c6c5a8e5f95 (scoring failed).
+2026-04-02 13:23:46,398 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:46,398 [INFO] Retrying request to /chat/completions in 0.442601 seconds
+2026-04-02 13:23:46,854 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:46,855 [INFO] Retrying request to /chat/completions in 0.818087 seconds
+2026-04-02 13:23:47,692 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:47,692 [WARNING] Scoring API error for job c420d2fb2d3953fe: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83414 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83414 seconds before retrying.'}}
+2026-04-02 13:23:47,692 [WARNING]   Skipping job c420d2fb2d3953fe (scoring failed).
+2026-04-02 13:23:49,206 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:23:49,206 [INFO] Retrying request to /chat/completions in 45.000000 seconds
+2026-04-02 13:24:34,448 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:34,449 [INFO] Retrying request to /chat/completions in 0.895297 seconds
+2026-04-02 13:24:35,571 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:35,572 [WARNING] Scoring API error for job 55d98a508f7fb3e8: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83366 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83366 seconds before retrying.'}}
+2026-04-02 13:24:35,572 [WARNING]   Skipping job 55d98a508f7fb3e8 (scoring failed).
+2026-04-02 13:24:37,090 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:37,091 [INFO] Retrying request to /chat/completions in 0.443309 seconds
+2026-04-02 13:24:37,549 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:37,550 [INFO] Retrying request to /chat/completions in 0.790161 seconds
+2026-04-02 13:24:38,358 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:38,359 [WARNING] Scoring API error for job adaa27d4fe209dec: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83363 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83363 seconds before retrying.'}}
+2026-04-02 13:24:38,359 [WARNING]   Skipping job adaa27d4fe209dec (scoring failed).
+2026-04-02 13:24:39,876 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:39,876 [INFO] Retrying request to /chat/completions in 0.493764 seconds
+2026-04-02 13:24:40,387 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:40,387 [INFO] Retrying request to /chat/completions in 0.956586 seconds
+2026-04-02 13:24:41,364 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:41,365 [WARNING] Scoring API error for job 0d36581a0b845521: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83360 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83360 seconds before retrying.'}}
+2026-04-02 13:24:41,365 [WARNING]   Skipping job 0d36581a0b845521 (scoring failed).
+2026-04-02 13:24:42,883 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:42,883 [INFO] Retrying request to /chat/completions in 0.382324 seconds
+2026-04-02 13:24:43,280 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:43,281 [INFO] Retrying request to /chat/completions in 0.887383 seconds
+2026-04-02 13:24:44,186 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:44,186 [WARNING] Scoring API error for job a196ff81b18d5b0b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83358 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83358 seconds before retrying.'}}
+2026-04-02 13:24:44,186 [WARNING]   Skipping job a196ff81b18d5b0b (scoring failed).
+2026-04-02 13:24:45,703 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:45,703 [INFO] Retrying request to /chat/completions in 0.430403 seconds
+2026-04-02 13:24:46,151 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:46,151 [INFO] Retrying request to /chat/completions in 0.956277 seconds
+2026-04-02 13:24:47,123 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:47,124 [WARNING] Scoring API error for job fcbb4f3a0adf6eb3: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83355 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83355 seconds before retrying.'}}
+2026-04-02 13:24:47,124 [WARNING]   Skipping job fcbb4f3a0adf6eb3 (scoring failed).
+2026-04-02 13:24:48,641 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:48,641 [INFO] Retrying request to /chat/completions in 0.404612 seconds
+2026-04-02 13:24:49,061 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:49,062 [INFO] Retrying request to /chat/completions in 0.834277 seconds
+2026-04-02 13:24:49,913 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:49,913 [WARNING] Scoring API error for job 72bbe453cf1d3b6b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:24:49,913 [WARNING]   Skipping job 72bbe453cf1d3b6b (scoring failed).
+2026-04-02 13:24:51,428 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:24:51,429 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:25:35,458 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:35,458 [INFO] Retrying request to /chat/completions in 0.780667 seconds
+2026-04-02 13:25:36,272 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:36,273 [WARNING] Scoring API error for job e3b3dc73fc3a235b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83305 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83305 seconds before retrying.'}}
+2026-04-02 13:25:36,273 [WARNING]   Skipping job e3b3dc73fc3a235b (scoring failed).
+2026-04-02 13:25:37,787 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:37,787 [INFO] Retrying request to /chat/completions in 0.388381 seconds
+2026-04-02 13:25:38,194 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:38,194 [INFO] Retrying request to /chat/completions in 0.773591 seconds
+2026-04-02 13:25:38,982 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:38,982 [WARNING] Scoring API error for job 1a574cac48c00bb1: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83303 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83303 seconds before retrying.'}}
+2026-04-02 13:25:38,983 [WARNING]   Skipping job 1a574cac48c00bb1 (scoring failed).
+2026-04-02 13:25:40,501 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:40,501 [INFO] Retrying request to /chat/completions in 0.455714 seconds
+2026-04-02 13:25:40,971 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:40,972 [INFO] Retrying request to /chat/completions in 0.989334 seconds
+2026-04-02 13:25:41,977 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:41,978 [WARNING] Scoring API error for job 36dcb9a361cd6a1d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83300 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83300 seconds before retrying.'}}
+2026-04-02 13:25:41,978 [WARNING]   Skipping job 36dcb9a361cd6a1d (scoring failed).
+2026-04-02 13:25:43,493 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:43,494 [INFO] Retrying request to /chat/completions in 0.477510 seconds
+2026-04-02 13:25:43,988 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:43,988 [INFO] Retrying request to /chat/completions in 0.982651 seconds
+2026-04-02 13:25:44,986 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:44,987 [WARNING] Scoring API error for job deca3cf76fa59ef1: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83297 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83297 seconds before retrying.'}}
+2026-04-02 13:25:44,987 [WARNING]   Skipping job deca3cf76fa59ef1 (scoring failed).
+2026-04-02 13:25:46,504 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:46,504 [INFO] Retrying request to /chat/completions in 0.421399 seconds
+2026-04-02 13:25:46,939 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:46,940 [INFO] Retrying request to /chat/completions in 0.985317 seconds
+2026-04-02 13:25:47,942 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:47,943 [WARNING] Scoring API error for job 05a7faf431bed63c: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83294 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83294 seconds before retrying.'}}
+2026-04-02 13:25:47,943 [WARNING]   Skipping job 05a7faf431bed63c (scoring failed).
+2026-04-02 13:25:49,458 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:49,458 [INFO] Retrying request to /chat/completions in 0.423970 seconds
+2026-04-02 13:25:49,899 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:49,899 [INFO] Retrying request to /chat/completions in 0.896291 seconds
+2026-04-02 13:25:50,808 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:50,808 [WARNING] Scoring API error for job 3271e7f372891fd3: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:25:50,808 [WARNING]   Skipping job 3271e7f372891fd3 (scoring failed).
+2026-04-02 13:25:52,325 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:25:52,325 [INFO] Retrying request to /chat/completions in 43.000000 seconds
+2026-04-02 13:26:35,602 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:35,603 [INFO] Retrying request to /chat/completions in 0.758867 seconds
+2026-04-02 13:26:36,749 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:36,750 [WARNING] Scoring API error for job 3afc19d6d58df4bc: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83245 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83245 seconds before retrying.'}}
+2026-04-02 13:26:36,750 [WARNING]   Skipping job 3afc19d6d58df4bc (scoring failed).
+2026-04-02 13:26:38,266 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:38,267 [INFO] Retrying request to /chat/completions in 0.380325 seconds
+2026-04-02 13:26:38,662 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:38,663 [INFO] Retrying request to /chat/completions in 0.772207 seconds
+2026-04-02 13:26:39,451 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:39,452 [WARNING] Scoring API error for job 0a42caa05d3ab1eb: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83242 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83242 seconds before retrying.'}}
+2026-04-02 13:26:39,452 [WARNING]   Skipping job 0a42caa05d3ab1eb (scoring failed).
+2026-04-02 13:26:40,970 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:40,970 [INFO] Retrying request to /chat/completions in 0.424231 seconds
+2026-04-02 13:26:41,411 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:41,412 [INFO] Retrying request to /chat/completions in 0.756733 seconds
+2026-04-02 13:26:42,184 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:42,185 [WARNING] Scoring API error for job 5f0ee6e259ad9689: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83240 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83240 seconds before retrying.'}}
+2026-04-02 13:26:42,185 [WARNING]   Skipping job 5f0ee6e259ad9689 (scoring failed).
+2026-04-02 13:26:43,702 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:43,703 [INFO] Retrying request to /chat/completions in 0.468530 seconds
+2026-04-02 13:26:44,187 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:44,188 [INFO] Retrying request to /chat/completions in 0.973785 seconds
+2026-04-02 13:26:45,178 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:45,178 [WARNING] Scoring API error for job 3d250a6c13951ba2: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83237 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83237 seconds before retrying.'}}
+2026-04-02 13:26:45,178 [WARNING]   Skipping job 3d250a6c13951ba2 (scoring failed).
+2026-04-02 13:26:46,695 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:46,696 [INFO] Retrying request to /chat/completions in 0.419925 seconds
+2026-04-02 13:26:47,132 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:47,133 [INFO] Retrying request to /chat/completions in 0.854565 seconds
+2026-04-02 13:26:48,004 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:48,004 [WARNING] Scoring API error for job e7abe044139d625d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83234 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83234 seconds before retrying.'}}
+2026-04-02 13:26:48,004 [WARNING]   Skipping job e7abe044139d625d (scoring failed).
+2026-04-02 13:26:49,522 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:49,523 [INFO] Retrying request to /chat/completions in 0.396912 seconds
+2026-04-02 13:26:49,936 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:49,937 [INFO] Retrying request to /chat/completions in 0.893618 seconds
+2026-04-02 13:26:50,851 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:50,852 [WARNING] Scoring API error for job 2df7aff6dec4933b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:26:50,852 [WARNING]   Skipping job 2df7aff6dec4933b (scoring failed).
+2026-04-02 13:26:52,368 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:26:52,368 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:27:36,650 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:36,651 [INFO] Retrying request to /chat/completions in 0.782293 seconds
+2026-04-02 13:27:37,723 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:37,724 [WARNING] Scoring API error for job de926456b1549d53: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83184 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83184 seconds before retrying.'}}
+2026-04-02 13:27:37,724 [WARNING]   Skipping job de926456b1549d53 (scoring failed).
+2026-04-02 13:27:39,238 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:39,238 [INFO] Retrying request to /chat/completions in 0.388376 seconds
+2026-04-02 13:27:39,646 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:39,646 [INFO] Retrying request to /chat/completions in 0.933241 seconds
+2026-04-02 13:27:40,594 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:40,594 [WARNING] Scoring API error for job 04d88178cfddc0c0: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83181 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83181 seconds before retrying.'}}
+2026-04-02 13:27:40,594 [WARNING]   Skipping job 04d88178cfddc0c0 (scoring failed).
+2026-04-02 13:27:42,114 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:42,114 [INFO] Retrying request to /chat/completions in 0.378056 seconds
+2026-04-02 13:27:42,506 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:42,507 [INFO] Retrying request to /chat/completions in 0.926355 seconds
+2026-04-02 13:27:43,453 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:43,453 [WARNING] Scoring API error for job 2a38722da79abcfd: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83178 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83178 seconds before retrying.'}}
+2026-04-02 13:27:43,453 [WARNING]   Skipping job 2a38722da79abcfd (scoring failed).
+2026-04-02 13:27:44,970 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:44,971 [INFO] Retrying request to /chat/completions in 0.402705 seconds
+2026-04-02 13:27:45,394 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:45,395 [INFO] Retrying request to /chat/completions in 0.885558 seconds
+2026-04-02 13:27:46,294 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:46,295 [WARNING] Scoring API error for job ea81cf79977dd66a: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83175 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83175 seconds before retrying.'}}
+2026-04-02 13:27:46,295 [WARNING]   Skipping job ea81cf79977dd66a (scoring failed).
+2026-04-02 13:27:47,816 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:47,816 [INFO] Retrying request to /chat/completions in 0.440863 seconds
+2026-04-02 13:27:48,270 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:48,271 [INFO] Retrying request to /chat/completions in 0.871664 seconds
+2026-04-02 13:27:49,163 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:49,163 [WARNING] Scoring API error for job 38c41665548f5f64: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83173 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83173 seconds before retrying.'}}
+2026-04-02 13:27:49,163 [WARNING]   Skipping job 38c41665548f5f64 (scoring failed).
+2026-04-02 13:27:50,678 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:50,679 [INFO] Retrying request to /chat/completions in 0.377421 seconds
+2026-04-02 13:27:51,078 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:51,078 [INFO] Retrying request to /chat/completions in 0.942857 seconds
+2026-04-02 13:27:52,033 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:52,033 [WARNING] Scoring API error for job 6f1d7ccb2809513b: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.', 'details': 'Rate limit of 15 per 60s exceeded for UserByModelByMinute. Please wait 45 seconds before retrying.'}}
+2026-04-02 13:27:52,034 [WARNING]   Skipping job 6f1d7ccb2809513b (scoring failed).
+2026-04-02 13:27:53,553 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:27:53,554 [INFO] Retrying request to /chat/completions in 44.000000 seconds
+2026-04-02 13:28:37,878 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:28:37,879 [INFO] Retrying request to /chat/completions in 0.914765 seconds
+2026-04-02 13:28:39,019 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:28:39,020 [WARNING] Scoring API error for job 09233f800582562d: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83123 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83123 seconds before retrying.'}}
+2026-04-02 13:28:39,020 [WARNING]   Skipping job 09233f800582562d (scoring failed).
+2026-04-02 13:28:40,540 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:28:40,541 [INFO] Retrying request to /chat/completions in 0.488323 seconds
+2026-04-02 13:28:41,046 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:28:41,047 [INFO] Retrying request to /chat/completions in 0.765928 seconds
+2026-04-02 13:28:41,832 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 13:28:41,832 [WARNING] Scoring API error for job 744df1660f7f08b3: Error code: 429 - {'error': {'code': 'RateLimitReached', 'message': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83120 seconds before retrying.', 'details': 'Rate limit of 150 per 86400s exceeded for UserByModelByDay. Please wait 83120 seconds before retrying.'}}
+2026-04-02 13:28:41,832 [WARNING]   Skipping job 744df1660f7f08b3 (scoring failed).
+2026-04-02 13:28:43,332 [INFO] Scoring complete. 9/107 jobs scored.
+2026-04-02 13:28:43,333 [INFO] Scored 9 jobs
+2026-04-02 13:28:43,333 [INFO] Refreshing lab map (monthly cadence)…
+2026-04-02 13:28:43,333 [INFO] Refreshing potential labs/researchers map…
+2026-04-02 13:29:53,828 [INFO] Labs map exported: 0 entries
+2026-04-02 13:29:53,829 [INFO] Exporting data…
+2026-04-02 13:29:53,830 [INFO] Exported 2 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-02 13:29:53,831 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-02 13:29:53,832 [INFO] Stats: {'total': 107, 'scored': 9, 'liked': 0, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-02T15:29:53+02:00'}
+2026-04-02 13:29:53,833 [INFO] Done. Total: 107 | Scored: 9 | Strong+: 0
