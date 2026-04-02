@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T17:17:56.657819",
+  "generated": "2026-04-02T17:48:28.955957",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -659,6 +659,30 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "0becb362991b8d15",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=e97955ecef3735cb",
+      "title": "Manager Application Software Engineering",
+      "company": "Xsens",
+      "location": "Enschede, OV, NL",
+      "date_posted": "2026-04-02",
+      "date_found": "2026-04-02T17:47:47.728910",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xsens"
       }
     }
   ]
