@@ -1,6 +1,30 @@
 {
-  "generated": "2026-04-02T15:26:00.378639",
+  "generated": "2026-04-02T16:12:40.504632",
   "jobs": [
+    {
+      "id": "459cbbdfe4ad0304",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4382702764",
+      "title": "AI Engineer",
+      "company": "IBM",
+      "location": "Groningen, Groningen, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-02T16:12:00.363671",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=IBM&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IBM"
+      }
+    },
     {
       "id": "90ccc189c858888f",
       "source": "company_html",
