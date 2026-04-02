@@ -20,17 +20,8 @@ jobs:
         with:
           fetch-depth: 1
 
-      # ── 2. Restore persistent DB from previous run ──
-      # Use a unique key per run so the updated DB is always saved back.
-      # restore-keys provides a fallback to the latest previous save.
-      - name: Restore jobs.db
-        uses: actions/cache@v4.2.3
-        with:
-          path: data/jobs.db
-          key: jobs-db-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: jobs-db-${{ runner.os }}-
-
-      # ── 3. Python + deps ──
+      # ── 2. Python + deps ──
+      # Note: jobs.db is committed to git (no cache needed — git IS the persistence layer)
       - name: Set up Python
         uses: actions/setup-python@v5.5.0
         with:
@@ -50,9 +41,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
         run: python -m scraper.main
-
-      # ── 6. Persist DB via cache (already configured above) ──
-      # The cache@v4 action saves automatically at end of job.
 
       # ── 7. Commit updated JSON exports to main branch ──
       - name: Commit data exports

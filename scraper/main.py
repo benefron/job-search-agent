@@ -27,7 +27,7 @@ log = logging.getLogger(__name__)
 
 
 def main() -> None:
-    from scraper import db, scraper, companies, export, labs
+    from scraper import db, scraper, companies, export
     from scorer import scorer
 
     # ── 1. Init database ──
@@ -76,13 +76,6 @@ def main() -> None:
             log.exception("Scoring failed — continuing with export")
 
     # ── 6. Export JSON + CSV for dashboard ──
-    log.info("Refreshing lab map (monthly cadence)…")
-    try:
-        labs.refresh_labs_if_due()
-    except Exception:
-        log.exception("Lab mapping failed — continuing with export")
-
-    # ── 7. Export JSON + CSV for dashboard ──
     log.info("Exporting data…")
     export.export_jobs()
     export.export_stats()
