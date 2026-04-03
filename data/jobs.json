@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T17:48:28.955957",
+  "generated": "2026-04-03T04:57:44.480531",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -63,6 +63,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "bd125df55eaff79a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4393812178",
+      "title": "Senior Machine Learning Engineer - ADAS",
+      "company": "TomTom",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-03T04:56:27.582830",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "machine learning applications",
+        "computer vision",
+        "collaborate with cross-functional teams"
+      ],
+      "key_gaps": [
+        "focus on autonomous vehicles",
+        "not directly related to systems neuroscience"
+      ],
+      "rationale": "The role aligns well with Ben's machine learning and computational skills, but it primarily focuses on computer vision for autonomous vehicles, which is a slight divergence from his core expertise in systems neuroscience.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TomTom"
+      }
+    },
+    {
+      "id": "0becb362991b8d15",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=e97955ecef3735cb",
+      "title": "Manager Application Software Engineering",
+      "company": "Xsens",
+      "location": "Enschede, OV, NL",
+      "date_posted": "2026-04-02",
+      "date_found": "2026-04-02T17:47:47.728910",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "strong programming skills",
+        "experience in AI and real-time systems",
+        "leadership and team management"
+      ],
+      "key_gaps": [
+        "focus on human motion data rather than neuroscience",
+        "not directly related to systems neuroscience or neuroengineering"
+      ],
+      "rationale": "The role aligns well with Ben's programming and leadership skills, but it diverges from his primary domain of systems neuroscience.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xsens"
       }
     },
     {
@@ -280,6 +342,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "8758d49360b3b7fa",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4392849582",
+      "title": "AI Engineer",
+      "company": "MarvelX AI",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-01",
+      "date_found": "2026-04-03T04:56:27.586683",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong background in Python",
+        "Experience with ML frameworks (PyTorch)",
+        "Ability to design and build systems"
+      ],
+      "key_gaps": [
+        "Lack of specific experience in LLMs and agentic architectures",
+        "Domain mismatch with insurance and banking"
+      ],
+      "rationale": "While Ben has relevant skills in AI and systems design, the focus on LLMs and the specific industry application create a moderate fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=MarvelX%20AI"
+      }
+    },
+    {
+      "id": "09200dd619e0dc28",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4390354736",
+      "title": "Research Engineer In Open-Source Machine Learning",
+      "company": "Eindhoven University of Technology",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-03T04:56:27.584218",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "open-source software",
+        "machine learning",
+        "collaboration with scientific community"
+      ],
+      "key_gaps": [
+        "lack of direct relevance to systems neuroscience",
+        "focus on open data rather than neuromorphic computing"
+      ],
+      "rationale": "While the position involves relevant skills in software engineering and machine learning, it lacks a direct connection to Ben's primary domain of systems neuroscience and neuromorphic computing.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Eindhoven%20University%20of%20Technology"
       }
     },
     {
@@ -659,30 +783,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "0becb362991b8d15",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=e97955ecef3735cb",
-      "title": "Manager Application Software Engineering",
-      "company": "Xsens",
-      "location": "Enschede, OV, NL",
-      "date_posted": "2026-04-02",
-      "date_found": "2026-04-02T17:47:47.728910",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xsens"
       }
     }
   ]
