@@ -2398,3 +2398,117 @@
 2026-04-06 05:08:51,262 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-06 05:08:51,263 [INFO] Stats: {'total': 174, 'scored': 174, 'liked': 8, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-06T07:08:51+02:00'}
 2026-04-06 05:08:51,264 [INFO] Done. Total: 174 | Scored: 174 | Strong+: 0
+2026-04-07 04:53:23,652 [INFO] Initialising database…
+2026-04-07 04:53:23,653 [INFO] Ingesting feedback…
+2026-04-07 04:53:23,659 [INFO] Applied 21 feedback records.
+2026-04-07 04:53:23,660 [INFO] Scraping job boards…
+2026-04-07 04:53:23,660 [INFO] Searching: 'neuromorphic engineer' in Netherlands
+2026-04-07 04:53:52,518 [INFO]   Found 4 new results so far (this query).
+2026-04-07 04:54:00,519 [INFO] Searching: 'spiking neural network engineer' in Netherlands
+2026-04-07 04:54:00,748 [INFO]   No results.
+2026-04-07 04:54:08,748 [INFO] Searching: 'brain-inspired computing' in Netherlands
+2026-04-07 04:54:08,990 [INFO]   No results.
+2026-04-07 04:54:16,990 [INFO] Searching: 'neuromorphic AI' in Netherlands
+2026-04-07 04:54:17,204 [INFO]   No results.
+2026-04-07 04:54:25,204 [INFO] Searching: 'neuroengineering' in Netherlands
+2026-04-07 04:54:25,400 [INFO]   No results.
+2026-04-07 04:54:33,401 [INFO] Searching: 'neurotech scientist' in Netherlands
+2026-04-07 04:54:33,616 [INFO]   No results.
+2026-04-07 04:54:41,616 [INFO] Searching: 'computational neuroscience' in Netherlands
+2026-04-07 04:54:41,882 [INFO]   Found 4 new results so far (this query).
+2026-04-07 04:54:49,882 [INFO] Searching: 'edge AI scientist' in Netherlands
+2026-04-07 04:55:04,175 [INFO]   Found 5 new results so far (this query).
+2026-04-07 04:55:12,175 [INFO] Searching: 'embedded AI engineer' in Netherlands
+2026-04-07 04:55:44,896 [INFO]   Found 11 new results so far (this query).
+2026-04-07 04:55:52,896 [INFO] Searching: 'embedded sensing engineer' in Netherlands
+2026-04-07 04:55:53,086 [INFO]   No results.
+2026-04-07 04:56:01,086 [INFO] Searching: 'R&D scientist sensing' in Netherlands
+2026-04-07 04:56:01,322 [INFO]   No results.
+2026-04-07 04:56:09,322 [INFO] Searching: 'applied scientist signal processing' in Netherlands
+2026-04-07 04:56:17,388 [INFO]   Found 11 new results so far (this query).
+2026-04-07 04:56:25,388 [INFO] Searching: 'research scientist neuromorphic' in Netherlands
+2026-04-07 04:56:25,594 [INFO]   No results.
+2026-04-07 04:56:33,594 [INFO] Searching: 'neuromorphic' in Leuven Belgium
+2026-04-07 04:56:33,797 [INFO]   No results.
+2026-04-07 04:56:41,797 [INFO] Searching: 'neuroengineering' in Leuven Belgium
+2026-04-07 04:56:41,993 [INFO]   No results.
+2026-04-07 04:56:49,993 [INFO] Searching: 'embedded AI' in Eindhoven Netherlands
+2026-04-07 04:56:50,288 [INFO]   Found 11 new results so far (this query).
+2026-04-07 04:56:58,289 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Netherlands
+2026-04-07 04:56:58,521 [INFO]   No results.
+2026-04-07 04:57:06,522 [INFO] Searching: 'postdoc neuroengineering' in Netherlands
+2026-04-07 04:57:06,723 [INFO]   No results.
+2026-04-07 04:57:14,723 [INFO] Searching: 'postdoctoral researcher neuroscience' in Netherlands
+2026-04-07 04:57:22,275 [INFO]   Found 12 new results so far (this query).
+2026-04-07 04:57:30,275 [INFO] Searching: 'experimental neuroscience' in Netherlands
+2026-04-07 04:57:30,558 [INFO]   Found 12 new results so far (this query).
+2026-04-07 04:57:38,559 [INFO] Searching: 'embedded systems engineer ai' in Netherlands
+2026-04-07 04:57:44,196 [INFO]   Found 13 new results so far (this query).
+2026-04-07 04:57:52,196 [INFO] Searching: 'robotics engineer perception' in Netherlands
+2026-04-07 04:57:52,406 [INFO]   No results.
+2026-04-07 04:58:00,406 [INFO] Searching: 'brain computer interface' in Netherlands
+2026-04-07 04:58:00,616 [INFO]   No results.
+2026-04-07 04:58:08,616 [INFO] Searching: 'brain machine interface' in Netherlands
+2026-04-07 04:58:08,814 [INFO]   No results.
+2026-04-07 04:58:16,814 [INFO] Scrape complete. 13 new jobs found.
+2026-04-07 04:58:16,832 [INFO] Saved 13 new jobs to database.
+2026-04-07 04:58:16,832 [INFO] Job boards: 13 new jobs saved
+2026-04-07 04:58:16,832 [INFO] Scraping company career pages…
+2026-04-07 04:58:16,832 [INFO] Scraping company: Innatera
+2026-04-07 04:58:17,002 [INFO]   Innatera: 0 listings found.
+2026-04-07 04:58:19,003 [INFO] Scraping company: imec
+2026-04-07 04:58:19,615 [INFO]   imec: 0 job links found on listing page, fetching details…
+2026-04-07 04:58:19,616 [INFO]   imec: 0 listings found.
+2026-04-07 04:58:21,616 [INFO] Scraping company: Axelera AI
+2026-04-07 04:58:21,724 [WARNING] Greenhouse fetch failed for Axelera AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/axeleraai/jobs?content=true
+2026-04-07 04:58:21,725 [INFO]   Axelera AI: 0 listings found.
+2026-04-07 04:58:23,726 [INFO] Scraping company: Prophesee
+2026-04-07 04:58:23,850 [WARNING] Greenhouse fetch failed for Prophesee: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/prophesee/jobs?content=true
+2026-04-07 04:58:23,851 [INFO]   Prophesee: 0 listings found.
+2026-04-07 04:58:25,852 [INFO] Scraping company: Noldus
+2026-04-07 04:58:26,775 [WARNING] HTML fetch failed for Noldus: 404 Client Error: Not Found for url: https://noldus.com/about/jobs
+2026-04-07 04:58:26,777 [INFO]   Noldus: 0 listings found.
+2026-04-07 04:58:28,778 [INFO] Scraping company: Demcon
+2026-04-07 04:58:31,033 [WARNING] HTML fetch failed for Demcon: 404 Client Error: Not Found for url: https://demcon.com/en/vacancies
+2026-04-07 04:58:31,035 [INFO]   Demcon: 0 listings found.
+2026-04-07 04:58:33,035 [INFO] Scraping company: TNO
+2026-04-07 04:58:34,285 [INFO]   TNO: 30 listings found.
+2026-04-07 04:58:55,604 [INFO] AcademicTransfer: found 0 positions.
+2026-04-07 04:58:55,612 [INFO] Company monitor: 30 scraped, 30 after filter, 0 new.
+2026-04-07 04:58:55,612 [INFO] Saved 0 new company jobs to database.
+2026-04-07 04:58:55,612 [INFO] Company pages: 0 new jobs saved
+2026-04-07 04:58:55,612 [INFO] Scoring pending jobs…
+2026-04-07 04:58:55,613 [INFO] Scoring 13 pending jobs (cap=30)…
+2026-04-07 04:58:57,820 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:58:57,828 [INFO]   Scored [0] Klimaat Engineer at WR.nl Solliciteren — The job is entirely unrelated to Ben's expertise in systems neuroscience and neu
+2026-04-07 04:59:02,697 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:02,700 [INFO]   Scored [0] 3644 Servic e Engineer at Contact One Communications, Inc. — The job is unrelated to Ben's expertise in systems neuroscience and requires a s
+2026-04-07 04:59:07,474 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:07,477 [INFO]   Scored [0] Docent Wiskunde / Techniek (voor ingenieurs / technici) at Docentenmarktplaats.nl — The position is a teaching role in Dutch, which does not align with Ben's expert
+2026-04-07 04:59:12,069 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:12,071 [INFO]   Scored [0] Docent Wiskunde / Techniek (voor ingenieurs / technici) at Docentenmarktplaats.nl — The job is a teaching position in Dutch, which does not align with Ben's qualifi
+2026-04-07 04:59:16,949 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:16,951 [INFO]   Scored [30] Senior Data Engineer/ Data scientist at BlueRose Technologies — While there are some transferable skills in Python and quantitative analysis, th
+2026-04-07 04:59:21,916 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:21,919 [INFO]   Scored [30] AI Engineer - FDE (Forward Deployed Engineer) at Databricks — While there are some relevant skills, the role's focus on GenAI and customer eng
+2026-04-07 04:59:26,803 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:26,806 [INFO]   Scored [30] Principal AI Performance Engineer - GPU Kernels at AMD — While there are relevant skills in Python and machine learning, the role's focus
+2026-04-07 04:59:31,190 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:31,193 [INFO]   Scored [30] AI & Optimization Engineer (100% Remote) at Tether.io — While there are relevant skills in AI and optimization, the role's focus on Bitc
+2026-04-07 04:59:35,560 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:35,563 [INFO]   Scored [0] AI/Data Engineer | Dutch Speaker | Netherlands at Acquism SARL — The job requires Dutch fluency, which is a hard exclusion rule, resulting in a s
+2026-04-07 04:59:40,273 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:40,276 [INFO]   Scored [0] Data Scientist at OverheidZZP — The job posting is primarily in Dutch and does not align with Ben's expertise in
+2026-04-07 04:59:44,829 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:44,832 [INFO]   Scored [30] Data Scientist at Magno IT Recruitment — While there are relevant skills in Python and data analysis, the role's focus on
+2026-04-07 04:59:49,292 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:49,294 [INFO]   Scored [0] Postdoctoral Fellow in Computational Acoustics and Digital Twin Modelling at UNSW — The position is located in Australia and requires specific citizenship, making i
+2026-04-07 04:59:53,880 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 04:59:53,882 [INFO]   Scored [30] Current Career Opportunities at BSS at BSS Holland BV — While there are relevant skills in AI and embedded systems, the lack of a direct
+2026-04-07 04:59:56,883 [INFO] Scoring complete. 13/13 attempted.
+2026-04-07 04:59:56,883 [INFO] Scored 13 jobs
+2026-04-07 04:59:56,883 [INFO] Exporting data…
+2026-04-07 04:59:56,885 [INFO] Exported 31 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-07 04:59:56,886 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-07 04:59:56,888 [INFO] Stats: {'total': 187, 'scored': 187, 'liked': 8, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-07T06:59:56+02:00'}
+2026-04-07 04:59:56,889 [INFO] Done. Total: 187 | Scored: 187 | Strong+: 0
