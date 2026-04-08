@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T04:59:56.884844",
+  "generated": "2026-04-08T05:03:29.357845",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -63,6 +63,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "360b29295cf1f4f9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4386542283",
+      "title": "Agentic & Generative Edge AI Optimization Engineer",
+      "company": "ENTER BV",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.272803",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Experience in AI and embedded systems",
+        "Focus on optimizing AI models for edge deployment",
+        "Multidisciplinary environment"
+      ],
+      "key_gaps": [
+        "Lack of direct neuroscience application",
+        "Emphasis on large language models rather than spiking neural networks"
+      ],
+      "rationale": "The role aligns well with Ben's experience in AI and embedded systems, but lacks a direct connection to his neuroscience expertise.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ENTER%20BV&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ENTER%20BV&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ENTER%20BV&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ENTER%20BV"
+      }
+    },
+    {
+      "id": "291b40521bf253b0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4395443571",
+      "title": "Senior Deep Learning Researcher \u2013 Physical AI - Qualcomm - Amsterdam",
+      "company": "Qualcomm",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.249912",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Deep learning research",
+        "Robotics and embodied AI",
+        "Multimodal sensing"
+      ],
+      "key_gaps": [
+        "Lack of direct experience in humanoid robotics",
+        "Focus on business impact may not align with academic research interests"
+      ],
+      "rationale": "The role aligns well with Ben's expertise in AI and robotics, but the emphasis on business impact and humanoid robotics presents some gaps.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Qualcomm"
       }
     },
     {
@@ -404,6 +466,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "61368243fb69c6a9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4377129839",
+      "title": "Computer Vision Scientist/Data Scientist",
+      "company": "Harnham",
+      "location": "The Randstad, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.267542",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong programming skills in Python",
+        "Experience with machine learning frameworks like PyTorch",
+        "Ability to work independently in a fast-paced environment"
+      ],
+      "key_gaps": [
+        "Lack of direct experience in computer vision",
+        "Role primarily focused on AI and not directly related to systems neuroscience"
+      ],
+      "rationale": "While there are relevant skills in Python and machine learning, the focus on computer vision and lack of direct neuroscience application creates a moderate fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Harnham"
+      }
+    },
+    {
+      "id": "421f629a681145e5",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4384081187",
+      "title": "AI/ML Multimodal Data Scientist (m/w/d)",
+      "company": "dsm-firmenich",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.247447",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "AI/ML integration",
+        "multimodal data analysis",
+        "biological insights"
+      ],
+      "key_gaps": [
+        "lack of direct neuroscience application",
+        "focus on health and nutrition rather than systems neuroscience"
+      ],
+      "rationale": "While the role involves AI/ML and data analysis, it lacks a direct connection to systems neuroscience, which is Ben's primary expertise.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=dsm-firmenich&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=dsm-firmenich&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=dsm-firmenich&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=dsm-firmenich"
       }
     },
     {
@@ -969,6 +1093,270 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "a80885251554d5a3",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=c4f6ebbf2318ba4a",
+      "title": "Senior Deep Learning Researcher \u2013 Physical AI - Qualcomm - Amsterdam",
+      "company": "Qualcomm",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-04-07",
+      "date_found": "2026-04-08T05:00:12.287564",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Qualcomm"
+      }
+    },
+    {
+      "id": "c57c12ad1cf3e4dd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398351254",
+      "title": "Embedded Linux Field Engineer for Devices/IoT",
+      "company": "Canonical",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-07",
+      "date_found": "2026-04-08T05:00:12.286314",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Canonical&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Canonical&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Canonical&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Canonical"
+      }
+    },
+    {
+      "id": "66fd44f33edaee3f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398213477",
+      "title": "Postdoc in AI for Accessible Cardiac CT Image Analysis- NL",
+      "company": "Amsterdam UMC",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.285061",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amsterdam%20UMC"
+      }
+    },
+    {
+      "id": "12527a67090ff3c6",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398386339",
+      "title": "Postdoc position: \u201cto trace the evolution of symbiotic lifestyles across the tree of life\u201d",
+      "company": "NIOZ Royal Netherlands Institute for Sea Research",
+      "location": "\u2019t Horntje, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.283785",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NIOZ%20Royal%20Netherlands%20Institute%20for%20Sea%20Research&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NIOZ%20Royal%20Netherlands%20Institute%20for%20Sea%20Research&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=NIOZ%20Royal%20Netherlands%20Institute%20for%20Sea%20Research&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NIOZ%20Royal%20Netherlands%20Institute%20for%20Sea%20Research"
+      }
+    },
+    {
+      "id": "ccd51ea549bed30c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4386906676",
+      "title": "Postdoc (2) Microbial Community Engineering for the Production of Polyhydroxyalkanoa (PHAs)",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.282467",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "367e7d9be90a2a7e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398397715",
+      "title": "Postdoctoral Researcher in Marine Microbial Ecology",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.281026",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
+      }
+    },
+    {
+      "id": "57257ab4f317906d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398220404",
+      "title": "Postdoc | Brain barriers in neurodegenerative diseases (36,0 hrs)- NL",
+      "company": "Amsterdam UMC",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.279596",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amsterdam%20UMC"
+      }
+    },
+    {
+      "id": "ad69b0da53547eeb",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389805440",
+      "title": "Postdoc position ALS grant",
+      "company": "UMC Utrecht",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.278346",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UMC%20Utrecht"
+      }
+    },
+    {
+      "id": "d858373fabcafd26",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398259545",
+      "title": "Postdoctoral Researcher",
+      "company": "Leiden University Medical Center",
+      "location": "Leiden, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-08T05:00:12.276983",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University%20Medical%20Center&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University%20Medical%20Center&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University%20Medical%20Center&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Leiden%20University%20Medical%20Center"
+      }
+    },
+    {
+      "id": "58423d999b366b79",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398435862",
+      "title": "Postdoc in AI for Accessible Cardiac CT Image Analysis",
+      "company": "Amsterdam UMC",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-07",
+      "date_found": "2026-04-08T05:00:12.275402",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amsterdam%20UMC"
+      }
+    },
+    {
+      "id": "6e43f2c0e2a53c8a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398445857",
+      "title": "Postdoc | Brain barriers in neurodegenerative diseases (36,0 hrs)",
+      "company": "Amsterdam UMC",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-07",
+      "date_found": "2026-04-08T05:00:12.274105",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amsterdam%20UMC"
       }
     }
   ]
