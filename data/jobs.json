@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-09T05:02:10.925099",
+  "generated": "2026-04-10T05:11:41.591156",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -63,6 +63,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "5c6f71dbd28e4829",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=8e1e7ad98c28a29e",
+      "title": "Embedded Software Engineer",
+      "company": "Xsens",
+      "location": "Enschede, OV, NL",
+      "date_posted": "2026-04-09",
+      "date_found": "2026-04-10T05:08:36.371228",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "embedded systems",
+        "real-time processing",
+        "sensor integration"
+      ],
+      "key_gaps": [
+        "lack of direct neuroscience application",
+        "focus on firmware development rather than neuroengineering"
+      ],
+      "rationale": "The role aligns well with Ben's embedded systems experience and real-time processing skills, but lacks a direct connection to his neuroscience background.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xsens&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xsens"
+      }
+    },
+    {
+      "id": "a9a8e71d76c496b9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4315716479",
+      "title": "SLAM Engineer - XR Labs Europe - Amsterdam Netherlands",
+      "company": "Qualcomm",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-09T04:57:57.959026",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "experience in machine learning algorithms",
+        "understanding of computer vision methods",
+        "collaboration across functional boundaries"
+      ],
+      "key_gaps": [
+        "lack of direct experience in SLAM",
+        "focus on C++ programming rather than Python"
+      ],
+      "rationale": "The role aligns well with Ben's skills in machine learning and computer vision, but lacks a direct focus on SLAM and emphasizes C++ over his primary programming languages.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Qualcomm"
       }
     },
     {
@@ -497,6 +559,37 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "971d842ad405ecb1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4397619132",
+      "title": "Machine Learning Staff Engineer",
+      "company": "TomTom",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-10T05:08:36.367412",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong hands-on experience with PyTorch",
+        "Experience in machine learning",
+        "Deep expertise in modern deep learning architectures"
+      ],
+      "key_gaps": [
+        "Lack of direct neuroscience application",
+        "Focus on autonomous systems and robotics perception, which is not Ben's primary interest"
+      ],
+      "rationale": "While the role involves relevant machine learning skills and experience with PyTorch, it lacks a direct connection to systems neuroscience and focuses more on autonomous systems.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TomTom"
       }
     },
     {
@@ -1313,38 +1406,14 @@
       }
     },
     {
-      "id": "aad02ce736886c70",
+      "id": "905b5ca4975e1436",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4384492741",
-      "title": "Electrical Test Engineer",
-      "company": "ASSA ABLOY Group",
-      "location": "Tilburg, North Brabant, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.960279",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ASSA%20ABLOY%20Group&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ASSA%20ABLOY%20Group&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=ASSA%20ABLOY%20Group&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ASSA%20ABLOY%20Group"
-      }
-    },
-    {
-      "id": "a9a8e71d76c496b9",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4315716479",
-      "title": "SLAM Engineer - XR Labs Europe - Amsterdam Netherlands",
-      "company": "Qualcomm",
+      "url": "https://www.linkedin.com/jobs/view/4399831621",
+      "title": "Autonomous Driving - Software Product Support Engineer, Service Engineering",
+      "company": "Tesla",
       "location": "Amsterdam, North Holland, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.959026",
+      "date_found": "2026-04-10T05:08:36.392167",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1354,21 +1423,21 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Qualcomm"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Tesla&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Tesla&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Tesla&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Tesla"
       }
     },
     {
-      "id": "edf70fee52c74508",
+      "id": "a878172eef73d61a",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4399475348",
-      "title": "Postdoc onderzoeker Jeugdbescherming",
-      "company": "Leiden University",
-      "location": "Leiden, South Holland, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4294976477",
+      "title": "Robotics Software Engineer (Founding Engineer)",
+      "company": "Scura",
+      "location": "Groningen, Groningen, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.957818",
+      "date_found": "2026-04-10T05:08:36.390969",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1378,21 +1447,45 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Leiden%20University"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Scura&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Scura&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Scura&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Scura"
       }
     },
     {
-      "id": "843bd093fd807bd1",
+      "id": "664161b477f2bfe7",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=7ad4425a04572afa",
+      "title": "Machine Learning Staff Engineer",
+      "company": "TomTom",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-04-09",
+      "date_found": "2026-04-10T05:08:36.389609",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TomTom"
+      }
+    },
+    {
+      "id": "fab39aa482dc24ba",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398466968",
-      "title": "Postdoctoral Researcher - Proteomics",
-      "company": "Utrecht University",
-      "location": "Utrecht, Utrecht, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4400202962",
+      "title": "Postdoc Researcher in Hybrid AI Sensemaking",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.956516",
+      "date_found": "2026-04-10T05:08:36.388381",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1402,21 +1495,21 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Utrecht%20University"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
       }
     },
     {
-      "id": "639940c5039699fc",
+      "id": "e69b08b292532040",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4399483048",
-      "title": "Postdoctoral researcher in multilingual assessment (0,5fte)- NL",
-      "company": "Leiden University",
-      "location": "Leiden, South Holland, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4400268738",
+      "title": "Postdoc Researcher in Hybrid AI Sensemaking",
+      "company": "ElectroChemical Flow Systems laboratory",
+      "location": "Delft, South Holland, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.955294",
+      "date_found": "2026-04-10T05:08:36.386905",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1426,21 +1519,21 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Leiden%20University"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ElectroChemical%20Flow%20Systems%20laboratory"
       }
     },
     {
-      "id": "908034dd022b6bc4",
+      "id": "e5154df933597036",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398628485",
-      "title": "Postdoc Clinical Psychology",
-      "company": "Utrecht University",
-      "location": "Utrecht, Utrecht, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4398698418",
+      "title": "Post-Doctoral Fellow",
+      "company": "UNSW",
+      "location": "Delft, South Holland, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.953985",
+      "date_found": "2026-04-10T05:08:36.385212",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1450,21 +1543,45 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Utrecht%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Utrecht%20University"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UNSW"
       }
     },
     {
-      "id": "ca527c781a6b2e93",
+      "id": "c3e0b8f4df09b90f",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=8c0ee8ff5a11cc35",
+      "title": "SEO / AIO Lead",
+      "company": "Vintage Cash Cow & Arcavindi",
+      "location": "Duiven, GE, NL",
+      "date_posted": "2026-04-09",
+      "date_found": "2026-04-10T05:08:36.383445",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vintage%20Cash%20Cow%20%26%20Arcavindi&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vintage%20Cash%20Cow%20%26%20Arcavindi&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vintage%20Cash%20Cow%20%26%20Arcavindi&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vintage%20Cash%20Cow%20%26%20Arcavindi"
+      }
+    },
+    {
+      "id": "300d5bdc20addc39",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398626103",
-      "title": "Senior Oracle HCM Cloud Techno\u2011Functional Specialist",
-      "company": "UL Solutions",
-      "location": "Arnhem, Gelderland, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4397222392",
+      "title": "Firmware R&D Engineer",
+      "company": "Delta Electronics EMEA",
+      "location": "Helmond, North Brabant, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.952687",
+      "date_found": "2026-04-10T05:08:36.381644",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1474,141 +1591,21 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UL%20Solutions"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delta%20Electronics%20EMEA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delta%20Electronics%20EMEA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delta%20Electronics%20EMEA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delta%20Electronics%20EMEA"
       }
     },
     {
-      "id": "c3a8324449fe99a2",
+      "id": "ce27be933d48408e",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4352750550",
-      "title": "OLAN C/C++ Clock Development Engineer",
-      "company": "Nokia",
-      "location": "Antwerp, Flemish Region, Belgium",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.951509",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Nokia"
-      }
-    },
-    {
-      "id": "addea47a5a012b6c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4384177259",
-      "title": "Freelance AI Engineer \u2013 Healthcare (Remote in Europe)",
-      "company": "Vivid Resourcing",
-      "location": "North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.950247",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
-      }
-    },
-    {
-      "id": "046d61003d1072e3",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4395990949",
-      "title": "Data Scientist",
-      "company": "Fitexa",
-      "location": "Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.949083",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Fitexa&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Fitexa&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Fitexa&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Fitexa"
-      }
-    },
-    {
-      "id": "bc2f8cba3400fd7c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398478461",
-      "title": "AI Engineer",
-      "company": "Riverflex",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.947780",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Riverflex&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Riverflex&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Riverflex&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Riverflex"
-      }
-    },
-    {
-      "id": "a6a776a72a8ac0ca",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4395989885",
-      "title": "Senior Software Engineer, AI Data",
-      "company": "Jobgether",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.946539",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
-      }
-    },
-    {
-      "id": "722b243fcef06c88",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4399250401",
-      "title": "Senior AI Engineer",
-      "company": "YorTeam B.V.",
+      "url": "https://www.linkedin.com/jobs/view/4400201882",
+      "title": "Artificial Intelligence Engineer",
+      "company": "Reply",
       "location": "The Randstad, Netherlands",
       "date_posted": "nan",
-      "date_found": "2026-04-09T04:57:57.945318",
+      "date_found": "2026-04-10T05:08:36.380450",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -1618,10 +1615,82 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=YorTeam%20B.V.&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=YorTeam%20B.V.&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=YorTeam%20B.V.&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=YorTeam%20B.V."
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Reply"
+      }
+    },
+    {
+      "id": "e065219904804478",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4372709539",
+      "title": "Forward Deployed AI Engineer",
+      "company": "ICEYE",
+      "location": "Breda, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-10T05:08:36.379154",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ICEYE&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ICEYE&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ICEYE&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ICEYE"
+      }
+    },
+    {
+      "id": "91baab3750699c3c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4400206793",
+      "title": "Artificial Intelligence Engineer",
+      "company": "Reply",
+      "location": "The Randstad, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-10T05:08:36.378177",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Reply&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Reply"
+      }
+    },
+    {
+      "id": "4ca719a68c80f39d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4400230981",
+      "title": "AI Engineer - Mumbai",
+      "company": "Optivaize",
+      "location": "De Bilt, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-10T05:08:36.376594",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Optivaize&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Optivaize&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Optivaize&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Optivaize"
       }
     }
   ]
