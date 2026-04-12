@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-11T04:52:14.539148",
+  "generated": "2026-04-12T05:11:33.179230",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -559,6 +559,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "fd160fcd310750c2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4387704019",
+      "title": "Senior Embedded Software Engineer",
+      "company": "Search X Recruitment",
+      "location": "Almere, Flevoland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-11T04:49:16.612205",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Experience with Python",
+        "Embedded systems knowledge",
+        "Collaboration with multidisciplinary teams"
+      ],
+      "key_gaps": [
+        "Lack of direct neuroscience application",
+        "Focus on software engineering rather than neuroengineering"
+      ],
+      "rationale": "While there are relevant skills in embedded systems and Python, the role lacks a direct connection to neuroscience, making it a moderate fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Search%20X%20Recruitment"
+      }
+    },
+    {
+      "id": "0ab40d6003c4f73a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4361647689",
+      "title": "Machine Learning Science - IC - G - I",
+      "company": "Booking.com",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-11T04:49:16.601207",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Machine Learning",
+        "Python",
+        "Data Analysis"
+      ],
+      "key_gaps": [
+        "Lack of direct neuroscience application",
+        "Focus on business problems rather than research"
+      ],
+      "rationale": "While there are relevant skills in machine learning and Python, the role's focus on business applications and lack of direct neuroscience alignment creates a moderate fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
       }
     },
     {
@@ -1465,342 +1527,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "1098c304e1a74ba9",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400571430",
-      "title": "Forward-deployed System Integration Engineer (L3) - UAV Robotics",
-      "company": "FIDUCIAL",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.615468",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=FIDUCIAL"
-      }
-    },
-    {
-      "id": "442ea0f2fd9528ba",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400614739",
-      "title": "Forward Deployed System Integration Engineer - L3 (UAV Robotics)",
-      "company": "FIDUCIAL",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.614351",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=FIDUCIAL"
-      }
-    },
-    {
-      "id": "67f6c65bc3698809",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=71073d695e58784e",
-      "title": "Forward Deployed System Integration Engineer - L3 (UAV Robotics)",
-      "company": "Fiducial",
-      "location": "Delft, ZH, NL",
-      "date_posted": "2026-04-10",
-      "date_found": "2026-04-11T04:49:16.613265",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Fiducial&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Fiducial&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Fiducial&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Fiducial"
-      }
-    },
-    {
-      "id": "fd160fcd310750c2",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4387704019",
-      "title": "Senior Embedded Software Engineer",
-      "company": "Search X Recruitment",
-      "location": "Almere, Flevoland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.612205",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Search%20X%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Search%20X%20Recruitment"
-      }
-    },
-    {
-      "id": "027ed173bf77cfe4",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4371784484",
-      "title": "Postdoctoraal onderzoeker",
-      "company": "Tilburg University",
-      "location": "Tilburg, North Brabant, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.611119",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Tilburg%20University"
-      }
-    },
-    {
-      "id": "7c706a8072c7b1dd",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4397693174",
-      "title": "Postdoctoral researcher in rare cancers",
-      "company": "IKNL (Integraal Kankercentrum Nederland)",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.609999",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=IKNL%20%28Integraal%20Kankercentrum%20Nederland%29&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IKNL%20%28Integraal%20Kankercentrum%20Nederland%29&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=IKNL%20%28Integraal%20Kankercentrum%20Nederland%29&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IKNL%20%28Integraal%20Kankercentrum%20Nederland%29"
-      }
-    },
-    {
-      "id": "218e72a0a0f66962",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4397070216",
-      "title": "Postdoctoral Researcher: High-Fidelity LES & Atmospheric Boundary Layer Modeling",
-      "company": "University of Twente",
-      "location": "Enschede, Overijssel, Netherlands",
-      "date_posted": "2026-04-09",
-      "date_found": "2026-04-11T04:49:16.608719",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Twente"
-      }
-    },
-    {
-      "id": "81b2b9769bcb29ef",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400374954",
-      "title": "Tech Lead",
-      "company": "Elevation Partners",
-      "location": "Eindhoven, North Brabant, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.607638",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Elevation%20Partners&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Elevation%20Partners&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Elevation%20Partners&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Elevation%20Partners"
-      }
-    },
-    {
-      "id": "233168aa4ced2b87",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398105727",
-      "title": "Senior AI/LLM Engineer",
-      "company": "Opus Recruitment Solutions",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.606599",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Opus%20Recruitment%20Solutions&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Opus%20Recruitment%20Solutions&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Opus%20Recruitment%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Opus%20Recruitment%20Solutions"
-      }
-    },
-    {
-      "id": "d97a35838b5b412e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398115429",
-      "title": "AI Research Engineer - Pre training",
-      "company": "Jobgether",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.605511",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
-      }
-    },
-    {
-      "id": "3e40f12c5397cd7c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400539856",
-      "title": "AI Engineer",
-      "company": "Xebia",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.604365",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xebia"
-      }
-    },
-    {
-      "id": "e8c55a162201a312",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4399023577",
-      "title": "Freelance Game developer (AI) / Unreal Engine",
-      "company": "DiscoverIT Recruitment",
-      "location": "The Hague, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.603458",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=DiscoverIT%20Recruitment&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=DiscoverIT%20Recruitment&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=DiscoverIT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=DiscoverIT%20Recruitment"
-      }
-    },
-    {
-      "id": "1bbc17ce6c90a999",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400547041",
-      "title": "AI-Engineer (28-40 uur)",
-      "company": "Camas IT",
-      "location": "Harderwijk, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.602306",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Camas%20IT&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Camas%20IT&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Camas%20IT&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Camas%20IT"
-      }
-    },
-    {
-      "id": "0ab40d6003c4f73a",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4361647689",
-      "title": "Machine Learning Science - IC - G - I",
-      "company": "Booking.com",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-11T04:49:16.601207",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
       }
     }
   ]
