@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-12T05:11:33.179230",
+  "generated": "2026-04-13T05:16:26.068991",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -31,6 +31,37 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20the%20Netherlands&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20the%20Netherlands&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20the%20Netherlands"
+      }
+    },
+    {
+      "id": "8e365e752faaa490",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4377902704",
+      "title": "AI Software Engineer - Neuromorphic Computing",
+      "company": "Intel",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-04-13T05:14:21.806932",
+      "score": 85,
+      "fit_category": "strong",
+      "key_matches": [
+        "neuromorphic computing",
+        "AI software stack development",
+        "collaboration with cross-functional teams"
+      ],
+      "key_gaps": [
+        "specific experience with AI compiler frameworks like Triton or MLIR",
+        "3+ years of experience in production-grade software systems"
+      ],
+      "rationale": "The role aligns well with Ben's expertise in neuromorphic computing and software development, though it requires specific experience in AI compiler frameworks that he may not possess.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Intel&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Intel&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Intel&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Intel"
       }
     },
     {
@@ -559,6 +590,37 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "8d7b841acf905041",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4369386813",
+      "title": "Postdoc on Continuous Optical Clocks",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-13T05:14:21.826113",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Postdoc position",
+        "Location in Amsterdam",
+        "Research-focused role"
+      ],
+      "key_gaps": [
+        "Lack of direct relevance to systems neuroscience",
+        "Focus on optical clocks rather than neuroengineering"
+      ],
+      "rationale": "While the position is a postdoc at a reputable university in Amsterdam, it lacks alignment with Ben's primary expertise in systems neuroscience and neuroengineering.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
       }
     },
     {
