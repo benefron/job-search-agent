@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-13T05:16:26.068991",
+  "generated": "2026-04-14T05:10:13.682419",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -94,6 +94,37 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "2f5eb9ae494e6b79",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=ecb1beeabc22a3a2",
+      "title": "Assistant Professor in Computer Science",
+      "company": "TU Delft",
+      "location": "Delft, ZH, NL",
+      "date_posted": "2026-04-13",
+      "date_found": "2026-04-14T05:07:07.938285",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Assistant Professor role aligns with Ben's experience and qualifications",
+        "Research in AI and embedded systems is relevant to Ben's interests",
+        "Opportunity to lead an independent research line complements Ben's background"
+      ],
+      "key_gaps": [
+        "Focus on teaching may not fully utilize Ben's research expertise",
+        "Less emphasis on systems neuroscience compared to Ben's primary domain"
+      ],
+      "rationale": "The role is a strong fit due to its alignment with Ben's qualifications and interests in AI and embedded systems, despite a slight gap in direct systems neuroscience focus.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TU%20Delft&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TU%20Delft&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TU%20Delft&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TU%20Delft"
       }
     },
     {
@@ -590,6 +621,68 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Innatera%20Nanosystems&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Innatera%20Nanosystems"
+      }
+    },
+    {
+      "id": "0ad36153d7bf1aff",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399177094",
+      "title": "Senior AI Engineer (Tech Lead)",
+      "company": "ML6",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.946209",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Experience with Python and ML frameworks",
+        "Strong communication skills in English",
+        "Experience leading projects or small technical teams"
+      ],
+      "key_gaps": [
+        "Lack of direct neuroscience application",
+        "Requires Dutch fluency as a hard requirement"
+      ],
+      "rationale": "While the role aligns with Ben's technical skills in AI and software engineering, the requirement for Dutch fluency and the lack of a neuroscience focus limit its fit.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ML6&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ML6&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ML6&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ML6"
+      }
+    },
+    {
+      "id": "727807d48b13116d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399573882",
+      "title": "Senior ML Engineer (Evaluation)",
+      "company": "kaiko.ai",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.932700",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "ML engineering",
+        "Python",
+        "collaboration with research centers"
+      ],
+      "key_gaps": [
+        "lack of direct neuroscience application",
+        "focus on clinical AI rather than systems neuroscience"
+      ],
+      "rationale": "While the role involves relevant ML engineering skills and is located in Amsterdam, it lacks a direct connection to systems neuroscience, which is Ben's primary focus.",
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=kaiko.ai"
       }
     },
     {
@@ -1589,6 +1682,222 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "c60c3af5fa605828",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4401305664",
+      "title": "Co-Founder, CTO (Construction Robotics)",
+      "company": "Marble",
+      "location": "North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.956055",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Marble"
+      }
+    },
+    {
+      "id": "36df753a38e90a2b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399518302",
+      "title": "Software Engineer",
+      "company": "Flowtec Group",
+      "location": "North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.954776",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Flowtec%20Group"
+      }
+    },
+    {
+      "id": "cd96ad3e038e08f9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4401384262",
+      "title": "Senior Staff Software Engineer, Perception",
+      "company": "AeroVect",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.953711",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AeroVect"
+      }
+    },
+    {
+      "id": "00a6262199678af5",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=52fc1192d4e1e41b",
+      "title": "Senior Staff Software Engineer, Perception",
+      "company": "AeroVect",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-04-13",
+      "date_found": "2026-04-14T05:07:07.952859",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AeroVect"
+      }
+    },
+    {
+      "id": "0cfa6ab8487f5b6a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399537170",
+      "title": "Embedded Software Engineer",
+      "company": "Xsens Entertainment",
+      "location": "Enschede, Overijssel, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.951775",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens%20Entertainment&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xsens%20Entertainment&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xsens%20Entertainment&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xsens%20Entertainment"
+      }
+    },
+    {
+      "id": "27e5f705538ed08e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389251246",
+      "title": "Postdoc SmartWeave: A textile Sensor for the Monitoring of Sweat Metabolites",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.950590",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "8bc8f5d413e9b34e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389754254",
+      "title": "Postdoc Opportunities in Semiconductor Quantum Computing",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.949472",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "811f103a52ebeafa",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389497484",
+      "title": "Postdoc in Biomolecule Detection with Inverse-Designed Plasmonic Metasurfaces",
+      "company": "Vrije Universiteit Amsterdam (VU Amsterdam)",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.948405",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29"
+      }
+    },
+    {
+      "id": "1ebf2babe869ae27",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4386393933",
+      "title": "3 Postdocs",
+      "company": "Erasmus University Rotterdam",
+      "location": "Rotterdam, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-14T05:07:07.947354",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Erasmus%20University%20Rotterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Erasmus%20University%20Rotterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Erasmus%20University%20Rotterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Erasmus%20University%20Rotterdam"
       }
     }
   ]
