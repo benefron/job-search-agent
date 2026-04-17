@@ -50,7 +50,10 @@ jobs:
           # Commit the DB so it is never lost even when the cache misses.
           git add data/jobs.json data/stats.json data/labs.json data/labs_meta.json data/jobs_export.csv data/jobs.db data/run.log || true
           git diff --cached --quiet || git commit -m "chore: daily job search update [skip ci]"
-          git push
+          # Pull any commits pushed to main since checkout (e.g. mid-run hotfixes),
+          # then push. Retry once in case of a race condition.
+          git pull --rebase origin main || true
+          git push || (git pull --rebase origin main && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
