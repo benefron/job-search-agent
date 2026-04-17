@@ -3822,3 +3822,153 @@
 2026-04-16 05:17:25,646 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-16 05:17:25,650 [INFO] Stats: {'total': 673, 'scored': 443, 'liked': 8, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-16T07:17:25+02:00'}
 2026-04-16 05:17:25,652 [INFO] Done. Total: 673 | Scored: 443 | Strong+: 0
+2026-04-17 05:04:49,646 [INFO] Initialising database…
+2026-04-17 05:04:49,646 [INFO] Ingesting feedback…
+2026-04-17 05:04:49,651 [INFO] Applied 21 feedback records.
+2026-04-17 05:04:49,653 [INFO] Scraping job boards…
+2026-04-17 05:04:49,653 [INFO] Searching: 'neuromorphic engineer' in Netherlands
+2026-04-17 05:05:10,010 [INFO]   Found 5 new results so far (this query).
+2026-04-17 05:05:18,011 [INFO] Searching: 'spiking neural network engineer' in Netherlands
+2026-04-17 05:05:18,295 [INFO]   No results.
+2026-04-17 05:05:26,295 [INFO] Searching: 'brain-inspired computing' in Netherlands
+2026-04-17 05:05:26,473 [INFO]   No results.
+2026-04-17 05:05:34,473 [INFO] Searching: 'neuromorphic AI' in Netherlands
+2026-04-17 05:05:34,719 [INFO]   No results.
+2026-04-17 05:05:42,719 [INFO] Searching: 'neuroengineering' in Netherlands
+2026-04-17 05:05:42,960 [INFO]   No results.
+2026-04-17 05:05:50,960 [INFO] Searching: 'neurotech scientist' in Netherlands
+2026-04-17 05:06:01,298 [INFO]   Found 7 new results so far (this query).
+2026-04-17 05:06:09,299 [INFO] Searching: 'computational neuroscience' in Netherlands
+2026-04-17 05:06:13,581 [INFO]   Found 7 new results so far (this query).
+2026-04-17 05:06:21,581 [INFO] Searching: 'edge AI scientist' in Netherlands
+2026-04-17 05:06:42,494 [INFO]   Found 15 new results so far (this query).
+2026-04-17 05:06:50,494 [INFO] Searching: 'embedded AI engineer' in Netherlands
+2026-04-17 05:07:08,501 [INFO]   Found 22 new results so far (this query).
+2026-04-17 05:07:16,501 [INFO] Searching: 'embedded sensing engineer' in Netherlands
+2026-04-17 05:07:16,877 [INFO]   Found 22 new results so far (this query).
+2026-04-17 05:07:24,877 [INFO] Searching: 'R&D scientist sensing' in Netherlands
+2026-04-17 05:07:32,950 [INFO]   Found 22 new results so far (this query).
+2026-04-17 05:07:40,950 [INFO] Searching: 'applied scientist signal processing' in Netherlands
+2026-04-17 05:07:49,847 [INFO]   Found 22 new results so far (this query).
+2026-04-17 05:07:57,847 [INFO] Searching: 'research scientist neuromorphic' in Netherlands
+2026-04-17 05:07:58,109 [INFO]   No results.
+2026-04-17 05:08:06,109 [INFO] Searching: 'neuromorphic' in Leuven Belgium
+2026-04-17 05:08:06,311 [INFO]   No results.
+2026-04-17 05:08:14,311 [INFO] Searching: 'neuroengineering' in Leuven Belgium
+2026-04-17 05:08:14,542 [INFO]   No results.
+2026-04-17 05:08:22,543 [INFO] Searching: 'embedded AI' in Eindhoven Netherlands
+2026-04-17 05:08:32,045 [INFO]   Found 25 new results so far (this query).
+2026-04-17 05:08:40,046 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Netherlands
+2026-04-17 05:08:40,323 [INFO]   Found 25 new results so far (this query).
+2026-04-17 05:08:48,323 [INFO] Searching: 'postdoc neuroengineering' in Netherlands
+2026-04-17 05:08:48,571 [INFO]   No results.
+2026-04-17 05:08:56,572 [INFO] Searching: 'postdoctoral researcher neuroscience' in Netherlands
+2026-04-17 05:09:17,973 [INFO]   Found 35 new results so far (this query).
+2026-04-17 05:09:25,973 [INFO] Searching: 'experimental neuroscience' in Netherlands
+2026-04-17 05:09:33,840 [INFO]   Found 35 new results so far (this query).
+2026-04-17 05:09:41,841 [INFO] Searching: 'embedded systems engineer ai' in Netherlands
+2026-04-17 05:09:50,989 [INFO]   Found 37 new results so far (this query).
+2026-04-17 05:09:58,989 [INFO] Searching: 'robotics engineer perception' in Netherlands
+2026-04-17 05:10:08,704 [INFO]   Found 38 new results so far (this query).
+2026-04-17 05:10:16,704 [INFO] Searching: 'brain computer interface' in Netherlands
+2026-04-17 05:10:17,030 [INFO]   No results.
+2026-04-17 05:10:25,030 [INFO] Searching: 'brain machine interface' in Netherlands
+2026-04-17 05:10:25,311 [INFO]   No results.
+2026-04-17 05:10:33,311 [INFO] Scrape complete. 38 new jobs found.
+2026-04-17 05:10:33,369 [INFO] Saved 38 new jobs to database.
+2026-04-17 05:10:33,369 [INFO] Job boards: 38 new jobs saved
+2026-04-17 05:10:33,369 [INFO] Scraping company career pages…
+2026-04-17 05:10:33,369 [INFO] Scraping company: Innatera
+2026-04-17 05:10:33,512 [INFO]   Innatera: 0 listings found.
+2026-04-17 05:10:35,513 [INFO] Scraping company: imec
+2026-04-17 05:10:35,802 [INFO]   imec: 0 job links found on listing page, fetching details…
+2026-04-17 05:10:35,803 [INFO]   imec: 0 listings found.
+2026-04-17 05:10:37,804 [INFO] Scraping company: Axelera AI
+2026-04-17 05:10:37,924 [WARNING] Greenhouse fetch failed for Axelera AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/axeleraai/jobs?content=true
+2026-04-17 05:10:37,925 [INFO]   Axelera AI: 0 listings found.
+2026-04-17 05:10:39,926 [INFO] Scraping company: Prophesee
+2026-04-17 05:10:40,037 [WARNING] Greenhouse fetch failed for Prophesee: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/prophesee/jobs?content=true
+2026-04-17 05:10:40,038 [INFO]   Prophesee: 0 listings found.
+2026-04-17 05:10:42,038 [INFO] Scraping company: Noldus
+2026-04-17 05:10:42,988 [WARNING] HTML fetch failed for Noldus: 404 Client Error: Not Found for url: https://noldus.com/about/jobs
+2026-04-17 05:10:42,990 [INFO]   Noldus: 0 listings found.
+2026-04-17 05:10:44,990 [INFO] Scraping company: Demcon
+2026-04-17 05:10:46,335 [WARNING] HTML fetch failed for Demcon: 404 Client Error: Not Found for url: https://demcon.com/en/vacancies
+2026-04-17 05:10:46,337 [INFO]   Demcon: 0 listings found.
+2026-04-17 05:10:48,337 [INFO] Scraping company: TNO
+2026-04-17 05:10:49,139 [INFO]   TNO: 30 listings found.
+2026-04-17 05:11:10,855 [INFO] AcademicTransfer: found 0 positions.
+2026-04-17 05:11:10,862 [INFO] Company monitor: 30 scraped, 30 after filter, 0 new.
+2026-04-17 05:11:10,862 [INFO] Saved 0 new company jobs to database.
+2026-04-17 05:11:10,862 [INFO] Company pages: 0 new jobs saved
+2026-04-17 05:11:10,862 [INFO] Scoring pending jobs…
+2026-04-17 05:11:10,865 [INFO] Scoring 30 pending jobs (cap=30)…
+2026-04-17 05:11:13,453 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:13,462 [INFO]   Scored [0] ETL Engineer (Analytics Engineering focus) at The Kite Factory — The role is focused on ETL engineering in a commercial setting, which does not a
+2026-04-17 05:11:18,927 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:18,930 [INFO]   Scored [0] Founding Engineer (£100-130k + 0.8% Equity) at Spinal at Jack & Jill — The position is not in the Netherlands and does not align with Ben's expertise i
+2026-04-17 05:11:23,469 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:23,471 [INFO]   Scored [0] Terminal Engineer at Petron Corporation — The job is unrelated to Ben's expertise in systems neuroscience and is located o
+2026-04-17 05:11:28,196 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:28,198 [INFO]   Scored [0] Terminal Engineer at Petron Corporation — The role is unrelated to Ben's expertise in systems neuroscience and is located 
+2026-04-17 05:11:33,188 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:33,190 [INFO]   Scored [0] Engenheiro/a de Minas - Direção de Produção (PT) at Mota-Engil — The job is entirely unrelated to Ben's expertise in systems neuroscience and is 
+2026-04-17 05:11:37,926 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:37,928 [INFO]   Scored [0] Remote | Engineering Assessment Specialist — $35–$75/hour at 24-MAG — The role is a part-time consulting position focused on engineering assessment, w
+2026-04-17 05:11:42,585 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:11:42,587 [INFO]   Scored [0] Engineer II at Dreamscape Hospitality — The position is unrelated to Ben's expertise in systems neuroscience and is loca
+2026-04-17 05:11:45,609 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-17 05:11:45,609 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-04-17 05:12:47,378 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:12:47,381 [INFO]   Scored [0] Canada Research Chair Tier 1 in Neuromorphic Computing Systems, Department of Cell Biology & Anatomy, Cumming School of Medicine at University of Calgary — The position is not in the Netherlands and requires a higher academic rank, maki
+2026-04-17 05:12:51,705 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:12:51,707 [INFO]   Scored [30] Embedded Engineer (Lafayette, IN, Relocation Required at Ixana — While there are some relevant skills in embedded systems and hardware design, th
+2026-04-17 05:13:00,416 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:00,418 [INFO]   Scored [0] Senior AI Software Engineer - Neuromorphic Computing at Intel — The position is not located in the Netherlands and is primarily a software engin
+2026-04-17 05:13:04,935 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:04,937 [INFO]   Scored [0] Senior AI Software Engineer - Neuromorphic Computing at Intel — The job is located in the USA and requires a Bachelor's degree, making it a poor
+2026-04-17 05:13:09,788 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:09,792 [INFO]   Scored [0] Senior AI Software Engineer - Neuromorphic Computing at Intel — The job is located outside of Ben's preferred locations and does not align with 
+2026-04-17 05:13:15,877 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:15,879 [INFO]   Scored [50] Research Associate – Deep Learning for Speech and Audio Coding (all genders) at Fraunhofer IIS — While there are relevant skills in machine learning and signal processing, the f
+2026-04-17 05:13:21,158 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:21,161 [INFO]   Scored [30] Postdoctoral Associate / Senior Postdoctoral Associate at Stony Brook University — While there are some relevant skills in AI systems and hardware/software integra
+2026-04-17 05:13:25,923 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:25,925 [INFO]   Scored [30] Research Associate – Test Architect for Audio Codec Certification (all genders) at Fraunhofer IIS — While there are some relevant skills in signal processing and embedded systems, 
+2026-04-17 05:13:30,357 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:30,359 [INFO]   Scored [0] Adjoint Associate Professor at University of Colorado — The position is located in the USA and does not align with Ben's preferred job t
+2026-04-17 05:13:34,825 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:34,827 [INFO]   Scored [0] Path 1 Kawader: Research Assistant – Laboratory for Advanced Neuroengineering and Translational Medicine at New York University Abu Dhabi — The position is a Research Assistant role requiring only a BS or MS, which does 
+2026-04-17 05:13:39,867 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:39,869 [INFO]   Scored [0] Associate Director D at University of Pennsylvania — The position is located in the USA and focuses on administrative leadership rath
+2026-04-17 05:13:44,602 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:44,604 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — This position is a tutoring role, which does not align with Ben's expertise or c
+2026-04-17 05:13:50,284 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:50,287 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not match Ben's qualifications or car
+2026-04-17 05:13:55,191 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:55,194 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not align with Ben's expertise or car
+2026-04-17 05:13:59,757 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:13:59,760 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The position is a tutoring role that does not match Ben's qualifications or care
+2026-04-17 05:14:04,586 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:04,589 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — This position is a tutoring role, which does not align with Ben's expertise or c
+2026-04-17 05:14:09,843 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:09,845 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position, which does not align with Ben's qualifications 
+2026-04-17 05:14:14,765 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:14,768 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not align with Ben's expertise and ca
+2026-04-17 05:14:19,781 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:19,784 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position, which does not align with Ben's expertise or ca
+2026-04-17 05:14:24,533 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:24,536 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position, which does not align with Ben's qualifications 
+2026-04-17 05:14:29,459 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:29,462 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not match Ben's qualifications or car
+2026-04-17 05:14:34,417 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:34,420 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not align with Ben's qualifications o
+2026-04-17 05:14:39,238 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 05:14:39,241 [INFO]   Scored [0] Neuroscience Tutor at Varsity Tutors, a Nerdy Company — The role is a tutoring position which does not align with Ben's expertise or car
+2026-04-17 05:14:42,241 [INFO] Scoring complete. 30/30 attempted.
+2026-04-17 05:14:42,241 [INFO] Scored 30 jobs
+2026-04-17 05:14:42,241 [INFO] Exporting data…
+2026-04-17 05:14:42,253 [INFO] Exported 306 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-17 05:14:42,255 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-17 05:14:42,262 [INFO] Stats: {'total': 711, 'scored': 473, 'liked': 8, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-17T07:14:42+02:00'}
+2026-04-17 05:14:42,265 [INFO] Done. Total: 711 | Scored: 473 | Strong+: 0
