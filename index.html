@@ -61,7 +61,12 @@
 
     /* Card body */
     .card-body { padding: 0.7rem 1rem; flex: 1; display: flex; flex-direction: column; gap: 0.5rem; }
-    .rationale { font-size: 0.82rem; color: var(--text); font-style: italic; }
+    .job-summary { font-size: 0.83rem; color: var(--text); line-height: 1.45; }
+    .qualifications-label { font-size: 0.7rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.25rem; }
+    .qualifications-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.15rem; }
+    .qualifications-list li { font-size: 0.78rem; color: var(--text); padding-left: 0.9rem; position: relative; }
+    .qualifications-list li::before { content: "•"; position: absolute; left: 0; color: var(--accent); }
+    .rationale { font-size: 0.75rem; color: var(--muted); font-style: italic; border-top: 1px solid var(--border); padding-top: 0.35rem; }
     .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
     .tag { font-size: 0.7rem; padding: 0.1rem 0.45rem; border-radius: 4px; }
     .tag-match { background: #dcfce7; color: #166534; }
@@ -79,6 +84,8 @@
     .btn-icon.active-dislike { background: #fee2e2; border-color: var(--red); }
     .btn-icon.active-interested { background: #dbeafe; border-color: var(--accent); }
     .btn-icon.active-applied { background: #f0fdf4; border-color: var(--green); font-weight: 600; }
+    .job-card.status-gone { opacity: 0.6; }
+    .job-card.status-gone .card-title::after { content: " — gone/filled"; font-size: 0.72rem; color: var(--muted); font-weight: 400; }
     .status-select { font-size: 0.75rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.15rem 0.3rem; }
     .card-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; }
     .card-link:hover { text-decoration: underline; }
@@ -148,11 +155,12 @@
 
   <label>Status:
     <select id="filter-status">
-      <option value="">All</option>
+      <option value="">All (except gone)</option>
       <option value="new">New</option>
       <option value="interested">Interested</option>
       <option value="applied">Applied</option>
       <option value="skip">Skip</option>
+      <option value="gone">Gone / Filled</option>
       <option value="delete">Delete</option>
     </select>
   </label>
@@ -294,6 +302,8 @@ function render() {
     if (catFilter && j.fit_category !== catFilter) return false;
     if (sourceFilter && j.source !== sourceFilter) return false;
     const status = (fb[j.id] || {}).status || j.status || "new";
+    // By default (no filter selected) hide "gone" and "delete" jobs
+    if (!statusFilter && (status === "gone" || status === "delete")) return false;
     if (statusFilter && status !== statusFilter) return false;
     if (searchQ) {
       const hay = (j.title + " " + j.company).toLowerCase();
@@ -321,6 +331,23 @@ function render() {
     const gaps = (job.key_gaps || []).map(g =>
       `<span class="tag tag-gap">${g}</span>`).join("");
 
+    // Job summary section
+    const summaryHtml = job.job_summary
+      ? `<div class="job-summary">${esc(job.job_summary)}</div>`
+      : "";
+
+    // Top qualifications section
+    const quals = job.top_qualifications || [];
+    const qualsHtml = quals.length
+      ? `<div class="qualifications-label">Key requirements</div>
+         <ul class="qualifications-list">${quals.map(q => `<li>${esc(q)}</li>`).join("")}</ul>`
+      : "";
+
+    // Rationale (scoring note) — small and secondary
+    const rationaleHtml = job.rationale
+      ? `<div class="rationale">Score note: ${esc(job.rationale)}</div>`
+      : "";
+
     // LinkedIn connection links
     const li = job.linkedin_urls || {};
     const connectMenu = li.combined ? `
@@ -335,7 +362,7 @@ function render() {
       </div>` : "";
 
     const card = document.createElement("div");
-    card.className = "job-card";
+    card.className = "job-card" + (currentStatus === "gone" ? " status-gone" : "");
     card.dataset.id = job.id;
     card.innerHTML = `
       <div class="card-header">
@@ -350,8 +377,10 @@ function render() {
         </div>
       </div>
       <div class="card-body">
-        <div class="rationale">${esc(job.rationale || "")}</div>
+        ${summaryHtml}
+        ${qualsHtml}
         <div class="tags">${matches}${gaps}</div>
+        ${rationaleHtml}
         <div>
           <div class="notes-label">Connection notes (Capocaccia, PI links, mutual contacts…)</div>
           <textarea class="notes-input" rows="2" placeholder="e.g. PI connected to Amir Zjajo, met at Capocaccia 2024…">${esc(currentNotes)}</textarea>
@@ -366,6 +395,7 @@ function render() {
           <option value="interested" ${currentStatus==="interested"?"selected":""}>Interested</option>
           <option value="applied" ${currentStatus==="applied"?"selected":""}>Applied ✓</option>
           <option value="skip" ${currentStatus==="skip"?"selected":""}>Skip</option>
+          <option value="gone" ${currentStatus==="gone"?"selected":""}>Gone / Filled</option>
           <option value="delete" ${currentStatus==="delete"?"selected":""}>Delete</option>
         </select>
         <a class="card-link" href="${job.url}" target="_blank" rel="noopener">View posting →</a>
@@ -531,7 +561,7 @@ document.getElementById("btn-clear-filters").addEventListener("click", () => {
   document.getElementById("score-val").textContent = 35;
   document.getElementById("filter-cat").value = "";
   document.getElementById("filter-source").value = "";
-  document.getElementById("filter-status").value = "";
+  document.getElementById("filter-status").value = "";  // back to "All (except gone)"
   document.getElementById("search-box").value = "";
   render();
 });
