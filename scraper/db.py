@@ -300,10 +300,19 @@ def apply_feedback(feedback_records: list[dict]) -> None:
             # Labs are tracked as hidden URLs if user marks delete.
             if record_type == "lab":
                 if rec.get("status") == "delete" and rec.get("url"):
-                    hide_entity(
-                        url=rec["url"],
-                        entity_type="lab",
-                        label=rec.get("name", ""),
+                    entity_id = _job_id(rec["url"])
+                    conn.execute(
+                        """
+                        INSERT OR IGNORE INTO hidden_items
+                            (id, entity_type, url, label, deleted_at)
+                        VALUES (?, 'lab', ?, ?, ?)
+                        """,
+                        (
+                            entity_id,
+                            rec["url"],
+                            rec.get("name", ""),
+                            datetime.utcnow().isoformat(),
+                        ),
                     )
                 continue
 
