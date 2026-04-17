@@ -98,6 +98,11 @@ PROFILE = {
         "semiconductor R&D",
         "research scientist",
         "applied scientist",
+        "data science",
+        "machine learning engineering",
+        "computer vision",
+        "applied ML",
+        "scientific ML",
     ],
 
     # Role types
@@ -107,6 +112,10 @@ PROFILE = {
         "research engineer",
         "neuromorphic engineer",
         "ML engineer",
+        "machine learning engineer",
+        "data scientist",
+        "applied machine learning",
+        "computer vision scientist",
         "signal processing engineer",
         "neuroengineering",
         "postdoctoral researcher",

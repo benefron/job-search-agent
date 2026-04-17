@@ -38,32 +38,53 @@ def _get_client() -> OpenAI:
 
 
 SYSTEM_PROMPT = """You are an expert career advisor helping Dr. Ben Efron, a systems neuroscientist, evaluate job postings.
-Your task is to score each job posting's fit for his profile on a 0-100 scale.
+
+CRITICAL — READ THE JOB DESCRIPTION CAREFULLY:
+Do NOT score based on job title keywords alone. Read the full description, focusing on:
+- "Required qualifications", "Requirements", "What you bring", "Your profile", "About you" sections
+- Core responsibilities and technical tasks described
+Score based on whether Ben's ACTUAL skills match what the role REQUIRES, even if domain labels differ.
 
 HARD EXCLUSION RULES (score 0 immediately if any apply):
-- PhD positions (doctoral candidate, PhD student, promotie) — he already has a PhD
+- PhD / doctoral positions (doctoral candidate, PhD student, promotie) — he already has a PhD
 - Internships, student positions, working student, werkstudent
+- Research Assistant roles — he is overqualified (PhD-level candidate)
 - Job description is primarily in Dutch (not English)
 - Job requires Dutch fluency / native-level Dutch as a hard requirement
+- Relocation outside Netherlands / Belgium is explicitly required
 
 ELIGIBILITY NOTE:
-- Ben has both MSc and PhD. Roles requiring MSc are fully eligible and should not be penalized.
+- Ben has both MSc and PhD. Roles requiring MSc or equivalent are fully eligible.
 
 VISA & SALARY CONSTRAINT:
 - Ben needs a work visa for the Netherlands, which requires a minimum gross salary of ~€5,000/month.
-- Score down (max 30) any industry job that likely pays below this threshold.
-- EXCEPTION: postdoctoral positions, university positions, medical centers, and publicly funded research institutes
-  (e.g. universities, UMCs, NWO, KNAW, TNO) may be exempt from the salary threshold for visa purposes — do NOT penalise these.
+- Score down (max 30) any industry job that likely pays below this threshold (e.g. medior/junior embedded SW, RA).
+- EXCEPTION: postdoctoral positions, university positions, UMCs, and publicly funded research institutes are exempt.
 
-DOMAIN FIT BOOST:
-- Also treat embedded systems, robotics/perception, brain-machine interface (BMI), and brain-computer interface (BCI) as relevant domains.
+QUALIFICATION ALIGNMENT — weigh these heavily (not just domain labels):
+HIGH FIT if required skills include any of: Python, ML/deep learning, PyTorch, data analysis, signal processing,
+  experimental design, statistical modelling, hardware-software integration, computer vision, sensor systems,
+  embedded AI, real-time processing, scientific programming.
+LOW FIT if required skills are primarily: chip/IC/VLSI design, VHDL/Verilog/RTL, clinical medicine,
+  pure audio codec standardisation, pure SLAM without AI/neuro component, program/project management as primary role,
+  sales/account management, Dutch-only stack.
+
+DOMAIN FIT — roles with genuine qualification overlap even if not labeled "neuro":
+- Data Scientist / Applied ML / ML Engineer → HIGH if Python + ML + analysis required
+- Computer Vision / Perception Scientist → HIGH
+- Embedded AI / edge inference / sensor-fusion → HIGH
+- Systems & algorithms R&D requiring multi-disciplinary engineering → HIGH
+- Applied / Research Scientist roles in tech or engineering → MODERATE–HIGH
+- Postdoctoral researcher in neuroscience/neuroAI/computational neuro → MODERATE–HIGH
+- Pure audio signal processing / audio coding / standardisation → LOW (niche domain mismatch)
+- Pure SLAM without broader AI/neuro → LOW
 
 Score rubric:
-- 90-100: Perfect fit — domain, role, location, and level are all aligned
-- 70-89: Strong fit — strong domain/skill alignment, minor gaps
-- 50-69: Moderate fit — overlapping domain, some gaps, worth considering
-- 30-49: Stretch — relevant skills transfer but domain or role is a mismatch
-- 0-29: Poor fit — minimal alignment, don't recommend unless location and salary are exceptional
+- 90-100: Perfect fit — qualifications, domain, role level, and location all aligned
+- 70-89: Strong fit — strong qualification alignment, minor gaps
+- 50-69: Moderate fit — overlapping qualifications, some gaps, worth considering
+- 30-49: Stretch — some skills transfer but meaningful qualification gaps
+- 0-29: Poor fit — minimal qualification alignment or hard exclusion
 
 fit_category values: "perfect", "strong", "moderate", "stretch", "poor"
 
@@ -94,15 +115,17 @@ Title: {job['title']}
 Company: {job['company']}
 Location: {job.get('location', 'Unknown')}
 Description:
-{job.get('description', '')[:3000]}
+{job.get('description', '')[:3500]}
 
 Return JSON with exactly these fields:
 {{
   "score": <integer 0-100>,
   "fit_category": "<perfect|strong|moderate|stretch|poor>",
-  "key_matches": ["<match1>", "<match2>", "<match3>"],
-  "key_gaps": ["<gap1>", "<gap2>"],
-  "rationale": "<one concise sentence explaining the score>"
+  "job_summary": "<1-2 neutral sentences: what is this role and what will the person do>",
+  "top_qualifications": ["<key required qualification 1>", "<key required qualification 2>", "<key required qualification 3>"],
+  "key_matches": ["<Ben skill that matches a stated requirement>", "<match2>", "<match3>"],
+  "key_gaps": ["<stated requirement Ben does not meet>", "<gap2>"],
+  "rationale": "<one sentence: why this score, referencing specific requirements from the posting>"
 }}
 """.strip()
 
@@ -125,7 +148,7 @@ def score_job(job: dict, client: OpenAI, feedback_context: dict, profile_text: s
                 {"role": "user", "content": prompt},
             ],
             temperature=0.2,
-            max_tokens=300,
+            max_tokens=500,
         )
         content = response.choices[0].message.content.strip()
         # Strip markdown fences if model adds them despite instructions
@@ -186,6 +209,8 @@ def score_all_pending(delay: float = 3.0, max_per_run: int = 30) -> int:
             key_matches=result.get("key_matches", []),
             key_gaps=result.get("key_gaps", []),
             rationale=str(result.get("rationale", "")),
+            job_summary=str(result.get("job_summary", "")),
+            top_qualifications=result.get("top_qualifications", []),
         )
         logger.info(
             "  Scored [%d] %s at %s — %s",

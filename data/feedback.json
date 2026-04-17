@@ -70,7 +70,8 @@
     "id": "459cbbdfe4ad0304",
     "record_type": "job",
     "url": "https://www.linkedin.com/jobs/view/4382702764",
-    "name": "AI Engineer"
+    "name": "AI Engineer",
+    "status": "delete"
   },
   {
     "connection_notes": "I am not an electronic engineer at least not applicable for senior",
@@ -167,5 +168,423 @@
     "record_type": "job",
     "url": "https://www.linkedin.com/jobs/view/4393038021",
     "name": "Embedded Software Engineer"
+  },
+  {
+    "id": "7070a1e580441c47",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5048880890",
+    "name": "A.M.L. Coenen",
+    "status": "delete"
+  },
+  {
+    "id": "8e7eef49454290ac",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5007591459",
+    "name": "Alan G. Sanfey",
+    "status": "delete"
+  },
+  {
+    "id": "dbcd6f4d3482ca20",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5054538140",
+    "name": "André F. Marquand",
+    "status": "delete"
+  },
+  {
+    "id": "74e3539e6bbc802a",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5038911901",
+    "name": "Atsuko Takashima",
+    "status": "delete"
+  },
+  {
+    "id": "c9f56b84413d30ae",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5057492639",
+    "name": "Christian F. Beckmann",
+    "status": "delete"
+  },
+  {
+    "id": "48eba5d695f75d25",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5077600021",
+    "name": "Erno J. Hermans",
+    "status": "delete"
+  },
+  {
+    "id": "6660cb804d9a2774",
+    "record_type": "lab",
+    "url": "https://openalex.org/A5110455146",
+    "name": "Harold Bekkering",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "61368243fb69c6a9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4377129839",
+    "name": "Computer Vision Scientist/Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "58423d999b366b79",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4398435862",
+    "name": "Postdoc in AI for Accessible Cardiac CT Image Analysis",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "ad69b0da53547eeb",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4389805440",
+    "name": "Postdoc position ALS grant",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "57257ab4f317906d",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4398220404",
+    "name": "Postdoc | Brain barriers in neurodegenerative diseases (36,0 hrs)- NL",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "8f3691d0b420ad80",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399276929",
+    "name": "Machine Learning Scientist II",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "66fd44f33edaee3f",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4398213477",
+    "name": "Postdoc in AI for Accessible Cardiac CT Image Analysis- NL",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "cab5d0d3143aef18",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399239784",
+    "name": "Machine Learning Engineer",
+    "status": "new"
+  },
+  {
+    "feedback": -1,
+    "id": "664161b477f2bfe7",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=7ad4425a04572afa",
+    "name": "Machine Learning Staff Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "971d842ad405ecb1",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4397619132",
+    "name": "Machine Learning Staff Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "656ab4b532dfbfa3",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4219666091",
+    "name": "Data Scientist - QuantumBlack, AI by McKinsey"
+  },
+  {
+    "feedback": -1,
+    "id": "8d7b841acf905041",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4369386813",
+    "name": "Postdoc on Continuous Optical Clocks",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "fd160fcd310750c2",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4387704019",
+    "name": "Senior Embedded Software Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "0ab40d6003c4f73a",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4361647689",
+    "name": "Machine Learning Science - IC - G - I",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "811f103a52ebeafa",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4389497484",
+    "name": "Postdoc in Biomolecule Detection with Inverse-Designed Plasmonic Metasurfaces",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "0ad36153d7bf1aff",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399177094",
+    "name": "Senior AI Engineer (Tech Lead)",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "727807d48b13116d",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399573882",
+    "name": "Senior ML Engineer (Evaluation)",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "8bc8f5d413e9b34e",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4389754254",
+    "name": "Postdoc Opportunities in Semiconductor Quantum Computing",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "27e5f705538ed08e",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4389251246",
+    "name": "Postdoc SmartWeave: A textile Sensor for the Monitoring of Sweat Metabolites",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "36df753a38e90a2b",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399518302",
+    "name": "Software Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "3d32cab67cb4f4a7",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=fd7769fd35873241",
+    "name": "Embedded Software Engineer"
+  },
+  {
+    "feedback": -1,
+    "id": "4bd6138fc2e6d961",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=7fb12cd416ab986b",
+    "name": "Senior Software Engineer, Perception",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "8a0fc6d9f9c58770",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399779226",
+    "name": "Robotics Software Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "88f4e64da399fd06",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4402040460",
+    "name": "Senior Software Engineer, Perception",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "79a724000f67a6f2",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4400513430",
+    "name": "Research Associate – Deep Learning for Speech and Audio Coding (all genders)",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "0cfa6ab8487f5b6a",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4399537170",
+    "name": "Embedded Software Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "0becb362991b8d15",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=e97955ecef3735cb",
+    "name": "Manager Application Software Engineering",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "bd125df55eaff79a",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4393812178",
+    "name": "Senior Machine Learning Engineer - ADAS",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "10177209a3081bf3",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=531430f9dd86cc26",
+    "name": "Head of Software & AI Engineering - AzurionEye",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "0412f52ef39c0222",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4324377664",
+    "name": "Senior Deep Learning Researcher – Model Efficiency - Qualcomm - Amsterdam",
+    "status": "delete"
+  },
+  {
+    "status": "delete",
+    "id": "291b40521bf253b0",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4395443571",
+    "name": "Senior Deep Learning Researcher – Physical AI - Qualcomm - Amsterdam",
+    "feedback": -1
+  },
+  {
+    "feedback": -1,
+    "id": "a80885251554d5a3",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=c4f6ebbf2318ba4a",
+    "name": "Senior Deep Learning Researcher – Physical AI - Qualcomm - Amsterdam",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "a9a8e71d76c496b9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4315716479",
+    "name": "SLAM Engineer - XR Labs Europe - Amsterdam Netherlands",
+    "status": "delete"
+  },
+  {
+    "status": "delete",
+    "id": "360b29295cf1f4f9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4386542283",
+    "name": "Agentic & Generative Edge AI Optimization Engineer",
+    "feedback": -1
+  },
+  {
+    "status": "delete",
+    "id": "5c6f71dbd28e4829",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=8e1e7ad98c28a29e",
+    "name": "Embedded Software Engineer",
+    "feedback": -1
+  },
+  {
+    "feedback": -1,
+    "id": "2f5eb9ae494e6b79",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=ecb1beeabc22a3a2",
+    "name": "Assistant Professor in Computer Science",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "00a6262199678af5",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=52fc1192d4e1e41b",
+    "name": "Senior Staff Software Engineer, Perception",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "cd96ad3e038e08f9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4401384262",
+    "name": "Senior Staff Software Engineer, Perception",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "b967f60a73b08118",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4372723916",
+    "name": "Senior AI/ML Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "3b7fdd5249c78579",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4402031288",
+    "name": "Postdoc Software Architectures for Cognitive Robotics",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "8e365e752faaa490",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4377902704",
+    "name": "AI Software Engineer - Neuromorphic Computing",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "8758d49360b3b7fa",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4392849582",
+    "name": "AI Engineer"
+  },
+  {
+    "feedback": 1,
+    "id": "09200dd619e0dc28",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4390354736",
+    "name": "Research Engineer In Open-Source Machine Learning"
+  },
+  {
+    "feedback": -1,
+    "id": "8461d6bc768dc4dd",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4394203514",
+    "name": "Senior Data Scientist I",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "d97e08cd72ed109c",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4306740436",
+    "name": "Software Engineer",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "66e2818ee745242f",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4384249734",
+    "name": "AI Engineer"
+  },
+  {
+    "feedback": -1,
+    "id": "962a24fb26609f7c",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4397822907",
+    "name": "Senior ML Engineer – Agentic AI",
+    "status": "delete"
+  },
+  {
+    "feedback": 1,
+    "id": "421f629a681145e5",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4384081187",
+    "name": "AI/ML Multimodal Data Scientist (m/w/d)"
   }
 ]

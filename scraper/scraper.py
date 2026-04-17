@@ -40,6 +40,12 @@ SEARCH_QUERIES = [
     ("R&D scientist sensing", "Netherlands"),
     ("applied scientist signal processing", "Netherlands"),
     ("research scientist neuromorphic", "Netherlands"),
+    # Data science & applied ML — Ben's qualifications align well
+    ("data scientist machine learning", "Netherlands"),
+    ("applied machine learning scientist", "Netherlands"),
+    ("computer vision scientist", "Netherlands"),
+    ("ML engineer research", "Netherlands"),
+    ("machine learning engineer", "Amsterdam Netherlands"),
     # Belgium
     ("neuromorphic", "Leuven Belgium"),
     ("neuroengineering", "Leuven Belgium"),
@@ -74,6 +80,8 @@ _EXCLUDE_TITLE_REGEX = [
     r"\bstagiair\b",
     r"\bwerkstudent\b",
     r"\bworking\s+student\b",
+    # Research Assistant — overqualified for PhD candidate
+    r"\bresearch\s+assistant\b",
 ]
 
 # Common Dutch words that signal a Dutch-language posting
@@ -212,9 +220,56 @@ def scrape_all(max_results_per_query: int = 20, delay_between_queries: float = 8
 
 
 def save_raw_jobs(jobs: list[RawJob]) -> list[str]:
-    """Persist raw jobs to DB and return list of new job IDs."""
-    ids = []
+    """Persist raw jobs to DB and return list of new job IDs.
+
+    Deduplication strategy (same title + company across sources):
+    - If a LinkedIn entry and a non-LinkedIn entry represent the same job,
+      keep/prefer the LinkedIn URL.
+    - Within the incoming batch: deduplicate by (normalised_title, company),
+      preferring LinkedIn over other sources.
+    - Against the DB: if a LinkedIn job arrives and an identical non-LinkedIn
+      job already exists, replace the DB entry with the LinkedIn URL.
+      Conversely, skip a non-LinkedIn job if a LinkedIn version is already in DB.
+    """
+    # ── Within-batch deduplication ──────────────────────────────────────────
+    seen_key: dict[tuple[str, str], RawJob] = {}
     for job in jobs:
+        key = (db._normalize_title(job.title), job.company.lower())
+        existing = seen_key.get(key)
+        if existing is None:
+            seen_key[key] = job
+        elif job.source == "linkedin" and existing.source != "linkedin":
+            # Prefer LinkedIn
+            seen_key[key] = job
+        # else: keep the existing entry (LinkedIn already there, or first-seen wins)
+    deduped = list(seen_key.values())
+
+    ids = []
+    for job in deduped:
+        if job.source == "linkedin":
+            # If an older non-LinkedIn duplicate exists in DB, replace it
+            old = db.find_non_linkedin_job_by_title_company(job.title, job.company)
+            if old:
+                old_id, old_url = old
+                # Only replace if not already hidden/tombstoned
+                new_id = db.replace_with_linkedin(old_id, job.url)
+                logger.info(
+                    "  Replaced non-LinkedIn duplicate '%s' with LinkedIn URL.", job.title
+                )
+                ids.append(new_id)
+                continue
+        else:
+            # Non-LinkedIn: skip if LinkedIn version already in DB
+            li_id = db.find_linkedin_job_by_title_company(job.title, job.company)
+            if li_id:
+                logger.debug(
+                    "  Skipping '%s' from %s — LinkedIn version already in DB.",
+                    job.title, job.source,
+                )
+                # Tombstone the non-LinkedIn URL so it won't be re-checked
+                db.hide_entity(job.url, "job", f"{job.title} at {job.company} [linkedin preferred]")
+                continue
+
         job_id = db.insert_job(
             source=job.source,
             url=job.url,
