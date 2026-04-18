@@ -4431,3 +4431,39 @@
 2026-04-18 05:03:05,250 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-18 05:03:05,259 [INFO] Stats: {'total': 229, 'scored': 217, 'liked': 11, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-18T07:03:05+02:00'}
 2026-04-18 05:03:05,260 [INFO] Done. Total: 229 | Scored: 217 | Strong+: 0
+2026-04-18 18:22:30,100 [INFO] Initialising database…
+2026-04-18 18:22:30,101 [INFO] Ingesting feedback…
+2026-04-18 18:22:30,104 [INFO] Applied 75 feedback records.
+2026-04-18 18:22:30,104 [INFO] Scoring pending jobs (max=50)…
+2026-04-18 18:22:30,105 [INFO] Scoring 12 pending jobs (cap=50)…
+2026-04-18 18:22:33,650 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:22:33,660 [INFO]   Scored [50] AI Engineer at Nationale-Nederlanden — Ben has relevant skills in Python and AI solutions development, but he lacks a M
+2026-04-18 18:22:39,990 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:22:39,993 [INFO]   Scored [30] Senior Performance Engineer C++ at Philips — Ben has relevant skills in Python and hardware-software integration, but lacks t
+2026-04-18 18:22:45,508 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:22:45,512 [INFO]   Scored [30] Senior Product Engineer (AI) at plain — While Ben has relevant skills in Python and AI development, he lacks the applied
+2026-04-18 18:22:51,195 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:22:51,198 [INFO]   Scored [70] Computer Vision & ML Expert at Alignerr — Ben has strong skills in Python and PyTorch, as well as relevant knowledge in co
+2026-04-18 18:22:57,527 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:22:57,530 [INFO]   Scored [50] Data Scientist at Magno IT Recruitment — Ben has relevant skills in Python and machine learning, but lacks specific exper
+2026-04-18 18:23:03,658 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:03,662 [INFO]   Scored [30] MLOps Platform Engineer - Team Data & Analytics & AI Platform | Den Haag at PostNL — While Ben has relevant skills in Python and AI, the role requires specific exper
+2026-04-18 18:23:09,654 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:09,656 [INFO]   Scored [30] Python Software Engineer - Marketplaces team at Channable — While Ben has strong Python skills and experience in API integration, he lacks t
+2026-04-18 18:23:15,573 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:15,576 [INFO]   Scored [0] Group Leader Innovation Consulting at Philips — This role is not suitable for Ben as it requires a Master's degree in a business
+2026-04-18 18:23:21,211 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:21,214 [INFO]   Scored [0] Postdoc Synthetic Social Networks for Climate Attitude-Behaviour Diffusion at University of Amsterdam — Ben is excluded due to the position being a postdoctoral role outside his primar
+2026-04-18 18:23:26,836 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:26,838 [INFO]   Scored [0] Postdoc Position: Ecosystem Size Spectra Analysis at Radboud Summer School — Ben's expertise in systems neuroscience does not align with the ecological focus
+2026-04-18 18:23:32,929 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:32,931 [INFO]   Scored [0] Postdoc position in Polymer Brushes at University of Twente — Ben is overqualified for this postdoctoral position as it requires a PhD in a di
+2026-04-18 18:23:38,907 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 18:23:38,909 [INFO]   Scored [30] Embedded Software Engineer - Driver & OS at Axelera AI — While Ben has relevant skills in Python and hardware-software integration, he la
+2026-04-18 18:23:41,909 [INFO] Scoring complete. 12/12 attempted.
+2026-04-18 18:23:41,909 [INFO] Scored 12 jobs
+2026-04-18 18:23:41,910 [INFO] Exporting data…
+2026-04-18 18:23:41,912 [INFO] Exported 22 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-18 18:23:41,913 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-18 18:23:41,922 [INFO] Stats: {'total': 229, 'scored': 229, 'liked': 11, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-18T20:23:41+02:00'}
+2026-04-18 18:23:41,923 [INFO] Done. Total: 229 | Scored: 229 | Strong+: 0
