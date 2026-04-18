@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T18:27:37.278592",
+  "generated": "2026-04-18T05:03:05.249041",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -70,6 +70,43 @@
       }
     },
     {
+      "id": "88297cba79de12b2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4402948015",
+      "title": "AI Research Engineer",
+      "company": "Plumerai",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-16",
+      "date_found": "2026-04-18T04:59:38.843854",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "computer vision"
+      ],
+      "key_gaps": [
+        "Strong experience with multimodal LLMs",
+        "Experience with TensorFlow or Keras"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, along with relevant experience in computer vision, but lacks specific experience with multimodal LLMs and TensorFlow/Keras, which are emphasized in the job description.",
+      "job_summary": "The AI Research Engineer at Plumerai will develop advanced AI products by improving training algorithms, integrating multimodal LLMs, and optimizing model architectures for embedded devices.",
+      "top_qualifications": [
+        "Strong engineering experience with proficiency in Python",
+        "Comfortable with frameworks such as PyTorch, TensorFlow, Keras, or JAX",
+        "Strong experience with computer vision and multimodal LLMs"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Plumerai"
+      }
+    },
+    {
       "id": "8e9fbe72185ff129",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4400393133",
@@ -136,6 +173,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "f8b4104b61eb52b8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403537473",
+      "title": "Senior Machine Learning Scientist (For independent contractors)",
+      "company": "Booking.com",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.822659",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "Machine Learning",
+        "Data analysis"
+      ],
+      "key_gaps": [
+        "Experience in advertising or commercial ML applications",
+        "Specific experience with production-grade ML code for scalable systems"
+      ],
+      "rationale": "While Ben has strong skills in Python and machine learning, the role's focus on commercial applications in advertising and the need for specific production experience create a moderate fit.",
+      "job_summary": "The Senior Machine Learning Scientist at Booking.com will lead the development and improvement of machine learning models for Sponsored Ads, translating business problems into ML challenges and overseeing the end-to-end ML development process.",
+      "top_qualifications": [
+        "Machine Learning model development",
+        "End-to-end ML solutions",
+        "Cross-functional collaboration"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
+      }
+    },
+    {
+      "id": "0974578c1fe129df",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403426837",
+      "title": "Data Scientist",
+      "company": "Joveo Ai",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.818835",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "AI agent development",
+        "Machine learning"
+      ],
+      "key_gaps": [
+        "Specific experience in NLP and predictive analytics",
+        "Experience with big data frameworks and cloud deployment"
+      ],
+      "rationale": "This score reflects a moderate fit due to Ben's strong Python and machine learning skills, but he lacks specific experience in NLP and big data frameworks required for the role.",
+      "job_summary": "The Data Scientist role at Joveo Ai involves building and deploying NLP models and predictive algorithms to optimize job embeddings and applicant forecasting. The position requires collaboration with product managers and software engineers to implement AI/ML solutions in recruitment advertising.",
+      "top_qualifications": [
+        "Proven experience in building machine learning models, specifically in NLP and predictive analytics",
+        "Proficiency in Python and relevant libraries (NumPy, Pandas, SciPy, Gensim)",
+        "Experience with big data frameworks and deploying models into cloud environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Joveo%20Ai"
       }
     },
     {
@@ -554,6 +665,318 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "b8672e4e6489fdb7",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403117272",
+      "title": "Embedded Software Engineer - Driver & OS",
+      "company": "Axelera AI",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-16",
+      "date_found": "2026-04-18T04:59:38.893111",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axelera%20AI"
+      }
+    },
+    {
+      "id": "b3b47b036897abce",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399774653",
+      "title": "Postdoc position in Polymer Brushes",
+      "company": "University of Twente",
+      "location": "Enschede, Overijssel, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.890902",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Twente&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Twente"
+      }
+    },
+    {
+      "id": "7670bdf0f4784465",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403519452",
+      "title": "Postdoc Position: Ecosystem Size Spectra Analysis",
+      "company": "Radboud Summer School",
+      "location": "Nijmegen, Gelderland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.889164",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Summer%20School"
+      }
+    },
+    {
+      "id": "3eacfa63dd7573b8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4371899560",
+      "title": "Postdoc Synthetic Social Networks for Climate Attitude-Behaviour Diffusion",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.887350",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
+      }
+    },
+    {
+      "id": "49289f28125902d1",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=c96bb1c93d843dbf",
+      "title": "Group Leader Innovation Consulting",
+      "company": "Philips",
+      "location": "Eindhoven, NB, NL",
+      "date_posted": "2026-03-05",
+      "date_found": "2026-04-18T04:59:38.885620",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Philips"
+      }
+    },
+    {
+      "id": "26a722eeee56197e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4390421540",
+      "title": "Python Software Engineer - Marketplaces team",
+      "company": "Channable",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.883917",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Channable&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Channable&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Channable&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Channable"
+      }
+    },
+    {
+      "id": "fd4f3a785dfd4710",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4391148299",
+      "title": "MLOps Platform Engineer - Team Data & Analytics & AI Platform | Den Haag",
+      "company": "PostNL",
+      "location": "The Hague, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.882026",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=PostNL"
+      }
+    },
+    {
+      "id": "dfc5b104a7200a9e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4402708942",
+      "title": "Data Scientist",
+      "company": "Magno IT Recruitment",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.877211",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
+      }
+    },
+    {
+      "id": "40cf5675220f1f9b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403500094",
+      "title": "Computer Vision & ML Expert",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.873157",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
+      }
+    },
+    {
+      "id": "466a2f7726aeddb6",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=cebc19eeae34c083",
+      "title": "Senior Product Engineer (AI)",
+      "company": "plain",
+      "location": "NL",
+      "date_posted": "2026-04-17",
+      "date_found": "2026-04-18T04:59:38.871074",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=plain&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=plain&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=plain&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=plain"
+      }
+    },
+    {
+      "id": "4e7753c64d61d430",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=c36b0238af1ff9dd",
+      "title": "Senior Performance Engineer C++",
+      "company": "Philips",
+      "location": "Best, NB, NL",
+      "date_posted": "2026-02-23",
+      "date_found": "2026-04-18T04:59:38.869055",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Philips"
+      }
+    },
+    {
+      "id": "648bb5b4cd1a7db0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4390771792",
+      "title": "AI Engineer",
+      "company": "Nationale-Nederlanden",
+      "location": "The Hague, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-18T04:59:38.866954",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Nationale-Nederlanden"
       }
     }
   ]
