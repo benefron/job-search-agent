@@ -4627,3 +4627,21 @@
 2026-04-19 05:17:34,093 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-19 05:17:34,102 [INFO] Stats: {'total': 262, 'scored': 259, 'liked': 11, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-19T07:17:34+02:00'}
 2026-04-19 05:17:34,103 [INFO] Done. Total: 262 | Scored: 259 | Strong+: 0
+2026-04-19 18:22:45,595 [INFO] Initialising database…
+2026-04-19 18:22:45,595 [INFO] Ingesting feedback…
+2026-04-19 18:22:45,599 [INFO] Applied 75 feedback records.
+2026-04-19 18:22:45,599 [INFO] Scoring pending jobs (max=50)…
+2026-04-19 18:22:45,600 [INFO] Scoring 3 pending jobs (cap=50)…
+2026-04-19 18:22:48,666 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 18:22:48,674 [INFO]   Scored [0] Postdoctoral Researcher in Philosophical Logic (Propositions) at University of Amsterdam — Ben is excluded from this position as it is a postdoctoral role in philosophy, w
+2026-04-19 18:22:55,074 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 18:22:55,077 [INFO]   Scored [30] Embedded Software Engineer - Driver & OS at Axelera AI — This role has some overlap with Ben's skills in Python and AI, but it primarily 
+2026-04-19 18:23:00,653 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 18:23:00,656 [INFO]   Scored [30] Embedded Software Engineer at Lely — While Ben has relevant skills in Python and a collaborative mindset, he does not
+2026-04-19 18:23:03,656 [INFO] Scoring complete. 3/3 attempted.
+2026-04-19 18:23:03,656 [INFO] Scored 3 jobs
+2026-04-19 18:23:03,656 [INFO] Exporting data…
+2026-04-19 18:23:03,659 [INFO] Exported 24 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-19 18:23:03,660 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-19 18:23:03,667 [INFO] Stats: {'total': 262, 'scored': 262, 'liked': 11, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-19T20:23:03+02:00'}
+2026-04-19 18:23:03,669 [INFO] Done. Total: 262 | Scored: 262 | Strong+: 0

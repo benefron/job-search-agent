@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T05:17:34.092405",
+  "generated": "2026-04-19T18:23:03.658689",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -851,84 +851,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "c768b5bc74dc81ce",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4346805577",
-      "title": "Embedded Software Engineer",
-      "company": "Lely",
-      "location": "South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-19T05:13:04.937083",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Lely"
-      }
-    },
-    {
-      "id": "37138652ac9f23f6",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403113319",
-      "title": "Embedded Software Engineer - Driver & OS",
-      "company": "Axelera AI",
-      "location": "",
-      "date_posted": "2026-04-16",
-      "date_found": "2026-04-19T05:13:04.934923",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axelera%20AI"
-      }
-    },
-    {
-      "id": "58dec186d2758b23",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4391705515",
-      "title": "Postdoctoral Researcher in Philosophical Logic (Propositions)",
-      "company": "University of Amsterdam",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-19T05:13:04.932786",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
       }
     }
   ]
