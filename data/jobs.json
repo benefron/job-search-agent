@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T18:23:41.911815",
+  "generated": "2026-04-19T05:17:34.092405",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -67,6 +67,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "2285c67f17bcebaf",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4400842684",
+      "title": "MLOps Engineer I",
+      "company": "Checkout.com",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-04-17",
+      "date_found": "2026-04-19T05:13:04.871605",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "ML frameworks familiarity"
+      ],
+      "key_gaps": [
+        "Experience with cloud-based application development (AWS)",
+        "Specific experience in MLOps practices and monitoring production systems"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, aligning well with the role's requirements, but lacks specific experience in MLOps practices and cloud-based application development.",
+      "job_summary": "The MLOps Engineer I role at Checkout.com involves building systems for training, deploying, and monitoring machine learning models used in their payments platform, with a focus on scalability and ownership.",
+      "top_qualifications": [
+        "Proficiency in writing clear, production-ready Python code",
+        "Familiarity with production ML models and standard MLOps practices",
+        "Familiarity with one or more ML frameworks and technologies: PyTorch"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Checkout.com"
       }
     },
     {
@@ -210,6 +247,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "79cab6296b46b7fb",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403090692",
+      "title": "Data Scientist",
+      "company": "Magno IT Recruitment",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-19T05:13:04.908078",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "Data processing, cleaning, and analysis skills: experience with NumPy, SciPy"
+      ],
+      "key_gaps": [
+        "Experience in using LLMs",
+        "Hands-on machine learning experience on classification, regression, clustering, and text Mining"
+      ],
+      "rationale": "Ben has relevant skills in Python and PyTorch, but lacks specific experience in NLP and LLMs, which are crucial for this role.",
+      "job_summary": "This role involves working as a Data Scientist to build, test, and maintain NLP solutions using AI technology, focusing on data science project life cycles and automation pipelines.",
+      "top_qualifications": [
+        "At least 4+ years of relevant applied experience and MSc/MTech in the field of computer science, data science, artificial intelligence, mathematics, statistics, bioinformatics or other quantitative fields",
+        "Strong hands-on knowledge of Python, able to write unit tests and production ready code adhering to best practices",
+        "Proven experience in NLP with the use of BERT models or its variations"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
       }
     },
     {
@@ -777,6 +851,84 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "c768b5bc74dc81ce",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4346805577",
+      "title": "Embedded Software Engineer",
+      "company": "Lely",
+      "location": "South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-19T05:13:04.937083",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Lely"
+      }
+    },
+    {
+      "id": "37138652ac9f23f6",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403113319",
+      "title": "Embedded Software Engineer - Driver & OS",
+      "company": "Axelera AI",
+      "location": "",
+      "date_posted": "2026-04-16",
+      "date_found": "2026-04-19T05:13:04.934923",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axelera%20AI&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axelera%20AI"
+      }
+    },
+    {
+      "id": "58dec186d2758b23",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4391705515",
+      "title": "Postdoctoral Researcher in Philosophical Logic (Propositions)",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-19T05:13:04.932786",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
       }
     }
   ]
