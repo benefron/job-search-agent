@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T18:23:03.658689",
+  "generated": "2026-04-20T05:19:45.582977",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -67,6 +67,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "950ed9293f1cb68c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403317817",
+      "title": "Machine Learning Engineer",
+      "company": "Corsearch",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-20T05:16:51.179069",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "computer vision"
+      ],
+      "key_gaps": [
+        "At least 3 years of professional experience as a Machine Learning Engineer",
+        "Experience with large datasets and data pipelines for training and deploying ML models"
+      ],
+      "rationale": "Ben has relevant skills in Python and PyTorch, as well as experience in computer vision, but he lacks the required professional experience as a Machine Learning Engineer and specific experience with large datasets and data pipelines.",
+      "job_summary": "The Machine Learning Engineer at Corsearch will design and optimize AI models for image search and other brand protection solutions, collaborating with a global team to enhance product performance.",
+      "top_qualifications": [
+        "Proven experience as a Machine Learning Engineer with at least 3 years of professional experience",
+        "Strong proficiency in machine learning frameworks such as PyTorch",
+        "Experience with image processing and feature extraction techniques"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Corsearch"
       }
     },
     {
@@ -247,6 +284,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "9d0f4f2895e3c9da",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403320454",
+      "title": "Data Scientist",
+      "company": "Magno IT Recruitment",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-20T05:16:51.200094",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong hands-on knowledge of Python",
+        "Experience with PyTorch",
+        "Data processing and analysis skills using NumPy and SciPy"
+      ],
+      "key_gaps": [
+        "Specific experience in NLP with BERT models or its variations",
+        "Experience in using LLMs"
+      ],
+      "rationale": "The role requires specific NLP experience and familiarity with BERT models and LLMs, which Ben does not explicitly have, despite having strong Python and machine learning skills.",
+      "job_summary": "This role involves working as a Data Scientist in a team focused on developing NLP solutions and automation pipelines for data extraction and analysis. The candidate will be responsible for the entire lifecycle of data science projects, including model development and deployment.",
+      "top_qualifications": [
+        "At least 4+ years of relevant applied experience and MSc/MTech in a quantitative field",
+        "Strong hands-on knowledge of Python, able to write unit tests and production ready code",
+        "Proven experience in NLP with the use of BERT models or its variations"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
       }
     },
     {
