@@ -4962,3 +4962,51 @@
 2026-04-21 05:14:39,141 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-21 05:14:39,143 [INFO] Stats: {'total': 333, 'scored': 316, 'liked': 11, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-21T07:14:39+02:00'}
 2026-04-21 05:14:39,145 [INFO] Done. Total: 333 | Scored: 316 | Strong+: 0
+2026-04-21 18:34:44,875 [INFO] Initialising database…
+2026-04-21 18:34:44,875 [INFO] Ingesting feedback…
+2026-04-21 18:34:44,891 [INFO] Applied 75 feedback records.
+2026-04-21 18:34:44,891 [INFO] Scoring pending jobs (max=50)…
+2026-04-21 18:34:44,892 [INFO] Scoring 17 pending jobs (cap=50)…
+2026-04-21 18:34:48,234 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:34:48,241 [INFO]   Scored [30] Postdoc Position in the Science of Hybrid Intelligence at Universiteit Utrecht — While Ben has relevant skills in AI and programming, he does not meet the specif
+2026-04-21 18:34:54,616 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:34:54,618 [INFO]   Scored [0] Researcher Hypersonic Ballistic Experiments at TNO — Ben does not meet the hard exclusion requirement of Dutch fluency and is overqua
+2026-04-21 18:35:00,898 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:35:00,970 [INFO]   Scored [80] Computer Vision Scientist/Data Scientist at Harnham — Ben has strong qualifications in Python, machine learning, and relevant framewor
+2026-04-21 18:35:03,989 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 18:35:03,989 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-04-21 18:36:07,038 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:07,229 [INFO]   Scored [30] Senior AI Engineer I at ＬＯＯＰ — While Ben has strong skills in Python and machine learning, he lacks specific ex
+2026-04-21 18:36:12,712 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:12,800 [INFO]   Scored [30] Senior GenAI Engineer at Curamando — Ben has relevant skills in Python and AI development but lacks specific experien
+2026-04-21 18:36:18,329 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:18,371 [INFO]   Scored [30] Data Engineer  - NLP at Harnham — While Ben has strong Python and data analysis skills, he lacks specific experien
+2026-04-21 18:36:23,709 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:23,711 [INFO]   Scored [0] Junior Software Engineer at Single Quantum — The position is explicitly for students looking for a side job, which disqualifi
+2026-04-21 18:36:29,674 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:29,683 [INFO]   Scored [30] Medior Data Scientist (Python, Azure, Databricks, Spark) at Albert Heijn — Ben has strong Python and machine learning skills but does not meet the required
+2026-04-21 18:36:35,786 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:35,789 [INFO]   Scored [30] Data Scientist at Magno IT Recruitment — While Ben has strong Python and PyTorch skills, the role requires specific NLP e
+2026-04-21 18:36:41,381 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:41,416 [INFO]   Scored [30] Forward Deployed AI Engineer at ICEYE — While Ben has relevant skills in Python and AI development, he lacks specific ex
+2026-04-21 18:36:47,180 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:47,183 [INFO]   Scored [0] Postdoctoral Fellow - Chemistry at UNSW — The position is a postdoctoral role in Chemistry, which is outside of Ben's expe
+2026-04-21 18:36:53,438 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:53,440 [INFO]   Scored [0] Postdoctoral Researcher at Utrecht University — This position is a postdoctoral role focused on environmental health and epidemi
+2026-04-21 18:36:59,738 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:36:59,742 [INFO]   Scored [0] PostDoc - Hubrecht Institute - Utrecht at KNAW - Koninklijke Nederlandse Akademie van Wetenschappen — Ben does not meet the required qualifications as the position is focused on mole
+2026-04-21 18:37:05,505 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:37:05,507 [INFO]   Scored [30] Postdoc Position in the Science of Hybrid Intelligence at Utrecht University — While Ben has relevant skills in Python and AI, he does not meet the specific Ph
+2026-04-21 18:37:10,949 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:37:10,951 [INFO]   Scored [0] Postdoctoral Researcher in Evaluation of Agentic Conversational AI at University of Amsterdam — The position is a postdoctoral role but focuses on conversational AI and large l
+2026-04-21 18:37:16,590 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:37:16,593 [INFO]   Scored [30] Senior Developer Advocate at Elastic — While Ben has relevant technical skills and experience in creating content, he l
+2026-04-21 18:37:22,161 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:37:22,164 [INFO]   Scored [0] PostDoc position on VR training for first responders dealing with “Personen met Onbegrepen Gedrag” (Dutch language) at Universiteit Twente — Ben is excluded due to the requirement for a PhD in a different field and the fo
+2026-04-21 18:37:25,164 [INFO] Scoring complete. 17/17 attempted.
+2026-04-21 18:37:25,164 [INFO] Scored 17 jobs
+2026-04-21 18:37:25,164 [INFO] Exporting data…
+2026-04-21 18:37:25,167 [INFO] Exported 31 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-21 18:37:25,168 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-21 18:37:25,170 [INFO] Stats: {'total': 333, 'scored': 333, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-21T20:37:25+02:00'}
+2026-04-21 18:37:25,172 [INFO] Done. Total: 333 | Scored: 333 | Strong+: 0
