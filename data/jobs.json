@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T18:37:25.167099",
+  "generated": "2026-04-22T05:15:06.257979",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -395,6 +395,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "a45badc91f4c6b39",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4385334090",
+      "title": "Data Scientist",
+      "company": "Harnham",
+      "location": "",
+      "date_posted": "2026-04-20",
+      "date_found": "2026-04-22T05:10:29.407536",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "machine learning modelling",
+        "core data science libraries"
+      ],
+      "key_gaps": [
+        "Strong commercial experience delivering data science solutions in production environments",
+        "Experience working across the stack including data engineering, APIs, deployment, and monitoring"
+      ],
+      "rationale": "This role has a moderate fit due to Ben's strong skills in Python and machine learning, but he lacks the required commercial experience in production environments and the full-stack experience mentioned.",
+      "job_summary": "The Data Scientist role involves designing, building, and deploying end-to-end data science solutions, working with large datasets and collaborating with engineering teams to implement reliable models in production environments.",
+      "top_qualifications": [
+        "Strong commercial experience delivering data science solutions in production environments",
+        "Hands-on experience with machine learning modelling, model evaluation, and operationalisation",
+        "Experience working across the stack including data engineering, APIs, deployment, and monitoring"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Harnham"
+      }
+    },
+    {
+      "id": "f36dd0d4502334fa",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404219676",
+      "title": "Founding Engineer \u2014 World Models & Physical AI",
+      "company": "Stateloop",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.394909",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "Deep learning",
+        "AI agent development"
+      ],
+      "key_gaps": [
+        "Hands-on robotics experience \u2014 RL or Imitation Learning on physical systems",
+        "Experience with world models (Dreamer, JEPA, or similar) or VLAs"
+      ],
+      "rationale": "While Ben has strong skills in Python and AI development, he lacks specific hands-on robotics experience and familiarity with world models, which are crucial for this role.",
+      "job_summary": "The role involves researching and developing world model architectures for robotics and embodied AI, focusing on sim-to-real transfer and building scalable data pipelines from gameplay data.",
+      "top_qualifications": [
+        "Strong foundation in deep learning and reinforcement learning fundamentals",
+        "Hands-on robotics experience \u2014 RL or Imitation Learning on physical systems",
+        "Experience with world models (Dreamer, JEPA, or similar) or VLAs"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Stateloop"
       }
     },
     {
@@ -1111,6 +1185,214 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "9d565ed1e052f258",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=52963e532a25df5f",
+      "title": "Staff Platform Engineer",
+      "company": "AeroVect",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-04-21",
+      "date_found": "2026-04-22T05:10:29.436767",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AeroVect"
+      }
+    },
+    {
+      "id": "0ddf8d5d07336a85",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404561929",
+      "title": "Embedded Verification Engineer",
+      "company": "The Chain Company",
+      "location": "Enschede, Overijssel, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.434815",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=The%20Chain%20Company"
+      }
+    },
+    {
+      "id": "0eada7c7afc33639",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4401978273",
+      "title": "Senior Oracle HCM Cloud Techno\u2011Functional Specialist",
+      "company": "UL Solutions",
+      "location": "Arnhem, Gelderland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.430551",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UL%20Solutions"
+      }
+    },
+    {
+      "id": "fdff23477d27430f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404877682",
+      "title": "Postdoc Position: AI-based Load Forecasting for Energy Systems",
+      "company": "Radboud University",
+      "location": "Nijmegen, Gelderland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.427966",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20University"
+      }
+    },
+    {
+      "id": "f4374eb595eced36",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404562827",
+      "title": "Head of Data Management",
+      "company": "ATNi (Access to Nutrition initiative)",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.425628",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29"
+      }
+    },
+    {
+      "id": "f03f2cec862c4ae8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404874388",
+      "title": "Postdoc Position: AI-based Load Forecasting for Energy Systems",
+      "company": "Radboud Summer School",
+      "location": "Nijmegen, Gelderland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.423192",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Summer%20School"
+      }
+    },
+    {
+      "id": "77b94d8e65377a9e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404826102",
+      "title": "Computer Vision Engineer",
+      "company": "Vivid Resourcing",
+      "location": "Antwerp, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.421257",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
+      }
+    },
+    {
+      "id": "9fe1e3a4965cf3af",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4401982414",
+      "title": "Chief Information Officer",
+      "company": "SoTalent",
+      "location": "Amersfoort, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.418880",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=SoTalent"
       }
     }
   ]
