@@ -5170,3 +5170,31 @@
 2026-04-22 05:15:06,260 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-22 05:15:06,271 [INFO] Stats: {'total': 371, 'scored': 363, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-22T07:15:06+02:00'}
 2026-04-22 05:15:06,272 [INFO] Done. Total: 371 | Scored: 363 | Strong+: 0
+2026-04-22 18:34:38,659 [INFO] Initialising database…
+2026-04-22 18:34:38,660 [INFO] Ingesting feedback…
+2026-04-22 18:34:38,663 [INFO] Applied 75 feedback records.
+2026-04-22 18:34:38,663 [INFO] Scoring pending jobs (max=50)…
+2026-04-22 18:34:38,664 [INFO] Scoring 8 pending jobs (cap=50)…
+2026-04-22 18:34:43,142 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:34:43,153 [INFO]   Scored [0] Chief Information Officer at SoTalent — This position is a high-level executive role requiring extensive experience in d
+2026-04-22 18:34:49,561 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:34:49,563 [INFO]   Scored [70] Computer Vision Engineer at Vivid Resourcing — Ben has strong qualifications in Python and relevant experience in computer visi
+2026-04-22 18:34:55,762 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:34:55,764 [INFO]   Scored [30] Postdoc Position: AI-based Load Forecasting for Energy Systems at Radboud Summer School — While Ben has relevant skills in Python and machine learning, he lacks specific 
+2026-04-22 18:35:01,894 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:35:01,897 [INFO]   Scored [30] Head of Data Management at ATNi (Access to Nutrition initiative) — While Ben has relevant skills in data analysis and machine learning, he lacks sp
+2026-04-22 18:35:08,133 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:35:08,136 [INFO]   Scored [30] Postdoc Position: AI-based Load Forecasting for Energy Systems at Radboud University — While Ben has relevant skills in Python and machine learning, he lacks specific 
+2026-04-22 18:35:14,725 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:35:14,728 [INFO]   Scored [0] Senior Oracle HCM Cloud Techno‑Functional Specialist at UL Solutions — Ben's qualifications do not align with the requirements for this Oracle HCM Clou
+2026-04-22 18:35:21,175 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:35:21,178 [INFO]   Scored [0] Embedded Verification Engineer at The Chain Company — Ben is overqualified for this role and does not meet the required educational ba
+2026-04-22 18:35:27,759 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 18:35:27,761 [INFO]   Scored [30] Staff Platform Engineer at AeroVect — While Ben has relevant skills in Python and hardware-software integration, he la
+2026-04-22 18:35:30,762 [INFO] Scoring complete. 8/8 attempted.
+2026-04-22 18:35:30,762 [INFO] Scored 8 jobs
+2026-04-22 18:35:30,762 [INFO] Exporting data…
+2026-04-22 18:35:30,766 [INFO] Exported 34 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-22 18:35:30,767 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-22 18:35:30,769 [INFO] Stats: {'total': 371, 'scored': 371, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-22T20:35:30+02:00'}
+2026-04-22 18:35:30,771 [INFO] Done. Total: 371 | Scored: 371 | Strong+: 0
