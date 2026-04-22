@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T05:15:06.257979",
+  "generated": "2026-04-22T18:35:30.765307",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "77b94d8e65377a9e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404826102",
+      "title": "Computer Vision Engineer",
+      "company": "Vivid Resourcing",
+      "location": "Antwerp, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-04-22T05:10:29.421257",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "Sensor fusion",
+        "Computer Vision"
+      ],
+      "key_gaps": [
+        "Experience with C++ for embedded systems",
+        "Experience working on real-world systems or product development"
+      ],
+      "rationale": "Ben has strong qualifications in Python and relevant experience in computer vision and sensor systems, but lacks specific experience in C++ and real-world product development.",
+      "job_summary": "The Computer Vision Engineer role involves developing AI algorithms for navigation and obstacle detection, focusing on real-time decision-making in complex environments, with a strong emphasis on sensor fusion and performance optimization.",
+      "top_qualifications": [
+        "Strong programming experience in Python",
+        "Experience with sensor fusion",
+        "Background in AI or Robotics"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
       }
     },
     {
@@ -1185,214 +1222,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "9d565ed1e052f258",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=52963e532a25df5f",
-      "title": "Staff Platform Engineer",
-      "company": "AeroVect",
-      "location": "Amsterdam, NH, NL",
-      "date_posted": "2026-04-21",
-      "date_found": "2026-04-22T05:10:29.436767",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=AeroVect&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AeroVect"
-      }
-    },
-    {
-      "id": "0ddf8d5d07336a85",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404561929",
-      "title": "Embedded Verification Engineer",
-      "company": "The Chain Company",
-      "location": "Enschede, Overijssel, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.434815",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=The%20Chain%20Company&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=The%20Chain%20Company"
-      }
-    },
-    {
-      "id": "0eada7c7afc33639",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401978273",
-      "title": "Senior Oracle HCM Cloud Techno\u2011Functional Specialist",
-      "company": "UL Solutions",
-      "location": "Arnhem, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.430551",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=UL%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UL%20Solutions"
-      }
-    },
-    {
-      "id": "fdff23477d27430f",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404877682",
-      "title": "Postdoc Position: AI-based Load Forecasting for Energy Systems",
-      "company": "Radboud University",
-      "location": "Nijmegen, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.427966",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20University"
-      }
-    },
-    {
-      "id": "f4374eb595eced36",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404562827",
-      "title": "Head of Data Management",
-      "company": "ATNi (Access to Nutrition initiative)",
-      "location": "Utrecht, Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.425628",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ATNi%20%28Access%20to%20Nutrition%20initiative%29"
-      }
-    },
-    {
-      "id": "f03f2cec862c4ae8",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404874388",
-      "title": "Postdoc Position: AI-based Load Forecasting for Energy Systems",
-      "company": "Radboud Summer School",
-      "location": "Nijmegen, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.423192",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Summer%20School"
-      }
-    },
-    {
-      "id": "77b94d8e65377a9e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404826102",
-      "title": "Computer Vision Engineer",
-      "company": "Vivid Resourcing",
-      "location": "Antwerp, Flemish Region, Belgium",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.421257",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
-      }
-    },
-    {
-      "id": "9fe1e3a4965cf3af",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401982414",
-      "title": "Chief Information Officer",
-      "company": "SoTalent",
-      "location": "Amersfoort, Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.418880",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=SoTalent"
       }
     }
   ]
