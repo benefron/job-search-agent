@@ -5613,3 +5613,43 @@
 2026-04-24 05:19:52,341 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-24 05:19:52,367 [INFO] Stats: {'total': 485, 'scored': 471, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-24T07:19:52+02:00'}
 2026-04-24 05:19:52,369 [INFO] Done. Total: 485 | Scored: 471 | Strong+: 0
+2026-04-24 18:24:07,253 [INFO] Initialising database…
+2026-04-24 18:24:07,254 [INFO] Ingesting feedback…
+2026-04-24 18:24:07,257 [INFO] Applied 75 feedback records.
+2026-04-24 18:24:07,257 [INFO] Scoring pending jobs (max=50)…
+2026-04-24 18:24:07,259 [INFO] Scoring 14 pending jobs (cap=50)…
+2026-04-24 18:24:11,322 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:11,332 [INFO]   Scored [0] Senior Software Engineer - Search Runtime at Nebius — Ben does not meet the core requirements for this software engineering role, part
+2026-04-24 18:24:17,410 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:17,413 [INFO]   Scored [30] Senior Software Engineer - Identity at Samba TV — While Ben has relevant skills in Python and data engineering, he lacks the exten
+2026-04-24 18:24:23,568 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:23,571 [INFO]   Scored [0] Programmatic Engineer at Joveo AI — Ben does not meet any of the core requirements for this role, which focuses on p
+2026-04-24 18:24:29,625 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:29,628 [INFO]   Scored [0] Fresher Software Engineer at Joveo AI — Ben is overqualified for this entry-level position, which specifically targets r
+2026-04-24 18:24:35,542 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:35,546 [INFO]   Scored [0] Director Global Trade Compliance Infrastructure & Operations at NXP Semiconductors — Ben is overqualified for this position as it is not aligned with his expertise i
+2026-04-24 18:24:41,295 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:41,298 [INFO]   Scored [0] Postdoc mesoscale cerebellar MRI at Koninklijke Nederlandse Akademie van Wetenschappen — Ben does not meet the required qualifications for a PhD in MR physics or related
+2026-04-24 18:24:47,821 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:47,823 [INFO]   Scored [0] Postdoc Spatial Immune profiling and CAR-T cell therapy in Neuroblastoma at Prinses Máxima Centrum voor kinderoncologie — Ben does not meet the required qualifications for this role, as it specifically 
+2026-04-24 18:24:53,571 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:24:53,574 [INFO]   Scored [0] Postdoctoral Researcher on Parenting in Times of Uncertainty at University of Amsterdam — Ben is excluded from this role as it requires a PhD in social sciences and exper
+2026-04-24 18:25:00,108 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:00,111 [INFO]   Scored [70] Postdoc Tactile Robotics for Dexterous Manipulation at ElectroChemical Flow Systems laboratory — Ben has relevant skills in Python and hardware-software integration, but lacks s
+2026-04-24 18:25:06,094 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:06,096 [INFO]   Scored [30] Radar DSP / Embedded Engineer at Globalscan B.V. — While Ben has relevant skills in Python and machine learning, he lacks specific 
+2026-04-24 18:25:11,521 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:11,523 [INFO]   Scored [0] Infrastructure at TNO — This position is excluded due to the job description being primarily in Dutch, w
+2026-04-24 18:25:17,198 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:17,201 [INFO]   Scored [0] Concrete structures at TNO — This position is entirely outside Ben's expertise in systems neuroscience and ne
+2026-04-24 18:25:23,044 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:23,047 [INFO]   Scored [0] Wet infrastructure at TNO — The job description is primarily in Dutch, and there is no alignment with Ben's 
+2026-04-24 18:25:28,336 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 18:25:28,338 [INFO]   Scored [0] Road structures at TNO — This position is entirely outside of Ben's expertise in systems neuroscience and
+2026-04-24 18:25:31,338 [INFO] Scoring complete. 14/14 attempted.
+2026-04-24 18:25:31,338 [INFO] Scored 14 jobs
+2026-04-24 18:25:31,338 [INFO] Exporting data…
+2026-04-24 18:25:31,343 [INFO] Exported 40 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-24 18:25:31,344 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-24 18:25:31,354 [INFO] Stats: {'total': 485, 'scored': 485, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-24T20:25:31+02:00'}
+2026-04-24 18:25:31,357 [INFO] Done. Total: 485 | Scored: 485 | Strong+: 0
