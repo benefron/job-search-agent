@@ -5811,3 +5811,21 @@
 2026-04-25 05:05:46,404 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-25 05:05:46,407 [INFO] Stats: {'total': 519, 'scored': 515, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-25T07:05:46+02:00'}
 2026-04-25 05:05:46,410 [INFO] Done. Total: 519 | Scored: 515 | Strong+: 0
+2026-04-25 18:23:58,010 [INFO] Initialising database…
+2026-04-25 18:23:58,011 [INFO] Ingesting feedback…
+2026-04-25 18:23:58,015 [INFO] Applied 75 feedback records.
+2026-04-25 18:23:58,015 [INFO] Scoring pending jobs (max=50)…
+2026-04-25 18:23:58,017 [INFO] Scoring 3 pending jobs (cap=50)…
+2026-04-25 18:24:01,427 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:24:01,437 [INFO]   Scored [30] Embedded Software Engineer at NUNC Capital — While Ben has relevant skills in Python and some aspects of hardware-software in
+2026-04-25 18:24:07,731 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:24:07,734 [INFO]   Scored [30] Embedded Software Engineer at AnGard Microwave — Ben has relevant skills in Python and some experience with hardware-software int
+2026-04-25 18:24:13,215 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:24:13,218 [INFO]   Scored [30] Robotics Software Engineer (3D Bin-Packing & Optimization) at Flowtec Group — While Ben has relevant skills in Python and problem-solving, he lacks the requir
+2026-04-25 18:24:16,219 [INFO] Scoring complete. 3/3 attempted.
+2026-04-25 18:24:16,219 [INFO] Scored 3 jobs
+2026-04-25 18:24:16,219 [INFO] Exporting data…
+2026-04-25 18:24:16,223 [INFO] Exported 42 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-25 18:24:16,224 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-25 18:24:16,235 [INFO] Stats: {'total': 517, 'scored': 517, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-25T20:24:16+02:00'}
+2026-04-25 18:24:16,238 [INFO] Done. Total: 517 | Scored: 517 | Strong+: 0
