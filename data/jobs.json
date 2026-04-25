@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-25T05:05:46.402035",
+  "generated": "2026-04-25T18:24:16.222567",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,43 +104,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
-      }
-    },
-    {
-      "id": "66e2818ee745242f",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4384249734",
-      "title": "AI Engineer",
-      "company": "EY",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-25T05:02:23.657251",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "ML frameworks (PyTorch)",
-        "data analysis (NumPy, SciPy)"
-      ],
-      "key_gaps": [
-        "3+ years of professional experience in machine learning, AI, or related fields",
-        "Experience with cloud platforms (AWS, GCP, or Azure)"
-      ],
-      "rationale": "Ben has strong qualifications in Python and machine learning frameworks like PyTorch, but he does not meet the 3+ years of professional experience requirement and lacks specific experience with cloud platforms.",
-      "job_summary": "The AI Engineer at EY will design, develop, and deploy AI models and systems to solve real-world problems, while collaborating with cross-functional teams and optimizing data pipelines.",
-      "top_qualifications": [
-        "Bachelor\u2019s degree in Computer Science, Engineering, Mathematics, or related field",
-        "3+ years of professional experience in machine learning, AI, or related fields",
-        "Strong programming skills in Python"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=EY"
       }
     },
     {
@@ -1556,110 +1519,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "0412f52ef39c0222",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4324377664",
-      "title": "Senior Deep Learning Researcher \u2013 Model Efficiency - Qualcomm - Amsterdam",
-      "company": "Qualcomm",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-25T05:02:23.703814",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Qualcomm&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Qualcomm"
-      }
-    },
-    {
-      "id": "94666280d1648d9f",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403749379",
-      "title": "Robotics Software Engineer (3D Bin-Packing & Optimization)",
-      "company": "Flowtec Group",
-      "location": "Best, North Brabant, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-25T05:02:23.701740",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Flowtec%20Group&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Flowtec%20Group"
-      }
-    },
-    {
-      "id": "58c551711a068a76",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4406370976",
-      "title": "Embedded Software Engineer",
-      "company": "AnGard Microwave",
-      "location": "Nieuw-Vennep, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-25T05:02:23.696244",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AnGard%20Microwave&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AnGard%20Microwave&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=AnGard%20Microwave&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AnGard%20Microwave"
-      }
-    },
-    {
-      "id": "b0b0de024131f899",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403721328",
-      "title": "Embedded Software Engineer",
-      "company": "NUNC Capital",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-25T05:02:23.693791",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NUNC%20Capital&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NUNC%20Capital&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=NUNC%20Capital&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NUNC%20Capital"
       }
     }
   ]
