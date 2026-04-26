@@ -5988,3 +5988,17 @@
 2026-04-26 05:18:28,920 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-26 05:18:28,928 [INFO] Stats: {'total': 548, 'scored': 547, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-26T07:18:28+02:00'}
 2026-04-26 05:18:28,930 [INFO] Done. Total: 548 | Scored: 547 | Strong+: 0
+2026-04-26 18:24:28,356 [INFO] Initialising database…
+2026-04-26 18:24:28,356 [INFO] Ingesting feedback…
+2026-04-26 18:24:28,361 [INFO] Applied 75 feedback records.
+2026-04-26 18:24:28,361 [INFO] Scoring pending jobs (max=50)…
+2026-04-26 18:24:28,363 [INFO] Scoring 1 pending jobs (cap=50)…
+2026-04-26 18:24:31,130 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 18:24:31,140 [INFO]   Scored [0] Postdoc in Physicochemical Processes in Sediment Depots for Resource Recovery at ElectroChemical Flow Systems laboratory — Ben is excluded from consideration as the position requires a PhD in a field unr
+2026-04-26 18:24:34,141 [INFO] Scoring complete. 1/1 attempted.
+2026-04-26 18:24:34,141 [INFO] Scored 1 jobs
+2026-04-26 18:24:34,141 [INFO] Exporting data…
+2026-04-26 18:24:34,146 [INFO] Exported 42 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-26 18:24:34,146 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-26 18:24:34,155 [INFO] Stats: {'total': 547, 'scored': 547, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-26T20:24:34+02:00'}
+2026-04-26 18:24:34,158 [INFO] Done. Total: 547 | Scored: 547 | Strong+: 0
