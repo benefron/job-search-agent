@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T05:18:28.918002",
+  "generated": "2026-04-26T18:24:34.144595",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -1519,32 +1519,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "9d8c97bc1e230792",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4405631103",
-      "title": "Postdoc in Physicochemical Processes in Sediment Depots for Resource Recovery",
-      "company": "ElectroChemical Flow Systems laboratory",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "2026-04-23",
-      "date_found": "2026-04-26T05:15:08.540128",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ElectroChemical%20Flow%20Systems%20laboratory"
       }
     }
   ]
