@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T18:24:34.144595",
+  "generated": "2026-04-27T05:22:25.142023",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "34e818f3fee57af2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4339287443",
+      "title": "Consultant AI/ML \u2013 GenAI, Medical Imaging & Computer Vision [F/M/X]",
+      "company": "Amaris Consulting",
+      "location": "\u2019s-Hertogenbosch, North Brabant, Netherlands",
+      "date_posted": "2026-04-25",
+      "date_found": "2026-04-27T05:18:22.332406",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "computer vision"
+      ],
+      "key_gaps": [
+        "Hands-on experience with image segmentation and classification in clinical or healthcare-related contexts",
+        "Experience with medical AI frameworks like MONAI"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, but lacks specific experience in medical imaging applications and the required hands-on experience with clinical data.",
+      "job_summary": "This role involves developing and deploying AI and deep learning models for medical imaging applications, focusing on improving diagnostic accuracy and patient outcomes through advanced image analysis.",
+      "top_qualifications": [
+        "Proven experience in developing and deploying AI/deep learning models",
+        "Strong expertise in computer vision, medical imaging applications or Gen AI",
+        "Advanced proficiency in Python, with deep experience in PyTorch"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amaris%20Consulting"
       }
     },
     {
@@ -506,6 +543,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "e6903b83e9fbc595",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4405954836",
+      "title": "Data Science and Machine Learning Engineering Analyst",
+      "company": "Accenture the Netherlands",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-04-27T05:18:22.315639",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis"
+      ],
+      "key_gaps": [
+        "Experience with cloud platforms for deploying models",
+        "Specific experience in developing NLP solutions"
+      ],
+      "rationale": "This score reflects a moderate fit due to Ben's strong skills in Python and machine learning, but he lacks specific experience with cloud deployment and NLP solutions, which are emphasized in the job description.",
+      "job_summary": "The Data Science and Machine Learning Engineering Analyst role involves transforming raw data into actionable insights, applying machine learning and AI techniques to solve business problems, and collaborating with clients to develop data-driven solutions.",
+      "top_qualifications": [
+        "Machine Learning",
+        "Data Modeling",
+        "Statistical Modeling"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20the%20Netherlands&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20the%20Netherlands&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20the%20Netherlands&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Accenture%20the%20Netherlands"
       }
     },
     {
