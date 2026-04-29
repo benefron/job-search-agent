@@ -6514,3 +6514,49 @@
 2026-04-29 05:22:29,911 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-29 05:22:29,940 [INFO] Stats: {'total': 659, 'scored': 642, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-29T07:22:29+02:00'}
 2026-04-29 05:22:29,943 [INFO] Done. Total: 659 | Scored: 642 | Strong+: 0
+2026-04-29 18:42:07,044 [INFO] Initialising database…
+2026-04-29 18:42:07,045 [INFO] Ingesting feedback…
+2026-04-29 18:42:07,048 [INFO] Applied 75 feedback records.
+2026-04-29 18:42:07,048 [INFO] Scoring pending jobs (max=50)…
+2026-04-29 18:42:07,051 [INFO] Scoring 17 pending jobs (cap=50)…
+2026-04-29 18:42:11,590 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:11,601 [INFO]   Scored [30] AI Software Engineer (Agentic Workflows) at Sytac — While Ben has strong Python skills and experience in AI, he lacks specific exper
+2026-04-29 18:42:19,310 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:19,313 [INFO]   Scored [0] Firmware Engineer FPGA at Teledyne FLIR — Ben is overqualified for this role as it requires a degree in a specific enginee
+2026-04-29 18:42:25,876 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:25,878 [INFO]   Scored [30] Senior data engineer at Crunch Analytics — Ben has strong Python skills and general cloud experience, but lacks the specifi
+2026-04-29 18:42:32,693 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:32,696 [INFO]   Scored [70] Data Scientist at JD.COM — Ben has strong qualifications in Python and machine learning, but he does not me
+2026-04-29 18:42:39,249 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:39,251 [INFO]   Scored [30] Senior Machine Learning Engineer at Picnic Technologies — Ben has relevant skills in Python and machine learning, but lacks the required 5
+2026-04-29 18:42:45,817 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:45,820 [INFO]   Scored [0] Remote Software Engineer – AI Research & Evaluation (US-based) at Turing — Ben is overqualified for this role and lacks the specific software engineering e
+2026-04-29 18:42:51,888 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:51,890 [INFO]   Scored [0] Head of Computer Vision at PHOTOROOM — Ben does not meet the critical requirement of having 5+ years of leadership expe
+2026-04-29 18:42:58,147 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:42:58,150 [INFO]   Scored [0] Data Engineer (Relocation to the Netherlands) at Xccelerated | Part of Xebia — Ben is overqualified for this role as it requires a Bachelor's or Master's degre
+2026-04-29 18:43:06,904 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:06,906 [INFO]   Scored [0] Postdoctoral Researcher in Public Health and Landscape Services at Huisartsopleiding Erasmus MC — This position is a postdoctoral role in a completely different field, which does
+2026-04-29 18:43:13,179 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:13,181 [INFO]   Scored [0] Postdoctoral Researcher in Public Health and Landscape Services at Erasmus MC Academie — Ben is excluded from this position as it is a postdoctoral role in public health
+2026-04-29 18:43:19,480 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:19,482 [INFO]   Scored [0] Postdoctoral Researcher REWIRE-CAN project at UMC Utrecht — This position is a postdoctoral researcher role, which Ben is overqualified for,
+2026-04-29 18:43:25,233 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:25,235 [INFO]   Scored [0] Postdoctoral Researcher in Marine Microbial Ecology at University of Amsterdam — Ben is overqualified for this postdoctoral position and lacks the specific exper
+2026-04-29 18:43:31,865 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:31,868 [INFO]   Scored [0] Postdoc Position in Integrated HTA for Sustainability & Workforce Challenges at University of Twente — Ben does not meet the required qualifications for a PhD in a relevant field and 
+2026-04-29 18:43:37,529 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:37,531 [INFO]   Scored [0] Postdoc Bioinformatics - NIOO-KNAW - Wageningen at KNAW - Koninklijke Nederlandse Akademie van Wetenschappen — Ben's expertise is in systems neuroscience and neuroengineering, which does not 
+2026-04-29 18:43:44,725 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:44,727 [INFO]   Scored [0] Postdoctoral Fellow in Computational Acoustics and Digital Twin Modelling at UNSW — This position is a postdoctoral role requiring a specific PhD background and is 
+2026-04-29 18:43:50,463 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:50,467 [INFO]   Scored [30] Embedded Software Engineer (ARM/ Linux) at Progressive — While Ben has relevant skills in hardware-software integration and AI, he lacks 
+2026-04-29 18:43:57,307 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-29 18:43:57,312 [INFO]   Scored [30] Computer Vision Engineer at Xsens — While Ben has relevant skills in Python and computer vision, he lacks specific e
+2026-04-29 18:44:00,312 [INFO] Scoring complete. 17/17 attempted.
+2026-04-29 18:44:00,312 [INFO] Scored 17 jobs
+2026-04-29 18:44:00,312 [INFO] Exporting data…
+2026-04-29 18:44:00,317 [INFO] Exported 49 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-29 18:44:00,318 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-29 18:44:00,345 [INFO] Stats: {'total': 659, 'scored': 659, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-29T20:44:00+02:00'}
+2026-04-29 18:44:00,348 [INFO] Done. Total: 659 | Scored: 659 | Strong+: 0
