@@ -6718,3 +6718,55 @@
 2026-04-30 05:24:36,128 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-04-30 05:24:36,140 [INFO] Stats: {'total': 709, 'scored': 689, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-30T07:24:36+02:00'}
 2026-04-30 05:24:36,143 [INFO] Done. Total: 709 | Scored: 689 | Strong+: 0
+2026-04-30 18:42:00,149 [INFO] Initialising database…
+2026-04-30 18:42:00,150 [INFO] Ingesting feedback…
+2026-04-30 18:42:00,269 [INFO] Applied 75 feedback records.
+2026-04-30 18:42:00,269 [INFO] Scoring pending jobs (max=50)…
+2026-04-30 18:42:00,274 [INFO] Scoring 20 pending jobs (cap=50)…
+2026-04-30 18:42:04,103 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:04,113 [INFO]   Scored [30] Head of Data Science at Qorium — While Ben has strong skills in Python and machine learning, he lacks the signifi
+2026-04-30 18:42:11,210 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:11,213 [INFO]   Scored [50] Senior Machine Learning Engineer at European Tech Recruit — Ben has strong qualifications in Python, PyTorch, and machine learning, but lack
+2026-04-30 18:42:17,271 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:17,274 [INFO]   Scored [30] Senior Machine Learning Engineer (Speech Synthesis) at Telnyx — Ben has relevant skills in Python and machine learning, but lacks specific exper
+2026-04-30 18:42:22,942 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:22,944 [INFO]   Scored [30] Principal AI Developer Technology Engineer at NVIDIA — Ben has relevant skills in AI and programming but lacks the required extensive e
+2026-04-30 18:42:29,199 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:29,202 [INFO]   Scored [30] Senior ML Researcher (Spectrum) at JetBrains — Ben has relevant skills in Python and PyTorch, but lacks the specific NLP and on
+2026-04-30 18:42:34,994 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:34,998 [INFO]   Scored [30] Senior Machine Learning Engineer at Adyen — While Ben has relevant skills in Python and PyTorch, he lacks the extensive soft
+2026-04-30 18:42:40,787 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:40,790 [INFO]   Scored [0] Trading Software engineer at Selby Jennings — Ben's qualifications do not align with the core requirements of this role, parti
+2026-04-30 18:42:47,131 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:47,133 [INFO]   Scored [30] Data Scientist GenAI at Huxley — Ben has strong Python skills and some relevant experience, but lacks the require
+2026-04-30 18:42:53,082 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:53,084 [INFO]   Scored [30] Software Test Engineer at Kaleido — Ben has relevant programming skills in Python and a collaborative mindset, but l
+2026-04-30 18:42:58,863 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:42:58,865 [INFO]   Scored [0] Software Engineer (Harmelen, NL) at Parking Network B.V. — Ben does not meet the core requirement of experience with C++, and the role requ
+2026-04-30 18:43:04,742 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:04,745 [INFO]   Scored [0] Head of UX Quality & Consumer Experience Assurance at Signify — This role is focused on UX quality assurance and consumer experience, which does
+2026-04-30 18:43:10,822 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:10,825 [INFO]   Scored [0] POSTDOC POSITION IN CONSUMER PSYCHOLOGY at Vrije Universiteit Amsterdam — This position is a postdoctoral role in consumer psychology, which does not alig
+2026-04-30 18:43:16,580 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:16,583 [INFO]   Scored [0] Postdoctoral Researcher at Leiden University Medical Center — Ben's qualifications do not align with the required biomedical focus and specifi
+2026-04-30 18:43:22,570 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:22,572 [INFO]   Scored [0] POSTDOC POSITION IN CONSUMER PSYCHOLOGY at Athena - Research and Education Institute — Ben is overqualified for this postdoctoral position, which is not aligned with h
+2026-04-30 18:43:29,353 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:29,355 [INFO]   Scored [0] POSTDOC POSITION IN CONSUMER PSYCHOLOGY at Vrije Universiteit Amsterdam (VU Amsterdam) — Ben is overqualified for this postdoctoral position as it requires a Ph.D. in a 
+2026-04-30 18:43:35,106 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:35,108 [INFO]   Scored [0] Postdoc Best Available Technology in Deep-seabed Mining at ElectroChemical Flow Systems laboratory — Ben does not meet the required qualifications as he holds a PhD in systems neuro
+2026-04-30 18:43:40,587 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:40,590 [INFO]   Scored [0] Postdoctoral Position: Cost-Efficient Renewable Hydrogen Production Through System Integration at ElectroChemical Flow Systems laboratory — Ben does not meet the core requirements for prior research experience in electro
+2026-04-30 18:43:46,375 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:46,377 [INFO]   Scored [0] Postdoc Best Available Technology in Deep-seabed Mining at Delft University of Technology — Ben's qualifications do not align with the required engineering background and s
+2026-04-30 18:43:52,563 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:52,565 [INFO]   Scored [30] SLAM Engineer at European Tech Recruit — This role has significant gaps in required qualifications, particularly in 3D co
+2026-04-30 18:43:58,435 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 18:43:58,437 [INFO]   Scored [30] Electrical Test Engineer at ASSA ABLOY Group — Ben has relevant skills in Python and collaboration but lacks the required Bache
+2026-04-30 18:44:01,437 [INFO] Scoring complete. 20/20 attempted.
+2026-04-30 18:44:01,437 [INFO] Scored 20 jobs
+2026-04-30 18:44:01,437 [INFO] Exporting data…
+2026-04-30 18:44:01,444 [INFO] Exported 54 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-04-30 18:44:01,445 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-04-30 18:44:01,470 [INFO] Stats: {'total': 708, 'scored': 708, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-04-30T20:44:01+02:00'}
+2026-04-30 18:44:01,475 [INFO] Done. Total: 708 | Scored: 708 | Strong+: 0
