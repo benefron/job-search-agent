@@ -6928,3 +6928,19 @@
 2026-05-01 05:33:18,695 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-01 05:33:18,698 [INFO] Stats: {'total': 740, 'scored': 738, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-01T07:33:18+02:00'}
 2026-05-01 05:33:18,701 [INFO] Done. Total: 740 | Scored: 738 | Strong+: 0
+2026-05-01 18:34:37,138 [INFO] Initialising database…
+2026-05-01 18:34:37,138 [INFO] Ingesting feedback…
+2026-05-01 18:34:37,141 [INFO] Applied 75 feedback records.
+2026-05-01 18:34:37,142 [INFO] Scoring pending jobs (max=50)…
+2026-05-01 18:34:37,143 [INFO] Scoring 2 pending jobs (cap=50)…
+2026-05-01 18:34:40,705 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 18:34:40,716 [INFO]   Scored [0] OLAN C/C++ Clock Development Engineer at Nokia — Ben's qualifications do not align with the core requirements of telecom software
+2026-05-01 18:34:47,779 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 18:34:47,781 [INFO]   Scored [0] Senior Enterprise C/C++ and .NET Developer at Spilberg — Ben's qualifications do not align with the required expertise in C/C++ and C#/AS
+2026-05-01 18:34:50,781 [INFO] Scoring complete. 2/2 attempted.
+2026-05-01 18:34:50,781 [INFO] Scored 2 jobs
+2026-05-01 18:34:50,781 [INFO] Exporting data…
+2026-05-01 18:34:50,787 [INFO] Exported 58 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-01 18:34:50,788 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-01 18:34:50,793 [INFO] Stats: {'total': 740, 'scored': 740, 'liked': 12, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-01T20:34:50+02:00'}
+2026-05-01 18:34:50,797 [INFO] Done. Total: 740 | Scored: 740 | Strong+: 0

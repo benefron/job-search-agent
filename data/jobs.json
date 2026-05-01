@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T05:33:18.692474",
+  "generated": "2026-05-01T18:34:50.785494",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -2113,58 +2113,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "22c1b3e8a23acdad",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4407342639",
-      "title": "Senior Enterprise C/C++ and .NET Developer",
-      "company": "Spilberg",
-      "location": "Utrecht, Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-01T05:29:50.155651",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Spilberg"
-      }
-    },
-    {
-      "id": "c3a8324449fe99a2",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4352750550",
-      "title": "OLAN C/C++ Clock Development Engineer",
-      "company": "Nokia",
-      "location": "Antwerp, Flemish Region, Belgium",
-      "date_posted": "nan",
-      "date_found": "2026-05-01T05:29:50.153495",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Nokia"
       }
     }
   ]
