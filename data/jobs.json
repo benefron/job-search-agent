@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T18:44:01.441923",
+  "generated": "2026-05-01T05:33:18.692474",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "c31c27c6a307722b",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=dfaf44a1d7548ab5",
+      "title": "AI Engineer",
+      "company": "EY",
+      "location": "Amsterdam Zuid, NH, NL",
+      "date_posted": "2026-04-14",
+      "date_found": "2026-05-01T05:29:50.149187",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "ML frameworks (PyTorch)",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "3+ years of professional experience in machine learning, AI, or related fields",
+        "Experience with cloud platforms (AWS, GCP, or Azure)"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, but lacks the required 3+ years of professional experience in AI/ML and familiarity with cloud platforms.",
+      "job_summary": "The AI Engineer role at EY involves designing, developing, and deploying AI models and systems to solve real-world problems, while collaborating with cross-functional teams and optimizing data pipelines.",
+      "top_qualifications": [
+        "Bachelor\u2019s degree in Computer Science, Engineering, Mathematics, or related field",
+        "3+ years of professional experience in machine learning, AI, or related fields",
+        "Strong programming skills in Python"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=EY&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=EY"
       }
     },
     {
@@ -691,6 +728,117 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "ba060cabb9563455",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409014398",
+      "title": "Machine Learning Scientist II - Content Intelligence",
+      "company": "Booking.com",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-01T05:29:50.120233",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong working knowledge of Python",
+        "Experience with data analysis and model performance evaluation",
+        "Experience in machine learning and algorithm development"
+      ],
+      "key_gaps": [
+        "Experience in NLP and Generative AI models at scale",
+        "Experience with Java, Kafka, Hadoop, SQL, and Spark"
+      ],
+      "rationale": "This score reflects a moderate fit due to Ben's strong Python and machine learning skills, but gaps in specific experience with NLP, Generative AI, and required technologies like Java and Spark.",
+      "job_summary": "The Machine Learning Scientist II role at Booking.com involves building, training, and deploying machine learning models for content intelligence, focusing on computer vision and natural language processing to enhance customer experiences.",
+      "top_qualifications": [
+        "Advanced knowledge and experience in Computer Vision and Natural Language Processing",
+        "Experience designing and executing end-to-end research and development plans",
+        "Strong working knowledge of Python"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
+      }
+    },
+    {
+      "id": "8e426bbb272e3626",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4386883737",
+      "title": "Machine Learning Engineer",
+      "company": "Eneco",
+      "location": "Rotterdam, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-01T05:29:50.118143",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Solid Python programming skills and experience with ML frameworks such as PyTorch",
+        "Strong experience in Machine Learning or applied data science",
+        "Understanding of software engineering principles"
+      ],
+      "key_gaps": [
+        "Hands-on experience with Apache Spark and Databricks",
+        "Experience using Docker, Kubernetes, or MLflow for model lifecycle management"
+      ],
+      "rationale": "This role has a moderate fit due to Ben's strong Python and ML skills, but he lacks specific experience with Apache Spark, Databricks, and MLOps tools like Docker and Kubernetes.",
+      "job_summary": "The Machine Learning Engineer at Eneco will design and build foundational services and infrastructure for machine learning use cases, focusing on creating reusable ML platform capabilities across multiple teams.",
+      "top_qualifications": [
+        "Hands-on experience with Apache Spark and Databricks",
+        "Strong experience in Machine Learning or applied data science",
+        "Solid Python programming skills and experience with ML frameworks such as scikit-learn, PyTorch, or similar"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Eneco&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Eneco&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Eneco&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Eneco"
+      }
+    },
+    {
+      "id": "201a82008a696bb9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409019349",
+      "title": "Data Scientist - AI/ML",
+      "company": "Huxley",
+      "location": "The Hague, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-01T05:29:50.113928",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "data analysis",
+        "experimental design"
+      ],
+      "key_gaps": [
+        "Experience in SaaS, business intelligence, or other B2B growth environments",
+        "Master's degree in Computer Science, Mathematics, Statistics, or Physics"
+      ],
+      "rationale": "Ben has relevant skills in Python and data analysis, but lacks specific experience in a SaaS environment and does not meet the preferred educational requirement of a Master's degree.",
+      "job_summary": "The role of Data Scientist at Huxley involves designing and building algorithms for a B2B SaaS product, focusing on automation and data analysis to enhance customer value. The position requires collaboration with ML engineers to deploy models into production.",
+      "top_qualifications": [
+        "Proven experience as a Data Scientist in a product-driven environment",
+        "Strong Python skills and hands-on experience with common data science libraries",
+        "Excellent SQL skills and experience working with large, complex datasets"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Huxley&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Huxley&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Huxley&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Huxley"
       }
     },
     {
@@ -1965,6 +2113,58 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "22c1b3e8a23acdad",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4407342639",
+      "title": "Senior Enterprise C/C++ and .NET Developer",
+      "company": "Spilberg",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-01T05:29:50.155651",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Spilberg&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Spilberg"
+      }
+    },
+    {
+      "id": "c3a8324449fe99a2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4352750550",
+      "title": "OLAN C/C++ Clock Development Engineer",
+      "company": "Nokia",
+      "location": "Antwerp, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-01T05:29:50.153495",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Nokia&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Nokia"
       }
     }
   ]
