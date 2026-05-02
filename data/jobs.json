@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T18:34:50.785494",
+  "generated": "2026-05-02T05:19:19.069092",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "fd96c3943afb1310",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4407924822",
+      "title": "Artificial Intelligence Engineer",
+      "company": "Adroit People Limited (UK)",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.243870",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "AI productization experience"
+      ],
+      "key_gaps": [
+        "5+ years of experience in software engineering / AI / advanced analytics",
+        "Experience with GPU-based computing and optimization"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch but lacks the required extensive experience in AI productization and GPU optimization, which are critical for this role.",
+      "job_summary": "The AI Engineer role focuses on developing and industrializing AI capabilities for Philips Azurion Eye, enhancing workflow automation and clinical decision support in medical imaging environments.",
+      "top_qualifications": [
+        "5+ years of experience in software engineering / AI / advanced analytics",
+        "Strong expertise in Python and ML frameworks (PyTorch/TensorFlow)",
+        "Proven experience in AI productization / deployment in enterprise environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Adroit%20People%20Limited%20%28UK%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Adroit%20People%20Limited%20%28UK%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Adroit%20People%20Limited%20%28UK%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Adroit%20People%20Limited%20%28UK%29"
+      }
+    },
+    {
+      "id": "971d842ad405ecb1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4397619132",
+      "title": "Machine Learning Staff Engineer",
+      "company": "TomTom",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.231354",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "strong mathematical foundations in optimization and probabilistic modeling"
+      ],
+      "key_gaps": [
+        "Experience in autonomous systems or robotics perception",
+        "Proven experience building and iterating on large-scale ML models"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, but lacks specific experience in autonomous systems and proven large-scale ML model development, which are critical for this role.",
+      "job_summary": "The Machine Learning Staff Engineer at TomTom will lead the development of advanced machine learning algorithms for in-vehicle spatial awareness, focusing on model design, experimentation, and performance improvement.",
+      "top_qualifications": [
+        "7+ years of experience in machine learning",
+        "Strong hands-on experience with PyTorch",
+        "Deep expertise in modern deep learning architectures"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TomTom&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TomTom"
       }
     },
     {
@@ -728,6 +802,153 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "1c3b80b431f1b79c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409188618",
+      "title": "Senior Machine Learning Engineer (Remote)",
+      "company": "Jobs Ai",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.274157",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "machine learning"
+      ],
+      "key_gaps": [
+        "5+ years in machine learning engineering with production ownership",
+        "Hands-on with cloud ML infrastructure (AWS Sagemaker, GCP Vertex, Databricks, or similar)"
+      ],
+      "rationale": "While Ben has strong skills in Python and PyTorch, he lacks the required experience in production ownership of machine learning systems and hands-on experience with cloud ML infrastructure.",
+      "job_summary": "The Senior Machine Learning Engineer will lead the design, training, and deployment of machine learning systems in production, focusing on model architecture and evaluation. The role requires strong software engineering skills and experience in cloud ML infrastructure.",
+      "top_qualifications": [
+        "5+ years in machine learning engineering with production ownership",
+        "Experience training and serving models at scale",
+        "Strong Python skills and deep experience with PyTorch or TensorFlow"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobs%20Ai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobs%20Ai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobs%20Ai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobs%20Ai"
+      }
+    },
+    {
+      "id": "ef5ed0a830b97b21",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=55f5a1d47cfcd1bd",
+      "title": "Sr Applied Scientist",
+      "company": "Uber",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-05-01",
+      "date_found": "2026-05-02T05:15:43.262044",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "data analysis",
+        "experience with experimentation"
+      ],
+      "key_gaps": [
+        "Experience building and deploying ML systems in production",
+        "Experience with LLMs and model adaptation techniques"
+      ],
+      "rationale": "Ben has relevant skills in Python and data analysis, but lacks direct experience in deploying ML systems in production and specific knowledge of LLMs, which are critical for this role.",
+      "job_summary": "The Senior Applied Scientist at Uber will build and deploy machine learning and AI solutions in production, working on high-impact problems and improving the reliability of AI-driven applications.",
+      "top_qualifications": [
+        "Ph.D. in a quantitative field",
+        "2+ years of industry experience in Applied ML / AI",
+        "Proficiency in Python and working with large datasets"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Uber&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Uber&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Uber&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Uber"
+      }
+    },
+    {
+      "id": "4592409701792be1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409411943",
+      "title": "AI Engineer",
+      "company": "iXceed Solutions",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.246879",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Strong expertise in Python and ML frameworks (PyTorch)",
+        "Experience with GPU-based computing and optimization"
+      ],
+      "key_gaps": [
+        "Proven experience in AI productization / deployment in enterprise environments",
+        "Minimum 3\u20135 years of hands-on AI/ML experience"
+      ],
+      "rationale": "This role has a moderate fit due to Ben's strong skills in Python and PyTorch, but he lacks the required experience in AI productization and the specified years of hands-on AI/ML experience.",
+      "job_summary": "The AI Engineer role involves leading the transition of AI prototypes into scalable solutions for medical imaging and interventional workflows, ensuring integration within clinical settings and compliance with regulatory standards.",
+      "top_qualifications": [
+        "Strong expertise in Python and ML frameworks (PyTorch/TensorFlow)",
+        "Proven experience in AI productization / deployment in enterprise environments",
+        "Experience with GPU-based computing and optimization"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=iXceed%20Solutions"
+      }
+    },
+    {
+      "id": "b3d6be394ed4e974",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4407204241",
+      "title": "Machine Learning Scientist II - Content Intelligence",
+      "company": "myGwork - LGBTQ+ Business Community",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.228259",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "Machine learning",
+        "Data analysis"
+      ],
+      "key_gaps": [
+        "Experience in Natural Language Processing and Generative AI models",
+        "Experience collaborating cross-functionally in the development of machine learning models"
+      ],
+      "rationale": "While Ben has strong skills in Python and machine learning, he lacks specific experience in NLP and Generative AI, which are critical for this role.",
+      "job_summary": "The Machine Learning Scientist II role at Booking.com involves building, training, and deploying content models using advanced machine learning techniques, particularly in computer vision and natural language processing, to enhance customer experiences.",
+      "top_qualifications": [
+        "Advanced knowledge and experience in Computer Vision and Natural Language Processing",
+        "Experience designing and executing end-to-end research and development plans",
+        "Relevant work or academic experience (MSc + 5 years of working experience, or PhD + 3 years of working experience)"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community"
       }
     },
     {
@@ -2113,6 +2334,266 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "b04ea4fa3e92acba",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409193497",
+      "title": "Software Engineer (Robotics) (Remote)",
+      "company": "Quik Hire Staffing",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.318706",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Quik%20Hire%20Staffing"
+      }
+    },
+    {
+      "id": "63dd72e2b8b64983",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409174997",
+      "title": "Robotics Software Engineer (Remote)",
+      "company": "Quik Hire Staffing",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.316868",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Quik%20Hire%20Staffing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Quik%20Hire%20Staffing"
+      }
+    },
+    {
+      "id": "b43dd89d3cb14a72",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409400329",
+      "title": "Software Engineer",
+      "company": "Avular",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.314872",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Avular&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Avular&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Avular&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Avular"
+      }
+    },
+    {
+      "id": "961035ff5dbb6e9a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4402509001",
+      "title": "Postdoc in Nature-Inspired Architectured Concrete",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.312885",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "4c0a29e18cfc853f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409495390",
+      "title": "Postdoc in AI tools for Coastal Climate Change Adaptation",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.310762",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "c8b310b324a42156",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409185363",
+      "title": "Post-doc Position in Applied Polymer Research",
+      "company": "University of Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.308819",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
+      }
+    },
+    {
+      "id": "d0fc694d8374ff13",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4408290044",
+      "title": "Postdoctoral Position: Cost-Efficient Renewable Hydrogen Production Through System Integration",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "2026-04-29",
+      "date_found": "2026-05-02T05:15:43.306836",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "6d67e40e9caf1c18",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=e21866c05d7c6beb",
+      "title": "Machine Learning & AI Engineer",
+      "company": "ABN AMRO",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-05-01",
+      "date_found": "2026-05-02T05:15:43.303971",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ABN%20AMRO&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ABN%20AMRO&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ABN%20AMRO&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ABN%20AMRO"
+      }
+    },
+    {
+      "id": "2f9f01eadcc63266",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409173583",
+      "title": "Data Scientist - Forecasting",
+      "company": "Action",
+      "location": "Zwaagdijk-Oost, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-02T05:15:43.301428",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Action&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Action&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Action&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Action"
+      }
+    },
+    {
+      "id": "1efe713a47dfd9d3",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=98212483f49d82b4",
+      "title": "Software Engineer",
+      "company": "eBay",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-05-01",
+      "date_found": "2026-05-02T05:15:43.292574",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=eBay&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=eBay&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=eBay&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=eBay"
       }
     }
   ]
