@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T18:29:13.469064",
+  "generated": "2026-05-03T05:24:55.576070",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,154 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "3da84e4dd3de9dd9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409110957",
+      "title": "Computer Vision & ML Expert",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-01",
+      "date_found": "2026-05-03T05:21:04.259597",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "computer vision knowledge"
+      ],
+      "key_gaps": [
+        "Experience with common CV architectures (CNNs, Vision Transformers)",
+        "Familiarity with MLOps tools and model evaluation pipelines"
+      ],
+      "rationale": "This score reflects Ben's strong qualifications in Python and PyTorch, along with his foundational knowledge in computer vision, but he lacks specific experience with common CV architectures and MLOps tools.",
+      "job_summary": "The role involves evaluating and improving AI models for computer vision tasks, including image recognition and object detection, while providing expert feedback on model performance and architecture. It offers flexible, task-based work in a remote setting.",
+      "top_qualifications": [
+        "Strong foundational knowledge of computer vision",
+        "Hands-on experience with deep learning frameworks such as PyTorch",
+        "Solid understanding of data preprocessing and annotation best practices"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
+      }
+    },
+    {
+      "id": "dddf0001e19b73c3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409409956",
+      "title": "Applied Data Scientist - Europe",
+      "company": "Cyferd",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-01",
+      "date_found": "2026-05-03T05:21:04.242212",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "statistical modelling",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "Experience working with incomplete or unstructured datasets",
+        "Experience in AI/ML environments"
+      ],
+      "rationale": "This score reflects Ben's strong qualifications in Python and statistical modelling, but he lacks specific experience with unstructured datasets and AI/ML environments as highlighted in the job description.",
+      "job_summary": "The Applied Data Scientist role at Cyferd involves validating business and technical theories through structured analysis and modelling, requiring strong analytical skills and proficiency in data science tools.",
+      "top_qualifications": [
+        "Strong experience in Data Science, Advanced Analytics, or a similar field",
+        "Proficiency in Python, SQL, and data analysis tools",
+        "Strong expertise in statistical modelling and hypothesis testing"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Cyferd&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Cyferd&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Cyferd&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Cyferd"
+      }
+    },
+    {
+      "id": "ab09e1a9856c8dbb",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4408359503",
+      "title": "Data Scientist - Remote",
+      "company": "YO IT Consulting",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-03T05:21:04.237535",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "data analysis",
+        "statistical modeling"
+      ],
+      "key_gaps": [
+        "Experience in building and validating predictive models",
+        "Advanced ability to visualize data using tools like Tableau or Power BI"
+      ],
+      "rationale": "Ben has strong qualifications in Python and data analysis, but lacks specific experience in deploying predictive models and data visualization tools, which are emphasized in the job description.",
+      "job_summary": "The Data Scientist role involves transforming data into actionable insights through statistical modeling and data analysis, while collaborating with team members to execute data projects. The position requires strong programming skills and effective communication of findings.",
+      "top_qualifications": [
+        "Expertise in statistics, mathematics, and data analysis techniques",
+        "Proficiency in programming languages such as Python",
+        "Strong data modeling skills with experience in building and validating predictive models"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=YO%20IT%20Consulting"
+      }
+    },
+    {
+      "id": "656ab4b532dfbfa3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4219666091",
+      "title": "Data Scientist - QuantumBlack, AI by McKinsey",
+      "company": "QuantumBlack, AI by McKinsey",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-03T05:21:04.229792",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "data analysis",
+        "machine learning"
+      ],
+      "key_gaps": [
+        "specific experience in business analytics",
+        "familiarity with industry-specific applications"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience in business analytics and translating business problems into analytical challenges.",
+      "job_summary": "The Data Scientist role at QuantumBlack involves collaborating with clients to develop analytics solutions, optimizing code, and solving business problems using data-driven approaches.",
+      "top_qualifications": [
+        "experience in analytics solutions",
+        "strong programming skills",
+        "ability to translate business problems into analytical challenges"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey"
       }
     },
     {
