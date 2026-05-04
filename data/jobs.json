@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T18:28:01.595345",
+  "generated": "2026-05-04T05:24:39.972940",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "be4005af68e3aea9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4408345744",
+      "title": "Data Scientist - Remote",
+      "company": "YO IT Consulting",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-03",
+      "date_found": "2026-05-04T05:22:24.249456",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "data analysis",
+        "statistical modeling"
+      ],
+      "key_gaps": [
+        "Experience in building and validating predictive models",
+        "Advanced ability to visualize data using tools like Tableau or Power BI"
+      ],
+      "rationale": "Ben has strong qualifications in Python and data analysis, but lacks specific experience in data visualization tools and predictive modeling as required for this Data Scientist role.",
+      "job_summary": "The Data Scientist role involves transforming data into actionable insights through statistical analysis and programming, while collaborating with team members on data projects.",
+      "top_qualifications": [
+        "Expertise in statistics, mathematics, and data analysis techniques",
+        "Proficiency in programming languages such as Python",
+        "Strong data modeling skills with experience in building and validating predictive models"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=YO%20IT%20Consulting"
+      }
+    },
+    {
+      "id": "6ae2111645c27f96",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4369956782",
+      "title": "Senior Data Scientist, Vinted Go Carrier Technology",
+      "company": "Vinted",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-04T05:22:24.246245",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "Machine learning",
+        "Data analysis"
+      ],
+      "key_gaps": [
+        "Experience in logistics and transportation data science",
+        "Specific experience in deploying models into production"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience in logistics and the practical deployment of models, which are crucial for this role.",
+      "job_summary": "The Senior Data Scientist at Vinted Go will develop and deploy machine learning and optimization applications to enhance logistics operations, collaborating with a team to establish data science capabilities.",
+      "top_qualifications": [
+        "Machine learning",
+        "Data analysis",
+        "Optimization"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vinted"
       }
     },
     {
@@ -991,9 +1065,9 @@
       }
     },
     {
-      "id": "ef5ed0a830b97b21",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=55f5a1d47cfcd1bd",
+      "id": "14d2c55c1152b745",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409520065",
       "title": "Sr Applied Scientist",
       "company": "Uber",
       "location": "Amsterdam, NH, NL",
