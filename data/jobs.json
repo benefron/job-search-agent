@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T05:19:59.072490",
+  "generated": "2026-05-05T18:43:50.993986",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -2668,84 +2668,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "35bb0c7b39f7b171",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4410219115",
-      "title": "Senior 3D Vision Engineer for Aerial Robotics (Remote EU options)",
-      "company": "FIDUCIAL",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-05T05:16:19.012881",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=FIDUCIAL&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=FIDUCIAL"
-      }
-    },
-    {
-      "id": "d65f89dfd018d797",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4410062236",
-      "title": "Postdoc AI-Driven Biofabrication and Process Control",
-      "company": "Delft University of Technology",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-05T05:16:19.010849",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
-      }
-    },
-    {
-      "id": "4f94b59b567c31d9",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4410077568",
-      "title": "(Lead) Senior Developer/IOT/Hardware/Software++",
-      "company": "Talisman",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-05-05T05:16:19.008762",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Talisman&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Talisman&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Talisman&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Talisman"
       }
     }
   ]
