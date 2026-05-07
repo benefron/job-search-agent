@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T05:26:06.504139",
+  "generated": "2026-05-07T18:47:19.863454",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -2890,110 +2890,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "0df35ab58bae6e94",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4410975719",
-      "title": "Senior Robotics  Software Engineer",
-      "company": "Trusk Technology",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-05-07T05:21:36.784974",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Trusk%20Technology&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Trusk%20Technology&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Trusk%20Technology&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Trusk%20Technology"
-      }
-    },
-    {
-      "id": "0aa795bc7f68b241",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4409908349",
-      "title": "Postdoc Position \"Media, Inequality, and Democratic Support\"",
-      "company": "University of Amsterdam",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-07T05:21:36.778090",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=University%20of%20Amsterdam&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=University%20of%20Amsterdam"
-      }
-    },
-    {
-      "id": "715eb86f5fbb0aff",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4408198776",
-      "title": "Postdoctoral fellow bioinformatics \u2013 single-cell sequencing analysis- NL",
-      "company": "Amsterdam UMC",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "2026-05-05",
-      "date_found": "2026-05-07T05:21:36.775039",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amsterdam%20UMC&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amsterdam%20UMC"
-      }
-    },
-    {
-      "id": "0457fa219bc7d015",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=d18921a5257fdd86",
-      "title": "QA Specialist - QMS",
-      "company": "ViCentra B.V.",
-      "location": "Utrecht, UT, NL",
-      "date_posted": "2026-05-06",
-      "date_found": "2026-05-07T05:21:36.768804",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ViCentra%20B.V.&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ViCentra%20B.V.&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=ViCentra%20B.V.&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ViCentra%20B.V."
       }
     }
   ]
