@@ -8175,3 +8175,33 @@
 2026-05-08 05:20:09,930 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-08 05:20:09,941 [INFO] Stats: {'total': 978, 'scored': 969, 'liked': 13, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-08T07:20:09+02:00'}
 2026-05-08 05:20:09,945 [INFO] Done. Total: 978 | Scored: 969 | Strong+: 0
+2026-05-08 18:42:16,249 [INFO] Initialising database…
+2026-05-08 18:42:16,249 [INFO] Ingesting feedback…
+2026-05-08 18:42:16,253 [INFO] Applied 75 feedback records.
+2026-05-08 18:42:16,253 [INFO] Scoring pending jobs (max=50)…
+2026-05-08 18:42:16,256 [INFO] Scoring 9 pending jobs (cap=50)…
+2026-05-08 18:42:19,450 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:19,459 [INFO]   Scored [0] Backend Software Engineer at PostNL — Ben does not meet any of the core technical requirements for this backend softwa
+2026-05-08 18:42:25,292 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:25,295 [INFO]   Scored [30] Production Test Engineer at Prodrive Technologies — While Ben has relevant skills in Python and hardware-software integration, the r
+2026-05-08 18:42:30,924 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:30,928 [INFO]   Scored [30] Senior Solution Architect – Data Governance & Generative AI at Rabobank — While Ben has relevant skills in Python and AI, the role requires specific exper
+2026-05-08 18:42:36,932 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:36,934 [INFO]   Scored [0] Postdoc vacancy: Mechanism of pulmonary endothelial cell damage in reverse Transfusion-related acute lung injury (TRALI). at Sanquin — Ben is overqualified for this postdoctoral position as it requires a focus on me
+2026-05-08 18:42:42,541 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:42,545 [INFO]   Scored [0] Postdoctoraal onderzoeker at Tilburg University — Ben is overqualified for this postdoctoral position, which is specifically aimed
+2026-05-08 18:42:47,938 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:47,940 [INFO]   Scored [0] Postdoctoral Researcher in Anthropology - Digitalisation in Greenhouse Horticulture - Meertens at KNAW - Koninklijke Nederlandse Akademie van Wetenschappen — Ben is overqualified for this postdoctoral position as it requires a PhD in Anth
+2026-05-08 18:42:53,258 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:53,260 [INFO]   Scored [0] Postdoc in Population-Scale Network Science- NL at Leiden University — Ben is overqualified for a postdoc position that does not align with his experti
+2026-05-08 18:42:58,749 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:42:58,752 [INFO]   Scored [0] Post-Doc Researcher: Labour Market Effects and Political Economy of the Green Transition (0.8-1fte)- NL at Leiden University — This role is a postdoctoral position outside of Ben's field of expertise, focusi
+2026-05-08 18:43:03,851 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 18:43:03,854 [INFO]   Scored [0] Current Career Opportunities at BSS at BSS Holland BV — The job posting lacks specific qualifications and responsibilities, and it does 
+2026-05-08 18:43:06,854 [INFO] Scoring complete. 9/9 attempted.
+2026-05-08 18:43:06,854 [INFO] Scored 9 jobs
+2026-05-08 18:43:06,854 [INFO] Exporting data…
+2026-05-08 18:43:06,861 [INFO] Exported 81 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-08 18:43:06,863 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-08 18:43:06,869 [INFO] Stats: {'total': 978, 'scored': 978, 'liked': 13, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-08T20:43:06+02:00'}
+2026-05-08 18:43:06,874 [INFO] Done. Total: 978 | Scored: 978 | Strong+: 0
