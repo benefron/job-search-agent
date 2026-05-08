@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T18:47:19.863454",
+  "generated": "2026-05-08T05:20:09.926591",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -104,6 +104,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "29976e469e090961",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411847557",
+      "title": "Computer Vision & ML Expert",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.574115",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "OpenCV"
+      ],
+      "key_gaps": [
+        "Experience with common CV architectures (CNNs, Vision Transformers)",
+        "Published research in top CV/ML venues"
+      ],
+      "rationale": "Ben has strong qualifications in Python, PyTorch, and OpenCV, but lacks specific experience with common CV architectures and published research in top venues, which are important for this role.",
+      "job_summary": "This role involves evaluating and improving AI models focused on computer vision tasks such as image recognition and object detection, requiring expertise in deep learning and computer vision techniques.",
+      "top_qualifications": [
+        "Strong foundational knowledge of computer vision",
+        "Hands-on experience with deep learning frameworks such as PyTorch",
+        "Solid understanding of data preprocessing and annotation best practices"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
       }
     },
     {
@@ -1209,6 +1246,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "fa4a3eed99f5a932",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4410485052",
+      "title": "AI Engineer",
+      "company": "MarvelX AI",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.526856",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "ML frameworks (PyTorch)",
+        "data engineering"
+      ],
+      "key_gaps": [
+        "4\u20136 years of hands-on experience building AI/ML systems",
+        "Experience with LLMs and agentic architectures"
+      ],
+      "rationale": "While Ben has strong qualifications in Python and ML frameworks, he lacks the specific experience with LLMs and the required years of hands-on experience in building AI/ML systems.",
+      "job_summary": "The AI Engineer role at MarvelX involves designing, building, and deploying AI agents for complex workflows in regulated industries, focusing on performance optimization and collaboration with product teams.",
+      "top_qualifications": [
+        "4\u20136 years of hands-on experience building AI/ML systems",
+        "Strong background in Python and ML frameworks",
+        "Experience with LLMs and agentic architectures"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=MarvelX%20AI&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=MarvelX%20AI"
       }
     },
     {
@@ -2890,6 +2964,240 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "89d7482f8425d8b0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4406156148",
+      "title": "Current Career Opportunities at BSS",
+      "company": "BSS Holland BV",
+      "location": "Zwolle, Overijssel, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.602119",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=BSS%20Holland%20BV&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=BSS%20Holland%20BV&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=BSS%20Holland%20BV&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=BSS%20Holland%20BV"
+      }
+    },
+    {
+      "id": "f91be0ae09659c39",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4402628756",
+      "title": "Post-Doc Researcher: Labour Market Effects and Political Economy of the Green Transition (0.8-1fte)- NL",
+      "company": "Leiden University",
+      "location": "Leiden, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.599823",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Leiden%20University"
+      }
+    },
+    {
+      "id": "37430140d8473b3c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4402626812",
+      "title": "Postdoc in Population-Scale Network Science- NL",
+      "company": "Leiden University",
+      "location": "Leiden, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.597656",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Leiden%20University&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Leiden%20University"
+      }
+    },
+    {
+      "id": "8075a2104a7716eb",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411655764",
+      "title": "Postdoctoral Researcher in Anthropology - Digitalisation in Greenhouse Horticulture - Meertens",
+      "company": "KNAW - Koninklijke Nederlandse Akademie van Wetenschappen",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.595365",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=KNAW%20-%20Koninklijke%20Nederlandse%20Akademie%20van%20Wetenschappen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=KNAW%20-%20Koninklijke%20Nederlandse%20Akademie%20van%20Wetenschappen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=KNAW%20-%20Koninklijke%20Nederlandse%20Akademie%20van%20Wetenschappen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=KNAW%20-%20Koninklijke%20Nederlandse%20Akademie%20van%20Wetenschappen"
+      }
+    },
+    {
+      "id": "c7a882e4738adb73",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411486366",
+      "title": "Postdoctoraal onderzoeker",
+      "company": "Tilburg University",
+      "location": "Tilburg, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.593255",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Tilburg%20University&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Tilburg%20University"
+      }
+    },
+    {
+      "id": "b164c58759752978",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4410472721",
+      "title": "Postdoc vacancy: Mechanism of pulmonary endothelial cell damage in reverse Transfusion-related acute lung injury (TRALI).",
+      "company": "Sanquin",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.591294",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sanquin&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sanquin&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sanquin&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sanquin"
+      }
+    },
+    {
+      "id": "dff0a3479cf784b2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389764811",
+      "title": "Senior Solution Architect \u2013 Data Governance & Generative AI",
+      "company": "Rabobank",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.589091",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Rabobank&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Rabobank&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Rabobank&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Rabobank"
+      }
+    },
+    {
+      "id": "ab52f27470102031",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411442843",
+      "title": "Production Test Engineer",
+      "company": "Prodrive Technologies",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.585326",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Prodrive%20Technologies&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Prodrive%20Technologies&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Prodrive%20Technologies&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Prodrive%20Technologies"
+      }
+    },
+    {
+      "id": "711b23e6ee31fa7b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399985419",
+      "title": "Backend Software Engineer",
+      "company": "PostNL",
+      "location": "The Randstad, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-08T05:15:41.583088",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=PostNL&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=PostNL"
       }
     }
   ]
