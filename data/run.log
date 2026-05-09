@@ -8365,3 +8365,91 @@
 2026-05-09 05:22:42,819 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-09 05:22:42,832 [INFO] Stats: {'total': 1045, 'scored': 1008, 'liked': 13, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-09T07:22:42+02:00'}
 2026-05-09 05:22:42,836 [INFO] Done. Total: 1045 | Scored: 1008 | Strong+: 0
+2026-05-09 18:29:55,156 [INFO] Initialising database…
+2026-05-09 18:29:55,157 [INFO] Ingesting feedback…
+2026-05-09 18:29:55,160 [INFO] Applied 75 feedback records.
+2026-05-09 18:29:55,161 [INFO] Scoring pending jobs (max=50)…
+2026-05-09 18:29:55,164 [INFO] Scoring 37 pending jobs (cap=50)…
+2026-05-09 18:29:57,914 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:29:57,925 [INFO]   Scored [0] Afstudeerstage Data Scientist at Capgemini — Ben is overqualified for this internship position and does not meet the requirem
+2026-05-09 18:30:03,125 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:03,127 [INFO]   Scored [0] Postdoc Atomistic Insights into Carburization, Wetting and Graphitization of Carbonaceous Materials at TU Delft — This position is a postdoctoral role in materials science, which is outside Ben'
+2026-05-09 18:30:08,547 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:08,549 [INFO]   Scored [30] Staff Software Engineer - Maps at Uber — While Ben has relevant skills in Python and machine learning, he lacks the requi
+2026-05-09 18:30:13,430 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:13,434 [INFO]   Scored [0] AI Technologist at Spektrum — This position is not aligned with Ben's qualifications or interests, focusing in
+2026-05-09 18:30:18,482 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:18,485 [INFO]   Scored [0] Traineeship Data Science at House of Bèta — The position is a traineeship requiring Dutch fluency and is not suitable for Be
+2026-05-09 18:30:23,601 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:23,605 [INFO]   Scored [30] Data Scientist Transaction Monitoring at A2Z-CM N.V. — Ben has relevant skills in Python and data analysis but does not meet the educat
+2026-05-09 18:30:29,214 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:29,216 [INFO]   Scored [0] Remote Software Engineer – AI Research & Evaluation (US-based) at Turing — Ben is overqualified for this role and lacks the required extensive software eng
+2026-05-09 18:30:34,907 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:34,910 [INFO]   Scored [30] Software Engineer Cyber Physical Systems (CPS) | Groningen at TNO — Ben has relevant skills in Python and systematic problem-solving but lacks speci
+2026-05-09 18:30:40,398 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:40,400 [INFO]   Scored [30] Software Engineer Cyber Physical Systems (CPS) | The Hague at TNO — While Ben has strong skills in Python and an analytical mindset, he does not mee
+2026-05-09 18:30:45,414 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:45,416 [INFO]   Scored [0] Senior DevOps Engineer at ThreatFabric — Ben does not meet the educational requirement for a Bachelor's degree in a relat
+2026-05-09 18:30:51,021 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:51,023 [INFO]   Scored [30] Senior AI Engineer at Booking.com — Ben has relevant skills in Python and AI orchestration but lacks the required ex
+2026-05-09 18:30:57,189 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:30:57,192 [INFO]   Scored [0] Software Engineer (MLOPS background) at Salt — Ben is overqualified for this role as it requires extensive backend software eng
+2026-05-09 18:31:02,845 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:02,847 [INFO]   Scored [30] Software Engineer (Aerospace) at GKN Aerospace — While Ben has strong programming skills in Python and analytical abilities, he l
+2026-05-09 18:31:08,270 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:08,272 [INFO]   Scored [30] Data Platform Engineer at Adyen — While Ben has strong Python skills and experience in data analysis, he lacks spe
+2026-05-09 18:31:14,166 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:14,168 [INFO]   Scored [0] Junior Software Engineer (Cloud) at Deloitte — Ben is overqualified for this junior position and does not meet the educational 
+2026-05-09 18:31:19,713 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:19,715 [INFO]   Scored [30] Algorithm Engineer at Swave Photonics — This score reflects a stretch fit due to Ben's strong algorithm and programming 
+2026-05-09 18:31:24,755 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:24,758 [INFO]   Scored [30] Senior AI/ML System Security Architect (m/f/d) at NXP Semiconductors — Ben has relevant skills in AI/ML and embedded systems but lacks specific experie
+2026-05-09 18:31:30,180 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:30,182 [INFO]   Scored [0] 3D Chiplet Expert at VerticalCompute — Ben's qualifications do not align with the core requirements of this role, which
+2026-05-09 18:31:35,089 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:35,092 [INFO]   Scored [0] Team Lead and Test Chip Architect at imec in Vlaanderen — Ben does not meet the educational requirement of a Master's degree in Electronic
+2026-05-09 18:31:40,300 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:40,302 [INFO]   Scored [0] Mixed-Signal System Architect for Technology Demonstrators at imec — The position is a hard exclusion due to the requirement for a Master's degree in
+2026-05-09 18:31:45,646 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:45,648 [INFO]   Scored [0] Digital Chip Lead at Swave Photonics — Ben is overqualified for this role and does not meet the educational and experie
+2026-05-09 18:31:51,291 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:51,294 [INFO]   Scored [0] Photonics Device Talent Community at imec in Vlaanderen — Ben's background in systems neuroscience and neuroengineering does not align wit
+2026-05-09 18:31:56,498 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:31:56,501 [INFO]   Scored [0] Photonics Device Talent Community at imec — Ben's expertise is in systems neuroscience and neuroengineering, which does not 
+2026-05-09 18:32:02,001 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:02,003 [INFO]   Scored [0] Director - AI Enterprise at Axelera AI — Ben is overqualified for this director-level position, which requires extensive 
+2026-05-09 18:32:07,215 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:07,217 [INFO]   Scored [30] (Lead) Senior Developer/IOT/Hardware/Software++ at Talisman — While Ben has relevant skills in Python and AI/ML, the role requires extensive e
+2026-05-09 18:32:12,318 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:12,320 [INFO]   Scored [0] Regional Sales Manager at Aetina Europe — This role is a sales position requiring a background in business development and
+2026-05-09 18:32:17,846 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:17,848 [INFO]   Scored [0] System on Chip Design & Validation Engineer at Nokia — The position requires a Master's degree and specific expertise in SoC design and
+2026-05-09 18:32:23,590 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:23,593 [INFO]   Scored [0] Senior UX Designer — Street Smart at Cyclomedia — This role is a poor fit as it requires extensive UX design experience and skills
+2026-05-09 18:32:29,156 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:29,159 [INFO]   Scored [0] Postdoc position on Development of Hemodialysis membranes based on novel polymers at University of Twente — This position is a postdoctoral role in a field unrelated to Ben's expertise in 
+2026-05-09 18:32:34,519 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:34,522 [INFO]   Scored [0] Postdoc Position: Cosmic Ray Detection at the Square Kilometre Array at Radboud Summer School — Ben is excluded from this position as it is a postdoctoral role in a field unrel
+2026-05-09 18:32:39,976 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:39,978 [INFO]   Scored [0] Postdoc – The bone marrow micro-environment in childhood acute lymphoblastic leukemia at Prinses Máxima Centrum voor kinderoncologie — Ben is overqualified for this postdoc position, which requires a PhD in a differ
+2026-05-09 18:32:44,939 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:44,941 [INFO]   Scored [0] Postdoctoraal onderzoeker at Naturalis Biodiversity Center — This position is a postdoctoral role, which Ben is overqualified for, and it foc
+2026-05-09 18:32:53,060 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:32:53,063 [INFO]   Scored [0] Postdoc Position: Affective Neuroscience Lab at Radboud University — Ben is overqualified for this postdoctoral role, which requires specific experti
+2026-05-09 18:32:56,088 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 18:32:56,089 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-05-09 18:33:58,859 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:33:58,862 [INFO]   Scored [0] Postdoctoral Researcher - GRAPHIA Project (Generations and Gender Programme - NIDI-KNAW - The Hague) at KNAW - Koninklijke Nederlandse Akademie van Wetenschappen — Ben is overqualified for this postdoctoral position as it requires a PhD in a so
+2026-05-09 18:34:04,537 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:34:04,540 [INFO]   Scored [0] Postdoc Position: Cosmic Ray Detection at the Square Kilometre Array at Radboud University — Ben does not meet the required qualifications for this role, as it specifically 
+2026-05-09 18:34:09,629 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:34:09,632 [INFO]   Scored [30] Senior AI Engineer at WR.nl Solliciteren — Ben has relevant skills in Python and AI, but lacks the required experience with
+2026-05-09 18:34:15,525 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 18:34:15,528 [INFO]   Scored [0] Java Software Developer - Tacticos (CMS) at Thales — Ben is overqualified for this role, as it requires a Bachelor's or Master's degr
+2026-05-09 18:34:18,528 [INFO] Scoring complete. 37/37 attempted.
+2026-05-09 18:34:18,529 [INFO] Scored 37 jobs
+2026-05-09 18:34:18,529 [INFO] Exporting data…
+2026-05-09 18:34:18,535 [INFO] Exported 84 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-09 18:34:18,537 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-09 18:34:18,549 [INFO] Stats: {'total': 1044, 'scored': 1044, 'liked': 13, 'skipped': 0, 'applied': 0, 'last_updated': '2026-05-09T20:34:18+02:00'}
+2026-05-09 18:34:18,555 [INFO] Done. Total: 1044 | Scored: 1044 | Strong+: 0
