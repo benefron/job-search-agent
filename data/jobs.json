@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T18:34:18.533225",
+  "generated": "2026-05-10T05:29:57.775367",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -1283,6 +1283,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "1768e9580ac44be1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411838899",
+      "title": "Robotics ML Expert \u2014 MuJoCo & RL Training",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-08",
+      "date_found": "2026-05-10T05:26:43.265033",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "reinforcement learning theory"
+      ],
+      "key_gaps": [
+        "Hands-on experience with MuJoCo",
+        "Experience in defining and shaping reward functions for complex robotic tasks"
+      ],
+      "rationale": "This score reflects a moderate fit due to Ben's strong skills in Python and machine learning, but he lacks specific experience with MuJoCo and reinforcement learning in robotics.",
+      "job_summary": "The Robotics ML Expert role involves designing and refining simulation environments for training AI systems in robotics, focusing on reinforcement learning and physics simulation.",
+      "top_qualifications": [
+        "Strong hands-on experience with MuJoCo",
+        "Solid understanding of reinforcement learning theory",
+        "Proficient in Python and comfortable with ML frameworks such as PyTorch"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
+      }
+    },
+    {
+      "id": "8b20c0cbf2e8400c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411730333",
+      "title": "Sr. Data & AI engineer Azurion Eye",
+      "company": "Philips",
+      "location": "Best, North Brabant, Netherlands",
+      "date_posted": "2026-05-08",
+      "date_found": "2026-05-10T05:26:43.234832",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "AI model development"
+      ],
+      "key_gaps": [
+        "Experience with Golang",
+        "Hands-on experience with GPU acceleration and CUDA"
+      ],
+      "rationale": "Ben has relevant skills in Python and AI model development, but lacks experience with Golang and GPU acceleration, which are critical for this role.",
+      "job_summary": "The Sr. Data & AI Engineer for Azurion Eye at Philips will develop core components of an AI-enabled clinical software platform, focusing on real-time insights and automation during minimally invasive procedures.",
+      "top_qualifications": [
+        "Minimum 5 years of relevant experience",
+        "Strong Python skills",
+        "Experience deploying deep learning models to production environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Philips&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Philips"
       }
     },
     {
