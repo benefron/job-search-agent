@@ -153,6 +153,32 @@
     </select>
   </label>
 
+  <label>Location:
+    <select id="filter-location">
+      <option value="">All locations</option>
+      <optgroup label="Netherlands">
+        <option value="netherlands">🇳🇱 Any Netherlands</option>
+        <option value="amsterdam">Amsterdam</option>
+        <option value="eindhoven">Eindhoven</option>
+        <option value="delft">Delft</option>
+        <option value="utrecht">Utrecht</option>
+        <option value="rotterdam">Rotterdam</option>
+        <option value="nijmegen">Nijmegen</option>
+        <option value="leiden">Leiden</option>
+        <option value="the hague">The Hague</option>
+        <option value="haarlem">Haarlem</option>
+      </optgroup>
+      <optgroup label="Belgium">
+        <option value="belgium">🇧🇪 Any Belgium</option>
+        <option value="leuven">Leuven</option>
+        <option value="brussels">Brussels</option>
+        <option value="mechelen">Mechelen</option>
+        <option value="hasselt">Hasselt</option>
+        <option value="zaventem">Zaventem</option>
+      </optgroup>
+    </select>
+  </label>
+
   <label>Status:
     <select id="filter-status">
       <option value="">All (except gone)</option>
@@ -294,6 +320,7 @@ function render() {
   const catFilter = document.getElementById("filter-cat").value;
   const sourceFilter = document.getElementById("filter-source").value;
   const statusFilter = document.getElementById("filter-status").value;
+  const locationFilter = document.getElementById("filter-location").value.toLowerCase();
   const searchQ = document.getElementById("search-box").value.toLowerCase();
   const fb = loadFeedback();
 
@@ -301,6 +328,10 @@ function render() {
     if ((j.score || 0) < minScore) return false;
     if (catFilter && j.fit_category !== catFilter) return false;
     if (sourceFilter && j.source !== sourceFilter) return false;
+    if (locationFilter) {
+      const loc = (j.location || "").toLowerCase();
+      if (!loc.includes(locationFilter)) return false;
+    }
     const status = (fb[j.id] || {}).status || j.status || "new";
     // By default (no filter selected) hide "gone" and "delete" jobs
     if (!statusFilter && (status === "gone" || status === "delete")) return false;
@@ -552,7 +583,7 @@ document.getElementById("filter-score").addEventListener("input", e => {
   document.getElementById("score-val").textContent = e.target.value;
   render();
 });
-["filter-cat", "filter-source", "filter-status"].forEach(id =>
+["filter-cat", "filter-source", "filter-status", "filter-location"].forEach(id =>
   document.getElementById(id).addEventListener("change", render)
 );
 document.getElementById("search-box").addEventListener("input", render);
@@ -562,6 +593,7 @@ document.getElementById("btn-clear-filters").addEventListener("click", () => {
   document.getElementById("filter-cat").value = "";
   document.getElementById("filter-source").value = "";
   document.getElementById("filter-status").value = "";  // back to "All (except gone)"
+  document.getElementById("filter-location").value = "";
   document.getElementById("search-box").value = "";
   render();
 });
