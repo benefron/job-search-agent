@@ -9072,3 +9072,69 @@
 2026-05-12 08:36:01,543 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-12 08:36:01,555 [INFO] Stats: {'total': 1142, 'scored': 1115, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-12T10:36:01+02:00'}
 2026-05-12 08:36:01,559 [INFO] Done. Total: 1142 | Scored: 1115 | Strong+: 0
+2026-05-12 09:35:12,153 [INFO] Initialising database…
+2026-05-12 09:35:12,154 [INFO] Ingesting feedback…
+2026-05-12 09:35:12,159 [INFO] Applied 103 feedback records.
+2026-05-12 09:35:12,159 [INFO] Scoring pending jobs (max=100)…
+2026-05-12 09:35:12,161 [INFO] Scoring 27 pending jobs (cap=100)…
+2026-05-12 09:35:16,217 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:16,227 [INFO]   Scored [70] Software Engineer AI Platforms at Robert Vint — Ben has strong qualifications in Python and Machine Learning, but lacks specific
+2026-05-12 09:35:22,638 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:22,643 [INFO]   Scored [30] Software Engineer at Predikt — While Ben has strong Python skills and relevant software fundamentals, he lacks 
+2026-05-12 09:35:28,276 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:28,278 [INFO]   Scored [30] Founding AI Research Scientist at Stealth Startup — While Ben has strong skills in Python and neural computation, he lacks specific 
+2026-05-12 09:35:33,813 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:33,815 [INFO]   Scored [0] Quantum Research Scientist with Python - Freelance AI Trainer at Mindrift — Ben does not meet the hard exclusion rule of requiring a degree in Physics or re
+2026-05-12 09:35:40,221 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:40,225 [INFO]   Scored [70] Machine Learning Engineer at Jobgether — Ben has strong qualifications in Python and PyTorch, along with relevant experie
+2026-05-12 09:35:46,380 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:46,384 [INFO]   Scored [30] Data Scientist at Cronos Europa — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-05-12 09:35:52,480 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:52,483 [INFO]   Scored [30] Machine Learning Engineer at NXS Tech Ltd — Ben has relevant skills in Python and ML, but lacks specific experience in AWS, 
+2026-05-12 09:35:58,925 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:35:58,928 [INFO]   Scored [30] AI & Optimization Engineer at Jobgether — While Ben has strong qualifications in Python and PyTorch, he does not meet the 
+2026-05-12 09:36:04,512 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:04,515 [INFO]   Scored [30] ML Engineering Lead at DeepRec.ai — While Ben has strong skills in Python and PyTorch, he lacks the required experie
+2026-05-12 09:36:10,366 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:10,369 [INFO]   Scored [30] Data Scientist / Data Engineer - Hybrid at All European Careers — Ben has relevant skills in Python and machine learning, but he lacks the extensi
+2026-05-12 09:36:16,445 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:16,447 [INFO]   Scored [30] AI Digital Transformation Specialist at BMW Group — Ben has relevant programming skills and an analytical mindset, but lacks specifi
+2026-05-12 09:36:21,941 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:21,944 [INFO]   Scored [30] Medior Data Scientist at Proximus Ada — While Ben has strong qualifications in Python and AI applications development, h
+2026-05-12 09:36:27,907 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:27,910 [INFO]   Scored [0] Generative AI lead at Kryptos Technologies UK Limited — Ben does not meet the minimum experience requirements for this role, which expli
+2026-05-12 09:36:34,183 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:34,185 [INFO]   Scored [0] Medior Data Scientist at Projective Talent | Part of Projective Group — Ben does not meet the Master's degree requirement and lacks the necessary experi
+2026-05-12 09:36:40,298 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:40,301 [INFO]   Scored [30] HPC Applications Engineer at Axiom Software Solutions Limited — While Ben has relevant skills in Python and PyTorch, he lacks specific experienc
+2026-05-12 09:36:46,602 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:46,604 [INFO]   Scored [30] Senior IA Engineer at Celestica — This score reflects some alignment with Ben's skills in Python and PyTorch, but 
+2026-05-12 09:36:53,211 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:53,213 [INFO]   Scored [0] Software Engineer at Zetheta Algorithms Private Limited — Ben is overqualified for this role as it is intended for students or fresh gradu
+2026-05-12 09:36:59,380 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:36:59,383 [INFO]   Scored [30] Freelance Agent Evaluation Engineer at Mindrift — Ben has strong Python and testing skills but lacks the required full-stack devel
+2026-05-12 09:37:05,516 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:05,519 [INFO]   Scored [0] Design Engineer at Zest Search — Ben's qualifications do not align with the core requirements of product design a
+2026-05-12 09:37:11,060 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:11,062 [INFO]   Scored [0] AI & Automation Specialist (Power Apps & Copilot) at Projective Talent | Part of Projective Group — Ben does not meet the required Master's degree in Computer Science and lacks exp
+2026-05-12 09:37:19,052 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:19,055 [INFO]   Scored [30] Platform Engineer (AWS), Go/Python focused, Infrastructure, SRE | Hyper growth AI Drug Discovery B2B platform | Fully Remote, EU | Base Salary up to £85,000, plus early equity+benefits at Owen Thomas | B Corp™ — Ben has relevant skills in Python and cloud infrastructure but lacks experience 
+2026-05-12 09:37:25,135 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:25,137 [INFO]   Scored [0] Quantitative Researcher - Index Arb at Durlston Partners — Ben is overqualified for this role and does not meet the specific experience req
+2026-05-12 09:37:31,300 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:31,303 [INFO]   Scored [30] Data & Trends Researcher at Gold Group Ltd — This score reflects some alignment with Ben's skills in data analysis and Python
+2026-05-12 09:37:36,820 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:36,822 [INFO]   Scored [0] Quantitative Researcher at GradBay — Ben does not meet the essential qualifications in finance or related fields, mak
+2026-05-12 09:37:42,823 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:42,826 [INFO]   Scored [0] Senior Data Scientist (m/w/d) at INC Innovation Center — Ben is overqualified for this role and does not meet the requirement for fluent 
+2026-05-12 09:37:48,717 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:48,720 [INFO]   Scored [30] Senior Marketing Data Scientist at OUTFIT7 — While Ben has strong qualifications in Python and data analysis, he lacks specif
+2026-05-12 09:37:54,629 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 09:37:54,632 [INFO]   Scored [0] Quantitative Researcher at Venture Search — Ben's qualifications do not align with the core requirements of developing HFT s
+2026-05-12 09:37:57,632 [INFO] Scoring complete. 27/27 attempted.
+2026-05-12 09:37:57,632 [INFO] Scored 27 jobs
+2026-05-12 09:37:57,632 [INFO] Exporting data…
+2026-05-12 09:37:57,638 [INFO] Exported 72 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-12 09:37:57,640 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-12 09:37:57,652 [INFO] Stats: {'total': 1142, 'scored': 1142, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-12T11:37:57+02:00'}
+2026-05-12 09:37:57,658 [INFO] Done. Total: 1142 | Scored: 1142 | Strong+: 0
