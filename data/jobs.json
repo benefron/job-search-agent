@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T05:31:13.924599",
+  "generated": "2026-05-12T08:36:01.539901",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -25,7 +25,7 @@
       "rationale": "Senior AI Architect (Systems & Algorithms) at imec NL in Eindhoven \u2014 directly in Ben's current employer domain with perfect skill overlap in AI systems and algorithm design.",
       "job_summary": null,
       "top_qualifications": [],
-      "status": "new",
+      "status": "applied",
       "feedback": 1,
       "connection_notes": "Possible, but maybe too senior. Will explore similar positions, maybe not mentioned via connections in imec, can't apply as is.",
       "linkedin_urls": {
@@ -99,7 +99,7 @@
         "Strong programming skills in Python",
         "Hands-on experience with machine learning and computer vision frameworks (e.g. PyTorch, TensorFlow, OpenCV)"
       ],
-      "status": "new",
+      "status": "applied",
       "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
@@ -141,6 +141,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "13d4f29e24dafc40",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4366367995",
+      "title": "Embedded Test Automation Engineer - Robotics - Rotterdam",
+      "company": "Blauwtand IT",
+      "location": "Rotterdam, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.603112",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "machine learning",
+        "computer vision"
+      ],
+      "key_gaps": [
+        "Practical experience with C++",
+        "Experience with CI/CD environments"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks practical experience with C++, which is a key requirement for this role.",
+      "job_summary": "The Embedded Test Automation Engineer will design, build, and maintain test automation for vision and AI-driven applications in robotics, focusing on validating image processing functionalities and machine learning models.",
+      "top_qualifications": [
+        "Practical experience with programming languages Python and C++",
+        "Support the training, evaluation and refinement of machine learning models for visual applications",
+        "Set up and implement automated system-level tests"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Blauwtand%20IT&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Blauwtand%20IT&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Blauwtand%20IT&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Blauwtand%20IT"
+      }
+    },
+    {
+      "id": "94aacb065fb2762c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4405862468",
+      "title": "Postdoc Tactile Robotics for Dexterous Manipulation",
+      "company": "Delft University of Technology",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T05:27:44.040644",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "real-time control algorithms",
+        "experimental design"
+      ],
+      "key_gaps": [
+        "Specific experience with dexterous manipulation",
+        "Background in robotics and control systems"
+      ],
+      "rationale": "Ben has strong qualifications in experimental design and real-time processing, but lacks specific experience in dexterous manipulation and a strong background in robotics and control systems as required for this role.",
+      "job_summary": "This postdoctoral role focuses on leveraging high-resolution tactile sensors to develop control strategies for robotic dexterous manipulation. The researcher will design experiments, analyze tactile data, and implement real-time control algorithms.",
+      "top_qualifications": [
+        "PhD in Robotics, Mechanical Engineering, Electrical Engineering, Computer Science, or related field",
+        "Strong background in robotic and control systems",
+        "Experience with dexterous manipulation"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
       }
     },
     {
@@ -403,43 +477,6 @@
       }
     },
     {
-      "id": "a49e4c79683630b4",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4410553300",
-      "title": "Senior Data Scientist",
-      "company": "adesso Netherlands",
-      "location": "Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-06T05:18:59.062284",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "machine learning",
-        "model validation"
-      ],
-      "key_gaps": [
-        "Experience with specific data science frameworks like scikit-learn, TensorFlow, Keras",
-        "Experience translating business questions into analytical approaches"
-      ],
-      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience with some required frameworks and translating business problems into analytical challenges.",
-      "job_summary": "The Senior Data Scientist at adesso Netherlands will lead data science projects, translating complex business questions into reliable models and actionable insights, while collaborating with engineers and stakeholders.",
-      "top_qualifications": [
-        "PhD in a relevant field",
-        "5 years of experience as a Data Scientist",
-        "Strong knowledge of machine learning and statistical methods"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=adesso%20Netherlands&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=adesso%20Netherlands&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=adesso%20Netherlands&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=adesso%20Netherlands"
-      }
-    },
-    {
       "id": "e4e58034bdaf44db",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4407794219",
@@ -504,50 +541,13 @@
         "Strong data modeling skills with experience in building and validating predictive models"
       ],
       "status": "new",
-      "feedback": 0,
+      "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
         "first_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%5D",
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=YO%20IT%20Consulting"
-      }
-    },
-    {
-      "id": "6ae2111645c27f96",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4369956782",
-      "title": "Senior Data Scientist, Vinted Go Carrier Technology",
-      "company": "Vinted",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-04T05:22:24.246245",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "Machine learning",
-        "Data analysis"
-      ],
-      "key_gaps": [
-        "Experience in logistics and transportation data science",
-        "Specific experience in deploying models into production"
-      ],
-      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience in logistics and the practical deployment of models, which are crucial for this role.",
-      "job_summary": "The Senior Data Scientist at Vinted Go will develop and deploy machine learning and optimization applications to enhance logistics operations, collaborating with a team to establish data science capabilities.",
-      "top_qualifications": [
-        "Machine learning",
-        "Data analysis",
-        "Optimization"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vinted&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vinted"
       }
     },
     {
@@ -578,7 +578,7 @@
         "Solid understanding of data preprocessing and annotation best practices"
       ],
       "status": "new",
-      "feedback": 0,
+      "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
         "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
@@ -614,8 +614,8 @@
         "Proficiency in Python, SQL, and data analysis tools",
         "Strong expertise in statistical modelling and hypothesis testing"
       ],
-      "status": "new",
-      "feedback": 0,
+      "status": "applied",
+      "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
         "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Cyferd&network=%5B%22F%22%5D",
@@ -652,7 +652,7 @@
         "Strong data modeling skills with experience in building and validating predictive models"
       ],
       "status": "new",
-      "feedback": 0,
+      "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
         "first_degree": "https://www.linkedin.com/search/results/people/?keywords=YO%20IT%20Consulting&network=%5B%22F%22%5D",
@@ -958,43 +958,6 @@
       }
     },
     {
-      "id": "2ec9b4c67648b9bb",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4405830987",
-      "title": "Postdoc Tactile Robotics for Dexterous Manipulation",
-      "company": "ElectroChemical Flow Systems laboratory",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-24T05:15:13.644015",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "hardware-software integration",
-        "real-time control algorithms"
-      ],
-      "key_gaps": [
-        "Specific experience with dexterous manipulation",
-        "Strong background in robotic and control systems"
-      ],
-      "rationale": "Ben has relevant skills in Python and hardware-software integration, but lacks specific experience in dexterous manipulation and a strong background in robotic control systems, which are critical for this role.",
-      "job_summary": "This postdoctoral role focuses on leveraging high-resolution tactile sensors to develop control strategies for robotic dexterous manipulation, involving hands-on experimentation and collaboration with PhD candidates.",
-      "top_qualifications": [
-        "PhD in Robotics, Mechanical Engineering, Electrical Engineering, Computer Science, or related field",
-        "Strong background in robotic and control systems",
-        "Experience with dexterous manipulation"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=ElectroChemical%20Flow%20Systems%20laboratory&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ElectroChemical%20Flow%20Systems%20laboratory"
-      }
-    },
-    {
       "id": "74213e4d6c2fd577",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4405477761",
@@ -1106,154 +1069,6 @@
       }
     },
     {
-      "id": "1baeebc560c00d86",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403349458",
-      "title": "AI Research Engineer - Reinforcement Learning",
-      "company": "Jobgether",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-21T05:11:07.246711",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "experimental design"
-      ],
-      "key_gaps": [
-        "Experience running large-scale reinforcement learning projects",
-        "Deep understanding of reinforcement learning theory and practice"
-      ],
-      "rationale": "Ben has strong skills in Python and PyTorch, but lacks specific experience in large-scale reinforcement learning projects and deep RL theory, which are critical for this role.",
-      "job_summary": "The AI Research Engineer - Reinforcement Learning role focuses on advancing reinforcement learning systems, designing algorithms for decision-making and performance optimization in real-world environments, and integrating RL agents into production systems.",
-      "top_qualifications": [
-        "Advanced degree in Computer Science, Machine Learning, or related field",
-        "Proven experience running large-scale reinforcement learning projects",
-        "Strong hands-on expertise with PyTorch and RL frameworks"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
-      }
-    },
-    {
-      "id": "950ed9293f1cb68c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403317817",
-      "title": "Machine Learning Engineer",
-      "company": "Corsearch",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-20T05:16:51.179069",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "computer vision"
-      ],
-      "key_gaps": [
-        "At least 3 years of professional experience as a Machine Learning Engineer",
-        "Experience with large datasets and data pipelines for training and deploying ML models"
-      ],
-      "rationale": "Ben has relevant skills in Python and PyTorch, as well as experience in computer vision, but he lacks the required professional experience as a Machine Learning Engineer and specific experience with large datasets and data pipelines.",
-      "job_summary": "The Machine Learning Engineer at Corsearch will design and optimize AI models for image search and other brand protection solutions, collaborating with a global team to enhance product performance.",
-      "top_qualifications": [
-        "Proven experience as a Machine Learning Engineer with at least 3 years of professional experience",
-        "Strong proficiency in machine learning frameworks such as PyTorch",
-        "Experience with image processing and feature extraction techniques"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Corsearch&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Corsearch"
-      }
-    },
-    {
-      "id": "2285c67f17bcebaf",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400842684",
-      "title": "MLOps Engineer I",
-      "company": "Checkout.com",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "2026-04-17",
-      "date_found": "2026-04-19T05:13:04.871605",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "ML frameworks familiarity"
-      ],
-      "key_gaps": [
-        "Experience with cloud-based application development (AWS)",
-        "Specific experience in MLOps practices and monitoring production systems"
-      ],
-      "rationale": "Ben has strong qualifications in Python and PyTorch, aligning well with the role's requirements, but lacks specific experience in MLOps practices and cloud-based application development.",
-      "job_summary": "The MLOps Engineer I role at Checkout.com involves building systems for training, deploying, and monitoring machine learning models used in their payments platform, with a focus on scalability and ownership.",
-      "top_qualifications": [
-        "Proficiency in writing clear, production-ready Python code",
-        "Familiarity with production ML models and standard MLOps practices",
-        "Familiarity with one or more ML frameworks and technologies: PyTorch"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Checkout.com&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Checkout.com"
-      }
-    },
-    {
-      "id": "40cf5675220f1f9b",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403500094",
-      "title": "Computer Vision & ML Expert",
-      "company": "Alignerr",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-18T04:59:38.873157",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "computer vision knowledge"
-      ],
-      "key_gaps": [
-        "Experience with common CV architectures (CNNs, Vision Transformers)",
-        "Published research in top CV/ML venues"
-      ],
-      "rationale": "Ben has strong skills in Python and PyTorch, as well as relevant knowledge in computer vision, but lacks specific experience with common CV architectures and published research in top venues.",
-      "job_summary": "The role involves evaluating and improving AI models for computer vision tasks, including image recognition and object detection, while providing expert feedback on model outputs and architecture decisions.",
-      "top_qualifications": [
-        "Strong foundational knowledge of computer vision",
-        "Hands-on experience with deep learning frameworks such as PyTorch",
-        "Solid understanding of data preprocessing and augmentation for visual data"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
-      }
-    },
-    {
       "id": "88297cba79de12b2",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4402948015",
@@ -1281,50 +1096,13 @@
         "Strong experience with computer vision and multimodal LLMs"
       ],
       "status": "new",
-      "feedback": 0,
+      "feedback": 1,
       "connection_notes": "",
       "linkedin_urls": {
         "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22F%22%5D",
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Plumerai&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Plumerai"
-      }
-    },
-    {
-      "id": "8e9fbe72185ff129",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4400393133",
-      "title": "Data Scientist",
-      "company": "Healthplus.ai",
-      "location": "The Randstad, Netherlands",
-      "date_posted": "2026-04-15",
-      "date_found": "2026-04-17T10:49:44.724248",
-      "score": 70,
-      "fit_category": "strong",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "data analysis"
-      ],
-      "key_gaps": [
-        "5 years of experience with programming in Python and related libraries",
-        "3 years of experience performing machine learning experiments"
-      ],
-      "rationale": "This score reflects a strong alignment with Ben's Python and PyTorch skills, but he may not meet the specific experience requirements for years in programming and machine learning experiments.",
-      "job_summary": "The Data Scientist at Healthplus.ai will work on developing machine learning models to predict patient outcomes and improve product functionalities, collaborating closely with clinical partners and the implementation team.",
-      "top_qualifications": [
-        "5 years of experience with programming in Python and related libraries such as pandas/polars, numpy, pytorch, etc.",
-        "3 years of experience performing machine learning experiments",
-        "3 years of experience with data visualization techniques"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Healthplus.ai&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Healthplus.ai&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Healthplus.ai&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Healthplus.ai"
       }
     },
     {
@@ -2546,527 +2324,6 @@
       }
     },
     {
-      "id": "f36dd0d4502334fa",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404219676",
-      "title": "Founding Engineer \u2014 World Models & Physical AI",
-      "company": "Stateloop",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-22T05:10:29.394909",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "Deep learning",
-        "AI agent development"
-      ],
-      "key_gaps": [
-        "Hands-on robotics experience \u2014 RL or Imitation Learning on physical systems",
-        "Experience with world models (Dreamer, JEPA, or similar) or VLAs"
-      ],
-      "rationale": "While Ben has strong skills in Python and AI development, he lacks specific hands-on robotics experience and familiarity with world models, which are crucial for this role.",
-      "job_summary": "The role involves researching and developing world model architectures for robotics and embodied AI, focusing on sim-to-real transfer and building scalable data pipelines from gameplay data.",
-      "top_qualifications": [
-        "Strong foundation in deep learning and reinforcement learning fundamentals",
-        "Hands-on robotics experience \u2014 RL or Imitation Learning on physical systems",
-        "Experience with world models (Dreamer, JEPA, or similar) or VLAs"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Stateloop&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Stateloop"
-      }
-    },
-    {
-      "id": "32c82a19f7c8af61",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404357415",
-      "title": "Senior Data Scientist",
-      "company": "Monks",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-21T05:11:07.234126",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "machine learning",
-        "data analysis"
-      ],
-      "key_gaps": [
-        "experience with cloud ecosystems (GCP, AWS, or Azure)",
-        "advanced ETL/ELT orchestration",
-        "specific experience in predictive frameworks and operationalizing GenAI architectures"
-      ],
-      "rationale": "While Ben has relevant skills in Python and machine learning, he lacks specific experience with cloud ecosystems and advanced ETL/ELT orchestration, which are critical for this role.",
-      "job_summary": "The Senior Data Scientist at Monks will lead the design and deployment of machine learning and generative AI solutions, focusing on creating scalable and resilient data-driven systems for major clients.",
-      "top_qualifications": [
-        "solid foundation in modern cloud ecosystems (GCP, AWS, or Azure)",
-        "advanced ETL/ELT orchestration",
-        "deep understanding of machine learning and automation frameworks"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Monks&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Monks&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Monks&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Monks"
-      }
-    },
-    {
-      "id": "ea9b7f9d634aac86",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4404338537",
-      "title": "Data Scientist",
-      "company": "Joveo Ai",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-21T05:11:07.225922",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "AI agent development",
-        "Machine learning"
-      ],
-      "key_gaps": [
-        "Experience in NLP and predictive analytics",
-        "Experience with big data frameworks and cloud deployment"
-      ],
-      "rationale": "Ben has relevant skills in Python and machine learning but lacks specific experience in NLP and big data frameworks, which are critical for this role.",
-      "job_summary": "The Data Scientist role at Joveo Ai involves building and deploying NLP models and predictive algorithms to optimize job embeddings and applicant forecasting. The position requires collaboration with product managers and software engineers to implement AI/ML solutions in recruitment advertising.",
-      "top_qualifications": [
-        "Proven experience in building machine learning models, specifically in NLP and predictive analytics",
-        "Proficiency in Python and relevant libraries (NumPy, Pandas, SciPy, Gensim)",
-        "Experience with big data frameworks and deploying models into cloud environments"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Joveo%20Ai"
-      }
-    },
-    {
-      "id": "9d0f4f2895e3c9da",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403320454",
-      "title": "Data Scientist",
-      "company": "Magno IT Recruitment",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-20T05:16:51.200094",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Strong hands-on knowledge of Python",
-        "Experience with PyTorch",
-        "Data processing and analysis skills using NumPy and SciPy"
-      ],
-      "key_gaps": [
-        "Specific experience in NLP with BERT models or its variations",
-        "Experience in using LLMs"
-      ],
-      "rationale": "The role requires specific NLP experience and familiarity with BERT models and LLMs, which Ben does not explicitly have, despite having strong Python and machine learning skills.",
-      "job_summary": "This role involves working as a Data Scientist in a team focused on developing NLP solutions and automation pipelines for data extraction and analysis. The candidate will be responsible for the entire lifecycle of data science projects, including model development and deployment.",
-      "top_qualifications": [
-        "At least 4+ years of relevant applied experience and MSc/MTech in a quantitative field",
-        "Strong hands-on knowledge of Python, able to write unit tests and production ready code",
-        "Proven experience in NLP with the use of BERT models or its variations"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
-      }
-    },
-    {
-      "id": "79cab6296b46b7fb",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403090692",
-      "title": "Data Scientist",
-      "company": "Magno IT Recruitment",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-19T05:13:04.908078",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "Data processing, cleaning, and analysis skills: experience with NumPy, SciPy"
-      ],
-      "key_gaps": [
-        "Experience in using LLMs",
-        "Hands-on machine learning experience on classification, regression, clustering, and text Mining"
-      ],
-      "rationale": "Ben has relevant skills in Python and PyTorch, but lacks specific experience in NLP and LLMs, which are crucial for this role.",
-      "job_summary": "This role involves working as a Data Scientist to build, test, and maintain NLP solutions using AI technology, focusing on data science project life cycles and automation pipelines.",
-      "top_qualifications": [
-        "At least 4+ years of relevant applied experience and MSc/MTech in the field of computer science, data science, artificial intelligence, mathematics, statistics, bioinformatics or other quantitative fields",
-        "Strong hands-on knowledge of Python, able to write unit tests and production ready code adhering to best practices",
-        "Proven experience in NLP with the use of BERT models or its variations"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
-      }
-    },
-    {
-      "id": "dfc5b104a7200a9e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4402708942",
-      "title": "Data Scientist",
-      "company": "Magno IT Recruitment",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-18T04:59:38.877211",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "Data processing and analysis skills with NumPy",
-        "Hands-on machine learning experience with PyTorch"
-      ],
-      "key_gaps": [
-        "Experience in using LLMs",
-        "Specific experience with NLP extraction models"
-      ],
-      "rationale": "Ben has relevant skills in Python and machine learning, but lacks specific experience in NLP and the use of LLMs, which are critical for this role.",
-      "job_summary": "This role involves working as a Data Scientist to build, test, and maintain NLP solutions using AI technology, focusing on data science projects from design to deployment.",
-      "top_qualifications": [
-        "At least 4+ years of relevant applied experience",
-        "Strong hands-on knowledge of Python",
-        "Proven experience in NLP with the use of BERT models"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Magno%20IT%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Magno%20IT%20Recruitment"
-      }
-    },
-    {
-      "id": "648bb5b4cd1a7db0",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4390771792",
-      "title": "AI Engineer",
-      "company": "Nationale-Nederlanden",
-      "location": "The Hague, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-18T04:59:38.866954",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "AI solutions development",
-        "data analysis"
-      ],
-      "key_gaps": [
-        "Master's degree in a related field",
-        "Experience in developing APIs",
-        "Experience with automated cloud solutions using (Azure) CI/CD tools"
-      ],
-      "rationale": "Ben has relevant skills in Python and AI solutions development, but he lacks a Master's degree in a required field and specific experience in developing APIs and cloud solutions, which are critical for this role.",
-      "job_summary": "The AI Engineer role involves creating data science solutions for operational teams, translating business needs into AI applications, and bringing these solutions into production using various AI techniques.",
-      "top_qualifications": [
-        "A completed university education with a master\u2019s degree in Computer Science, Econometrics, Mathematics, or another STEM-related field",
-        "Experience in developing ML applications in Python",
-        "Practical knowledge of the data science process, such as data collection, cleaning, model evaluation, and model implementation"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Nationale-Nederlanden&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Nationale-Nederlanden"
-      }
-    },
-    {
-      "id": "f8b4104b61eb52b8",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403537473",
-      "title": "Senior Machine Learning Scientist (For independent contractors)",
-      "company": "Booking.com",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-04-18T04:59:38.822659",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "Machine Learning",
-        "Data analysis"
-      ],
-      "key_gaps": [
-        "Experience in advertising or commercial ML applications",
-        "Specific experience with production-grade ML code for scalable systems"
-      ],
-      "rationale": "While Ben has strong skills in Python and machine learning, the role's focus on commercial applications in advertising and the need for specific production experience create a moderate fit.",
-      "job_summary": "The Senior Machine Learning Scientist at Booking.com will lead the development and improvement of machine learning models for Sponsored Ads, translating business problems into ML challenges and overseeing the end-to-end ML development process.",
-      "top_qualifications": [
-        "Machine Learning model development",
-        "End-to-end ML solutions",
-        "Cross-functional collaboration"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
-      }
-    },
-    {
-      "id": "0974578c1fe129df",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403426837",
-      "title": "Data Scientist",
-      "company": "Joveo Ai",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-18T04:59:38.818835",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "AI agent development",
-        "Machine learning"
-      ],
-      "key_gaps": [
-        "Specific experience in NLP and predictive analytics",
-        "Experience with big data frameworks and cloud deployment"
-      ],
-      "rationale": "This score reflects a moderate fit due to Ben's strong Python and machine learning skills, but he lacks specific experience in NLP and big data frameworks required for the role.",
-      "job_summary": "The Data Scientist role at Joveo Ai involves building and deploying NLP models and predictive algorithms to optimize job embeddings and applicant forecasting. The position requires collaboration with product managers and software engineers to implement AI/ML solutions in recruitment advertising.",
-      "top_qualifications": [
-        "Proven experience in building machine learning models, specifically in NLP and predictive analytics",
-        "Proficiency in Python and relevant libraries (NumPy, Pandas, SciPy, Gensim)",
-        "Experience with big data frameworks and deploying models into cloud environments"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Joveo%20Ai"
-      }
-    },
-    {
-      "id": "6c3d998d92f65392",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=4afe25fd2089933c",
-      "title": "Fullstack Software Engineer - Core",
-      "company": "DATAIKU",
-      "location": "Amsterdam, NH, NL",
-      "date_posted": "2026-04-15",
-      "date_found": "2026-04-17T10:49:44.718719",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "data analysis"
-      ],
-      "key_gaps": [
-        "Experience with Java and Angular frameworks",
-        "Specific experience in data preparation and visualization tools"
-      ],
-      "rationale": "While Ben has strong skills in Python and machine learning relevant to the role, the requirement for Java and Angular experience, as well as a focus on data preparation and visualization, presents significant gaps.",
-      "job_summary": "The Fullstack Software Engineer at Dataiku will contribute to building core features of the Dataiku Data Science Studio, focusing on data preparation, AI and machine learning, data consumption, and data visualization.",
-      "top_qualifications": [
-        "Python",
-        "Machine Learning",
-        "Data Visualization"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=DATAIKU&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=DATAIKU&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=DATAIKU&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=DATAIKU"
-      }
-    },
-    {
-      "id": "63ad0c6764e0e408",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4402937500",
-      "title": "Data Scientist",
-      "company": "Joveo Ai",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-04-17T10:49:44.662704",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "NumPy",
-        "SciPy"
-      ],
-      "key_gaps": [
-        "Experience in NLP and predictive analytics",
-        "Experience with big data frameworks and cloud deployment"
-      ],
-      "rationale": "Ben has strong Python and data analysis skills but lacks specific experience in NLP and big data frameworks required for this Data Scientist role.",
-      "job_summary": "The Data Scientist role at Joveo Ai involves building and deploying NLP models and predictive algorithms to optimize job embeddings and applicant forecasting, working closely with product managers and software engineers.",
-      "top_qualifications": [
-        "Proven experience in building machine learning models, specifically in NLP and predictive analytics",
-        "Proficiency in Python and relevant libraries (NumPy, Pandas, SciPy, Gensim)",
-        "Experience with big data frameworks and deploying models into cloud environments"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Joveo%20Ai&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Joveo%20Ai"
-      }
-    },
-    {
-      "id": "180445c4bfc32c98",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401854111",
-      "title": "Senior Machine Learning Engineer - AI Enabler Team",
-      "company": "Jobgether",
-      "location": "",
-      "date_posted": "2026-04-16",
-      "date_found": "2026-04-17T10:49:44.651240",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "machine learning",
-        "data analysis"
-      ],
-      "key_gaps": [
-        "Experience with cloud platforms and containerized environments (e.g., Kubernetes)",
-        "Strong understanding of distributed systems"
-      ],
-      "rationale": "Ben has relevant skills in Python and machine learning, but lacks specific experience with cloud platforms and distributed systems, which are critical for this role.",
-      "job_summary": "The Senior Machine Learning Engineer will design and optimize machine learning pipelines for large-scale environments, focusing on AI and cloud infrastructure while collaborating with cross-functional teams.",
-      "top_qualifications": [
-        "5+ years of hands-on experience in machine learning",
-        "Advanced programming skills in Python",
-        "Expertise in ML inference optimization techniques"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
-      }
-    },
-    {
-      "id": "7e510430ab4e7a1d",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4380517383",
-      "title": "Senior Machine Learning Scientist I",
-      "company": "Booking.com",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "2026-04-16",
-      "date_found": "2026-04-17T10:49:44.649746",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "data analysis",
-        "experience collaborating cross-functionally"
-      ],
-      "key_gaps": [
-        "Experience in Computer Vision and Natural Language Processing",
-        "Experience with large-scale machine learning model development",
-        "Experience with LLMs and recommendation systems"
-      ],
-      "rationale": "While Ben has strong programming and data analysis skills, he lacks specific experience in Computer Vision and NLP, as well as the required expertise in LLMs and large-scale model development, which are critical for this role.",
-      "job_summary": "The Senior Machine Learning Scientist will design, develop, and evaluate machine learning solutions for customer-facing applications, focusing on multimodal machine learning techniques and collaboration with cross-functional teams.",
-      "top_qualifications": [
-        "Advanced knowledge and experience in Computer Vision and Natural Language Processing",
-        "Experience designing and executing end-to-end research and development plans",
-        "Relevant work or academic experience involved in the application of Machine Learning to business problems"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Booking.com&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Booking.com"
-      }
-    },
-    {
-      "id": "cc896312bb71e611",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401870030",
-      "title": "Senior Machine Learning Engineer: ML Recall",
-      "company": "Jobgether",
-      "location": "",
-      "date_posted": "2026-04-16",
-      "date_found": "2026-04-17T10:49:44.648249",
-      "score": 50,
-      "fit_category": "moderate",
-      "key_matches": [
-        "Python",
-        "PyTorch",
-        "machine learning systems"
-      ],
-      "key_gaps": [
-        "Experience in NLP and transformer-based models",
-        "Professional experience specifically in applied machine learning for ecommerce"
-      ],
-      "rationale": "The score reflects moderate alignment due to Ben's strong Python and PyTorch skills, but significant gaps exist in specific NLP experience and the required professional background in applied machine learning for ecommerce.",
-      "job_summary": "This role involves designing and optimizing machine learning systems for an ecommerce search and discovery platform, focusing on NLP and multimodal models to enhance user experience and business outcomes.",
-      "top_qualifications": [
-        "3+ years of professional experience in applied machine learning",
-        "Strong expertise in NLP, particularly transformer-based models",
-        "Advanced Python skills and hands-on experience with deep learning frameworks (PyTorch preferred)"
-      ],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
-      }
-    },
-    {
       "id": "8758d49360b3b7fa",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4392849582",
@@ -3299,534 +2556,14 @@
       }
     },
     {
-      "id": "c60c3af5fa605828",
+      "id": "81990ccdb20ad234",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401305664",
-      "title": "Co-Founder, CTO (Construction Robotics)",
-      "company": "Marble",
-      "location": "North Holland, Netherlands",
-      "date_posted": null,
-      "date_found": "2026-05-12T05:27:44.063870",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Marble&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Marble"
-      }
-    },
-    {
-      "id": "b43d7b1018f2e71e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4413087096",
-      "title": "Lead Software Engineer- Embedded Linux Platform",
-      "company": "Signify",
-      "location": "Eindhoven, North Brabant, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.061610",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Signify&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Signify&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Signify&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Signify"
-      }
-    },
-    {
-      "id": "5accb296dcd90eb1",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4405248429",
-      "title": "Postdoc in Physicochemical Processes in Sediment Depots for Resource Recovery",
-      "company": "Delft University of Technology",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.059217",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
-      }
-    },
-    {
-      "id": "b66ce0b85b049d9a",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4413100246",
-      "title": "3 postdocs: FAIR research infrastructures for the social sciences and humanities",
-      "company": "Vrije Universiteit Amsterdam (VU Amsterdam)",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.056982",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29"
-      }
-    },
-    {
-      "id": "69300824a1941c10",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412908868",
-      "title": "3 postdocs: FAIR research infrastructures for the social sciences and humanities",
-      "company": "Athena - Research and Education Institute",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.054323",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Athena%20-%20Research%20and%20Education%20Institute&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Athena%20-%20Research%20and%20Education%20Institute&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Athena%20-%20Research%20and%20Education%20Institute&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Athena%20-%20Research%20and%20Education%20Institute"
-      }
-    },
-    {
-      "id": "d986e79f7cb52019",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412738324",
-      "title": "PhD/Postdoc Position: Modelling the Effects of Nature-inclusive Agriculture and Forestry on Biodiversity and Ecosystem Services",
-      "company": "Radboud University",
-      "location": "Nijmegen, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.051561",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20University"
-      }
-    },
-    {
-      "id": "51017c7e4a1304d7",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412726953",
-      "title": "Postdoc Position: Evaluating the Effectiveness of National Nature Restoration Plans",
-      "company": "Radboud University",
-      "location": "Nijmegen, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.049263",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20University"
-      }
-    },
-    {
-      "id": "dff2c3186015f183",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412715936",
-      "title": "Postdoc Position: Evaluating the Effectiveness of National Nature Restoration Plans",
-      "company": "Radboud Summer School",
-      "location": "Nijmegen, Gelderland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.047055",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Radboud%20Summer%20School&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Radboud%20Summer%20School"
-      }
-    },
-    {
-      "id": "b23e2397b4fbf5e3",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=e222ffca4d3d86d8",
-      "title": "Postdoctoral researcher - project on the effects of Imagery Rescripting on memory accuracy",
-      "company": "Maastricht University",
-      "location": "Maastricht, LI, NL",
-      "date_posted": "2026-05-11",
-      "date_found": "2026-05-12T05:27:44.044787",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Maastricht%20University&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Maastricht%20University&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Maastricht%20University&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Maastricht%20University"
-      }
-    },
-    {
-      "id": "9b6930d9ae3068ff",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4401283951",
-      "title": "Postdoctoral Fellow - Mathematics & Statistics",
-      "company": "UNSW",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.042569",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=UNSW&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UNSW"
-      }
-    },
-    {
-      "id": "94aacb065fb2762c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4405862468",
-      "title": "Postdoc Tactile Robotics for Dexterous Manipulation",
-      "company": "Delft University of Technology",
-      "location": "Delft, South Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.040644",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Delft%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Delft%20University%20of%20Technology"
-      }
-    },
-    {
-      "id": "314aa63c10580623",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412646867",
-      "title": "Senior Software Engineer (32-40 uur)",
-      "company": "NAVARA",
-      "location": "Driebergen-Rijsenburg, Utrecht, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.034941",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NAVARA&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NAVARA&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=NAVARA&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NAVARA"
-      }
-    },
-    {
-      "id": "50ed0890c0f3d29a",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4398104753",
-      "title": "Data Engineer",
-      "company": "Xccelerated | Part of Xebia",
-      "location": "The Randstad, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.032972",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xccelerated%20%7C%20Part%20of%20Xebia&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xccelerated%20%7C%20Part%20of%20Xebia&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xccelerated%20%7C%20Part%20of%20Xebia&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xccelerated%20%7C%20Part%20of%20Xebia"
-      }
-    },
-    {
-      "id": "358bb96e75a59b2e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4403330383",
-      "title": "Software Engineer",
-      "company": "Navico Group",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.030830",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Navico%20Group&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Navico%20Group&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Navico%20Group&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Navico%20Group"
-      }
-    },
-    {
-      "id": "3cb44e5b2d69c804",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412794441",
-      "title": "Software Engineer (Python)",
-      "company": "Protolabs",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.028665",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Protolabs&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Protolabs&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Protolabs&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Protolabs"
-      }
-    },
-    {
-      "id": "8e0187099524b4e9",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4386303826",
-      "title": "Data Engineer (SQL/AI)",
-      "company": "Reederei NORD Group",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.026329",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Reederei%20NORD%20Group&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Reederei%20NORD%20Group&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Reederei%20NORD%20Group&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Reederei%20NORD%20Group"
-      }
-    },
-    {
-      "id": "28de17eb69173f8a",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4269622551",
-      "title": "Data Engineer @ Xomnia",
-      "company": "Xomnia",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "date_posted": "2026-05-10",
-      "date_found": "2026-05-12T05:27:44.024112",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xomnia&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xomnia&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xomnia&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xomnia"
-      }
-    },
-    {
-      "id": "3541b37f7e21b7ff",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=4d0bb70f12564d13",
-      "title": "Senior Data Analyst I",
-      "company": "RELX Group",
-      "location": "Amsterdam, NH, NL",
-      "date_posted": "2026-05-11",
-      "date_found": "2026-05-12T05:27:44.022010",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=RELX%20Group&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=RELX%20Group&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=RELX%20Group&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=RELX%20Group"
-      }
-    },
-    {
-      "id": "e441838ff62f3250",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=5cef5a23c701737b",
-      "title": "Senior Data Analyst I",
-      "company": "Elsevier",
-      "location": "Amsterdam, NH, NL",
-      "date_posted": "2026-05-11",
-      "date_found": "2026-05-12T05:27:44.019755",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Elsevier"
-      }
-    },
-    {
-      "id": "9339c51d0cc860bb",
-      "source": "indeed",
-      "url": "https://nl.indeed.com/viewjob?jk=67a8b6daff4a4384",
-      "title": "Senior AI Engineer",
-      "company": "Shypple",
-      "location": "Rotterdam, ZH, NL",
-      "date_posted": "2026-05-11",
-      "date_found": "2026-05-12T05:27:44.017454",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Shypple&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Shypple&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Shypple&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Shypple"
-      }
-    },
-    {
-      "id": "ef3e76f43b144af8",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4413033653",
-      "title": "AI/ML/LLM Systems Engineer - Enterprise AI Platform Engineer - Relocate To Saudia Arabia",
-      "company": "aramco",
+      "url": "https://www.linkedin.com/jobs/view/4412916765",
+      "title": "Quantitative Researcher",
+      "company": "Venture Search",
       "location": "",
       "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.011199",
+      "date_found": "2026-05-12T08:31:15.683005",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -3838,21 +2575,21 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=aramco&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=aramco&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=aramco&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=aramco"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Venture%20Search&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Venture%20Search&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Venture%20Search&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Venture%20Search"
       }
     },
     {
-      "id": "d2cd07f38ac1ca55",
+      "id": "85e7cad211c2ffbb",
       "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4412642791",
-      "title": "Senior ML Engineer (Evaluation)",
-      "company": "kaiko.ai",
-      "location": "Amsterdam, North Holland, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4412768973",
+      "title": "Senior Marketing Data Scientist",
+      "company": "OUTFIT7",
+      "location": "",
       "date_posted": "nan",
-      "date_found": "2026-05-12T05:27:44.008056",
+      "date_found": "2026-05-12T08:31:15.680351",
       "score": null,
       "fit_category": null,
       "key_matches": [],
@@ -3864,10 +2601,660 @@
       "feedback": 0,
       "connection_notes": "",
       "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=kaiko.ai&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=kaiko.ai"
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=OUTFIT7&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=OUTFIT7&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=OUTFIT7&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=OUTFIT7"
+      }
+    },
+    {
+      "id": "87254af012bdbd32",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412494027",
+      "title": "Senior Data Scientist (m/w/d)",
+      "company": "INC Innovation Center",
+      "location": "Aachen, North Rhine-Westphalia, Germany",
+      "date_posted": "2026-05-09",
+      "date_found": "2026-05-12T08:31:15.677718",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=INC%20Innovation%20Center&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=INC%20Innovation%20Center&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=INC%20Innovation%20Center&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=INC%20Innovation%20Center"
+      }
+    },
+    {
+      "id": "b69dbea40729d5bd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412782702",
+      "title": "Quantitative Researcher",
+      "company": "GradBay",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.675118",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=GradBay&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=GradBay&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=GradBay&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=GradBay"
+      }
+    },
+    {
+      "id": "1e75677c942834ef",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413048754",
+      "title": "Data & Trends Researcher",
+      "company": "Gold Group Ltd",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.672715",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Gold%20Group%20Ltd&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Gold%20Group%20Ltd&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Gold%20Group%20Ltd&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Gold%20Group%20Ltd"
+      }
+    },
+    {
+      "id": "3db94da71a193afe",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412724019",
+      "title": "Quantitative Researcher - Index Arb",
+      "company": "Durlston Partners",
+      "location": "",
+      "date_posted": "2026-05-11",
+      "date_found": "2026-05-12T08:31:15.670287",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Durlston%20Partners&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Durlston%20Partners&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Durlston%20Partners&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Durlston%20Partners"
+      }
+    },
+    {
+      "id": "7872672c4a715818",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413291521",
+      "title": "Platform Engineer (AWS), Go/Python focused, Infrastructure, SRE | Hyper growth AI Drug Discovery B2B platform | Fully Remote, EU | Base Salary up to \u00a385,000, plus early equity+benefits",
+      "company": "Owen Thomas | B Corp\u2122",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.667932",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Owen%20Thomas%20%7C%20B%20Corp%E2%84%A2&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Owen%20Thomas%20%7C%20B%20Corp%E2%84%A2&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Owen%20Thomas%20%7C%20B%20Corp%E2%84%A2&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Owen%20Thomas%20%7C%20B%20Corp%E2%84%A2"
+      }
+    },
+    {
+      "id": "d46a0ae2ac41644b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4397546787",
+      "title": "AI & Automation Specialist (Power Apps & Copilot)",
+      "company": "Projective Talent | Part of Projective Group",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.665278",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group"
+      }
+    },
+    {
+      "id": "8d6d221eb03f36a6",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412566256",
+      "title": "Design Engineer",
+      "company": "Zest Search",
+      "location": "",
+      "date_posted": "2026-05-10",
+      "date_found": "2026-05-12T08:31:15.662624",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Zest%20Search&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Zest%20Search&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Zest%20Search&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Zest%20Search"
+      }
+    },
+    {
+      "id": "5e11a0d4f01c2d04",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412717354",
+      "title": "Freelance Agent Evaluation Engineer",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "2026-05-11",
+      "date_found": "2026-05-12T08:31:15.660276",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "a6e09a72d60a3bfb",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413264588",
+      "title": "Software Engineer",
+      "company": "Zetheta Algorithms Private Limited",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.657874",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Zetheta%20Algorithms%20Private%20Limited&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Zetheta%20Algorithms%20Private%20Limited&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Zetheta%20Algorithms%20Private%20Limited&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Zetheta%20Algorithms%20Private%20Limited"
+      }
+    },
+    {
+      "id": "090b8dc6a9aca01e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413523053",
+      "title": "Senior IA Engineer",
+      "company": "Celestica",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.655459",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Celestica&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Celestica&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Celestica&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Celestica"
+      }
+    },
+    {
+      "id": "100a90717a5f00f2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412919034",
+      "title": "HPC Applications Engineer",
+      "company": "Axiom Software Solutions Limited",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.653035",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axiom%20Software%20Solutions%20Limited&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axiom%20Software%20Solutions%20Limited&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axiom%20Software%20Solutions%20Limited&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axiom%20Software%20Solutions%20Limited"
+      }
+    },
+    {
+      "id": "8e4701057c2b3e83",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4406490220",
+      "title": "Medior Data Scientist",
+      "company": "Projective Talent | Part of Projective Group",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.650560",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Projective%20Talent%20%7C%20Part%20of%20Projective%20Group"
+      }
+    },
+    {
+      "id": "db628f105c545077",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412734309",
+      "title": "Generative AI lead",
+      "company": "Kryptos Technologies UK Limited",
+      "location": "Beerse, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.648117",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Kryptos%20Technologies%20UK%20Limited&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Kryptos%20Technologies%20UK%20Limited&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Kryptos%20Technologies%20UK%20Limited&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Kryptos%20Technologies%20UK%20Limited"
+      }
+    },
+    {
+      "id": "e3295742e964a066",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412920784",
+      "title": "Medior Data Scientist",
+      "company": "Proximus Ada",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.645124",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Proximus%20Ada&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Proximus%20Ada&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Proximus%20Ada&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Proximus%20Ada"
+      }
+    },
+    {
+      "id": "ff63cf2d4b8879b4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413056274",
+      "title": "AI Digital Transformation Specialist",
+      "company": "BMW Group",
+      "location": "Aartselaar, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.642833",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=BMW%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=BMW%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=BMW%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=BMW%20Group"
+      }
+    },
+    {
+      "id": "7794399fadc6486c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413032225",
+      "title": "Data Scientist / Data Engineer - Hybrid",
+      "company": "All European Careers",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.640398",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=All%20European%20Careers"
+      }
+    },
+    {
+      "id": "e8ff9044c68199aa",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4404315625",
+      "title": "ML Engineering Lead",
+      "company": "DeepRec.ai",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.638018",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=DeepRec.ai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=DeepRec.ai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=DeepRec.ai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=DeepRec.ai"
+      }
+    },
+    {
+      "id": "9151eef91e6e3b32",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413197944",
+      "title": "AI & Optimization Engineer",
+      "company": "Jobgether",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.635591",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
+      }
+    },
+    {
+      "id": "e7f0b1b9d1106a55",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412912206",
+      "title": "Machine Learning Engineer",
+      "company": "NXS Tech Ltd",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.633122",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NXS%20Tech%20Ltd&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NXS%20Tech%20Ltd&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=NXS%20Tech%20Ltd&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NXS%20Tech%20Ltd"
+      }
+    },
+    {
+      "id": "08167de70e3b758e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413158703",
+      "title": "Data Scientist",
+      "company": "Cronos Europa",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.630676",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Cronos%20Europa&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Cronos%20Europa&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Cronos%20Europa&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Cronos%20Europa"
+      }
+    },
+    {
+      "id": "19901c862c93ad7a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412746821",
+      "title": "Machine Learning Engineer",
+      "company": "Jobgether",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.628271",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
+      }
+    },
+    {
+      "id": "72f3faa9371c7e3d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412455491",
+      "title": "Quantum Research Scientist with Python - Freelance AI Trainer",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "2026-05-09",
+      "date_found": "2026-05-12T08:31:15.625912",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "707b96220382d46c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412385944",
+      "title": "Founding AI Research Scientist",
+      "company": "Stealth Startup",
+      "location": "",
+      "date_posted": "2026-05-10",
+      "date_found": "2026-05-12T08:31:15.623290",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Stealth%20Startup&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Stealth%20Startup&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Stealth%20Startup&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Stealth%20Startup"
+      }
+    },
+    {
+      "id": "1c6fb5ba4537fe22",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412713525",
+      "title": "Software Engineer",
+      "company": "Predikt",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-05-11",
+      "date_found": "2026-05-12T08:31:15.620817",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Predikt&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Predikt&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Predikt&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Predikt"
+      }
+    },
+    {
+      "id": "1054b91686f28523",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412795253",
+      "title": "Software Engineer AI Platforms",
+      "company": "Robert Vint",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-12T08:31:15.618301",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Robert%20Vint&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Robert%20Vint&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Robert%20Vint&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Robert%20Vint"
       }
     }
   ]
