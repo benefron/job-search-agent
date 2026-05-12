@@ -39,6 +39,12 @@ TARGET_CITIES = {
     "eindhoven",
     "haarlem",
     "nijmegen",
+    # Belgium
+    "leuven",
+    "ghent",
+    "brussels",
+    "mechelen",
+    "hasselt",
 }
 
 # Maps institution names (lowercase) to city label
@@ -61,6 +67,24 @@ LOCATION_HINTS = {
     ],
     "haarlem": ["haarlem"],
     "nijmegen": ["radboud university", "radboudumc", "nijmegen"],
+    # Belgium
+    "leuven": [
+        "ku leuven",
+        "katholieke universiteit leuven",
+        "imec",
+        "vib",
+        "leuven",
+    ],
+    "ghent": ["ghent university", "universiteit gent", "ugent", "vib-ugent", "ghent"],
+    "brussels": [
+        "vrije universiteit brussel",
+        "vub",
+        "ulb",
+        "université libre de bruxelles",
+        "brussels",
+    ],
+    "mechelen": ["mechelen"],
+    "hasselt": ["uhasselt", "hasselt university", "hasselt"],
 }
 
 # Topics to search as paper keywords (results = NL authors publishing on these topics)
@@ -132,10 +156,10 @@ def _match_target_city(inst_name: str) -> str | None:
 
 
 def _batch_verify_nl_current(author_ids: list[str]) -> dict[str, dict]:
-    """Batch-fetch author records; return only those whose *current* institution is NL.
+    """Batch-fetch author records; return those whose *current* institution is NL or BE.
 
     OpenAlex `last_known_institutions` reflects where the author is now,
-    not where they did a past PhD. This filters out former NL students abroad.
+    not where they did a past PhD. This filters out former NL/BE students abroad.
     Returned dict maps full OpenAlex author URL → enriched author record.
     """
     if not author_ids:
@@ -169,7 +193,7 @@ def _batch_verify_nl_current(author_ids: list[str]) -> dict[str, dict]:
             institutions = a.get("last_known_institutions") or []
             if not institutions:
                 continue
-            if institutions[0].get("country_code") != "NL":
+            if institutions[0].get("country_code") not in ("NL", "BE"):
                 continue  # currently abroad
 
             # Field-based exclusion: check top topics/concepts for irrelevant fields
@@ -187,13 +211,13 @@ def _batch_verify_nl_current(author_ids: list[str]) -> dict[str, dict]:
 
 
 def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
-    """Two-step pipeline: find NL paper authors, then verify current NL affiliation."""
+    """Two-step pipeline: find NL/BE paper authors, then verify current NL/BE affiliation."""
     # --- Phase 1: /works search (may include past affiliations on older papers) ---
     try:
         resp = requests.get(
             f"{OPENALEX_BASE}/works",
             params={
-                "filter": "authorships.institutions.country_code:NL",
+                "filter": "authorships.institutions.country_code:NL|BE",
                 "search": topic,
                 "per-page": 50,
                 "select": "id,title,authorships",
@@ -219,7 +243,7 @@ def _fetch_nl_authors_for_topic(topic: str) -> list[dict]:
 
             nl_inst = None
             for inst in authorship.get("institutions", []):
-                if inst.get("country_code") == "NL":
+                if inst.get("country_code") in ("NL", "BE"):
                     nl_inst = inst
                     break
             if nl_inst is None:
@@ -304,11 +328,11 @@ def refresh_labs_if_due(force: bool = False) -> None:
         logger.info("Lab mapping not due yet — keeping existing labs.json")
         return
 
-    logger.info("Refreshing potential labs/researchers map via OpenAlex works…")
+    logger.info("Refreshing potential labs/researchers map via OpenAlex works (NL + BE)…")
     found: dict[str, dict] = {}  # keyed by OpenAlex author URL
 
     for topic in TOPICS:
-        logger.info("  Querying NL works for topic: %s", topic)
+        logger.info("  Querying NL/BE works for topic: %s", topic)
         authors = _fetch_nl_authors_for_topic(topic)
         for a in authors:
             url = a["url"]

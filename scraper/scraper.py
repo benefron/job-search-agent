@@ -46,9 +46,15 @@ SEARCH_QUERIES = [
     ("computer vision scientist", "Netherlands"),
     ("ML engineer research", "Netherlands"),
     ("machine learning engineer", "Amsterdam Netherlands"),
-    # Belgium
+    # Belgium — Leuven & surroundings (Ghent, Brussels, Mechelen, Hasselt)
     ("neuromorphic", "Leuven Belgium"),
     ("neuroengineering", "Leuven Belgium"),
+    ("computational neuroscience", "Leuven Belgium"),
+    ("brain-computer interface", "Leuven Belgium"),
+    ("edge AI engineer", "Leuven Belgium"),
+    ("ML engineer research", "Leuven Belgium"),
+    ("data scientist machine learning", "Ghent Belgium"),
+    ("research scientist AI", "Brussels Belgium"),
     ("embedded AI", "Eindhoven Netherlands"),
     # Academic postdocs
     ("postdoctoral researcher computational neuroscience", "Netherlands"),
