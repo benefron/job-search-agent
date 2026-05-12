@@ -46,15 +46,14 @@ SEARCH_QUERIES = [
     ("computer vision scientist", "Netherlands"),
     ("ML engineer research", "Netherlands"),
     ("machine learning engineer", "Amsterdam Netherlands"),
-    # Belgium — Leuven & surroundings (Ghent, Brussels, Mechelen, Hasselt)
-    ("neuromorphic", "Leuven Belgium"),
-    ("neuroengineering", "Leuven Belgium"),
-    ("computational neuroscience", "Leuven Belgium"),
-    ("brain-computer interface", "Leuven Belgium"),
-    ("edge AI engineer", "Leuven Belgium"),
-    ("ML engineer research", "Leuven Belgium"),
-    ("data scientist machine learning", "Ghent Belgium"),
+    # Belgium — Leuven, Brussels, Mechelen, Hasselt (R&D / applied science only)
+    ("research scientist neuromorphic", "Leuven Belgium"),
+    ("applied scientist machine learning", "Leuven Belgium"),
+    ("R&D engineer AI", "Leuven Belgium"),
     ("research scientist AI", "Brussels Belgium"),
+    ("applied scientist signal processing", "Brussels Belgium"),
+    ("R&D scientist embedded AI", "Mechelen Belgium"),
+    ("research scientist machine learning", "Hasselt Belgium"),
     ("embedded AI", "Eindhoven Netherlands"),
     # Academic postdocs
     ("postdoctoral researcher computational neuroscience", "Netherlands"),
@@ -97,6 +96,17 @@ _DUTCH_SIGNALS = [
     "jouw profiel", "wij zoeken", "jouw taken", "je bent",
     "wij bieden", "over ons", "als je", "ervaring met",
     "kennis van", "je hebt", "je beschikt", "ons team",
+    "vacature", "solliciteer", "arbeidsvoorwaarden", "werkgever",
+    "je werkt", "je gaat", "wij zijn", "ben jij", "heb jij",
+]
+
+# Common French words that signal a French-language posting
+_FRENCH_SIGNALS = [
+    "description du poste", "responsabilités", "compétences requises",
+    "nous recherchons", "profil recherché", "ce que nous offrons",
+    "votre profil", "vos missions", "votre rôle", "rejoignez",
+    "nous vous offrons", "notre équipe", "poste à pourvoir",
+    "expérience en", "connaissance de", "maîtrise de",
 ]
 
 _DUTCH_FLUENCY = [
@@ -125,8 +135,13 @@ def _should_exclude(title: str, description: str) -> str | None:
 
     # Dutch-language description
     dutch_hits = sum(1 for s in _DUTCH_SIGNALS if s in d)
-    if dutch_hits >= 3:
+    if dutch_hits >= 2:
         return f"Dutch-language posting ({dutch_hits} signals)"
+
+    # French-language description
+    french_hits = sum(1 for s in _FRENCH_SIGNALS if s in d)
+    if french_hits >= 2:
+        return f"French-language posting ({french_hits} signals)"
 
     # Dutch fluency requirement
     for pat in _DUTCH_FLUENCY:
