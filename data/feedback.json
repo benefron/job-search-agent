@@ -31,7 +31,8 @@
     "record_type": "job",
     "url": "https://www.linkedin.com/jobs/view/4382588088",
     "name": "Senior AI Architect (Systems & Algorithms)",
-    "connection_notes": "Possible, but maybe too senior. Will explore similar positions, maybe not mentioned via connections in imec, can't apply as is."
+    "connection_notes": "Possible, but maybe too senior. Will explore similar positions, maybe not mentioned via connections in imec, can't apply as is.",
+    "status": "applied"
   },
   {
     "feedback": -1,
@@ -223,7 +224,8 @@
     "id": "61368243fb69c6a9",
     "record_type": "job",
     "url": "https://www.linkedin.com/jobs/view/4377129839",
-    "name": "Computer Vision Scientist/Data Scientist"
+    "name": "Computer Vision Scientist/Data Scientist",
+    "status": "applied"
   },
   {
     "feedback": -1,
@@ -586,5 +588,206 @@
     "record_type": "job",
     "url": "https://www.linkedin.com/jobs/view/4384081187",
     "name": "AI/ML Multimodal Data Scientist (m/w/d)"
+  },
+  {
+    "feedback": -1,
+    "id": "8e9fbe72185ff129",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4400393133",
+    "name": "Data Scientist",
+    "connection_notes": "don't sponsor visa",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "6c3d998d92f65392",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=4afe25fd2089933c",
+    "name": "Fullstack Software Engineer - Core",
+    "status": "delete"
+  },
+  {
+    "feedback": -1,
+    "id": "950ed9293f1cb68c",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403317817",
+    "name": "Machine Learning Engineer"
+  },
+  {
+    "feedback": -1,
+    "id": "2285c67f17bcebaf",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4400842684",
+    "name": "MLOps Engineer I"
+  },
+  {
+    "feedback": -1,
+    "id": "40cf5675220f1f9b",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403500094",
+    "name": "Computer Vision & ML Expert"
+  },
+  {
+    "feedback": 1,
+    "id": "88297cba79de12b2",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4402948015",
+    "name": "AI Research Engineer"
+  },
+  {
+    "feedback": -1,
+    "id": "9d0f4f2895e3c9da",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403320454",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "79cab6296b46b7fb",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403090692",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "dfc5b104a7200a9e",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4402708942",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "648bb5b4cd1a7db0",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4390771792",
+    "name": "AI Engineer"
+  },
+  {
+    "feedback": -1,
+    "id": "f8b4104b61eb52b8",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403537473",
+    "name": "Senior Machine Learning Scientist (For independent contractors)"
+  },
+  {
+    "feedback": -1,
+    "id": "0974578c1fe129df",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403426837",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "63ad0c6764e0e408",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4402937500",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "180445c4bfc32c98",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4401854111",
+    "name": "Senior Machine Learning Engineer - AI Enabler Team"
+  },
+  {
+    "feedback": -1,
+    "id": "7e510430ab4e7a1d",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4380517383",
+    "name": "Senior Machine Learning Scientist I"
+  },
+  {
+    "feedback": -1,
+    "id": "cc896312bb71e611",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4401870030",
+    "name": "Senior Machine Learning Engineer: ML Recall"
+  },
+  {
+    "feedback": -1,
+    "id": "d4d0bdda19227360",
+    "record_type": "job",
+    "url": "https://nl.indeed.com/viewjob?jk=0fab2edaaecc0e0b",
+    "name": "Applied Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "1baeebc560c00d86",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4403349458",
+    "name": "AI Research Engineer - Reinforcement Learning"
+  },
+  {
+    "feedback": -1,
+    "id": "f36dd0d4502334fa",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4404219676",
+    "name": "Founding Engineer — World Models & Physical AI"
+  },
+  {
+    "feedback": -1,
+    "id": "32c82a19f7c8af61",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4404357415",
+    "name": "Senior Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "ea9b7f9d634aac86",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4404338537",
+    "name": "Data Scientist"
+  },
+  {
+    "feedback": -1,
+    "id": "2ec9b4c67648b9bb",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4405830987",
+    "name": "Postdoc Tactile Robotics for Dexterous Manipulation"
+  },
+  {
+    "feedback": 1,
+    "id": "be4005af68e3aea9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4408345744",
+    "name": "Data Scientist - Remote"
+  },
+  {
+    "feedback": -1,
+    "id": "6ae2111645c27f96",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4369956782",
+    "name": "Senior Data Scientist, Vinted Go Carrier Technology"
+  },
+  {
+    "feedback": 1,
+    "id": "3da84e4dd3de9dd9",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4409110957",
+    "name": "Computer Vision & ML Expert"
+  },
+  {
+    "feedback": 1,
+    "id": "ab09e1a9856c8dbb",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4408359503",
+    "name": "Data Scientist - Remote"
+  },
+  {
+    "status": "applied",
+    "id": "dddf0001e19b73c3",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4409409956",
+    "name": "Applied Data Scientist - Europe",
+    "feedback": 1
+  },
+  {
+    "feedback": -1,
+    "id": "a49e4c79683630b4",
+    "record_type": "job",
+    "url": "https://www.linkedin.com/jobs/view/4410553300",
+    "name": "Senior Data Scientist",
+    "connection_notes": "The add is in dutch"
   }
 ]
