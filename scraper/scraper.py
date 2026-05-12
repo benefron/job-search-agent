@@ -70,6 +70,31 @@ SEARCH_QUERIES = [
 SITES = ["linkedin", "indeed"]
 
 # ---------------------------------------------------------------------------
+# Location filter — hierarchical allow-list
+# Only jobs whose location string matches a target country or city pass.
+# Remote jobs are always allowed if the title/description signals remote.
+# ---------------------------------------------------------------------------
+LOCATION_FILTER: dict[str, list[str]] = {
+    "Netherlands": [
+        "amsterdam", "eindhoven", "delft", "utrecht", "rotterdam",
+        "nijmegen", "leiden", "haarlem", "the hague", "den haag",
+        "tilburg", "groningen", "maastricht", "breda", "arnhem",
+        "netherlands", "nederland",
+    ],
+    "Belgium": [
+        "leuven", "brussels", "brussel", "bruxelles", "mechelen",
+        "hasselt", "belgium", "belgie", "belgique",
+    ],
+}
+
+# Flat set of all allowed location tokens for fast lookup
+_ALLOWED_LOCATIONS: set[str] = {
+    token
+    for tokens in LOCATION_FILTER.values()
+    for token in tokens
+}
+
+# ---------------------------------------------------------------------------
 # Pre-save filters — drop jobs we never want
 # ---------------------------------------------------------------------------
 _EXCLUDE_TITLE_REGEX = [
@@ -119,7 +144,22 @@ _DUTCH_FLUENCY = [
 ]
 
 
-def _should_exclude(title: str, description: str) -> str | None:
+def _is_remote(title: str, description: str) -> bool:
+    text = f"{title} {description}".lower()
+    return any(kw in text for kw in ("remote", "work from home", "fully remote", "hybrid remote"))
+
+
+def _location_allowed(location: str, title: str, description: str) -> bool:
+    """Return True if job is in a target location or is remote."""
+    if not location:
+        return True  # unknown location — let scorer handle it
+    if _is_remote(title, description):
+        return True
+    loc = location.lower()
+    return any(token in loc for token in _ALLOWED_LOCATIONS)
+
+
+def _should_exclude(title: str, description: str, location: str = "") -> str | None:
     """Return reason string if job should be excluded, else None."""
     t = title.lower()
     d = description.lower()
@@ -147,6 +187,10 @@ def _should_exclude(title: str, description: str) -> str | None:
     for pat in _DUTCH_FLUENCY:
         if pat in d:
             return f"requires Dutch fluency: {pat}"
+
+    # Location outside target area
+    if not _location_allowed(location, title, description):
+        return f"location outside target area: {location!r}"
 
     return None
 
@@ -218,7 +262,7 @@ def scrape_all(max_results_per_query: int = 20, delay_between_queries: float = 8
                 continue
 
             # Pre-save filter
-            reason = _should_exclude(title, description)
+            reason = _should_exclude(title, description, location_str)
             if reason:
                 logger.debug("  Filtered out '%s' — %s", title, reason)
                 continue
