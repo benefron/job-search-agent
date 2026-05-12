@@ -46,14 +46,6 @@ SEARCH_QUERIES = [
     ("computer vision scientist", "Netherlands"),
     ("ML engineer research", "Netherlands"),
     ("machine learning engineer", "Amsterdam Netherlands"),
-    # Belgium — Leuven, Brussels, Mechelen, Hasselt (R&D / applied science only)
-    ("research scientist neuromorphic", "Leuven Belgium"),
-    ("applied scientist machine learning", "Leuven Belgium"),
-    ("R&D engineer AI", "Leuven Belgium"),
-    ("research scientist AI", "Brussels Belgium"),
-    ("applied scientist signal processing", "Brussels Belgium"),
-    ("R&D scientist embedded AI", "Mechelen Belgium"),
-    ("research scientist machine learning", "Hasselt Belgium"),
     ("embedded AI", "Eindhoven Netherlands"),
     # Academic postdocs
     ("postdoctoral researcher computational neuroscience", "Netherlands"),
@@ -65,6 +57,32 @@ SEARCH_QUERIES = [
     ("robotics engineer perception", "Netherlands"),
     ("brain computer interface", "Netherlands"),
     ("brain machine interface", "Netherlands"),
+    # Belgium — same keyword breadth as NL, broad location covers
+    # Leuven, Brussels, Mechelen, Hasselt, Zaventem, Antwerp, Ghent, etc.
+    ("neuromorphic engineer", "Belgium"),
+    ("spiking neural network engineer", "Belgium"),
+    ("brain-inspired computing", "Belgium"),
+    ("neuromorphic AI", "Belgium"),
+    ("neuroengineering", "Belgium"),
+    ("neurotech scientist", "Belgium"),
+    ("computational neuroscience", "Belgium"),
+    ("edge AI scientist", "Belgium"),
+    ("embedded AI engineer", "Belgium"),
+    ("embedded sensing engineer", "Belgium"),
+    ("R&D scientist sensing", "Belgium"),
+    ("applied scientist signal processing", "Belgium"),
+    ("research scientist neuromorphic", "Belgium"),
+    ("data scientist machine learning", "Belgium"),
+    ("applied machine learning scientist", "Belgium"),
+    ("computer vision scientist", "Belgium"),
+    ("ML engineer research", "Belgium"),
+    ("machine learning engineer", "Leuven Belgium"),
+    ("postdoctoral researcher computational neuroscience", "Belgium"),
+    ("postdoc neuroengineering", "Belgium"),
+    ("postdoctoral researcher neuroscience", "Belgium"),
+    ("brain computer interface", "Belgium"),
+    ("embedded systems engineer ai", "Belgium"),
+    ("robotics engineer perception", "Belgium"),
 ]
 
 SITES = ["linkedin", "indeed"]
