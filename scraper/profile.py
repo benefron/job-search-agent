@@ -125,7 +125,7 @@ PROFILE = {
 
     # Location preferences
     "location_primary": ["Netherlands", "Amsterdam", "Eindhoven", "Delft", "Utrecht", "Rotterdam", "Nijmegen"],
-    "location_secondary": ["Leuven", "Zaventem", "Brussels", "Belgium"],
+    "location_secondary": ["Leuven", "Brussels", "Mechelen", "Hasselt", "Zaventem", "Belgium"],
     "open_to_remote": True,
 
     # Hard negatives — deprioritise these in scoring
