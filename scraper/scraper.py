@@ -83,7 +83,7 @@ LOCATION_FILTER: dict[str, list[str]] = {
     ],
     "Belgium": [
         "leuven", "brussels", "brussel", "bruxelles", "mechelen",
-        "hasselt", "belgium", "belgie", "belgique",
+        "hasselt", "zaventem", "belgium", "belgie", "belgique",
     ],
 }
 
