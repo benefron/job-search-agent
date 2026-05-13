@@ -9590,3 +9590,79 @@
 2026-05-13 05:42:32,265 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-13 05:42:32,278 [INFO] Stats: {'total': 1251, 'scored': 1219, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-13T07:42:32+02:00'}
 2026-05-13 05:42:32,284 [INFO] Done. Total: 1251 | Scored: 1219 | Strong+: 0
+2026-05-13 18:49:45,805 [INFO] Initialising database…
+2026-05-13 18:49:45,806 [INFO] Ingesting feedback…
+2026-05-13 18:49:45,810 [INFO] Applied 103 feedback records.
+2026-05-13 18:49:45,811 [INFO] Scoring pending jobs (max=50)…
+2026-05-13 18:49:45,814 [INFO] Scoring 32 pending jobs (cap=50)…
+2026-05-13 18:49:49,499 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:49:49,508 [INFO]   Scored [0] Postdoc on Reconciling Food Systems Sustainability and Biodiversity Conservation at Vrije Universiteit Amsterdam (VU Amsterdam) — Ben is overqualified for a postdoctoral position that does not align with his ex
+2026-05-13 18:49:55,897 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:49:55,899 [INFO]   Scored [0] Postdoctoral Researcher (ESPhil) at Erasmus University Rotterdam — This position is a postdoctoral role requiring a PhD in philosophy or anthropolo
+2026-05-13 18:50:01,699 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:01,702 [INFO]   Scored [0] Postdoctoral Researcher Sustainable Textiles – Textile Analytics at Saxion Centrum voor Ondernemerschap — This position is a postdoctoral role in a completely different field (textiles) 
+2026-05-13 18:50:07,551 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:07,554 [INFO]   Scored [30] Embedded Software Engineer at Search X Recruitment — Ben has relevant skills in Python and hardware-software integration, but lacks e
+2026-05-13 18:50:13,142 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:13,146 [INFO]   Scored [0] DFT Engineers at HRP GLOBAL TECHNOLOGIES — Ben's qualifications do not align with the core requirements of DFT engineering,
+2026-05-13 18:50:19,574 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:19,577 [INFO]   Scored [0] Senior FPGA Engineer at GTS Group Ltd — Ben is overqualified for this position as it requires a Master's degree in Elect
+2026-05-13 18:50:25,577 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:25,580 [INFO]   Scored [0] Radioactive Waste Characterisation Engineer at QCS Staffing — Ben does not meet any of the required qualifications for this role, which focuse
+2026-05-13 18:50:32,131 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:32,134 [INFO]   Scored [50] Senior Computer Vision Engineer at Cross International — Ben has relevant skills in Python and applied machine learning, but lacks specif
+2026-05-13 18:50:38,218 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:38,221 [INFO]   Scored [30] AI Engineering Lead at TechWolf — Ben has relevant skills in Python and AI systems but lacks the required leadersh
+2026-05-13 18:50:45,289 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:45,291 [INFO]   Scored [0] Compute R&D Project Leader at imec — Ben does not meet the required qualifications for this role, particularly the ne
+2026-05-13 18:50:50,774 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:50,777 [INFO]   Scored [0] Senior Scientist Translational ADME at Johnson & Johnson Innovative Medicine — Ben does not meet the core requirements for hands-on lab work related to pharmac
+2026-05-13 18:50:56,303 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:50:56,306 [INFO]   Scored [0] Material Scientist with Python - Freelance AI Trainer at Mindrift — Ben is overqualified for this freelance role and does not meet the specific educ
+2026-05-13 18:51:03,122 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:03,125 [INFO]   Scored [30] AI Research Engineer - Reinforcement Learning at Jobgether — Ben has relevant skills in Python and PyTorch, but lacks the specific reinforcem
+2026-05-13 18:51:09,576 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:09,578 [INFO]   Scored [30] Staff AI Engineer I at Loop Earplugs — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-05-13 18:51:16,522 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:16,525 [INFO]   Scored [30] Senior AI Engineer at Loop Earplugs — Ben has relevant skills in Python and machine learning but lacks specific experi
+2026-05-13 18:51:22,963 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:22,966 [INFO]   Scored [30] Senior AI Engineer at SOFICO — While Ben has strong qualifications in Python and AI development, he lacks speci
+2026-05-13 18:51:29,654 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:29,656 [INFO]   Scored [0] Data Scientist at RELYzIT — Ben is excluded from consideration due to the mandatory requirement for Dutch fl
+2026-05-13 18:51:35,420 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:35,423 [INFO]   Scored [0] Lead Embedded Software Development at HRP GLOBAL TECHNOLOGIES — Ben's qualifications do not align with the core requirements of embedded systems
+2026-05-13 18:51:41,961 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:41,963 [INFO]   Scored [30] System expert at IBA — Ben has relevant skills in hardware-software integration and signal processing, 
+2026-05-13 18:51:48,551 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:48,554 [INFO]   Scored [0] Embedded Validation Engineer m/f at ENGIBEX — Ben does not meet the required qualifications, specifically lacking a Master's d
+2026-05-13 18:51:54,678 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:51:54,680 [INFO]   Scored [0] Transmission Controls Engineer at VeroTech — Ben is overqualified for this role as it requires specific automotive engineerin
+2026-05-13 18:52:01,124 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:01,126 [INFO]   Scored [0] Metrology and Inspection R&D Engineer at imec in Vlaanderen — Ben does not meet the required qualifications for this role, specifically lackin
+2026-05-13 18:52:07,149 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:07,152 [INFO]   Scored [0] Development of a High‑Performant Video Testing System at Barco — The position is an internship aimed at students, which is a hard exclusion for B
+2026-05-13 18:52:12,785 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:12,787 [INFO]   Scored [30] Data Scientist - Waterloo, Belgium  (F/M) at Alsinova — While Ben has relevant skills in Python and machine learning, the requirement fo
+2026-05-13 18:52:18,642 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:18,645 [INFO]   Scored [30] Data Scientist - Banking at NORRIQ Financial Services — While Ben has strong qualifications in Python and machine learning, he lacks the
+2026-05-13 18:52:25,410 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:25,413 [INFO]   Scored [30] Data Analyst/Scientist - VIE at Capgemini Engineering — Ben's qualifications align with some of the analytical skills required, but he d
+2026-05-13 18:52:31,895 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:31,898 [INFO]   Scored [30] Data Scientist VIE - Automotive at Capgemini Engineering — This role requires a Master's degree and 1-2 years of experience in data science
+2026-05-13 18:52:38,156 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:38,159 [INFO]   Scored [30] Director, AI Engineering--Clinical Development and Operations (CD&O) at Pfizer — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-05-13 18:52:44,210 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:44,212 [INFO]   Scored [30] AI & Data Engineer at iO — Ben has relevant skills in Python and AI integration, but he lacks the required 
+2026-05-13 18:52:51,286 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:51,288 [INFO]   Scored [50] Data Scientist at ALLSTARSIT — Ben has strong skills in Python and machine learning, but he does not meet the e
+2026-05-13 18:52:57,386 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:52:57,388 [INFO]   Scored [30] Senior Machine Learning Engineer at Explore Group — While Ben has strong Python skills and experience in machine learning, he lacks 
+2026-05-13 18:53:03,593 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:53:03,596 [INFO]   Scored [0] Director, Oncology Clinical Pharmacology MIDD AI/ML at GSK — This role is a director position in clinical pharmacology, which requires specif
+2026-05-13 18:53:06,596 [INFO] Scoring complete. 32/32 attempted.
+2026-05-13 18:53:06,596 [INFO] Scored 32 jobs
+2026-05-13 18:53:06,597 [INFO] Exporting data…
+2026-05-13 18:53:06,603 [INFO] Exported 84 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-13 18:53:06,605 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-13 18:53:06,612 [INFO] Stats: {'total': 1251, 'scored': 1251, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-13T20:53:06+02:00'}
+2026-05-13 18:53:06,619 [INFO] Done. Total: 1251 | Scored: 1251 | Strong+: 0
