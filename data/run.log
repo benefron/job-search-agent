@@ -9870,3 +9870,51 @@
 2026-05-14 05:43:06,188 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-14 05:43:06,205 [INFO] Stats: {'total': 1299, 'scored': 1281, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-14T07:43:06+02:00'}
 2026-05-14 05:43:06,211 [INFO] Done. Total: 1299 | Scored: 1281 | Strong+: 0
+2026-05-14 18:47:37,372 [INFO] Initialising database…
+2026-05-14 18:47:37,373 [INFO] Ingesting feedback…
+2026-05-14 18:47:37,496 [INFO] Applied 103 feedback records.
+2026-05-14 18:47:37,496 [INFO] Scoring pending jobs (max=50)…
+2026-05-14 18:47:37,500 [INFO] Scoring 18 pending jobs (cap=50)…
+2026-05-14 18:47:41,148 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:47:41,156 [INFO]   Scored [70] Machine Learning Engineer at Vivid Resourcing — Ben has strong qualifications in Python and PyTorch, along with relevant experie
+2026-05-14 18:47:46,417 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:47:46,419 [INFO]   Scored [0] Senior AI Machine Learning Engineer at Creativeskills.be — The job description is primarily in Dutch and requires Dutch fluency, which Ben 
+2026-05-14 18:47:52,645 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:47:52,648 [INFO]   Scored [30] AI Engineer – Medical Software & Regulatory Innovation at VITO Kennispunt Water — While Ben has strong qualifications in Python and AI development, he lacks speci
+2026-05-14 18:47:58,904 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:47:58,907 [INFO]   Scored [30] FULL STACK AI ENGINEER at AGC Glass Europe — Ben has relevant skills in Python and PyTorch, but lacks the required Master's d
+2026-05-14 18:48:04,812 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:04,814 [INFO]   Scored [30] AI Founding Engineer at Holmes — While Ben has strong Python skills, he lacks specific experience with LLMs and t
+2026-05-14 18:48:10,474 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:10,478 [INFO]   Scored [70] Artificial Intelligence Engineer at Vivid Resourcing — Ben has strong qualifications in Python and machine learning, but lacks specific
+2026-05-14 18:48:18,949 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:18,952 [INFO]   Scored [30] AI-Native Engineer (Freelance) at Oper Credits — While Ben has relevant skills in Python and AI, he lacks specific experience wit
+2026-05-14 18:48:24,689 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:24,691 [INFO]   Scored [30] Scientific Expert – Earth Observation Services at VITO Kennispunt Water — Ben has strong Python skills and an analytical mindset, but lacks specific exper
+2026-05-14 18:48:30,788 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:30,791 [INFO]   Scored [0] Data & Analytics Engineer (Azure) at Visser & Van Baars — Ben's qualifications do not align with the core requirements of this role, which
+2026-05-14 18:48:36,594 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:36,597 [INFO]   Scored [0] Data Analyst at AddanEx International — Ben is overqualified for this role as it requires specific data analyst experien
+2026-05-14 18:48:42,322 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:42,324 [INFO]   Scored [30] Data Scientist at recurv — While Ben has strong skills in Python and machine learning, he does not meet the
+2026-05-14 18:48:48,893 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:48,895 [INFO]   Scored [30] Data Scientist - Intermediate (AI Community) at TELUS Digital — While Ben has relevant skills in Python and data analysis, the position requires
+2026-05-14 18:48:54,700 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:48:54,703 [INFO]   Scored [0] Software Engineer at Explore Group — Ben's qualifications do not align with the required TypeScript development exper
+2026-05-14 18:49:00,256 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:49:00,258 [INFO]   Scored [0] Junior Software Engineer – Talent Academy at Projective Talent | Part of Projective Group — Ben is overqualified for this junior position and does not meet the requirement 
+2026-05-14 18:49:05,883 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:49:05,886 [INFO]   Scored [0] Senior Frontend Software Engineer - Typescript | React | NextJS ( Remote) at Trivelta — Ben's background is in systems neuroscience and neuroengineering, with no releva
+2026-05-14 18:49:11,888 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:49:11,891 [INFO]   Scored [30] Senior Backend Software Engineer - Python at Trivelta — Ben has relevant skills in Python and data analysis but lacks the specific backe
+2026-05-14 18:49:17,501 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:49:17,504 [INFO]   Scored [0] Data Engineer at Morgan McKinley — Ben does not meet any of the core requirements for this Data Engineer role, part
+2026-05-14 18:49:22,609 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 18:49:22,611 [INFO]   Scored [0] Fullstack software engineer at LGA IT — Ben is overqualified for this position as it requires specific software engineer
+2026-05-14 18:49:25,612 [INFO] Scoring complete. 18/18 attempted.
+2026-05-14 18:49:25,612 [INFO] Scored 18 jobs
+2026-05-14 18:49:25,612 [INFO] Exporting data…
+2026-05-14 18:49:25,620 [INFO] Exported 88 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-14 18:49:25,622 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-14 18:49:25,630 [INFO] Stats: {'total': 1299, 'scored': 1299, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-14T20:49:25+02:00'}
+2026-05-14 18:49:25,638 [INFO] Done. Total: 1299 | Scored: 1299 | Strong+: 0
