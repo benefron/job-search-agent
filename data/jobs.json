@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T18:49:25.617664",
+  "generated": "2026-05-15T05:42:23.720196",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -141,6 +141,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "65d0734b0c75e043",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414545780",
+      "title": "Artificial Intelligence Engineer",
+      "company": "Vivid Resourcing",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.551051",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "AI agent development"
+      ],
+      "key_gaps": [
+        "Experience working with cloud platforms such as AWS, Azure, or GCP",
+        "Experience working with energy, industrial, environmental, or sustainability-related data"
+      ],
+      "rationale": "Ben has strong qualifications in Python and PyTorch, but lacks specific experience with cloud platforms and sustainability-related data, which are important for this AI Engineer role.",
+      "job_summary": "The AI Engineer role involves developing AI-driven solutions for sustainability, focusing on energy optimization and emissions monitoring. The position requires building and maintaining scalable ML pipelines and deploying AI systems in cloud and edge environments.",
+      "top_qualifications": [
+        "Strong programming skills in Python",
+        "Experience with ML/DL frameworks such as TensorFlow, PyTorch",
+        "Experience building and deploying ML pipelines in production environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
+      }
+    },
+    {
+      "id": "44698b81b52215a3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413973976",
+      "title": "AI Engineer",
+      "company": "Xebia",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-15T05:37:46.489364",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "machine learning",
+        "experience in building scalable applications"
+      ],
+      "key_gaps": [
+        "specific experience with GenAI solutions",
+        "experience in building ML platforms"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience with GenAI solutions and building ML platforms as emphasized in the job description.",
+      "job_summary": "The AI Engineer role at Xebia involves developing and deploying scalable AI and ML applications, collaborating closely with data scientists and engineers to ensure solutions deliver real business value.",
+      "top_qualifications": [
+        "ML knowledge",
+        "software engineering rigor",
+        "experience in deploying AI solutions"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Xebia&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Xebia"
       }
     },
     {
@@ -1431,6 +1505,117 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "6f40b6209ff927cd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411124221",
+      "title": "Machine Learning Scientist II - Content Intelligence",
+      "company": "myGwork - LGBTQ+ Business Community",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.482542",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "machine learning model development",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "Specific experience in NLP and Generative AI models",
+        "Experience with data visualization and optimization techniques"
+      ],
+      "rationale": "This score reflects Ben's strong background in Python and machine learning, but he lacks specific experience in NLP and Generative AI, which are critical for this role.",
+      "job_summary": "The Machine Learning Scientist II role at Booking.com involves building, training, and deploying content models using advanced machine learning techniques, particularly in computer vision and natural language processing.",
+      "top_qualifications": [
+        "Advanced knowledge and experience in Computer Vision and Natural Language Processing",
+        "Experience designing and executing end-to-end research and development plans",
+        "Experience collaborating cross functionally in the development of machine learning solutions"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=myGwork%20-%20LGBTQ%2B%20Business%20Community"
+      }
+    },
+    {
+      "id": "d24e8be40edb0f09",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4410626106",
+      "title": "Senior Data scientist - Analytics",
+      "company": "ING Nederland",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-15T05:37:46.464832",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "statistical modelling",
+        "machine learning experience"
+      ],
+      "key_gaps": [
+        "Experience with LLM techniques",
+        "Experience in cloud platforms for production deployment"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience with LLM techniques and cloud deployment which are critical for this role.",
+      "job_summary": "The Senior Data Scientist at ING Nederland will develop and implement Agentic AI solutions for the KYC domain, focusing on data extraction and machine learning applications while collaborating with a team to drive data-driven products.",
+      "top_qualifications": [
+        "4+ years of work experience in Data Science",
+        "Proven experience in working with LLM techniques",
+        "MSc or PhD in relevant fields"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ING%20Nederland&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ING%20Nederland&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ING%20Nederland&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ING%20Nederland"
+      }
+    },
+    {
+      "id": "754326801150cf22",
+      "source": "indeed",
+      "url": "https://nl.indeed.com/viewjob?jk=21f398bf4c346bfb",
+      "title": "Senior Data scientist - Analytics",
+      "company": "ING",
+      "location": "Amsterdam, NH, NL",
+      "date_posted": "2026-05-12",
+      "date_found": "2026-05-15T05:37:46.461421",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "statistical modelling",
+        "machine learning experience"
+      ],
+      "key_gaps": [
+        "Experience in scoping, developing, and bringing projects to production on cloud platforms",
+        "Specific experience with LLM techniques and Agentic AI"
+      ],
+      "rationale": "This score reflects Ben's strong qualifications in Python and machine learning, but he lacks specific experience with LLM techniques and cloud deployment, which are critical for this role.",
+      "job_summary": "The Senior Data Scientist at ING will develop and implement Agentic AI solutions for the KYC domain, focusing on data extraction and model development while collaborating with a team to enhance data-driven products.",
+      "top_qualifications": [
+        "4+ years of work experience in Data Science",
+        "Proven experience in working with LLM techniques",
+        "MSc or PhD in relevant fields"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ING&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ING&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ING&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ING"
       }
     },
     {
@@ -3221,6 +3406,422 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "b26a8ccf91dcb6cd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413428517",
+      "title": "Software engineer",
+      "company": "BioLizard",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "2026-05-12",
+      "date_found": "2026-05-15T05:37:46.608432",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=BioLizard&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=BioLizard&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=BioLizard&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=BioLizard"
+      }
+    },
+    {
+      "id": "312badfeec0cab2e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414677777",
+      "title": "Freelance Data Science Engineer (Python & SQL)",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.606040",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "191c0706b6228b00",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414578823",
+      "title": "Policy & Data Analyst (Data Scientist) - Hybrid",
+      "company": "All European Careers",
+      "location": "Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.603861",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=All%20European%20Careers&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=All%20European%20Careers"
+      }
+    },
+    {
+      "id": "521bc64c6400cca0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411164666",
+      "title": "Freelance Data Scraping Engineer (Python)",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.601293",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "789a369b0238a375",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414587904",
+      "title": "Senior Data Scraping Engineer (Python)",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.598852",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "ebdb3bec363a97f4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411172371",
+      "title": "Senior Python Data Scraping Engineer (Freelance)",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.596363",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "3907924c05b9981c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4371053909",
+      "title": "Data Science Lead",
+      "company": "UCB",
+      "location": "Anderlecht, Brussels Region, Belgium",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-15T05:37:46.593972",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UCB"
+      }
+    },
+    {
+      "id": "cae1f2862b22bc24",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414584894",
+      "title": "(Junior) Acoustical Engineer",
+      "company": "ENGIBEX",
+      "location": "Dendermonde, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.591325",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ENGIBEX"
+      }
+    },
+    {
+      "id": "8779a81a5a5614b5",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411542239",
+      "title": "Algorithm Engineer",
+      "company": "KLA",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.583325",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=KLA"
+      }
+    },
+    {
+      "id": "94ade1850d5e401b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411542238",
+      "title": "Field Application Engineer",
+      "company": "KLA",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.579582",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=KLA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=KLA"
+      }
+    },
+    {
+      "id": "f5687acda73d9230",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4405648539",
+      "title": "Instrumentation Engineer",
+      "company": "Swave Photonics",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.576131",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Swave%20Photonics&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Swave%20Photonics&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Swave%20Photonics&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Swave%20Photonics"
+      }
+    },
+    {
+      "id": "2a24c3fbf8b7ee58",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413404921",
+      "title": "Principal Engineer",
+      "company": "imec",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-05-12",
+      "date_found": "2026-05-15T05:37:46.572624",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "a673e1149cd87fc8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414207699",
+      "title": "Specialist R&D Engineer",
+      "company": "Avery Dennison",
+      "location": "Turnhout, Flemish Region, Belgium",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-15T05:37:46.569148",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Avery%20Dennison&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Avery%20Dennison&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Avery%20Dennison&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Avery%20Dennison"
+      }
+    },
+    {
+      "id": "540b3d230ad98d92",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413953290",
+      "title": "Metrology and Inspection R&D Engineer",
+      "company": "imec",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-15T05:37:46.564916",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec"
+      }
+    },
+    {
+      "id": "17950166928443b2",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4383840634",
+      "title": "AI Data Engineer",
+      "company": "LEGALFLY",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.561542",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=LEGALFLY&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=LEGALFLY&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=LEGALFLY&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=LEGALFLY"
+      }
+    },
+    {
+      "id": "f984dc7b7cfd11ec",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414934161",
+      "title": "Data Scientist (Python & SQL) - Freelance AI Trainer",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-15T05:37:46.558212",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
       }
     }
   ]
