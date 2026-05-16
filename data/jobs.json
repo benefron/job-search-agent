@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T18:46:26.479537",
+  "generated": "2026-05-16T05:27:27.297290",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -1505,6 +1505,154 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "d0ec42d486df3dd5",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414999057",
+      "title": "Computer Vision & ML Expert",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.341803",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "computer vision knowledge"
+      ],
+      "key_gaps": [
+        "Familiarity with common CV architectures",
+        "Experience with annotation platforms and data quality workflows"
+      ],
+      "rationale": "Ben has relevant skills in Python and PyTorch, as well as foundational knowledge in computer vision, but lacks specific experience with common CV architectures and data annotation workflows, which are important for this role.",
+      "job_summary": "The role involves evaluating and improving AI models for computer vision tasks, including image recognition and object detection, while providing expert feedback on model performance and architecture.",
+      "top_qualifications": [
+        "Strong foundational knowledge of computer vision",
+        "Hands-on experience with deep learning frameworks such as PyTorch",
+        "Solid understanding of data preprocessing and augmentation"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
+      }
+    },
+    {
+      "id": "5012cdd47fa35882",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414643120",
+      "title": "Applied Data Scientist",
+      "company": "Swift",
+      "location": "Leiden, South Holland, Netherlands",
+      "date_posted": "2026-05-14",
+      "date_found": "2026-05-16T05:23:55.327297",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "NumPy",
+        "Statistical modelling"
+      ],
+      "key_gaps": [
+        "Experience with core data science libraries like Pandas/Polars",
+        "Specific experience in anomaly detection and predictive modelling"
+      ],
+      "rationale": "This score reflects Ben's strong qualifications in Python and statistical modelling, but he lacks specific experience with some core data science libraries and techniques emphasized in the job description.",
+      "job_summary": "The Applied Data Scientist role at Swift involves leveraging AI and data science techniques to derive insights from data and support business strategies in the financial sector.",
+      "top_qualifications": [
+        "Proficiency in Python",
+        "Knowledge of core data science libraries (e.g., Pandas, NumPy)",
+        "Experience with statistical models and machine learning algorithms"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Swift"
+      }
+    },
+    {
+      "id": "1f1f56af6a8f3fbf",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414627873",
+      "title": "Senior Applied Data Scientist",
+      "company": "Swift",
+      "location": "Leiden, South Holland, Netherlands",
+      "date_posted": "2026-05-14",
+      "date_found": "2026-05-16T05:23:55.302440",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "statistical modelling",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "experience with anomaly detection and predictive modelling",
+        "experience in the financial industry"
+      ],
+      "rationale": "Ben has relevant skills in Python and statistical modelling, but lacks specific experience in financial data applications and the required techniques like anomaly detection and predictive modelling.",
+      "job_summary": "The Senior Applied Data Scientist role at Swift involves leveraging AI and data science techniques to derive insights from large datasets and support the company's strategy. The position requires leading the design and execution of advanced statistical models and machine learning algorithms.",
+      "top_qualifications": [
+        "advanced statistical models",
+        "machine learning algorithms",
+        "data-driven solutions"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Swift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Swift"
+      }
+    },
+    {
+      "id": "b77398ce28b7d5d9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415300038",
+      "title": "Robotics ML Expert \u2014 MuJoCo & RL Training",
+      "company": "Alignerr",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.295143",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "PyTorch",
+        "reinforcement learning theory"
+      ],
+      "key_gaps": [
+        "Hands-on experience with MuJoCo",
+        "Experience defining reward functions for complex robotic tasks"
+      ],
+      "rationale": "Ben has relevant skills in Python and reinforcement learning, but lacks specific hands-on experience with MuJoCo and defining reward functions, which are critical for this role.",
+      "job_summary": "The Robotics ML Expert role involves designing and refining simulation environments using MuJoCo for training AI systems in robotics, focusing on reinforcement learning and real-world task performance.",
+      "top_qualifications": [
+        "Strong hands-on experience with MuJoCo",
+        "Solid understanding of reinforcement learning theory",
+        "Proficient in Python and comfortable with ML frameworks such as PyTorch"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alignerr&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alignerr"
       }
     },
     {
@@ -3406,6 +3554,422 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "d67416470855548e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415024828",
+      "title": "Machine Learning Engineer",
+      "company": "ScaleneWorks People Solutions LLP",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.442687",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ScaleneWorks%20People%20Solutions%20LLP&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ScaleneWorks%20People%20Solutions%20LLP&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ScaleneWorks%20People%20Solutions%20LLP&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ScaleneWorks%20People%20Solutions%20LLP"
+      }
+    },
+    {
+      "id": "4952692be055dcd8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4374757693",
+      "title": "Fullstack Software Engineer (x/f/m) - Global Offer Builder",
+      "company": "Alan",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.440119",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alan"
+      }
+    },
+    {
+      "id": "4db6bc0eb02336d4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4375036221",
+      "title": "Full Software Engineer (x/f/m) - International Expansion",
+      "company": "Alan",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.437355",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alan"
+      }
+    },
+    {
+      "id": "c5e39a6c33a2452e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4375022902",
+      "title": "Fullstack Software Engineer (x/f/m) - Member Lifecycle",
+      "company": "Alan",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.434723",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alan"
+      }
+    },
+    {
+      "id": "6e1e77451cd665bd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411155515",
+      "title": "Data Scientist",
+      "company": "Masent\u00f3 Group",
+      "location": "",
+      "date_posted": "2026-05-14",
+      "date_found": "2026-05-16T05:23:55.431940",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Masent%C3%B3%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Masent%C3%B3%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Masent%C3%B3%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Masent%C3%B3%20Group"
+      }
+    },
+    {
+      "id": "d4dd9152bb5f5e36",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4374765241",
+      "title": "Fullstack Software Engineer (x/f/m) - Contract Lifecycle",
+      "company": "Alan",
+      "location": "Antwerp, Flemish Region, Belgium",
+      "date_posted": "2026-05-14",
+      "date_found": "2026-05-16T05:23:55.429217",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alan&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alan"
+      }
+    },
+    {
+      "id": "590881500538b32f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415389839",
+      "title": "Gen AI Lead",
+      "company": "iXceed Solutions",
+      "location": "Beerse, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.426960",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=iXceed%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=iXceed%20Solutions"
+      }
+    },
+    {
+      "id": "0c1ec55c1d32361f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414278082",
+      "title": "Data Scientist \u2013 Business Analyst - MOW000699",
+      "company": "ITproposal",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-16T05:23:55.424369",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ITproposal&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ITproposal&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ITproposal&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ITproposal"
+      }
+    },
+    {
+      "id": "5dbe94c46b38090f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413968028",
+      "title": "Data Science and AI Technology Lead",
+      "company": "UCB",
+      "location": "Anderlecht, Brussels Region, Belgium",
+      "date_posted": "2026-05-13",
+      "date_found": "2026-05-16T05:23:55.421609",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UCB&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UCB"
+      }
+    },
+    {
+      "id": "6fd9ebc94fbb147f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415095541",
+      "title": "Young Graduate - Software and Platform - Agentic AI Engineer - As of September 2026",
+      "company": "Accenture Belgium",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.418823",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Belgium&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Belgium&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Accenture%20Belgium&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Accenture%20Belgium"
+      }
+    },
+    {
+      "id": "801f2153c272194f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415346845",
+      "title": "Freelance Machine Learning Engineer",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.415180",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "932815ae44efe4ec",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415369004",
+      "title": "Machine Learning Developer (Freelance)",
+      "company": "Mindrift",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.412344",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Mindrift&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Mindrift"
+      }
+    },
+    {
+      "id": "60645bfbf815a742",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4397544066",
+      "title": "Research Engineer",
+      "company": "Barco",
+      "location": "Kortrijk, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.409586",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Barco&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Barco&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Barco&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Barco"
+      }
+    },
+    {
+      "id": "4c65aac233df8717",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4391516423",
+      "title": "Study Responsible Physician- Neuroscience (Pediatric Studies)",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "location": "Beerse, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.406967",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine"
+      }
+    },
+    {
+      "id": "70c0b7e7f268d3ba",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4384803736",
+      "title": "Scientist Pharmaceuticals [F/M/X]",
+      "company": "Amaris Consulting",
+      "location": "Beerse, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.399121",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Amaris%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Amaris%20Consulting"
+      }
+    },
+    {
+      "id": "f8db09fcbcf2639b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411586021",
+      "title": "Senior SOC Analyst / Detection Engineer",
+      "company": "ABAKUS IT-SOLUTIONS",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-16T05:23:55.395414",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ABAKUS%20IT-SOLUTIONS&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ABAKUS%20IT-SOLUTIONS&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ABAKUS%20IT-SOLUTIONS&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ABAKUS%20IT-SOLUTIONS"
       }
     }
   ]
