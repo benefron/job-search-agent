@@ -10372,3 +10372,47 @@
 2026-05-16 05:27:27,302 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-16 05:27:27,309 [INFO] Stats: {'total': 1391, 'scored': 1375, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-16T07:27:27+02:00'}
 2026-05-16 05:27:27,315 [INFO] Done. Total: 1391 | Scored: 1375 | Strong+: 0
+2026-05-16 18:29:16,623 [INFO] Initialising database…
+2026-05-16 18:29:16,623 [INFO] Ingesting feedback…
+2026-05-16 18:29:16,631 [INFO] Applied 103 feedback records.
+2026-05-16 18:29:16,632 [INFO] Scoring pending jobs (max=50)…
+2026-05-16 18:29:16,635 [INFO] Scoring 16 pending jobs (cap=50)…
+2026-05-16 18:29:20,498 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:20,507 [INFO]   Scored [0] Senior SOC Analyst / Detection Engineer at ABAKUS IT-SOLUTIONS — Ben does not meet the language requirement of native or bilingual Dutch or Frenc
+2026-05-16 18:29:26,066 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:26,069 [INFO]   Scored [0] Scientist Pharmaceuticals [F/M/X] at Amaris Consulting — Ben does not meet the required qualifications for this role, which focuses on li
+2026-05-16 18:29:31,318 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:31,324 [INFO]   Scored [0] Study Responsible Physician- Neuroscience (Pediatric Studies) at Johnson & Johnson Innovative Medicine — This role requires a medical degree and expertise in pediatric clinical studies,
+2026-05-16 18:29:37,472 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:37,475 [INFO]   Scored [50] Research Engineer at Barco — This score reflects moderate alignment due to Ben's strong skills in Python and 
+2026-05-16 18:29:43,013 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:43,016 [INFO]   Scored [30] Machine Learning Developer (Freelance) at Mindrift — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-05-16 18:29:48,990 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:48,992 [INFO]   Scored [30] Freelance Machine Learning Engineer at Mindrift — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-05-16 18:29:54,409 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:29:54,412 [INFO]   Scored [0] Young Graduate - Software and Platform - Agentic AI Engineer - As of September 2026 at Accenture Belgium — This position is explicitly targeted at young graduates, which excludes Ben as h
+2026-05-16 18:30:00,693 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:00,696 [INFO]   Scored [30] Data Science and AI Technology Lead at UCB — Ben has relevant skills in Python and AI solution architecture, but he lacks the
+2026-05-16 18:30:06,630 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:06,633 [INFO]   Scored [30] Data Scientist – Business Analyst - MOW000699 at ITproposal — This score reflects some alignment with Ben's skills in Python and machine learn
+2026-05-16 18:30:12,578 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:12,580 [INFO]   Scored [0] Gen AI Lead at iXceed Solutions — Ben is overqualified for this role as it requires 10+ years of experience in a d
+2026-05-16 18:30:17,848 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:17,851 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Contract Lifecycle at Alan — Ben is overqualified for this position as it is not aligned with his expertise i
+2026-05-16 18:30:23,397 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:23,400 [INFO]   Scored [30] Data Scientist at Masentó Group — While Ben has strong Python and data analysis skills, he lacks specific experien
+2026-05-16 18:30:28,796 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:28,798 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Member Lifecycle at Alan — Ben is overqualified for this position as it is not aligned with his expertise i
+2026-05-16 18:30:34,243 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:34,246 [INFO]   Scored [30] Full Software Engineer (x/f/m) - International Expansion at Alan — While Ben has strong Python skills, the role requires specific experience with F
+2026-05-16 18:30:39,539 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:39,542 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Global Offer Builder at Alan — Ben is overqualified for this position as it is not aligned with his expertise i
+2026-05-16 18:30:44,951 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 18:30:44,953 [INFO]   Scored [30] Machine Learning Engineer at ScaleneWorks People Solutions LLP — While Ben has strong Python and machine learning skills, he lacks specific exper
+2026-05-16 18:30:47,953 [INFO] Scoring complete. 16/16 attempted.
+2026-05-16 18:30:47,953 [INFO] Scored 16 jobs
+2026-05-16 18:30:47,953 [INFO] Exporting data…
+2026-05-16 18:30:47,961 [INFO] Exported 98 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-16 18:30:47,963 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-16 18:30:47,970 [INFO] Stats: {'total': 1391, 'scored': 1391, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-16T20:30:47+02:00'}
+2026-05-16 18:30:47,976 [INFO] Done. Total: 1391 | Scored: 1391 | Strong+: 0
