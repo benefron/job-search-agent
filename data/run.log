@@ -10620,3 +10620,27 @@
 2026-05-17 05:39:50,543 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-17 05:39:50,549 [INFO] Stats: {'total': 1427, 'scored': 1421, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-17T07:39:50+02:00'}
 2026-05-17 05:39:50,554 [INFO] Done. Total: 1427 | Scored: 1421 | Strong+: 0
+2026-05-17 18:32:30,977 [INFO] Initialising database…
+2026-05-17 18:32:30,978 [INFO] Ingesting feedback…
+2026-05-17 18:32:30,982 [INFO] Applied 103 feedback records.
+2026-05-17 18:32:30,982 [INFO] Scoring pending jobs (max=50)…
+2026-05-17 18:32:30,986 [INFO] Scoring 6 pending jobs (cap=50)…
+2026-05-17 18:32:35,247 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:32:35,256 [INFO]   Scored [0] Broadband Networks Software Development and Quality Assurance Engineer at Nokia — Ben is overqualified for this position as it requires a Master's degree and 3-5 
+2026-05-17 18:32:41,055 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:32:41,058 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Contract Lifecycle at Alan — Ben is overqualified for this role as it requires fullstack software development
+2026-05-17 18:32:46,801 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:32:46,804 [INFO]   Scored [0] Full Software Engineer (x/f/m) - International Expansion at Alan — Ben's qualifications do not align with the core requirements of the role, partic
+2026-05-17 18:32:52,459 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:32:52,463 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Global Offer Builder at Alan — Ben is overqualified for this position as it is not suitable for someone with a 
+2026-05-17 18:32:58,052 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:32:58,203 [INFO]   Scored [30] Software Engineer at KLA — While Ben has strong software development skills and experience in signal proces
+2026-05-17 18:33:03,820 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 18:33:03,824 [INFO]   Scored [0] Fullstack Software Engineer (x/f/m) - Prevoyance Business at Alan — Ben is overqualified for this position as it is a software engineering role requ
+2026-05-17 18:33:06,825 [INFO] Scoring complete. 6/6 attempted.
+2026-05-17 18:33:06,825 [INFO] Scored 6 jobs
+2026-05-17 18:33:06,825 [INFO] Exporting data…
+2026-05-17 18:33:06,835 [INFO] Exported 99 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-17 18:33:06,836 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-17 18:33:06,845 [INFO] Stats: {'total': 1427, 'scored': 1427, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-17T20:33:06+02:00'}
+2026-05-17 18:33:06,852 [INFO] Done. Total: 1427 | Scored: 1427 | Strong+: 0
