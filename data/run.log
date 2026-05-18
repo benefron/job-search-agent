@@ -10832,3 +10832,14 @@
 2026-05-18 05:45:46,824 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-18 05:45:46,832 [INFO] Stats: {'total': 1449, 'scored': 1449, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-18T07:45:46+02:00'}
 2026-05-18 05:45:46,838 [INFO] Done. Total: 1449 | Scored: 1449 | Strong+: 0
+2026-05-18 18:47:48,830 [INFO] Initialising database…
+2026-05-18 18:47:48,830 [INFO] Ingesting feedback…
+2026-05-18 18:47:48,834 [INFO] Applied 103 feedback records.
+2026-05-18 18:47:48,834 [INFO] Scoring pending jobs (max=50)…
+2026-05-18 18:47:48,838 [INFO] No unscored jobs.
+2026-05-18 18:47:48,838 [INFO] Scored 0 jobs
+2026-05-18 18:47:48,838 [INFO] Exporting data…
+2026-05-18 18:47:48,847 [INFO] Exported 99 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-18 18:47:48,848 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-18 18:47:48,857 [INFO] Stats: {'total': 1449, 'scored': 1449, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-18T20:47:48+02:00'}
+2026-05-18 18:47:48,865 [INFO] Done. Total: 1449 | Scored: 1449 | Strong+: 0
