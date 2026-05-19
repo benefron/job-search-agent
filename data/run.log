@@ -10843,3 +10843,207 @@
 2026-05-18 18:47:48,848 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-18 18:47:48,857 [INFO] Stats: {'total': 1449, 'scored': 1449, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-18T20:47:48+02:00'}
 2026-05-18 18:47:48,865 [INFO] Done. Total: 1449 | Scored: 1449 | Strong+: 0
+2026-05-19 05:27:38,998 [INFO] Initialising database…
+2026-05-19 05:27:38,999 [INFO] Ingesting feedback…
+2026-05-19 05:27:39,008 [INFO] Applied 103 feedback records.
+2026-05-19 05:27:39,013 [INFO] Scraping job boards…
+2026-05-19 05:27:39,014 [INFO] Searching: 'neuromorphic engineer' in Netherlands
+2026-05-19 05:27:57,052 [INFO]   Found 3 new results so far (this query).
+2026-05-19 05:28:05,052 [INFO] Searching: 'spiking neural network engineer' in Netherlands
+2026-05-19 05:28:29,417 [INFO]   Found 10 new results so far (this query).
+2026-05-19 05:28:37,418 [INFO] Searching: 'brain-inspired computing' in Netherlands
+2026-05-19 05:28:37,661 [INFO]   No results.
+2026-05-19 05:28:45,661 [INFO] Searching: 'neuromorphic AI' in Netherlands
+2026-05-19 05:28:45,898 [INFO]   No results.
+2026-05-19 05:28:53,898 [INFO] Searching: 'neuroengineering' in Netherlands
+2026-05-19 05:28:54,128 [INFO]   No results.
+2026-05-19 05:29:02,128 [INFO] Searching: 'neurotech scientist' in Netherlands
+2026-05-19 05:29:10,364 [INFO]   Found 10 new results so far (this query).
+2026-05-19 05:29:18,365 [INFO] Searching: 'computational neuroscience' in Netherlands
+2026-05-19 05:29:18,570 [INFO]   No results.
+2026-05-19 05:29:26,570 [INFO] Searching: 'edge AI scientist' in Netherlands
+2026-05-19 05:29:51,971 [INFO]   Found 16 new results so far (this query).
+2026-05-19 05:29:59,972 [INFO] Searching: 'embedded AI engineer' in Netherlands
+2026-05-19 05:30:20,864 [INFO]   Found 21 new results so far (this query).
+2026-05-19 05:30:28,864 [INFO] Searching: 'embedded sensing engineer' in Netherlands
+2026-05-19 05:30:29,187 [INFO]   Found 21 new results so far (this query).
+2026-05-19 05:30:37,188 [INFO] Searching: 'R&D scientist sensing' in Netherlands
+2026-05-19 05:30:37,364 [INFO]   No results.
+2026-05-19 05:30:45,364 [INFO] Searching: 'applied scientist signal processing' in Netherlands
+2026-05-19 05:30:53,998 [INFO]   Found 21 new results so far (this query).
+2026-05-19 05:31:01,998 [INFO] Searching: 'research scientist neuromorphic' in Netherlands
+2026-05-19 05:31:02,483 [INFO]   Found 21 new results so far (this query).
+2026-05-19 05:31:10,483 [INFO] Searching: 'data scientist machine learning' in Netherlands
+2026-05-19 05:31:34,097 [INFO]   Found 27 new results so far (this query).
+2026-05-19 05:31:42,097 [INFO] Searching: 'applied machine learning scientist' in Netherlands
+2026-05-19 05:32:10,765 [INFO]   Found 27 new results so far (this query).
+2026-05-19 05:32:18,765 [INFO] Searching: 'computer vision scientist' in Netherlands
+2026-05-19 05:32:25,079 [INFO]   Found 27 new results so far (this query).
+2026-05-19 05:32:33,079 [INFO] Searching: 'ML engineer research' in Netherlands
+2026-05-19 05:32:56,710 [INFO]   Found 28 new results so far (this query).
+2026-05-19 05:33:04,710 [INFO] Searching: 'machine learning engineer' in Amsterdam Netherlands
+2026-05-19 05:33:25,540 [INFO]   Found 30 new results so far (this query).
+2026-05-19 05:33:33,540 [INFO] Searching: 'embedded AI' in Eindhoven Netherlands
+2026-05-19 05:33:40,169 [INFO]   Found 32 new results so far (this query).
+2026-05-19 05:33:48,170 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Netherlands
+2026-05-19 05:33:48,483 [INFO]   No results.
+2026-05-19 05:33:56,484 [INFO] Searching: 'postdoc neuroengineering' in Netherlands
+2026-05-19 05:33:56,671 [INFO]   No results.
+2026-05-19 05:34:04,671 [INFO] Searching: 'postdoctoral researcher neuroscience' in Netherlands
+2026-05-19 05:34:24,800 [INFO]   Found 36 new results so far (this query).
+2026-05-19 05:34:32,800 [INFO] Searching: 'experimental neuroscience' in Netherlands
+2026-05-19 05:34:40,493 [INFO]   Found 36 new results so far (this query).
+2026-05-19 05:34:48,493 [INFO] Searching: 'embedded systems engineer ai' in Netherlands
+2026-05-19 05:34:57,251 [INFO]   Found 37 new results so far (this query).
+2026-05-19 05:35:05,251 [INFO] Searching: 'robotics engineer perception' in Netherlands
+2026-05-19 05:35:22,285 [INFO]   Found 41 new results so far (this query).
+2026-05-19 05:35:30,285 [INFO] Searching: 'brain computer interface' in Netherlands
+2026-05-19 05:35:30,477 [INFO]   No results.
+2026-05-19 05:35:38,478 [INFO] Searching: 'brain machine interface' in Netherlands
+2026-05-19 05:35:38,732 [INFO]   No results.
+2026-05-19 05:35:46,732 [INFO] Searching: 'neuromorphic engineer' in Belgium
+2026-05-19 05:36:07,615 [INFO]   Found 49 new results so far (this query).
+2026-05-19 05:36:15,615 [INFO] Searching: 'spiking neural network engineer' in Belgium
+2026-05-19 05:36:15,944 [INFO]   No results.
+2026-05-19 05:36:23,944 [INFO] Searching: 'brain-inspired computing' in Belgium
+2026-05-19 05:36:24,128 [INFO]   No results.
+2026-05-19 05:36:32,129 [INFO] Searching: 'neuromorphic AI' in Belgium
+2026-05-19 05:36:32,319 [INFO]   No results.
+2026-05-19 05:36:40,320 [INFO] Searching: 'neuroengineering' in Belgium
+2026-05-19 05:36:40,564 [INFO]   No results.
+2026-05-19 05:36:48,565 [INFO] Searching: 'neurotech scientist' in Belgium
+2026-05-19 05:36:57,583 [INFO]   Found 51 new results so far (this query).
+2026-05-19 05:37:05,583 [INFO] Searching: 'computational neuroscience' in Belgium
+2026-05-19 05:37:05,782 [INFO]   No results.
+2026-05-19 05:37:13,782 [INFO] Searching: 'edge AI scientist' in Belgium
+2026-05-19 05:37:31,134 [INFO]   Found 56 new results so far (this query).
+2026-05-19 05:37:39,134 [INFO] Searching: 'embedded AI engineer' in Belgium
+2026-05-19 05:37:57,900 [INFO]   Found 61 new results so far (this query).
+2026-05-19 05:38:05,900 [INFO] Searching: 'embedded sensing engineer' in Belgium
+2026-05-19 05:38:06,090 [INFO]   No results.
+2026-05-19 05:38:14,090 [INFO] Searching: 'R&D scientist sensing' in Belgium
+2026-05-19 05:38:14,320 [INFO]   No results.
+2026-05-19 05:38:22,320 [INFO] Searching: 'applied scientist signal processing' in Belgium
+2026-05-19 05:38:22,561 [INFO]   No results.
+2026-05-19 05:38:30,562 [INFO] Searching: 'research scientist neuromorphic' in Belgium
+2026-05-19 05:38:30,768 [INFO]   No results.
+2026-05-19 05:38:38,768 [INFO] Searching: 'data scientist machine learning' in Belgium
+2026-05-19 05:39:05,273 [INFO]   Found 65 new results so far (this query).
+2026-05-19 05:39:13,274 [INFO] Searching: 'applied machine learning scientist' in Belgium
+2026-05-19 05:39:24,761 [INFO]   Found 65 new results so far (this query).
+2026-05-19 05:39:32,762 [INFO] Searching: 'computer vision scientist' in Belgium
+2026-05-19 05:39:33,002 [INFO]   No results.
+2026-05-19 05:39:41,002 [INFO] Searching: 'ML engineer research' in Belgium
+2026-05-19 05:39:55,049 [INFO]   Found 65 new results so far (this query).
+2026-05-19 05:40:03,049 [INFO] Searching: 'machine learning engineer' in Leuven Belgium
+2026-05-19 05:40:33,923 [INFO]   Found 73 new results so far (this query).
+2026-05-19 05:40:41,923 [INFO] Searching: 'postdoctoral researcher computational neuroscience' in Belgium
+2026-05-19 05:40:42,111 [INFO]   No results.
+2026-05-19 05:40:50,112 [INFO] Searching: 'postdoc neuroengineering' in Belgium
+2026-05-19 05:40:50,338 [INFO]   No results.
+2026-05-19 05:40:58,339 [INFO] Searching: 'postdoctoral researcher neuroscience' in Belgium
+2026-05-19 05:41:06,805 [INFO]   Found 75 new results so far (this query).
+2026-05-19 05:41:14,806 [INFO] Searching: 'brain computer interface' in Belgium
+2026-05-19 05:41:15,143 [INFO]   No results.
+2026-05-19 05:41:23,144 [INFO] Searching: 'embedded systems engineer ai' in Belgium
+2026-05-19 05:41:23,384 [INFO]   No results.
+2026-05-19 05:41:31,384 [INFO] Searching: 'robotics engineer perception' in Belgium
+2026-05-19 05:41:31,591 [INFO]   No results.
+2026-05-19 05:41:39,592 [INFO] Scrape complete. 75 new jobs found.
+2026-05-19 05:41:39,844 [INFO] Saved 70 new jobs to database.
+2026-05-19 05:41:39,845 [INFO] Job boards: 70 new jobs saved
+2026-05-19 05:41:39,845 [INFO] Scraping company career pages…
+2026-05-19 05:41:39,845 [INFO] Scraping company: Innatera
+2026-05-19 05:41:40,050 [INFO]   Innatera: 0 listings found.
+2026-05-19 05:41:42,051 [INFO] Scraping company: imec
+2026-05-19 05:41:42,487 [INFO]   imec: 0 job links found on listing page, fetching details…
+2026-05-19 05:41:42,488 [INFO]   imec: 0 listings found.
+2026-05-19 05:41:44,489 [INFO] Scraping company: Axelera AI
+2026-05-19 05:41:44,615 [WARNING] Greenhouse fetch failed for Axelera AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/axeleraai/jobs?content=true
+2026-05-19 05:41:44,616 [INFO]   Axelera AI: 0 listings found.
+2026-05-19 05:41:46,617 [INFO] Scraping company: Prophesee
+2026-05-19 05:41:46,727 [WARNING] Greenhouse fetch failed for Prophesee: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/prophesee/jobs?content=true
+2026-05-19 05:41:46,728 [INFO]   Prophesee: 0 listings found.
+2026-05-19 05:41:48,729 [INFO] Scraping company: Noldus
+2026-05-19 05:41:50,165 [WARNING] HTML fetch failed for Noldus: 404 Client Error: Not Found for url: https://noldus.com/about/jobs
+2026-05-19 05:41:50,168 [INFO]   Noldus: 0 listings found.
+2026-05-19 05:41:52,168 [INFO] Scraping company: Demcon
+2026-05-19 05:41:53,897 [WARNING] HTML fetch failed for Demcon: 404 Client Error: Not Found for url: https://demcon.com/en/vacancies
+2026-05-19 05:41:53,898 [INFO]   Demcon: 0 listings found.
+2026-05-19 05:41:55,899 [INFO] Scraping company: TNO
+2026-05-19 05:41:58,314 [INFO]   TNO: 30 listings found.
+2026-05-19 05:42:20,786 [INFO] AcademicTransfer: found 0 positions.
+2026-05-19 05:42:20,793 [INFO] Company monitor: 30 scraped, 30 after filter, 0 new.
+2026-05-19 05:42:20,793 [INFO] Saved 0 new company jobs to database.
+2026-05-19 05:42:20,793 [INFO] Company pages: 0 new jobs saved
+2026-05-19 05:42:20,793 [INFO] Scoring pending jobs…
+2026-05-19 05:42:20,795 [INFO] Scoring 30 pending jobs (cap=30)…
+2026-05-19 05:42:24,649 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:24,658 [INFO]   Scored [0] OEM Engineer at ALGOTEQUE Innovation Hub — Ben's qualifications do not align with the core requirements of the role, which 
+2026-05-19 05:42:30,812 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:30,815 [INFO]   Scored [0] Engineer at Silicon Logic UK Ltd. — Ben's qualifications do not align with the core requirements of Knowledge Graph 
+2026-05-19 05:42:36,016 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:36,019 [INFO]   Scored [0] 3rd Engineer at Lowland International — Ben's qualifications and experience are not aligned with the marine engineering 
+2026-05-19 05:42:42,305 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:42,308 [INFO]   Scored [70] Computer Vision Scientist at Huawei Nederland — This score reflects Ben's strong qualifications in Python and PyTorch, along wit
+2026-05-19 05:42:48,088 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:48,091 [INFO]   Scored [0] Verification Engineer - SoC / SystemVerilog / ASIC at European Tech Recruit — Ben is overqualified for this role as it requires specific ASIC verification exp
+2026-05-19 05:42:54,119 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:54,122 [INFO]   Scored [0] ASIC Security Staff Engineer at Synopsys Inc — Ben is overqualified for this role as it requires specific expertise in RTL desi
+2026-05-19 05:42:59,971 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:42:59,974 [INFO]   Scored [0] CFD Solver Developer (Computational Physics) at Siemens Digital Industries Software — Ben's qualifications do not align with the core requirements of the role, partic
+2026-05-19 05:43:05,840 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:05,843 [INFO]   Scored [0] Training Performance Engineer - Acceleration at kaiko.ai — Ben lacks the required deep GPU systems experience and production-level expertis
+2026-05-19 05:43:11,768 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:11,771 [INFO]   Scored [0] Inference Engineer - Acceleration at kaiko.ai — Ben's qualifications do not align with the core requirements of deep GPU systems
+2026-05-19 05:43:17,268 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:17,271 [INFO]   Scored [0] Engine Programmer at abstraction — Ben's qualifications do not align with the core requirements of game development
+2026-05-19 05:43:22,780 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:22,783 [INFO]   Scored [0] Postdoc Researcher in Maritime AI and Fuel-Efficient Vessel Operations at TU Delft — Ben is excluded from this position as it is a postdoctoral role, which he is ove
+2026-05-19 05:43:28,843 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:28,846 [INFO]   Scored [0] AI/ML Engineer at Air Apps — Ben is overqualified for this role and does not meet the specific requirement of
+2026-05-19 05:43:35,153 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:35,156 [INFO]   Scored [0] Machine Learning Engineer at Quantum World Technologies Inc. — This position is not suitable for Ben as it requires 12+ years of experience and
+2026-05-19 05:43:41,061 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:41,064 [INFO]   Scored [30] Machine Learning Engineer II - Performance Marketing at Booking.com — Ben's qualifications align with some technical skills required for the role, but
+2026-05-19 05:43:46,947 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:43:46,950 [INFO]   Scored [30] Forward Deployed Engineer, Applied AI, Google Cloud at Google — While Ben has strong Python skills and experience in AI systems, he lacks the ex
+2026-05-19 05:43:49,980 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 05:43:49,980 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-05-19 05:44:55,793 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:44:55,796 [INFO]   Scored [30] Application Support Engineer — Blockchain Security & AI Automation at Crypto.com — Ben has relevant skills in Python and AI development, but lacks direct experienc
+2026-05-19 05:45:02,060 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:02,062 [INFO]   Scored [0] AI Systems Engineer (Offensive Cyber) at Snatch UP Jobs — Ben does not meet the critical requirement for low-level systems experience and 
+2026-05-19 05:45:07,871 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:07,873 [INFO]   Scored [30] Artificial Intelligence Engineer at KimohaTech — While Ben has strong Python skills, he lacks the specific experience required in
+2026-05-19 05:45:14,074 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:14,076 [INFO]   Scored [30] Developer / Data Analyst (Biomedical AI) at HORAIZON — Ben has strong qualifications in Python and PyTorch, but he does not meet the MS
+2026-05-19 05:45:20,292 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:20,294 [INFO]   Scored [0] Product Engineer (Mobile) at Jobgether — Ben's qualifications do not align with the core requirements of mobile developme
+2026-05-19 05:45:26,241 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:26,243 [INFO]   Scored [0] Senior Product Manager - Ranking ABU at Booking.com — This role is a product management position, which is not aligned with Ben's qual
+2026-05-19 05:45:32,058 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:32,061 [INFO]   Scored [0] Product Manager - Data Management at Booking.com — Ben is overqualified for this product manager position and lacks the necessary e
+2026-05-19 05:45:37,941 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:37,943 [INFO]   Scored [0] AI Data Associate (NL), Artificial General Intelligence Data Services at Amazon — This role is a poor fit as it is an associate position requiring fluency in Dutc
+2026-05-19 05:45:43,988 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:43,992 [INFO]   Scored [30] Data Scientist – Marketing Intelligence at Billy Grace — While Ben has strong skills in Python and statistical modelling, the role requir
+2026-05-19 05:45:49,845 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:49,848 [INFO]   Scored [0] BAS EMS Engineer at ALGOTEQUE Innovation Hub — Ben is overqualified for this role as it requires specific experience in manufac
+2026-05-19 05:45:56,206 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:45:56,209 [INFO]   Scored [30] Data Engineer I at Booking.com — Ben has strong Python skills and experience in data analysis, but lacks specific
+2026-05-19 05:46:02,314 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:46:02,316 [INFO]   Scored [0] Quality Technician – Eindhoven at Advantech — Ben is overqualified for this role, as it requires a diploma and experience in q
+2026-05-19 05:46:08,507 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:46:08,509 [INFO]   Scored [0] Senior Innovation Project Manager at Philips — Ben is overqualified for this role as it requires a Master's degree and emphasiz
+2026-05-19 05:46:14,428 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:46:14,431 [INFO]   Scored [0] PostDoc in Synthesis of novel high-performance polyurethanes at TU/e Chemical Engineering and Chemistry — Ben is overqualified for this postdoctoral position as it requires a PhD in a di
+2026-05-19 05:46:20,151 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 05:46:20,153 [INFO]   Scored [0] PostDoc in Synthesis of novel high-performance polyurethanes at Eindhoven University of Technology — Ben is overqualified for this position as it requires a PhD in a different field
+2026-05-19 05:46:23,153 [INFO] Scoring complete. 30/30 attempted.
+2026-05-19 05:46:23,154 [INFO] Scored 30 jobs
+2026-05-19 05:46:23,154 [INFO] Exporting data…
+2026-05-19 05:46:23,163 [INFO] Exported 140 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-19 05:46:23,165 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-19 05:46:23,172 [INFO] Stats: {'total': 1519, 'scored': 1479, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-19T07:46:23+02:00'}
+2026-05-19 05:46:23,179 [INFO] Done. Total: 1519 | Scored: 1479 | Strong+: 0
