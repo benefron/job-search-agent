@@ -12770,3 +12770,21 @@
 2026-05-25 05:58:46,073 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-25 05:58:46,083 [INFO] Stats: {'total': 1866, 'scored': 1864, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-25T07:58:46+02:00'}
 2026-05-25 05:58:46,091 [INFO] Done. Total: 1866 | Scored: 1864 | Strong+: 0
+2026-05-25 18:44:50,433 [INFO] Initialising database…
+2026-05-25 18:44:50,434 [INFO] Ingesting feedback…
+2026-05-25 18:44:50,440 [INFO] Applied 103 feedback records.
+2026-05-25 18:44:50,441 [INFO] Scoring pending jobs (max=50)…
+2026-05-25 18:44:50,444 [INFO] Scoring 2 pending jobs (cap=50)…
+2026-05-25 18:44:51,166 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-25 18:44:51,167 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-05-25 18:45:54,621 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:45:54,629 [INFO]   Scored [0] Sr. Robotics Software Engineer at Axon — Ben's qualifications do not align with the core requirements of this role, parti
+2026-05-25 18:46:02,619 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:46:02,622 [INFO]   Scored [30] Sr. Robotics Software Engineer at Intermodalics — While Ben has strong Python skills and relevant interdisciplinary engineering ex
+2026-05-25 18:46:05,622 [INFO] Scoring complete. 2/2 attempted.
+2026-05-25 18:46:05,622 [INFO] Scored 2 jobs
+2026-05-25 18:46:05,622 [INFO] Exporting data…
+2026-05-25 18:46:05,635 [INFO] Exported 131 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-25 18:46:05,637 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-25 18:46:05,648 [INFO] Stats: {'total': 1866, 'scored': 1866, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-25T20:46:05+02:00'}
+2026-05-25 18:46:05,658 [INFO] Done. Total: 1866 | Scored: 1866 | Strong+: 0

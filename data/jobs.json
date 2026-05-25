@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T05:58:46.067205",
+  "generated": "2026-05-25T18:46:05.631049",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -4817,58 +4817,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "854462e1b4707b1e",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4418089766",
-      "title": "Sr. Robotics Software Engineer",
-      "company": "Intermodalics",
-      "location": "Leuven, Flemish Region, Belgium",
-      "date_posted": "nan",
-      "date_found": "2026-05-25T05:53:53.474356",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Intermodalics"
-      }
-    },
-    {
-      "id": "65bc493e0bffa96c",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4355072021",
-      "title": "Sr. Robotics Software Engineer",
-      "company": "Axon",
-      "location": "",
-      "date_posted": "2026-05-22",
-      "date_found": "2026-05-25T05:53:53.467029",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axon"
       }
     }
   ]
