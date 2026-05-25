@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T18:36:06.813132",
+  "generated": "2026-05-25T05:58:46.067205",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -141,6 +141,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "493146b3284ab4f9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418913261",
+      "title": "AI/ML Engineer",
+      "company": "micro1",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-25T05:53:53.458657",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "machine learning",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "Hands-on experience designing and managing ETL workflows in production environments",
+        "Experience working with cloud platforms for AI/ML such as AWS, GCP, or Azure"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience in ETL workflows and cloud platforms as required for this AI/ML Engineer role.",
+      "job_summary": "The AI/ML Engineer role involves designing, developing, and deploying machine learning models to address complex business challenges, while collaborating with cross-functional teams and managing ETL processes.",
+      "top_qualifications": [
+        "Expert-level proficiency in machine learning techniques and algorithms",
+        "Advanced programming skills in Python and its data science ecosystem",
+        "Hands-on experience designing and managing ETL workflows in production environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=micro1"
       }
     },
     {
@@ -2099,6 +2136,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "e51595d462ef6d18",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4344198395",
+      "title": "MLOps Engineer",
+      "company": "Materialise",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-25T05:53:53.399398",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "Experience with PyTorch",
+        "Familiarity with Docker"
+      ],
+      "key_gaps": [
+        "Experience with cloud platforms such as AWS SageMaker, GCP Vertex AI, or Azure ML",
+        "Knowledge of experiment tracking frameworks like mlflow or weights & biases"
+      ],
+      "rationale": "This score reflects moderate alignment due to Ben's strong Python and PyTorch skills, but he lacks specific experience with cloud platforms and experiment tracking frameworks required for the role.",
+      "job_summary": "The MLOps Engineer role involves transforming proof-of-concept scripts into pipelines, maintaining model infrastructure, and optimizing model performance in production environments. The position requires collaboration with research and development teams and staying updated on MLOps trends.",
+      "top_qualifications": [
+        "Strong programming skills in Python",
+        "Experience with machine learning frameworks such as TensorFlow, PyTorch, ONNX, or scikit-learn",
+        "Familiarity with version control systems (e.g., Git, Git-LFS, DVS) and CI/CD pipelines"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Materialise"
       }
     },
     {
@@ -4743,6 +4817,58 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "854462e1b4707b1e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418089766",
+      "title": "Sr. Robotics Software Engineer",
+      "company": "Intermodalics",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-05-25T05:53:53.474356",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Intermodalics&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Intermodalics"
+      }
+    },
+    {
+      "id": "65bc493e0bffa96c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4355072021",
+      "title": "Sr. Robotics Software Engineer",
+      "company": "Axon",
+      "location": "",
+      "date_posted": "2026-05-22",
+      "date_found": "2026-05-25T05:53:53.467029",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axon"
       }
     }
   ]
