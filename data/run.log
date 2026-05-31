@@ -14443,3 +14443,33 @@
 2026-05-31 05:57:02,545 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-05-31 05:57:02,554 [INFO] Stats: {'total': 2237, 'scored': 2229, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-31T07:57:02+02:00'}
 2026-05-31 05:57:02,562 [INFO] Done. Total: 2237 | Scored: 2229 | Strong+: 0
+2026-05-31 18:35:13,767 [INFO] Initialising database…
+2026-05-31 18:35:13,768 [INFO] Ingesting feedback…
+2026-05-31 18:35:13,776 [INFO] Applied 103 feedback records.
+2026-05-31 18:35:13,776 [INFO] Scoring pending jobs (max=50)…
+2026-05-31 18:35:13,779 [INFO] Scoring 8 pending jobs (cap=50)…
+2026-05-31 18:35:17,613 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:35:17,622 [INFO]   Scored [0] Post Doc – Solid-State NMR & Peptide–Formulation (Mechanistic Insights) at Johnson & Johnson Innovative Medicine — This position is a postdoctoral role, which Ben is overqualified for, and it req
+2026-05-31 18:35:20,864 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-31 18:35:20,865 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-05-31 18:36:24,336 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:24,339 [INFO]   Scored [0] Principal Embedded Engineer, Loudspeakers and Acoustics at Analog Devices — Ben's qualifications do not align with the core requirements of extensive experi
+2026-05-31 18:36:30,988 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:30,992 [INFO]   Scored [30] Software Engineer II, Embedded Systems, Firmware at Google — Ben has strong Python skills and experience with data structures, but he does no
+2026-05-31 18:36:37,617 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:37,620 [INFO]   Scored [30] Senior AI Engineer for People & Talent at Lighthouse — While Ben has relevant skills in Python and AI development, the role requires sp
+2026-05-31 18:36:44,332 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:44,335 [INFO]   Scored [30] Controls Engineer at Verhaert | On-site Consulting — Ben's qualifications align partially with the role, but he lacks the required Ma
+2026-05-31 18:36:50,940 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:50,942 [INFO]   Scored [30] Research And Development Manager at Vivid Resourcing — While Ben has relevant technical skills, he lacks the required leadership experi
+2026-05-31 18:36:57,503 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:36:57,505 [INFO]   Scored [30] Automation engineer at Orion Laser Tech — While Ben has relevant skills in Python and problem-solving, he does not meet th
+2026-05-31 18:37:04,126 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 18:37:04,129 [INFO]   Scored [0] Automation Engineer at ENGIBEX — Ben's qualifications do not align with the required engineering background and e
+2026-05-31 18:37:07,129 [INFO] Scoring complete. 8/8 attempted.
+2026-05-31 18:37:07,129 [INFO] Scored 8 jobs
+2026-05-31 18:37:07,130 [INFO] Exporting data…
+2026-05-31 18:37:07,141 [INFO] Exported 162 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-05-31 18:37:07,144 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-05-31 18:37:07,155 [INFO] Stats: {'total': 2237, 'scored': 2237, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-05-31T20:37:07+02:00'}
+2026-05-31 18:37:07,165 [INFO] Done. Total: 2237 | Scored: 2237 | Strong+: 0
