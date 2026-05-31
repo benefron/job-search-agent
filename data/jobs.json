@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T18:39:34.734386",
+  "generated": "2026-05-31T05:57:02.538846",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -141,6 +141,43 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "b848c07c01df60c8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4421350810",
+      "title": "AI/ML Engineer",
+      "company": "micro1",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-05-31T05:52:20.703920",
+      "score": 70,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "machine learning techniques",
+        "data preprocessing"
+      ],
+      "key_gaps": [
+        "Hands-on experience designing and managing ETL workflows in production environments",
+        "Experience working with cloud platforms for AI/ML such as AWS, GCP, or Azure"
+      ],
+      "rationale": "Ben has strong qualifications in Python and machine learning, but lacks specific experience with ETL workflows and cloud platforms as required for this AI/ML Engineer role.",
+      "job_summary": "The AI/ML Engineer role involves designing, developing, and deploying machine learning models to address complex business challenges, while collaborating with cross-functional teams and managing ETL processes.",
+      "top_qualifications": [
+        "Expert-level proficiency in machine learning techniques and algorithms",
+        "Advanced programming skills in Python and its data science ecosystem",
+        "Hands-on experience designing and managing ETL workflows in production environments"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=micro1&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=micro1"
       }
     },
     {
@@ -2765,6 +2802,80 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Darwin%20Recruitment&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Darwin%20Recruitment"
+      }
+    },
+    {
+      "id": "6b23fd732d01d675",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4422517623",
+      "title": "Principal Software Engineer (Healthcare AI) | EU, Remote",
+      "company": "C&D Talent Advisory - Academy",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-05-31T05:52:20.624205",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "AI, machine learning, LLMs",
+        "strong software architecture and systems design skills"
+      ],
+      "key_gaps": [
+        "5+ years of experience building complex production-grade software systems",
+        "Experience operating in startup, scale-up, or high-growth environments"
+      ],
+      "rationale": "Ben has relevant skills in Python and AI, but lacks the required extensive experience in building complex production-grade systems and working in startup environments.",
+      "job_summary": "The Principal Software Engineer will architect and build core systems for healthcare AI products, focusing on AI-driven patient communication and orchestration platforms while ensuring system reliability and scalability.",
+      "top_qualifications": [
+        "5+ years of experience building complex production-grade software systems",
+        "Strong backend engineering expertise, ideally with Python",
+        "Experience designing scalable distributed systems"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=C%26D%20Talent%20Advisory%20-%20Academy&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=C%26D%20Talent%20Advisory%20-%20Academy&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=C%26D%20Talent%20Advisory%20-%20Academy&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=C%26D%20Talent%20Advisory%20-%20Academy"
+      }
+    },
+    {
+      "id": "205f190ffd61f84c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4421208150",
+      "title": "Machine Learning Engineer",
+      "company": "JD.COM",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-05-29",
+      "date_found": "2026-05-31T05:52:20.617423",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "machine learning",
+        "data analysis"
+      ],
+      "key_gaps": [
+        "specific experience with search engines",
+        "business acumen related to e-commerce"
+      ],
+      "rationale": "Ben has relevant skills in Python and machine learning, but lacks specific experience with search engines and the business acumen emphasized for this role.",
+      "job_summary": "The Machine Learning Engineer role at JD.com involves developing and optimizing search and recommendation systems, requiring collaboration with design, product, and business teams to enhance customer experience.",
+      "top_qualifications": [
+        "solid technical experience with search engines",
+        "strong business acumen",
+        "experience in system design and architecture"
+      ],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=JD.COM&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=JD.COM&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=JD.COM&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=JD.COM"
       }
     },
     {
@@ -5856,6 +5967,214 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "1fbfc97313559c4a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420421263",
+      "title": "Automation Engineer",
+      "company": "ENGIBEX",
+      "location": "Mons, Walloon Region, Belgium",
+      "date_posted": "2026-05-28",
+      "date_found": "2026-05-31T05:52:20.736847",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ENGIBEX"
+      }
+    },
+    {
+      "id": "845602b16230d980",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417648480",
+      "title": "Automation engineer",
+      "company": "Orion Laser Tech",
+      "location": "Bekkevoort, Flemish Region, Belgium",
+      "date_posted": "2026-05-28",
+      "date_found": "2026-05-31T05:52:20.734157",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Orion%20Laser%20Tech&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Orion%20Laser%20Tech&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Orion%20Laser%20Tech&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Orion%20Laser%20Tech"
+      }
+    },
+    {
+      "id": "b71452bb5fd43516",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420448107",
+      "title": "Research And Development Manager",
+      "company": "Vivid Resourcing",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "2026-05-28",
+      "date_found": "2026-05-31T05:52:20.731217",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
+      }
+    },
+    {
+      "id": "21720efd2172dca5",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417952339",
+      "title": "Controls Engineer",
+      "company": "Verhaert | On-site Consulting",
+      "location": "Hasselt, Flemish Region, Belgium",
+      "date_posted": "2026-05-29",
+      "date_found": "2026-05-31T05:52:20.728784",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Verhaert%20%7C%20On-site%20Consulting&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Verhaert%20%7C%20On-site%20Consulting&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Verhaert%20%7C%20On-site%20Consulting&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Verhaert%20%7C%20On-site%20Consulting"
+      }
+    },
+    {
+      "id": "797fd93d3a9f6f0e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420408340",
+      "title": "Senior AI Engineer for People & Talent",
+      "company": "Lighthouse",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "2026-05-28",
+      "date_found": "2026-05-31T05:52:20.720540",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Lighthouse&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Lighthouse&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Lighthouse&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Lighthouse"
+      }
+    },
+    {
+      "id": "d8af2dc6f0d1d283",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4419068147",
+      "title": "Software Engineer II, Embedded Systems, Firmware",
+      "company": "Google",
+      "location": "Mont-Saint-Guibert, Walloon Region, Belgium",
+      "date_posted": "2026-05-28",
+      "date_found": "2026-05-31T05:52:20.717244",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Google&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Google&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Google&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Google"
+      }
+    },
+    {
+      "id": "08ee819eadbc6bc5",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4400859029",
+      "title": "Principal Embedded Engineer, Loudspeakers and Acoustics",
+      "company": "Analog Devices",
+      "location": "Heverlee, Flemish Region, Belgium",
+      "date_posted": "2026-05-29",
+      "date_found": "2026-05-31T05:52:20.713967",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Analog%20Devices&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Analog%20Devices&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Analog%20Devices&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Analog%20Devices"
+      }
+    },
+    {
+      "id": "b797b33b31cbd3c7",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420916648",
+      "title": "Post Doc \u2013 Solid-State NMR & Peptide\u2013Formulation (Mechanistic Insights)",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "location": "Beerse, Flemish Region, Belgium",
+      "date_posted": "2026-05-29",
+      "date_found": "2026-05-31T05:52:20.710743",
+      "score": null,
+      "fit_category": null,
+      "key_matches": [],
+      "key_gaps": [],
+      "rationale": null,
+      "job_summary": null,
+      "top_qualifications": [],
+      "status": "new",
+      "feedback": 0,
+      "connection_notes": "",
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Johnson%20%26%20Johnson%20Innovative%20Medicine"
       }
     }
   ]
