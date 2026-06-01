@@ -14675,3 +14675,47 @@
 2026-06-01 06:05:12,002 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-06-01 06:05:12,013 [INFO] Stats: {'total': 2282, 'scored': 2267, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-01T08:05:12+02:00'}
 2026-06-01 06:05:12,023 [INFO] Done. Total: 2282 | Scored: 2267 | Strong+: 0
+2026-06-01 19:46:55,664 [INFO] Initialising database…
+2026-06-01 19:46:55,665 [INFO] Ingesting feedback…
+2026-06-01 19:46:55,668 [INFO] Applied 103 feedback records.
+2026-06-01 19:46:55,668 [INFO] Scoring pending jobs (max=50)…
+2026-06-01 19:46:55,672 [INFO] Scoring 15 pending jobs (cap=50)…
+2026-06-01 19:46:59,234 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:46:59,245 [INFO]   Scored [0] Process Engineer / Manufacturing Engineer - Semiconductor & Infrared Sensor Manufacturing for Research & Defense company | Optimization and yield improvement at CareerBee — Ben is overqualified for this role as it requires a Bachelor's or Master's degre
+2026-06-01 19:47:06,332 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:06,337 [INFO]   Scored [0] Senior Mixed Signal Design Engineer at Swave Photonics — Ben is overqualified for this role as it requires specific expertise in analog a
+2026-06-01 19:47:12,149 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:12,152 [INFO]   Scored [0] Electrical Engineer at Axon — Ben does not meet the required educational background or the extensive industry 
+2026-06-01 19:47:17,981 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:17,985 [INFO]   Scored [0] Power Electronics Expert at ENGIE Belgium — Ben does not meet the required qualifications for this role, as it specifically 
+2026-06-01 19:47:23,723 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:23,726 [INFO]   Scored [0] Senior Engineer, Process Engineering | Global R&D Process Engineering Program at ASM — Ben is excluded due to the requirement for a PhD in a different field and the ex
+2026-06-01 19:47:29,844 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:29,847 [INFO]   Scored [0] Researcher, holder of Master Degree in physics (M/F/X) at Royal Military Academy, Belgium — Ben is overqualified for this position as it requires a Master's degree in physi
+2026-06-01 19:47:35,741 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:35,744 [INFO]   Scored [0] Engineering Technician II, Process Engineering at ASM — Ben is overqualified for this technician role, which requires a bachelor's degre
+2026-06-01 19:47:41,777 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:41,780 [INFO]   Scored [0] Research Lab Technician at ExxonMobil — Ben is overqualified for this position as it requires a Bachelor's degree and fo
+2026-06-01 19:47:47,672 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:47,675 [INFO]   Scored [30] Fullstack Software Engineer (x/f/m) - Claims Management at Alan — Ben has relevant skills in Python and experience with complex systems, but lacks
+2026-06-01 19:47:53,641 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:47:53,644 [INFO]   Scored [0] Data Engineer at Sansaone — Ben's qualifications do not align with the core requirements of the role, which 
+2026-06-01 19:47:56,678 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-01 19:47:56,678 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-06-01 19:48:59,841 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:48:59,843 [INFO]   Scored [30] Data Engineer at TTC Group (Tech Talent Consulting) — While Ben has strong skills in Python and data analysis, he lacks the specific e
+2026-06-01 19:49:05,631 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:49:05,633 [INFO]   Scored [30] Software Engineer at Odoo — While Ben has strong Python skills, he lacks specific experience with JavaScript
+2026-06-01 19:49:25,629 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:49:25,631 [INFO]   Scored [0] Senior Software Engineer at Vivid Resourcing — This position is a poor fit as it focuses on software testing and automation, wh
+2026-06-01 19:49:31,088 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:49:31,090 [INFO]   Scored [0] Senior Software Engineer at Spott — Ben is overqualified for this position as it requires a Master's degree and focu
+2026-06-01 19:49:36,772 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 19:49:36,776 [INFO]   Scored [0] Junior Quality Assurance Software Development Engineer at Nokia — Ben is overqualified for this junior position, which requires a Master's degree 
+2026-06-01 19:49:39,776 [INFO] Scoring complete. 15/15 attempted.
+2026-06-01 19:49:39,776 [INFO] Scored 15 jobs
+2026-06-01 19:49:39,776 [INFO] Exporting data…
+2026-06-01 19:49:39,788 [INFO] Exported 163 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-06-01 19:49:39,790 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-06-01 19:49:39,801 [INFO] Stats: {'total': 2282, 'scored': 2282, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-01T21:49:39+02:00'}
+2026-06-01 19:49:39,811 [INFO] Done. Total: 2282 | Scored: 2282 | Strong+: 0
