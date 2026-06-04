@@ -15547,3 +15547,111 @@
 2026-06-04 06:03:13,616 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-06-04 06:03:13,627 [INFO] Stats: {'total': 2515, 'scored': 2468, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-04T08:03:13+02:00'}
 2026-06-04 06:03:13,638 [INFO] Done. Total: 2515 | Scored: 2468 | Strong+: 0
+2026-06-04 18:59:31,977 [INFO] Initialising database…
+2026-06-04 18:59:31,978 [INFO] Ingesting feedback…
+2026-06-04 18:59:31,982 [INFO] Applied 103 feedback records.
+2026-06-04 18:59:31,982 [INFO] Scoring pending jobs (max=50)…
+2026-06-04 18:59:31,987 [INFO] Scoring 47 pending jobs (cap=50)…
+2026-06-04 18:59:34,787 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 18:59:34,797 [INFO]   Scored [0] Postdoctoral Researcher in Machine Learning for Quantum Systems at Universiteit Leiden — Ben is excluded from this position as it is a postdoctoral role focused on quant
+2026-06-04 18:59:40,802 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 18:59:40,807 [INFO]   Scored [30] AI Engineer at NiCE — While Ben has strong qualifications in Python and PyTorch, he lacks specific exp
+2026-06-04 18:59:46,653 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 18:59:46,656 [INFO]   Scored [30] Senior Machine Learning Engineer / MLOps Engineer (GCP) at Progressive — While Ben has relevant skills in Python and ML engineering, he lacks the specifi
+2026-06-04 18:59:52,826 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 18:59:52,829 [INFO]   Scored [30] Data Scientist at IQ Staffing — Ben has relevant skills in Python and technical integration, but lacks specific 
+2026-06-04 18:59:58,378 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 18:59:58,381 [INFO]   Scored [0] Research Associate - Data Scientist in Ecosystem Science at UNSW — This position is located in Australia, which is a hard exclusion due to relocati
+2026-06-04 19:00:04,703 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:04,706 [INFO]   Scored [30] AI Software Engineer at Van Lanschot Kempen — Ben has relevant skills in Python and AI prototyping but lacks the required expe
+2026-06-04 19:00:11,491 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:11,493 [INFO]   Scored [30] BI / Data Engineer at Shoparize — While Ben has strong skills in Python and data analysis, he lacks specific exper
+2026-06-04 19:00:17,619 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:17,622 [INFO]   Scored [0] Graduate Software Engineer at Miro — This position is a graduate role aimed at recent Bachelor's or Master's graduate
+2026-06-04 19:00:23,388 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:23,390 [INFO]   Scored [30] Data Scientist Team AdAdvice (Advertiser Advice) at bol — While Ben has strong qualifications in Python and machine learning, he lacks spe
+2026-06-04 19:00:29,080 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:29,083 [INFO]   Scored [0] BUYER at Atos — Ben is overqualified for this position as it is aimed at candidates with 2–5 yea
+2026-06-04 19:00:35,196 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:35,199 [INFO]   Scored [30] Lead Software Architect at Vialign — Ben has relevant skills in Python and signal processing, but lacks the required 
+2026-06-04 19:00:40,732 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:40,734 [INFO]   Scored [0] Medior Firmware Engineer at Compen Embedded — Ben is overqualified for this role as it requires a Bachelor's or Master's degre
+2026-06-04 19:00:46,618 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:46,621 [INFO]   Scored [0] Postdoc Arbovirus Research at Erasmus MC-Klinische Chemie — Ben is overqualified for this postdoctoral position, which focuses on arboviruse
+2026-06-04 19:00:52,642 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:52,645 [INFO]   Scored [0] Postdoc Arbovirus Research at Erasmus MC — Ben is overqualified for this postdoctoral position as it requires a PhD in a di
+2026-06-04 19:00:58,227 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:00:58,229 [INFO]   Scored [0] Postdoctoral Researcher Position on Evaluating Open Science Impact and Research Culture Change- NL at Leiden University — Ben is overqualified for this postdoctoral position, which focuses on social sci
+2026-06-04 19:01:03,816 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:03,819 [INFO]   Scored [0] Postdoctoral Researcher Position on Citizen Science and Public Trust in Science- NL at Leiden University — This position is a postdoctoral role focused on citizen science and public trust
+2026-06-04 19:01:09,261 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:09,263 [INFO]   Scored [0] Postdoctoral researcher Evaluating Methodologies for Urban Resilience at University of Amsterdam — This position is a postdoctoral role focused on urban resilience and policy, whi
+2026-06-04 19:01:15,363 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:15,365 [INFO]   Scored [0] Postdoc position in Quantum Chemistry at Athena - Research and Education Institute — Ben is excluded from this position as it requires a PhD in a different field (qu
+2026-06-04 19:01:20,751 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:20,753 [INFO]   Scored [0] Postdoc API Process Development at myGwork - LGBTQ+ Business Community — This position is a postdoctoral role, which is a hard exclusion for Ben as he al
+2026-06-04 19:01:26,585 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:26,588 [INFO]   Scored [0] Postdoc position in Quantum Chemistry at Vrije Universiteit Amsterdam (VU Amsterdam) — Ben is overqualified for this postdoctoral position as it requires a PhD in a di
+2026-06-04 19:01:32,645 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:32,648 [INFO]   Scored [30] Job Title: Software Verification Engineer – Surgical Robotics Application at Philips — Ben has relevant skills in Python and software verification planning, but lacks 
+2026-06-04 19:01:39,135 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:39,138 [INFO]   Scored [30] System Engineer - Algorithm and Simulation at SII Group Belgium — Ben's qualifications align with some technical skills required for the role, but
+2026-06-04 19:01:44,814 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:44,816 [INFO]   Scored [0] Coax Engineer at SII Group Belgium — Ben is not qualified for this role as it requires specific telecommunications ex
+2026-06-04 19:01:50,691 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:50,694 [INFO]   Scored [0] EASA B1 Licensed Engineer - A320/330 at Bostonair Group — Ben does not meet the essential aviation licensing requirements or relevant expe
+2026-06-04 19:01:57,310 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:01:57,312 [INFO]   Scored [0] Principal Architect - Compute Systems at imec in Vlaanderen — Ben is excluded from this role as it is a PhD-level position, which he is overqu
+2026-06-04 19:02:02,513 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:02,515 [INFO]   Scored [0] Image Sensor Mixed-Mode Design Engineer at eyeo — This role is a PhD-level position focused on mixed-signal design and verificatio
+2026-06-04 19:02:07,971 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:07,974 [INFO]   Scored [0] SystemC/TLM-2.0 Modeling Engineer — CPU Subsystem (Temporary Assignment) at imec — Ben's qualifications do not align with the core requirements of SystemC and CPU 
+2026-06-04 19:02:13,651 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:13,654 [INFO]   Scored [0] Mixed Signal Design Lead at VeroTech — Ben is overqualified for this role as it requires a PhD in electronics and exten
+2026-06-04 19:02:20,214 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:20,217 [INFO]   Scored [0] IAM Engineer at Huxley — Ben's qualifications do not align with the core requirements of the role, as he 
+2026-06-04 19:02:26,277 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:26,279 [INFO]   Scored [30] AI/ML Engineer at dataroots, a Talan company — Ben has relevant skills in Python and machine learning, but the requirement for 
+2026-06-04 19:02:32,291 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:32,293 [INFO]   Scored [30] AI & Data Solution Architect at Sightera Biosciences — Ben's qualifications align moderately with the role, but he lacks the required m
+2026-06-04 19:02:38,208 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:02:38,211 [INFO]   Scored [30] System Engineer Vision at VeroTech — Ben has relevant skills in Python and experimental design, but lacks the specifi
+2026-06-04 19:02:41,239 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-04 19:02:41,240 [INFO] Retrying request to /chat/completions in 60.000000 seconds
+2026-06-04 19:03:43,988 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:03:43,990 [INFO]   Scored [0] Scientist, Operations at The Coca-Cola Company — Ben's expertise in systems neuroscience and related fields does not align with t
+2026-06-04 19:03:50,999 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:03:51,002 [INFO]   Scored [30] Expert Machine Learning Engineer at dataroots, a Talan company — Ben has strong qualifications in Python and machine learning but lacks the requi
+2026-06-04 19:03:56,882 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:03:56,884 [INFO]   Scored [0] Machine Learning Engineer at Videntra — Ben is overqualified for a part-time role and does not meet the specific experie
+2026-06-04 19:04:01,928 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:01,931 [INFO]   Scored [0] Senior AI Machine Learning Engineer at Creativeskills.be — The job description is primarily in Dutch and requires Dutch fluency, which disq
+2026-06-04 19:04:07,839 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:07,841 [INFO]   Scored [0] Python Software Engineer - AI at Mercor — Ben is overqualified for this role and does not meet the specific experience req
+2026-06-04 19:04:13,677 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:13,680 [INFO]   Scored [0] Applications Development Scientist - Inks at Eastman — Ben is overqualified for this role as it requires extensive experience in ink de
+2026-06-04 19:04:19,564 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:19,567 [INFO]   Scored [0] Specialist R&D Engineer at Avery Dennison — This position is a poor fit as it requires a PhD in Polymer Science or Chemistry
+2026-06-04 19:04:26,120 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:26,123 [INFO]   Scored [30] Wireless DSP researcher for aerospace & security at imec — Ben has relevant skills in Python and machine learning but lacks the required ex
+2026-06-04 19:04:32,580 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:04:32,582 [INFO]   Scored [30] Emerging Technology & Innovation Research Engineer at Atlas Copco Group — Ben's qualifications align with some analytical skills and programming experienc
+2026-06-04 19:05:37,031 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:05:37,033 [INFO]   Scored [30] Wireless DSP researcher for aerospace & security at imec in Vlaanderen — Ben has relevant skills in Python and machine learning, but he lacks the require
+2026-06-04 19:05:43,395 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:05:43,398 [INFO]   Scored [30] Remote Sensing Engineer at SPACEBEL — Ben's qualifications align with some of the technical skills required, but he do
+2026-06-04 19:05:50,218 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:05:50,221 [INFO]   Scored [30] MLOps Engineer at dataroots, a Talan company — Ben has relevant skills in Python and cloud services but lacks the specific MLOp
+2026-06-04 19:05:56,380 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:05:56,382 [INFO]   Scored [50] Data Scientist - Remote at Pivotal Solutions — Ben has relevant skills in Python and statistical modeling, but lacks the requir
+2026-06-04 19:06:02,373 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:06:02,376 [INFO]   Scored [30] Data Scientist - AI Governance Consultant at Unisys — Ben has relevant skills in Python and AI technologies, but lacks the specific ex
+2026-06-04 19:06:08,706 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-04 19:06:08,709 [INFO]   Scored [70] AI/ML Engineer at micro1 — Ben has strong qualifications in Python and machine learning, but lacks specific
+2026-06-04 19:06:11,710 [INFO] Scoring complete. 47/47 attempted.
+2026-06-04 19:06:11,710 [INFO] Scored 47 jobs
+2026-06-04 19:06:11,710 [INFO] Exporting data…
+2026-06-04 19:06:11,724 [INFO] Exported 186 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-06-04 19:06:11,727 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-06-04 19:06:11,740 [INFO] Stats: {'total': 2515, 'scored': 2515, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-04T21:06:11+02:00'}
+2026-06-04 19:06:11,754 [INFO] Done. Total: 2515 | Scored: 2515 | Strong+: 0
