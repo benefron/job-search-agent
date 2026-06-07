@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T05:56:34.534735",
+  "generated": "2026-06-07T18:39:15.648226",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -7193,110 +7193,6 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
-      }
-    },
-    {
-      "id": "8b0ad646aacfedcf",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4358253837",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Shopfully",
-      "location": "",
-      "date_posted": "nan",
-      "date_found": "2026-06-07T05:52:59.308769",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Shopfully&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Shopfully&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Shopfully&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Shopfully"
-      }
-    },
-    {
-      "id": "9ab8eba912634a27",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4424980935",
-      "title": "Senior Software Engineer",
-      "company": "SpectaCell",
-      "location": "Ghent, Flemish Region, Belgium",
-      "date_posted": "nan",
-      "date_found": "2026-06-07T05:52:59.303821",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=SpectaCell&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=SpectaCell&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=SpectaCell&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=SpectaCell"
-      }
-    },
-    {
-      "id": "0941850703f37198",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4408851497",
-      "title": "Software Engineer | Remote",
-      "company": "Crossing Hurdles",
-      "location": "",
-      "date_posted": "2026-06-05",
-      "date_found": "2026-06-07T05:52:59.300299",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Crossing%20Hurdles&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Crossing%20Hurdles&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Crossing%20Hurdles&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Crossing%20Hurdles"
-      }
-    },
-    {
-      "id": "13bc25b7b40fca8b",
-      "source": "linkedin",
-      "url": "https://www.linkedin.com/jobs/view/4424542051",
-      "title": "Senior Python Engineer | Digital and Data",
-      "company": "Civitta",
-      "location": "",
-      "date_posted": "2026-06-05",
-      "date_found": "2026-06-07T05:52:59.296359",
-      "score": null,
-      "fit_category": null,
-      "key_matches": [],
-      "key_gaps": [],
-      "rationale": null,
-      "job_summary": null,
-      "top_qualifications": [],
-      "status": "new",
-      "feedback": 0,
-      "connection_notes": "",
-      "linkedin_urls": {
-        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Civitta&network=%5B%22F%22%5D",
-        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Civitta&network=%5B%22S%22%5D",
-        "combined": "https://www.linkedin.com/search/results/people/?keywords=Civitta&network=%5B%22F%22%2C%22S%22%5D",
-        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Civitta"
       }
     }
   ]
