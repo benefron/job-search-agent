@@ -16464,3 +16464,23 @@
 2026-06-07 05:56:34,543 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-06-07 05:56:34,556 [INFO] Stats: {'total': 2694, 'scored': 2690, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-07T07:56:34+02:00'}
 2026-06-07 05:56:34,569 [INFO] Done. Total: 2694 | Scored: 2690 | Strong+: 0
+2026-06-07 18:38:51,333 [INFO] Initialising database…
+2026-06-07 18:38:51,335 [INFO] Ingesting feedback…
+2026-06-07 18:38:51,343 [INFO] Applied 103 feedback records.
+2026-06-07 18:38:51,344 [INFO] Scoring pending jobs (max=50)…
+2026-06-07 18:38:51,348 [INFO] Scoring 4 pending jobs (cap=50)…
+2026-06-07 18:38:55,778 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-07 18:38:55,787 [INFO]   Scored [30] Senior Python Engineer | Digital and Data at Civitta — While Ben has strong Python and machine learning skills, he lacks the extensive 
+2026-06-07 18:39:01,539 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-07 18:39:01,542 [INFO]   Scored [0] Software Engineer | Remote at Crossing Hurdles — This position is a poor fit as it requires specific full stack development skill
+2026-06-07 18:39:07,462 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-07 18:39:07,465 [INFO]   Scored [30] Senior Software Engineer at SpectaCell — Ben has strong skills in Python and data analysis but lacks the required experie
+2026-06-07 18:39:12,633 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-07 18:39:12,638 [INFO]   Scored [30] Senior Machine Learning Engineer at Shopfully — While Ben has strong qualifications in Python and PyTorch, he lacks specific exp
+2026-06-07 18:39:15,638 [INFO] Scoring complete. 4/4 attempted.
+2026-06-07 18:39:15,638 [INFO] Scored 4 jobs
+2026-06-07 18:39:15,639 [INFO] Exporting data…
+2026-06-07 18:39:15,654 [INFO] Exported 195 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-06-07 18:39:15,657 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-06-07 18:39:15,671 [INFO] Stats: {'total': 2694, 'scored': 2694, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-07T20:39:15+02:00'}
+2026-06-07 18:39:15,685 [INFO] Done. Total: 2694 | Scored: 2694 | Strong+: 0
