@@ -16688,3 +16688,51 @@
 2026-06-08 06:01:54,990 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
 2026-06-08 06:01:55,006 [INFO] Stats: {'total': 2742, 'scored': 2724, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-08T08:01:55+02:00'}
 2026-06-08 06:01:55,019 [INFO] Done. Total: 2742 | Scored: 2724 | Strong+: 0
+2026-06-08 19:01:33,892 [INFO] Initialising database…
+2026-06-08 19:01:33,893 [INFO] Ingesting feedback…
+2026-06-08 19:01:33,896 [INFO] Applied 103 feedback records.
+2026-06-08 19:01:33,897 [INFO] Scoring pending jobs (max=50)…
+2026-06-08 19:01:33,901 [INFO] Scoring 18 pending jobs (cap=50)…
+2026-06-08 19:01:36,862 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:01:36,872 [INFO]   Scored [0] ENGINEER-IN-TRAINING - Gent at Heidelberg Materials Benelux — This position is a traineeship, which Ben is overqualified for, and the job desc
+2026-06-08 19:01:43,400 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:01:43,404 [INFO]   Scored [0] Share vacancy at Those Vegan Cowboys — Ben is not qualified for this position as it requires specific expertise in food
+2026-06-08 19:01:49,089 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:01:49,094 [INFO]   Scored [0] Senior Security Engineer – AI Security & Hardening at NRB — Ben's background in systems neuroscience and neuroengineering does not align wit
+2026-06-08 19:01:55,243 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:01:55,246 [INFO]   Scored [0] R&D Engineer for Advanced Metallization at imec in Vlaanderen — This role is not a fit for Ben as it requires specific expertise in semiconducto
+2026-06-08 19:02:01,633 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:01,636 [INFO]   Scored [0] R&D Process Integration Engineer Platform Team at imec in Vlaanderen — Ben is overqualified for this role, which requires a Master's degree and specifi
+2026-06-08 19:02:07,467 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:07,470 [INFO]   Scored [30] Engineer Electronics at Barco — While Ben has relevant skills in hardware-software integration and real-time pro
+2026-06-08 19:02:13,519 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:13,522 [INFO]   Scored [0] Embedded Validation Engineer at Expleo Group — Ben does not meet the essential qualifications required for this role, including
+2026-06-08 19:02:19,640 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:19,643 [INFO]   Scored [0] Embedded Hardware Engineer at SII Group Belgium — Ben is overqualified for this role as it requires a Master's degree in a field u
+2026-06-08 19:02:25,684 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:25,686 [INFO]   Scored [30] Test Bench/Rig Development Engineer at Akkodis — Ben has relevant skills in Python and data analysis but lacks the specific engin
+2026-06-08 19:02:31,624 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:31,626 [INFO]   Scored [0] Sr. Field Applications Engineer (FAE) at OMNIVISION — Ben does not meet the required experience in field applications engineering or t
+2026-06-08 19:02:37,454 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:37,456 [INFO]   Scored [0] Calibration Engineer [F/M/X] at Amaris Consulting Belgium SPRL — Ben is overqualified for this role, which requires specific experience in automo
+2026-06-08 19:02:43,242 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:43,245 [INFO]   Scored [0] MCU Calibration Consultant at Amaris Consulting Belgium SPRL — Ben's qualifications do not align with the core requirements of this role, which
+2026-06-08 19:02:49,113 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:49,116 [INFO]   Scored [30] Analytics Engineer (Northern Belgium) at Xebia — While Ben has relevant skills in Python and data analysis, the role requires spe
+2026-06-08 19:02:55,154 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:02:55,158 [INFO]   Scored [0] PowerCenter Data Engineer (On-Premises) – Contract - Brussels - Hybrid at Next Ventures — Ben's qualifications do not align with the core requirements of the role, partic
+2026-06-08 19:03:00,776 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:03:00,778 [INFO]   Scored [0] Functional Data Engineer at Creativeskills.be — The job description is primarily in Dutch, which is a hard exclusion rule, leadi
+2026-06-08 19:03:07,030 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:03:07,033 [INFO]   Scored [70] AI/ML Engineer at micro1 — Ben has strong qualifications in Python and machine learning but lacks specific 
+2026-06-08 19:03:12,932 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:03:12,935 [INFO]   Scored [30] Senior Data Engineer — Ingestion & Platform at Traffic Label Limited — While Ben has strong Python skills and experience in data analysis, he lacks the
+2026-06-08 19:03:18,905 [INFO] HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2026-06-08 19:03:18,908 [INFO]   Scored [0] Software engineer (m/f/d) at SOFICO — Ben is overqualified for this software engineering role, which requires specific
+2026-06-08 19:03:21,908 [INFO] Scoring complete. 18/18 attempted.
+2026-06-08 19:03:21,908 [INFO] Scored 18 jobs
+2026-06-08 19:03:21,908 [INFO] Exporting data…
+2026-06-08 19:03:21,923 [INFO] Exported 197 jobs to /home/runner/work/job-search-agent/job-search-agent/data/jobs.json
+2026-06-08 19:03:21,925 [INFO] Exported CSV to /home/runner/work/job-search-agent/job-search-agent/data/jobs_export.csv
+2026-06-08 19:03:21,941 [INFO] Stats: {'total': 2742, 'scored': 2742, 'liked': 18, 'skipped': 0, 'applied': 3, 'last_updated': '2026-06-08T21:03:21+02:00'}
+2026-06-08 19:03:21,956 [INFO] Done. Total: 2742 | Scored: 2742 | Strong+: 0
