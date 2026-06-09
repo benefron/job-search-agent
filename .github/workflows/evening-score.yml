@@ -1,9 +1,6 @@
 name: Evening Score
 
 on:
-  schedule:
-    # 18:00 UTC = 19:00 CET / 20:00 CEST — gives the morning scrape quota time to reset
-    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       max_jobs:

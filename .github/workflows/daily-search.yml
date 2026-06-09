@@ -1,9 +1,9 @@
-name: Daily Job Search
+name: Weekly Job Search
 
 on:
   schedule:
-    # 04:00 UTC = 05:00 CET / 06:00 CEST
-    - cron: "0 4 * * *"
+    # Monday 04:00 UTC = 05:00 CET / 06:00 CEST
+    - cron: "0 4 * * 1"
   workflow_dispatch:          # allow manual trigger from Actions tab
 
 permissions:
