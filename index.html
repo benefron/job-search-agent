@@ -104,6 +104,22 @@
 
     /* Export bar */
     #export-bar { background: white; border-top: 1px solid var(--border); padding: 0.75rem 1.5rem; text-align: right; font-size: 0.8rem; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+
+    /* GitHub settings panel */
+    #github-settings { display: none; background: #f0f7ff; border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    #github-settings label { font-size: 0.8rem; color: var(--muted); }
+    #github-settings input { padding: 0.25rem 0.5rem; border: 1px solid var(--border); border-radius: 6px;
+      font-size: 0.82rem; }
+    #github-settings input[type=text] { width: 260px; }
+    #github-settings input[type=password] { width: 220px; }
+    #sync-status { font-size: 0.78rem; font-weight: 500; }
+    .sync-ok  { color: var(--green); }
+    .sync-err { color: var(--red); }
+
+    /* Role-type chip on cards */
+    .role-chip { font-size: 0.68rem; background: #f0f4ff; color: #3730a3;
+      padding: 0.1rem 0.4rem; border-radius: 4px; margin-top: 0.2rem; display: inline-block; }
   </style>
 </head>
 <body>
@@ -129,7 +145,7 @@
   <label>Min score: <span id="score-val">35</span></label>
   <input type="range" id="filter-score" min="0" max="100" value="35" step="5" />
 
-  <label>Category:
+  <label>Fit:
     <select id="filter-cat">
       <option value="">All</option>
       <option value="perfect">Perfect</option>
@@ -140,53 +156,60 @@
     </select>
   </label>
 
-  <label>Source:
-    <select id="filter-source">
+  <label>Role type:
+    <select id="filter-role-type">
       <option value="">All</option>
-      <option value="linkedin">LinkedIn</option>
-      <option value="indeed">Indeed</option>
-      <option value="greenhouse">Company (Greenhouse)</option>
-      <option value="ashby">Company (Ashby)</option>
-      <option value="imec_career">imec careers</option>
-      <option value="company_html">Company (HTML)</option>
-      <option value="academictransfer">AcademicTransfer</option>
     </select>
   </label>
 
   <label>Location:
     <select id="filter-location">
       <option value="">All locations</option>
-      <optgroup label="Netherlands">
-        <option value="netherlands">🇳🇱 Any Netherlands</option>
+      <optgroup label="Belgium 🇧🇪">
+        <option value="leuven">Leuven</option>
+        <option value="brussels">Brussels</option>
+        <option value="liège">Liège</option>
+        <option value="ghent">Ghent</option>
+        <option value="antwerp">Antwerp</option>
+        <option value="belgium">Any Belgium</option>
+      </optgroup>
+      <optgroup label="Netherlands 🇳🇱">
         <option value="amsterdam">Amsterdam</option>
         <option value="eindhoven">Eindhoven</option>
         <option value="delft">Delft</option>
         <option value="utrecht">Utrecht</option>
         <option value="rotterdam">Rotterdam</option>
         <option value="nijmegen">Nijmegen</option>
-        <option value="leiden">Leiden</option>
-        <option value="the hague">The Hague</option>
-        <option value="haarlem">Haarlem</option>
+        <option value="breda">Breda</option>
+        <option value="netherlands">Any Netherlands</option>
       </optgroup>
-      <optgroup label="Belgium">
-        <option value="belgium">🇧🇪 Any Belgium</option>
-        <option value="leuven">Leuven</option>
-        <option value="brussels">Brussels</option>
-        <option value="mechelen">Mechelen</option>
-        <option value="hasselt">Hasselt</option>
-        <option value="zaventem">Zaventem</option>
-      </optgroup>
+      <option value="remote">Remote</option>
+    </select>
+  </label>
+
+  <label>Source:
+    <select id="filter-source">
+      <option value="">All</option>
+      <option value="linkedin">LinkedIn</option>
+      <option value="indeed">Indeed</option>
+      <option value="greenhouse">Greenhouse</option>
+      <option value="ashby">Ashby</option>
+      <option value="getro">Getro (startups)</option>
+      <option value="imec_career">imec careers</option>
+      <option value="company_html">Company (HTML)</option>
+      <option value="academictransfer">AcademicTransfer</option>
     </select>
   </label>
 
   <label>Status:
     <select id="filter-status">
-      <option value="">All (except gone)</option>
+      <option value="">All (except gone/archived)</option>
       <option value="new">New</option>
       <option value="interested">Interested</option>
       <option value="applied">Applied</option>
       <option value="skip">Skip</option>
       <option value="gone">Gone / Filled</option>
+      <option value="archived">Archived</option>
       <option value="delete">Delete</option>
     </select>
   </label>
@@ -194,7 +217,21 @@
   <input type="text" id="search-box" placeholder="Search title / company…" />
 
   <button class="btn btn-outline" id="btn-clear-filters">Clear filters</button>
-  <button class="btn btn-primary" id="btn-export">Export Feedback</button>
+  <button class="btn btn-outline" id="btn-export">⬇ Backup</button>
+  <button class="btn btn-primary" id="btn-sync-github">↑ Sync to GitHub</button>
+  <button class="btn btn-outline" id="btn-settings" title="GitHub sync settings">⚙</button>
+</div>
+
+<div id="github-settings" style="display:none;flex-wrap:wrap;gap:0.75rem;align-items:center;">
+  <label>Repo (owner/name):
+    <input type="text" id="gh-repo" placeholder="benefron/job-search-agent" />
+  </label>
+  <label>GitHub PAT (contents:write):
+    <input type="password" id="gh-token" placeholder="ghp_…" />
+  </label>
+  <button class="btn btn-primary" id="btn-save-gh-settings">Save</button>
+  <span id="sync-status"></span>
+  <span style="font-size:0.75rem;color:var(--muted);">Token stored only in your browser — never sent anywhere else.</span>
 </div>
 
 <div id="jobs-grid">
@@ -276,6 +313,7 @@ async function loadJobs() {
     }
 
     hydrateLabLocationFilter();
+    hydrateRoleTypeFilter();
 
     updateFeedbackCount();
     render();
@@ -315,26 +353,41 @@ function scoreClass(cat) {
            stretch: "score-stretch", poor: "score-poor" }[cat] || "score-stretch";
 }
 
+function hydrateRoleTypeFilter() {
+  const sel = document.getElementById("filter-role-type");
+  const existing = new Set(Array.from(sel.options).map(o => o.value));
+  const cats = [...new Set(allJobs.map(j => j.job_category).filter(Boolean))].sort();
+  cats.forEach(cat => {
+    if (existing.has(cat)) return;
+    const opt = document.createElement("option");
+    opt.value = cat;
+    opt.textContent = cat;
+    sel.appendChild(opt);
+  });
+}
+
 function render() {
   const minScore = parseInt(document.getElementById("filter-score").value);
   const catFilter = document.getElementById("filter-cat").value;
+  const roleTypeFilter = document.getElementById("filter-role-type").value;
+  const locationFilter = document.getElementById("filter-location").value.toLowerCase();
   const sourceFilter = document.getElementById("filter-source").value;
   const statusFilter = document.getElementById("filter-status").value;
-  const locationFilter = document.getElementById("filter-location").value.toLowerCase();
   const searchQ = document.getElementById("search-box").value.toLowerCase();
   const fb = loadFeedback();
 
   let jobs = allJobs.filter(j => {
     if ((j.score || 0) < minScore) return false;
     if (catFilter && j.fit_category !== catFilter) return false;
-    if (sourceFilter && j.source !== sourceFilter) return false;
+    if (roleTypeFilter && j.job_category !== roleTypeFilter) return false;
     if (locationFilter) {
       const loc = (j.location || "").toLowerCase();
       if (!loc.includes(locationFilter)) return false;
     }
+    if (sourceFilter && j.source !== sourceFilter) return false;
     const status = (fb[j.id] || {}).status || j.status || "new";
-    // By default (no filter selected) hide "gone" and "delete" jobs
-    if (!statusFilter && (status === "gone" || status === "delete")) return false;
+    // By default (no filter selected) hide "gone", "delete", and "archived" jobs
+    if (!statusFilter && (status === "gone" || status === "delete" || status === "archived")) return false;
     if (statusFilter && status !== statusFilter) return false;
     if (searchQ) {
       const hay = (j.title + " " + j.company).toLowerCase();
@@ -405,6 +458,7 @@ function render() {
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.25rem">
           <div class="score-badge ${scoreClass(job.fit_category)}">${job.score ?? "?"}</div>
           <div class="card-source">${esc(job.source)}</div>
+          ${job.job_category ? `<div class="role-chip">${esc(job.job_category)}</div>` : ""}
         </div>
       </div>
       <div class="card-body">
@@ -583,7 +637,7 @@ document.getElementById("filter-score").addEventListener("input", e => {
   document.getElementById("score-val").textContent = e.target.value;
   render();
 });
-["filter-cat", "filter-source", "filter-status", "filter-location"].forEach(id =>
+["filter-cat", "filter-role-type", "filter-location", "filter-source", "filter-status"].forEach(id =>
   document.getElementById(id).addEventListener("change", render)
 );
 document.getElementById("search-box").addEventListener("input", render);
@@ -591,9 +645,10 @@ document.getElementById("btn-clear-filters").addEventListener("click", () => {
   document.getElementById("filter-score").value = 35;
   document.getElementById("score-val").textContent = 35;
   document.getElementById("filter-cat").value = "";
-  document.getElementById("filter-source").value = "";
-  document.getElementById("filter-status").value = "";  // back to "All (except gone)"
+  document.getElementById("filter-role-type").value = "";
   document.getElementById("filter-location").value = "";
+  document.getElementById("filter-source").value = "";
+  document.getElementById("filter-status").value = "";
   document.getElementById("search-box").value = "";
   render();
 });
@@ -611,20 +666,109 @@ document.getElementById("btn-clear-lab-filters").addEventListener("click", () =>
   renderLabs();
 });
 
-// ─── Export feedback ──────────────────────────────────────────────────────────
-document.getElementById("btn-export").addEventListener("click", () => {
+// ─── Feedback helpers ────────────────────────────────────────────────────────
+function getFeedbackRecords() {
   const fb = loadFeedback();
-  const records = Object.values(fb).filter(v => {
-    const feedbackChanged = (v.feedback ?? 0) !== 0;
-    const statusChanged = v.status && v.status !== "new";
-    const notesChanged = !!v.connection_notes;
-    return feedbackChanged || statusChanged || notesChanged;
+  return Object.values(fb).filter(v => {
+    return (v.feedback ?? 0) !== 0 || (v.status && v.status !== "new") || !!v.connection_notes;
   });
+}
+
+// ─── Download backup ──────────────────────────────────────────────────────────
+document.getElementById("btn-export").addEventListener("click", () => {
+  const records = getFeedbackRecords();
   const blob = new Blob([JSON.stringify(records, null, 2)], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
   a.download = "feedback.json";
   a.click();
+});
+
+// ─── GitHub settings panel ────────────────────────────────────────────────────
+const GH_SETTINGS_KEY = "gh_sync_settings";
+
+function loadGhSettings() {
+  try { return JSON.parse(localStorage.getItem(GH_SETTINGS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+document.getElementById("btn-settings").addEventListener("click", () => {
+  const panel = document.getElementById("github-settings");
+  const visible = panel.style.display !== "none";
+  panel.style.display = visible ? "none" : "flex";
+  if (!visible) {
+    const s = loadGhSettings();
+    document.getElementById("gh-repo").value = s.repo || "benefron/job-search-agent";
+    document.getElementById("gh-token").value = s.token || "";
+  }
+});
+
+document.getElementById("btn-save-gh-settings").addEventListener("click", () => {
+  const repo = document.getElementById("gh-repo").value.trim();
+  const token = document.getElementById("gh-token").value.trim();
+  localStorage.setItem(GH_SETTINGS_KEY, JSON.stringify({ repo, token }));
+  document.getElementById("sync-status").textContent = "Saved.";
+  document.getElementById("sync-status").className = "sync-status sync-ok";
+  setTimeout(() => document.getElementById("sync-status").textContent = "", 2000);
+});
+
+// ─── Sync to GitHub ───────────────────────────────────────────────────────────
+document.getElementById("btn-sync-github").addEventListener("click", async () => {
+  const { repo, token } = loadGhSettings();
+  if (!repo || !token) {
+    alert("Please configure your GitHub repo and PAT first (⚙ button).");
+    return;
+  }
+
+  const statusEl = document.getElementById("sync-status");
+  const panel = document.getElementById("github-settings");
+  panel.style.display = "flex";
+  statusEl.textContent = "Syncing…";
+  statusEl.className = "sync-status";
+
+  const records = getFeedbackRecords();
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(records, null, 2))));
+  const apiUrl = `https://api.github.com/repos/${repo}/contents/data/feedback.json`;
+
+  try {
+    // Get current SHA (needed for updates)
+    let sha = undefined;
+    const getResp = await fetch(apiUrl, {
+      headers: { Authorization: `token ${token}`, Accept: "application/vnd.github+json" }
+    });
+    if (getResp.ok) {
+      const current = await getResp.json();
+      sha = current.sha;
+    }
+
+    const body = {
+      message: `feedback: sync from dashboard (${records.length} records)`,
+      content,
+      ...(sha ? { sha } : {}),
+    };
+
+    const putResp = await fetch(apiUrl, {
+      method: "PUT",
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (putResp.ok) {
+      statusEl.textContent = `✓ Synced ${records.length} records to GitHub`;
+      statusEl.className = "sync-status sync-ok";
+    } else {
+      const err = await putResp.json();
+      statusEl.textContent = `✗ Error: ${err.message}`;
+      statusEl.className = "sync-status sync-err";
+    }
+  } catch (e) {
+    statusEl.textContent = `✗ ${e.message}`;
+    statusEl.className = "sync-status sync-err";
+  }
 });
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
