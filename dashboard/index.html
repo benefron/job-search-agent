@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben's Job Dashboard</title>
+  <style>
+    :root {
+      --primary: #1952a0;
+      --accent: #3c78c8;
+      --light: #ebf5ff;
+      --green: #16a34a;
+      --yellow: #ca8a04;
+      --gray: #6b7280;
+      --red: #dc2626;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+
+    /* Header */
+    header { background: var(--primary); color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+    header h1 { font-size: 1.2rem; font-weight: 700; }
+    header .meta { font-size: 0.78rem; opacity: 0.85; }
+    #stats-bar { display: flex; gap: 1rem; font-size: 0.78rem; flex-wrap: wrap; }
+    #stats-bar span { background: rgba(255,255,255,0.15); padding: 0.2rem 0.6rem; border-radius: 999px; }
+
+    /* Controls */
+    #controls { background: white; border-bottom: 1px solid var(--border); padding: 0.75rem 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+    #controls label { font-size: 0.8rem; color: var(--muted); }
+    #controls select, #controls input[type=range] { font-size: 0.82rem; border: 1px solid var(--border); border-radius: 6px; padding: 0.25rem 0.5rem; }
+    #score-val { font-size: 0.82rem; font-weight: 600; color: var(--primary); min-width: 2rem; }
+    #search-box { padding: 0.3rem 0.6rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.82rem; width: 180px; }
+    .btn { padding: 0.3rem 0.8rem; border-radius: 6px; border: none; font-size: 0.8rem; cursor: pointer; font-weight: 500; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-outline { background: white; color: var(--primary); border: 1px solid var(--primary); }
+    .btn:hover { opacity: 0.85; }
+
+    /* Job grid */
+    #jobs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1rem; padding: 1.25rem 1.5rem; }
+
+    /* Cards */
+    .job-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+    .card-header { padding: 0.8rem 1rem 0.6rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+    .card-title { font-size: 0.92rem; font-weight: 600; color: var(--text); flex: 1; }
+    .card-company { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+    .card-location { font-size: 0.75rem; color: var(--muted); }
+    .card-source { font-size: 0.7rem; background: var(--light); color: var(--primary); padding: 0.1rem 0.4rem; border-radius: 4px; white-space: nowrap; }
+
+    /* Score badge */
+    .score-badge { min-width: 2.5rem; text-align: center; font-size: 1rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 8px; }
+    .score-perfect  { background: #dcfce7; color: var(--green); }
+    .score-strong   { background: #dbeafe; color: var(--primary); }
+    .score-moderate { background: #fef9c3; color: var(--yellow); }
+    .score-stretch  { background: #f1f5f9; color: var(--gray); }
+    .score-poor     { background: #fee2e2; color: var(--red); }
+
+    /* Card body */
+    .card-body { padding: 0.7rem 1rem; flex: 1; display: flex; flex-direction: column; gap: 0.5rem; }
+    .job-summary { font-size: 0.83rem; color: var(--text); line-height: 1.45; }
+    .qualifications-label { font-size: 0.7rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.25rem; }
+    .qualifications-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.15rem; }
+    .qualifications-list li { font-size: 0.78rem; color: var(--text); padding-left: 0.9rem; position: relative; }
+    .qualifications-list li::before { content: "•"; position: absolute; left: 0; color: var(--accent); }
+    .rationale { font-size: 0.75rem; color: var(--muted); font-style: italic; border-top: 1px solid var(--border); padding-top: 0.35rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .tag { font-size: 0.7rem; padding: 0.1rem 0.45rem; border-radius: 4px; }
+    .tag-match { background: #dcfce7; color: #166534; }
+    .tag-gap   { background: #fee2e2; color: #991b1b; }
+
+    /* Connection notes */
+    .notes-label { font-size: 0.72rem; color: var(--muted); margin-top: 0.3rem; }
+    .notes-input { width: 100%; font-size: 0.78rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.3rem 0.5rem; color: var(--text); resize: none; font-family: inherit; }
+
+    /* Card footer */
+    .card-footer { padding: 0.6rem 1rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; background: #fafafa; }
+    .btn-icon { background: none; border: 1px solid var(--border); border-radius: 6px; font-size: 0.78rem; padding: 0.2rem 0.5rem; cursor: pointer; }
+    .btn-icon:hover { background: var(--light); }
+    .btn-icon.active-like { background: #dcfce7; border-color: var(--green); }
+    .btn-icon.active-dislike { background: #fee2e2; border-color: var(--red); }
+    .btn-icon.active-interested { background: #dbeafe; border-color: var(--accent); }
+    .btn-icon.active-applied { background: #f0fdf4; border-color: var(--green); font-weight: 600; }
+    .job-card.status-gone { opacity: 0.6; }
+    .job-card.status-gone .card-title::after { content: " — gone/filled"; font-size: 0.72rem; color: var(--muted); font-weight: 400; }
+    .status-select { font-size: 0.75rem; border: 1px solid var(--border); border-radius: 5px; padding: 0.15rem 0.3rem; }
+    .card-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; }
+    .card-link:hover { text-decoration: underline; }
+    .card-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-left: auto; align-items: center; }
+    .card-meta { display: flex; gap: 0.4rem; align-items: center; }
+
+    /* Connection dropdown */
+    .connect-dropdown { position: relative; display: inline-block; }
+    .connect-menu { display: none; position: absolute; bottom: 100%; left: 0; background: white; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); min-width: 200px; z-index: 100; padding: 0.3rem 0; }
+    .connect-dropdown:hover .connect-menu, .connect-dropdown:focus-within .connect-menu { display: block; }
+    .connect-menu a { display: block; padding: 0.35rem 0.75rem; font-size: 0.76rem; color: var(--text); text-decoration: none; }
+    .connect-menu a:hover { background: var(--light); }
+
+    /* Empty state */
+    #empty-state { text-align: center; color: var(--muted); padding: 3rem; grid-column: 1/-1; }
+
+    /* Export bar */
+    #export-bar { background: white; border-top: 1px solid var(--border); padding: 0.75rem 1.5rem; text-align: right; font-size: 0.8rem; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+
+    /* GitHub settings panel */
+    #github-settings { display: none; background: #f0f7ff; border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    #github-settings label { font-size: 0.8rem; color: var(--muted); }
+    #github-settings input { padding: 0.25rem 0.5rem; border: 1px solid var(--border); border-radius: 6px;
+      font-size: 0.82rem; }
+    #github-settings input[type=text] { width: 260px; }
+    #github-settings input[type=password] { width: 220px; }
+    #sync-status { font-size: 0.78rem; font-weight: 500; }
+    .sync-ok  { color: var(--green); }
+    .sync-err { color: var(--red); }
+
+    /* Role-type chip on cards */
+    .role-chip { font-size: 0.68rem; background: #f0f4ff; color: #3730a3;
+      padding: 0.1rem 0.4rem; border-radius: 4px; margin-top: 0.2rem; display: inline-block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🔍 Ben's Job Search Dashboard</h1>
+    <div class="meta" id="meta-updated">Loading…</div>
+  </div>
+  <div id="stats-bar">
+    <span id="stat-total">– total</span>
+    <span id="stat-liked">– liked</span>
+    <span id="stat-applied">– applied</span>
+  </div>
+</header>
+
+<div id="view-tabs" style="background:white;border-bottom:1px solid var(--border);padding:0.6rem 1.5rem;display:flex;gap:0.5rem;">
+  <button class="btn btn-primary" id="tab-jobs">Jobs</button>
+  <button class="btn btn-outline" id="tab-labs">Labs</button>
+</div>
+
+<div id="controls">
+  <label>Min score: <span id="score-val">35</span></label>
+  <input type="range" id="filter-score" min="0" max="100" value="35" step="5" />
+
+  <label>Fit:
+    <select id="filter-cat">
+      <option value="">All</option>
+      <option value="perfect">Perfect</option>
+      <option value="strong">Strong</option>
+      <option value="moderate">Moderate</option>
+      <option value="stretch">Stretch</option>
+      <option value="poor">Poor</option>
+    </select>
+  </label>
+
+  <label>Role type:
+    <select id="filter-role-type">
+      <option value="">All</option>
+    </select>
+  </label>
+
+  <label>Location:
+    <select id="filter-location">
+      <option value="">All locations</option>
+      <optgroup label="Belgium 🇧🇪">
+        <option value="leuven">Leuven</option>
+        <option value="brussels">Brussels</option>
+        <option value="liège">Liège</option>
+        <option value="ghent">Ghent</option>
+        <option value="antwerp">Antwerp</option>
+        <option value="belgium">Any Belgium</option>
+      </optgroup>
+      <optgroup label="Netherlands 🇳🇱">
+        <option value="amsterdam">Amsterdam</option>
+        <option value="eindhoven">Eindhoven</option>
+        <option value="delft">Delft</option>
+        <option value="utrecht">Utrecht</option>
+        <option value="rotterdam">Rotterdam</option>
+        <option value="nijmegen">Nijmegen</option>
+        <option value="breda">Breda</option>
+        <option value="netherlands">Any Netherlands</option>
+      </optgroup>
+      <option value="remote">Remote</option>
+    </select>
+  </label>
+
+  <label>Source:
+    <select id="filter-source">
+      <option value="">All</option>
+      <option value="linkedin">LinkedIn</option>
+      <option value="indeed">Indeed</option>
+      <option value="greenhouse">Greenhouse</option>
+      <option value="ashby">Ashby</option>
+      <option value="getro">Getro (startups)</option>
+      <option value="imec_career">imec careers</option>
+      <option value="company_html">Company (HTML)</option>
+      <option value="academictransfer">AcademicTransfer</option>
+    </select>
+  </label>
+
+  <label>Status:
+    <select id="filter-status">
+      <option value="">All (except gone/archived)</option>
+      <option value="new">New</option>
+      <option value="interested">Interested</option>
+      <option value="applied">Applied</option>
+      <option value="skip">Skip</option>
+      <option value="gone">Gone / Filled</option>
+      <option value="archived">Archived</option>
+      <option value="delete">Delete</option>
+    </select>
+  </label>
+
+  <input type="text" id="search-box" placeholder="Search title / company…" />
+
+  <button class="btn btn-outline" id="btn-clear-filters">Clear filters</button>
+  <button class="btn btn-outline" id="btn-export">⬇ Backup</button>
+  <button class="btn btn-primary" id="btn-sync-github">↑ Sync to GitHub</button>
+  <button class="btn btn-outline" id="btn-settings" title="GitHub sync settings">⚙</button>
+</div>
+
+<div id="github-settings" style="display:none;flex-wrap:wrap;gap:0.75rem;align-items:center;">
+  <label>Repo (owner/name):
+    <input type="text" id="gh-repo" placeholder="benefron/job-search-agent" />
+  </label>
+  <label>GitHub PAT (contents:write):
+    <input type="password" id="gh-token" placeholder="ghp_…" />
+  </label>
+  <button class="btn btn-primary" id="btn-save-gh-settings">Save</button>
+  <span id="sync-status"></span>
+  <span style="font-size:0.75rem;color:var(--muted);">Token stored only in your browser — never sent anywhere else.</span>
+</div>
+
+<div id="jobs-grid">
+  <div id="empty-state">Loading jobs…</div>
+</div>
+
+<div id="labs-controls" style="display:none;background:white;border-bottom:1px solid var(--border);padding:0.75rem 1.5rem;gap:0.75rem;align-items:center;flex-wrap:wrap;">
+  <label>Location:
+    <select id="filter-lab-location">
+      <option value="">All</option>
+    </select>
+  </label>
+  <input type="text" id="search-labs" placeholder="Search researcher / lab / topic…" />
+  <button class="btn btn-outline" id="btn-clear-lab-filters">Clear filters</button>
+</div>
+
+<div id="labs-grid" style="display:none;grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap:1rem; padding:1.25rem 1.5rem;"></div>
+
+<div id="export-bar">
+  <span>After reviewing jobs/labs, click <strong>Export Feedback</strong> and commit it to <code>data/feedback.json</code> (including delete actions).</span>
+  <span id="feedback-count">0 items with feedback</span>
+</div>
+
+<script>
+// ─── State ───────────────────────────────────────────────────────────────────
+let allJobs = [];
+let allLabs = [];
+let activeView = "jobs";
+const LS_KEY = "job_dashboard_feedback";
+
+function loadFeedback() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}"); }
+  catch { return {}; }
+}
+function saveFeedback(fb) {
+  localStorage.setItem(LS_KEY, JSON.stringify(fb));
+  updateFeedbackCount();
+}
+
+// ─── Fetch data ───────────────────────────────────────────────────────────────
+async function loadJobs() {
+  try {
+    // Works both on GitHub Pages (root) and local file:// (adjust if needed)
+    const base = window.location.protocol === "file:"
+      ? "../data"
+      : "data";
+    const [jobsResp, statsResp, labsResp] = await Promise.all([
+      fetch(`${base}/jobs.json`),
+      fetch(`${base}/stats.json`).catch(() => null),
+      fetch(`${base}/labs.json`).catch(() => null),
+    ]);
+
+    if (!jobsResp.ok) {
+      document.getElementById("empty-state").textContent = "No jobs data found. Run the scraper first.";
+      return;
+    }
+
+    const data = await jobsResp.json();
+    allJobs = data.jobs || [];
+    allLabs = [];
+
+    // Merge saved feedback
+    const fb = loadFeedback();
+    allJobs = allJobs.map(j => ({ ...j, ...( fb[j.id] || {}) }));
+
+    document.getElementById("meta-updated").textContent =
+      "Last updated: " + new Date(data.generated).toLocaleString();
+
+    if (statsResp && statsResp.ok) {
+      const stats = await statsResp.json();
+      document.getElementById("stat-total").textContent = stats.total + " total";
+      document.getElementById("stat-liked").textContent = stats.liked + " liked";
+      document.getElementById("stat-applied").textContent = stats.applied + " applied";
+    }
+
+    if (labsResp && labsResp.ok) {
+      const labsData = await labsResp.json();
+      allLabs = labsData.labs || [];
+    }
+
+    hydrateLabLocationFilter();
+    hydrateRoleTypeFilter();
+
+    updateFeedbackCount();
+    render();
+    renderLabs();
+  } catch (e) {
+    document.getElementById("empty-state").textContent = "Error loading data: " + e.message;
+  }
+}
+
+function hydrateLabLocationFilter() {
+  const sel = document.getElementById("filter-lab-location");
+  const existing = new Set(Array.from(sel.options).map(o => o.value));
+  const locations = [...new Set(allLabs.map(l => l.location).filter(Boolean))].sort();
+  locations.forEach(loc => {
+    if (existing.has(loc)) return;
+    const opt = document.createElement("option");
+    opt.value = loc;
+    opt.textContent = loc;
+    sel.appendChild(opt);
+  });
+}
+
+function setView(view) {
+  activeView = view;
+  const jobsActive = view === "jobs";
+  document.getElementById("tab-jobs").className = jobsActive ? "btn btn-primary" : "btn btn-outline";
+  document.getElementById("tab-labs").className = jobsActive ? "btn btn-outline" : "btn btn-primary";
+  document.getElementById("controls").style.display = jobsActive ? "flex" : "none";
+  document.getElementById("jobs-grid").style.display = jobsActive ? "grid" : "none";
+  document.getElementById("labs-controls").style.display = jobsActive ? "none" : "flex";
+  document.getElementById("labs-grid").style.display = jobsActive ? "none" : "grid";
+}
+
+// ─── Rendering ────────────────────────────────────────────────────────────────
+function scoreClass(cat) {
+  return { perfect: "score-perfect", strong: "score-strong", moderate: "score-moderate",
+           stretch: "score-stretch", poor: "score-poor" }[cat] || "score-stretch";
+}
+
+function hydrateRoleTypeFilter() {
+  const sel = document.getElementById("filter-role-type");
+  const existing = new Set(Array.from(sel.options).map(o => o.value));
+  const cats = [...new Set(allJobs.map(j => j.job_category).filter(Boolean))].sort();
+  cats.forEach(cat => {
+    if (existing.has(cat)) return;
+    const opt = document.createElement("option");
+    opt.value = cat;
+    opt.textContent = cat;
+    sel.appendChild(opt);
+  });
+}
+
+function render() {
+  const minScore = parseInt(document.getElementById("filter-score").value);
+  const catFilter = document.getElementById("filter-cat").value;
+  const roleTypeFilter = document.getElementById("filter-role-type").value;
+  const locationFilter = document.getElementById("filter-location").value.toLowerCase();
+  const sourceFilter = document.getElementById("filter-source").value;
+  const statusFilter = document.getElementById("filter-status").value;
+  const searchQ = document.getElementById("search-box").value.toLowerCase();
+  const fb = loadFeedback();
+
+  let jobs = allJobs.filter(j => {
+    if ((j.score || 0) < minScore) return false;
+    if (catFilter && j.fit_category !== catFilter) return false;
+    if (roleTypeFilter && j.job_category !== roleTypeFilter) return false;
+    if (locationFilter) {
+      const loc = (j.location || "").toLowerCase();
+      if (!loc.includes(locationFilter)) return false;
+    }
+    if (sourceFilter && j.source !== sourceFilter) return false;
+    const status = (fb[j.id] || {}).status || j.status || "new";
+    // By default (no filter selected) hide "gone", "delete", and "archived" jobs
+    if (!statusFilter && (status === "gone" || status === "delete" || status === "archived")) return false;
+    if (statusFilter && status !== statusFilter) return false;
+    if (searchQ) {
+      const hay = (j.title + " " + j.company).toLowerCase();
+      if (!hay.includes(searchQ)) return false;
+    }
+    return true;
+  });
+
+  const grid = document.getElementById("jobs-grid");
+  grid.innerHTML = "";
+
+  if (!jobs.length) {
+    grid.innerHTML = '<div id="empty-state">No jobs match the current filters.</div>';
+    return;
+  }
+
+  jobs.forEach(job => {
+    const jobFb = fb[job.id] || {};
+    const currentFeedback = jobFb.feedback ?? job.feedback ?? 0;
+    const currentStatus = jobFb.status || job.status || "new";
+    const currentNotes = jobFb.connection_notes || job.connection_notes || "";
+
+    const matches = (job.key_matches || []).map(m =>
+      `<span class="tag tag-match">${m}</span>`).join("");
+    const gaps = (job.key_gaps || []).map(g =>
+      `<span class="tag tag-gap">${g}</span>`).join("");
+
+    // Job summary section
+    const summaryHtml = job.job_summary
+      ? `<div class="job-summary">${esc(job.job_summary)}</div>`
+      : "";
+
+    // Top qualifications section
+    const quals = job.top_qualifications || [];
+    const qualsHtml = quals.length
+      ? `<div class="qualifications-label">Key requirements</div>
+         <ul class="qualifications-list">${quals.map(q => `<li>${esc(q)}</li>`).join("")}</ul>`
+      : "";
+
+    // Rationale (scoring note) — small and secondary
+    const rationaleHtml = job.rationale
+      ? `<div class="rationale">Score note: ${esc(job.rationale)}</div>`
+      : "";
+
+    // LinkedIn connection links
+    const li = job.linkedin_urls || {};
+    const connectMenu = li.combined ? `
+      <div class="connect-dropdown">
+        <button class="btn-icon">🔗 Connections ▾</button>
+        <div class="connect-menu">
+          <a href="${li.first_degree}" target="_blank" rel="noopener">1st-degree at ${job.company}</a>
+          <a href="${li.second_degree}" target="_blank" rel="noopener">2nd-degree at ${job.company}</a>
+          <a href="${li.combined}" target="_blank" rel="noopener">1st + 2nd degree</a>
+          <a href="${li.company_search}" target="_blank" rel="noopener">Find company page</a>
+        </div>
+      </div>` : "";
+
+    const card = document.createElement("div");
+    card.className = "job-card" + (currentStatus === "gone" ? " status-gone" : "");
+    card.dataset.id = job.id;
+    card.innerHTML = `
+      <div class="card-header">
+        <div>
+          <div class="card-title">${esc(job.title)}</div>
+          <div class="card-company">${esc(job.company)}</div>
+          <div class="card-location">${esc(job.location || "")}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.25rem">
+          <div class="score-badge ${scoreClass(job.fit_category)}">${job.score ?? "?"}</div>
+          <div class="card-source">${esc(job.source)}</div>
+          ${job.job_category ? `<div class="role-chip">${esc(job.job_category)}</div>` : ""}
+        </div>
+      </div>
+      <div class="card-body">
+        ${summaryHtml}
+        ${qualsHtml}
+        <div class="tags">${matches}${gaps}</div>
+        ${rationaleHtml}
+        <div>
+          <div class="notes-label">Connection notes (Capocaccia, PI links, mutual contacts…)</div>
+          <textarea class="notes-input" rows="2" placeholder="e.g. PI connected to Amir Zjajo, met at Capocaccia 2024…">${esc(currentNotes)}</textarea>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button class="btn-icon ${currentFeedback === 1 ? 'active-like' : ''}" data-action="like">👍</button>
+        <button class="btn-icon ${currentFeedback === -1 ? 'active-dislike' : ''}" data-action="dislike">👎</button>
+        ${connectMenu}
+        <select class="status-select" data-action="status">
+          <option value="new" ${currentStatus==="new"?"selected":""}>New</option>
+          <option value="interested" ${currentStatus==="interested"?"selected":""}>Interested</option>
+          <option value="applied" ${currentStatus==="applied"?"selected":""}>Applied ✓</option>
+          <option value="skip" ${currentStatus==="skip"?"selected":""}>Skip</option>
+          <option value="gone" ${currentStatus==="gone"?"selected":""}>Gone / Filled</option>
+          <option value="delete" ${currentStatus==="delete"?"selected":""}>Delete</option>
+        </select>
+        <a class="card-link" href="${job.url}" target="_blank" rel="noopener">View posting →</a>
+      </div>
+    `;
+
+    // Event handlers — buttons get click, selects only get change (click fires before selection)
+    card.querySelectorAll("[data-action]").forEach(el => {
+      el.addEventListener("change", () => updateJob(job.id, el));
+      if (el.tagName !== "SELECT") {
+        el.addEventListener("click", () => updateJob(job.id, el));
+      }
+    });
+    card.querySelector(".notes-input").addEventListener("input", e => {
+      const fb = loadFeedback();
+      fb[job.id] = { ...( fb[job.id] || {}), connection_notes: e.target.value };
+      saveFeedback(fb);
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+function updateJob(jobId, el) {
+  const fb = loadFeedback();
+  fb[jobId] = fb[jobId] || {};
+  const action = el.dataset.action;
+  const job = allJobs.find(j => j.id === jobId) || {};
+
+  if (action === "like") {
+    fb[jobId].feedback = fb[jobId].feedback === 1 ? 0 : 1;
+  } else if (action === "dislike") {
+    fb[jobId].feedback = fb[jobId].feedback === -1 ? 0 : -1;
+  } else if (action === "status") {
+    fb[jobId].status = el.value;
+  }
+  fb[jobId].id = jobId;
+  fb[jobId].record_type = "job";
+  fb[jobId].url = job.url || fb[jobId].url;
+  fb[jobId].name = job.title || fb[jobId].name;
+  saveFeedback(fb);
+  render();
+}
+
+function renderLabs() {
+  const grid = document.getElementById("labs-grid");
+  const fb = loadFeedback();
+  const q = (document.getElementById("search-labs").value || "").toLowerCase();
+  const loc = document.getElementById("filter-lab-location").value;
+
+  const labs = allLabs.filter(l => {
+    if (loc && l.location !== loc) return false;
+    if (!q) return true;
+    const hay = `${l.name} ${l.lab} ${l.topic} ${l.location}`.toLowerCase();
+    return hay.includes(q);
+  });
+
+  grid.innerHTML = "";
+  if (!labs.length) {
+    grid.innerHTML = '<div id="empty-state">No labs match the current filters.</div>';
+    return;
+  }
+
+  labs.forEach(lab => {
+    const key = `lab:${lab.id}`;
+    const rec = fb[key] || {};
+    const status = rec.status || "new";
+    const notes = rec.connection_notes || "";
+    const card = document.createElement("div");
+    card.className = "job-card";
+    const worksCount = lab.works_count ? `<span class="score-badge">${lab.works_count} papers</span>` : "";
+    const orcidLink = lab.orcid_url ? `<a class="card-link" href="${esc(lab.orcid_url)}" target="_blank" rel="noopener">ORCID →</a>` : "";
+    const scholarUrl = lab.scholar_url || `https://scholar.google.com/scholar?q=${encodeURIComponent((lab.name||"")+" "+(lab.lab||""))}`;
+    const googleUrl = lab.google_url || `https://www.google.com/search?q=${encodeURIComponent((lab.name||"")+" "+(lab.lab||"")+" research")}`;
+    card.innerHTML = `
+      <div class="card-header">
+        <div>
+          <div class="card-title">${esc(lab.name)}</div>
+          <div class="card-company">${esc(lab.lab)}</div>
+          <div class="card-location">${esc(lab.location)} • ${esc(lab.topic)}</div>
+        </div>
+        <div class="card-meta">${worksCount}<span class="card-source">lab-map</span></div>
+      </div>
+      <div class="card-body">
+        <div class="notes-label">Outreach notes</div>
+        <textarea class="notes-input" rows="2" placeholder="e.g. potential postdoc fit, shared methods, intro path…">${esc(notes)}</textarea>
+      </div>
+      <div class="card-footer">
+        <select class="status-select" data-lab-action="status">
+          <option value="new" ${status==="new"?"selected":""}>New</option>
+          <option value="interested" ${status==="interested"?"selected":""}>Interested</option>
+          <option value="applied" ${status==="applied"?"selected":""}>Contacted</option>
+          <option value="delete" ${status==="delete"?"selected":""}>Delete</option>
+        </select>
+        <div class="card-links">
+          <a class="card-link" href="${esc(lab.url)}" target="_blank" rel="noopener">OpenAlex →</a>
+          ${orcidLink}
+          <a class="card-link" href="${esc(scholarUrl)}" target="_blank" rel="noopener">Scholar →</a>
+          <a class="card-link" href="${esc(googleUrl)}" target="_blank" rel="noopener">🔍 Google</a>
+        </div>
+      </div>
+    `;
+
+    card.querySelector("[data-lab-action='status']").addEventListener("change", (e) => {
+      const next = loadFeedback();
+      next[key] = {
+        ...(next[key] || {}),
+        id: lab.id,
+        record_type: "lab",
+        url: lab.url,
+        name: lab.name,
+        status: e.target.value,
+      };
+      saveFeedback(next);
+      renderLabs();
+    });
+
+    card.querySelector(".notes-input").addEventListener("input", (e) => {
+      const next = loadFeedback();
+      next[key] = {
+        ...(next[key] || {}),
+        id: lab.id,
+        record_type: "lab",
+        url: lab.url,
+        name: lab.name,
+        connection_notes: e.target.value,
+      };
+      saveFeedback(next);
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+function esc(str) {
+  return String(str || "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function updateFeedbackCount() {
+  const fb = loadFeedback();
+  const count = Object.values(fb).filter(v => {
+    const feedbackChanged = (v.feedback ?? 0) !== 0;
+    const statusChanged = v.status && v.status !== "new";
+    const notesChanged = !!v.connection_notes;
+    return feedbackChanged || statusChanged || notesChanged;
+  }).length;
+  document.getElementById("feedback-count").textContent = count + " items with feedback";
+}
+
+// ─── Filters ──────────────────────────────────────────────────────────────────
+document.getElementById("filter-score").addEventListener("input", e => {
+  document.getElementById("score-val").textContent = e.target.value;
+  render();
+});
+["filter-cat", "filter-role-type", "filter-location", "filter-source", "filter-status"].forEach(id =>
+  document.getElementById(id).addEventListener("change", render)
+);
+document.getElementById("search-box").addEventListener("input", render);
+document.getElementById("btn-clear-filters").addEventListener("click", () => {
+  document.getElementById("filter-score").value = 35;
+  document.getElementById("score-val").textContent = 35;
+  document.getElementById("filter-cat").value = "";
+  document.getElementById("filter-role-type").value = "";
+  document.getElementById("filter-location").value = "";
+  document.getElementById("filter-source").value = "";
+  document.getElementById("filter-status").value = "";
+  document.getElementById("search-box").value = "";
+  render();
+});
+
+document.getElementById("tab-jobs").addEventListener("click", () => setView("jobs"));
+document.getElementById("tab-labs").addEventListener("click", () => {
+  setView("labs");
+  renderLabs();
+});
+document.getElementById("filter-lab-location").addEventListener("change", renderLabs);
+document.getElementById("search-labs").addEventListener("input", renderLabs);
+document.getElementById("btn-clear-lab-filters").addEventListener("click", () => {
+  document.getElementById("filter-lab-location").value = "";
+  document.getElementById("search-labs").value = "";
+  renderLabs();
+});
+
+// ─── Feedback helpers ────────────────────────────────────────────────────────
+function getFeedbackRecords() {
+  const fb = loadFeedback();
+  return Object.values(fb).filter(v => {
+    return (v.feedback ?? 0) !== 0 || (v.status && v.status !== "new") || !!v.connection_notes;
+  });
+}
+
+// ─── Download backup ──────────────────────────────────────────────────────────
+document.getElementById("btn-export").addEventListener("click", () => {
+  const records = getFeedbackRecords();
+  const blob = new Blob([JSON.stringify(records, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "feedback.json";
+  a.click();
+});
+
+// ─── GitHub settings panel ────────────────────────────────────────────────────
+const GH_SETTINGS_KEY = "gh_sync_settings";
+
+function loadGhSettings() {
+  try { return JSON.parse(localStorage.getItem(GH_SETTINGS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+document.getElementById("btn-settings").addEventListener("click", () => {
+  const panel = document.getElementById("github-settings");
+  const visible = panel.style.display !== "none";
+  panel.style.display = visible ? "none" : "flex";
+  if (!visible) {
+    const s = loadGhSettings();
+    document.getElementById("gh-repo").value = s.repo || "benefron/job-search-agent";
+    document.getElementById("gh-token").value = s.token || "";
+  }
+});
+
+document.getElementById("btn-save-gh-settings").addEventListener("click", () => {
+  const repo = document.getElementById("gh-repo").value.trim();
+  const token = document.getElementById("gh-token").value.trim();
+  localStorage.setItem(GH_SETTINGS_KEY, JSON.stringify({ repo, token }));
+  document.getElementById("sync-status").textContent = "Saved.";
+  document.getElementById("sync-status").className = "sync-status sync-ok";
+  setTimeout(() => document.getElementById("sync-status").textContent = "", 2000);
+});
+
+// ─── Sync to GitHub ───────────────────────────────────────────────────────────
+document.getElementById("btn-sync-github").addEventListener("click", async () => {
+  const { repo, token } = loadGhSettings();
+  if (!repo || !token) {
+    alert("Please configure your GitHub repo and PAT first (⚙ button).");
+    return;
+  }
+
+  const statusEl = document.getElementById("sync-status");
+  const panel = document.getElementById("github-settings");
+  panel.style.display = "flex";
+  statusEl.textContent = "Syncing…";
+  statusEl.className = "sync-status";
+
+  const records = getFeedbackRecords();
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(records, null, 2))));
+  const apiUrl = `https://api.github.com/repos/${repo}/contents/data/feedback.json`;
+
+  try {
+    // Get current SHA (needed for updates)
+    let sha = undefined;
+    const getResp = await fetch(apiUrl, {
+      headers: { Authorization: `token ${token}`, Accept: "application/vnd.github+json" }
+    });
+    if (getResp.ok) {
+      const current = await getResp.json();
+      sha = current.sha;
+    }
+
+    const body = {
+      message: `feedback: sync from dashboard (${records.length} records)`,
+      content,
+      ...(sha ? { sha } : {}),
+    };
+
+    const putResp = await fetch(apiUrl, {
+      method: "PUT",
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (putResp.ok) {
+      statusEl.textContent = `✓ Synced ${records.length} records to GitHub`;
+      statusEl.className = "sync-status sync-ok";
+    } else {
+      const err = await putResp.json();
+      statusEl.textContent = `✗ Error: ${err.message}`;
+      statusEl.className = "sync-status sync-err";
+    }
+  } catch (e) {
+    statusEl.textContent = `✗ ${e.message}`;
+    statusEl.className = "sync-status sync-err";
+  }
+});
+
+// ─── Boot ─────────────────────────────────────────────────────────────────────
+setView("jobs");
+loadJobs();
+</script>
+</body>
+</html>

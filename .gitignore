@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+
+# Personal data — not committed to the public repo
+data/jobs.db
+data/feedback.json
+data/run.log
+data/jobs_export.csv
+data/labs.json
+data/labs_curation.json
+data/labs_dept.json
+data/labs_discarded.json
+data/labs_meta.json
+data/scoring_batch.json
+data/scored_results.json

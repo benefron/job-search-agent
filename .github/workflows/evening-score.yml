@@ -1,0 +1,75 @@
+name: Evening Score
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: "Max jobs to score this run (default: 50)"
+        required: false
+        default: "50"
+
+permissions:
+  contents: write
+
+jobs:
+  score-pending:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ensure data/ dir
+        run: mkdir -p data
+
+      - name: Score pending jobs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: |
+          MAX="${{ github.event.inputs.max_jobs }}"
+          MAX="${MAX:-50}"
+          python -m scraper.main --score-only --max "$MAX"
+
+      - name: Commit updated exports
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/stats.json data/labs.json data/jobs_export.csv data/jobs.db data/run.log || true
+          git diff --cached --quiet || git commit -m "chore: evening scoring update [skip ci]"
+          git pull --rebase origin main || true
+          git push || (git pull --rebase origin main && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prepare deploy directory
+        run: |
+          mkdir -p _deploy/data
+          cp dashboard/index.html _deploy/index.html
+          cp data/jobs.json  _deploy/data/jobs.json  2>/dev/null || echo '{}' > _deploy/data/jobs.json
+          cp data/stats.json _deploy/data/stats.json 2>/dev/null || echo '{}' > _deploy/data/stats.json
+          cp data/labs.json  _deploy/data/labs.json  2>/dev/null || echo '{"labs":[]}' > _deploy/data/labs.json
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_deploy
+          publish_branch: gh-pages
+          keep_files: false
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "deploy: dashboard update [skip ci]"
