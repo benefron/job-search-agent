@@ -3,6 +3,10 @@ __pycache__/
 *.pyo
 .env
 .DS_Store
+.venv/
+
+# Private candidate profile — never committed to the public repo
+scraper/profile_private.py
 
 # Temp scoring files — never committed
 data/scoring_batch.json

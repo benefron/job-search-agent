@@ -35,6 +35,18 @@ jobs:
       - name: Ensure data/ dir
         run: mkdir -p data
 
+      # ── 4b. Restore private candidate profile (kept out of the public repo) ──
+      - name: Restore private profile
+        env:
+          PROFILE_PRIVATE_B64: ${{ secrets.PROFILE_PRIVATE_B64 }}
+        run: |
+          if [ -n "$PROFILE_PRIVATE_B64" ]; then
+            echo "$PROFILE_PRIVATE_B64" | base64 -d > scraper/profile_private.py
+            echo "Private profile restored."
+          else
+            echo "PROFILE_PRIVATE_B64 not set — scoring will use the template profile."
+          fi
+
       # ── 5. Run pipeline ──
       - name: Run job search pipeline
         env:
@@ -50,7 +62,9 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Commit the DB so it is never lost even when the cache misses.
-          git add data/jobs.json data/stats.json data/labs.json data/labs_meta.json data/jobs_export.csv data/jobs.db data/run.log || true
+          # NOTE: only add tracked files — a nonexistent/ignored pathspec makes
+          # git add fail fatally and silently skip the commit.
+          git add data/jobs.json data/stats.json data/jobs_export.csv data/jobs.db
           git diff --cached --quiet || git commit -m "chore: daily job search update [skip ci]"
           # Pull any commits pushed to main since checkout (e.g. mid-run hotfixes),
           # then push. Retry once in case of a race condition.

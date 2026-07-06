@@ -1,6 +1,10 @@
 """
 Candidate profile — used as the reference for job scoring.
 Edit this file to reflect your skills, milestones, and preferences.
+
+The PROFILE/MILESTONES below are a public template. If a private profile exists
+(scraper/profile_private.py — gitignored; in CI it is decoded from the
+PROFILE_PRIVATE_B64 secret), it overrides the template at the bottom of this file.
 """
 
 PROFILE = {
@@ -182,6 +186,12 @@ MILESTONES = [
     "Year: Example — targeting [technology] for [application]",
     "Year: Example — ongoing collaboration on [project]",
 ]
+
+# Private profile override — real candidate data lives outside the public repo.
+try:
+    from .profile_private import PROFILE, MILESTONES  # noqa: F401,F811
+except ImportError:
+    pass
 
 
 def get_profile_text() -> str:

@@ -209,7 +209,12 @@ def score_job(job: dict, client: OpenAI, feedback_context: dict, profile_text: s
         return None
     except Exception as exc:
         exc_str = str(exc)
-        if "429" in exc_str or "rate limit" in exc_str.lower() or "RateLimitError" in type(exc).__name__:
+        if (
+            "429" in exc_str
+            or "rate limit" in exc_str.lower()
+            or "budget limit" in exc_str.lower()
+            or "RateLimitError" in type(exc).__name__
+        ):
             raise _RateLimitExceeded(exc_str) from exc
         logger.warning("Scoring API error for job %s: %s", job.get("id"), exc)
         return None
