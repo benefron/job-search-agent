@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T15:18:47.601181",
+  "generated": "2026-07-06T13:45:49.781132",
   "jobs": [
     {
       "id": "e3b3dc73fc3a235b",
@@ -148,6 +148,45 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IntelliProve&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=IntelliProve&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IntelliProve"
+      }
+    },
+    {
+      "id": "548684ca489a621f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417329604",
+      "title": "Research Engineer",
+      "company": "Materialise",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.918476",
+      "score": 72,
+      "fit_category": "strong",
+      "key_matches": [
+        "Python",
+        "PyTorch/TensorFlow",
+        "deep learning",
+        "medical imaging domain",
+        "PhD-level"
+      ],
+      "key_gaps": [
+        "medical-imaging specialisation",
+        "associate level"
+      ],
+      "rationale": "Medical-imaging deep-learning R&D at Leuven with a PhD-preferred profile is a strong match on both skills and biomedical domain.",
+      "job_summary": "Research engineer at Materialise (Leuven) building deep-learning algorithms for medical image processing/segmentation.",
+      "top_qualifications": [
+        "Python",
+        "PyTorch/TensorFlow",
+        "deep learning"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Materialise&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Materialise"
       }
     },
     {
@@ -641,6 +680,82 @@
       }
     },
     {
+      "id": "220fc16367d73509",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437152701",
+      "title": "Robotics Sensor Fusion Engineer",
+      "company": "Emergent Swarm Solutions",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.091468",
+      "score": 68,
+      "fit_category": "moderate",
+      "key_matches": [
+        "sensor fusion",
+        "state estimation/Kalman",
+        "multi-target tracking",
+        "research-to-software"
+      ],
+      "key_gaps": [
+        "defence-UAV domain",
+        "NL location"
+      ],
+      "rationale": "Sensor fusion, state estimation and Kalman-style tracking are direct matches to the candidate's adaptive-filtering expertise; NL and defence temper an otherwise strong fit.",
+      "job_summary": "Robotics sensor-fusion engineer at Emergent (Delft) building tracking, state estimation and multi-target tracking for UAV swarms.",
+      "top_qualifications": [
+        "sensor fusion",
+        "state estimation/Kalman",
+        "multi-target tracking"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Emergent%20Swarm%20Solutions&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Emergent%20Swarm%20Solutions&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Emergent%20Swarm%20Solutions&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Emergent%20Swarm%20Solutions"
+      }
+    },
+    {
+      "id": "ddcf944392b3ad9c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4426976139",
+      "title": "Control System Engineer",
+      "company": "Sphere Defense",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.970331",
+      "score": 68,
+      "fit_category": "moderate",
+      "key_matches": [
+        "MATLAB/Simulink",
+        "HIL/SIL simulation",
+        "closed-loop control",
+        "C++"
+      ],
+      "key_gaps": [
+        "defence/aerospace domain",
+        "not neuro"
+      ],
+      "rationale": "HIL/SIL, Simulink and closed-loop control are exactly the candidate's rare differentiators, in Brussels \u2014 a strong control-systems match despite the defence domain.",
+      "job_summary": "Control systems engineer at Sphere Defense (Brussels) architecting flight-control and HIL/SIL simulation for autonomous flying robots; MATLAB/Simulink/C++.",
+      "top_qualifications": [
+        "MATLAB/Simulink",
+        "HIL/SIL simulation",
+        "closed-loop control"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sphere%20Defense"
+      }
+    },
+    {
       "id": "b9c7ae6fdfc576e7",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4431480766",
@@ -717,6 +832,45 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IBSC%20LTD&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=IBSC%20LTD&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IBSC%20LTD"
+      }
+    },
+    {
+      "id": "a28844df1e03cb4a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4433786860",
+      "title": "Wireless DSP researcher for aerospace & security",
+      "company": "imec in Vlaanderen",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.903797",
+      "score": 65,
+      "fit_category": "moderate",
+      "key_matches": [
+        "DSP/signal processing",
+        "MATLAB/Python",
+        "research + publications",
+        "imec"
+      ],
+      "key_gaps": [
+        "radar/wireless not neuro",
+        "radar-ASIC/hardware lean",
+        "security clearance needed"
+      ],
+      "rationale": "DSP research at imec Leuven with strong signal-processing and publication overlap; radar/ASIC focus and clearance requirement keep it moderate.",
+      "job_summary": "Wireless DSP researcher at imec Leuven working on radar/communication systems and radar ASIC architecture; MATLAB/Python.",
+      "top_qualifications": [
+        "DSP/signal processing",
+        "MATLAB/Python",
+        "research + publications"
+      ],
+      "job_category": "Signal Processing / DSP",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20in%20Vlaanderen"
       }
     },
     {
@@ -876,6 +1030,120 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Enigma&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Enigma&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Enigma"
+      }
+    },
+    {
+      "id": "4f258ee9176a843b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4433931366",
+      "title": "Data Scientist - Waterloo, Belgium  (F/M)",
+      "company": "Alsinova",
+      "location": "Waterloo, Walloon Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.885256",
+      "score": 63,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python/MATLAB",
+        "signal processing",
+        "statistics/ML",
+        "neuroscience/biotech domain"
+      ],
+      "key_gaps": [
+        "consulting delivery",
+        "broad, project-dependent scope"
+      ],
+      "rationale": "Pharma/biotech consulting explicitly spanning neuroscience with MATLAB and signal processing is a genuinely strong domain-and-skill match in Belgium.",
+      "job_summary": "Data scientist consultant at Alsinova serving pharma/biotech clients across neuroscience, oncology and genomics; MATLAB/Python/signal processing.",
+      "top_qualifications": [
+        "Python/MATLAB",
+        "signal processing",
+        "statistics/ML"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Alsinova&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Alsinova&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Alsinova&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Alsinova"
+      }
+    },
+    {
+      "id": "6b5cd7fc2c3164c9",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409866980",
+      "title": "Machine Learning Engineer (BE)",
+      "company": "CluePoints",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.864426",
+      "score": 63,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python/ML",
+        "statistics",
+        "research+prototyping",
+        "clinical/health domain"
+      ],
+      "key_gaps": [
+        "clinical-trials/RBQM specialisation",
+        "LLM/agentic emphasis"
+      ],
+      "rationale": "Health/clinical-trials domain plus a research-to-production ML mandate gives a strong biomedical-domain fit in Belgium.",
+      "job_summary": "AI/ML engineer in CluePoints' AI Innovation team applying LLMs/agentic AI and statistics to clinical-trial data quality; Belgium.",
+      "top_qualifications": [
+        "Python/ML",
+        "statistics",
+        "research+prototyping"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=CluePoints&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=CluePoints&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=CluePoints&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=CluePoints"
+      }
+    },
+    {
+      "id": "16c417b543eb9888",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4426973163",
+      "title": "Robotics Engineer",
+      "company": "Sphere Defense",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.011939",
+      "score": 62,
+      "fit_category": "moderate",
+      "key_matches": [
+        "sensor fusion",
+        "perception",
+        "simulation/digital twin",
+        "C++"
+      ],
+      "key_gaps": [
+        "defence domain",
+        "not neuro"
+      ],
+      "rationale": "Sensor fusion, perception and high-fidelity simulation in Brussels are strong overlaps with the candidate's real-time/sensing background.",
+      "job_summary": "Senior robotics engineer at Sphere Defense (Brussels) building perception, sensor fusion and simulation for autonomous drones; C++/Linux.",
+      "top_qualifications": [
+        "sensor fusion",
+        "perception",
+        "simulation/digital twin"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sphere%20Defense"
       }
     },
     {
@@ -1271,6 +1539,44 @@
       }
     },
     {
+      "id": "c03a31d767d50c2b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436742419",
+      "title": "Freelance R&D Python Engineer - MedTech",
+      "company": "Vivid Resourcing",
+      "location": "",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.936749",
+      "score": 60,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "scientific computing (NumPy/SciPy)",
+        "research-prototype-to-production",
+        "medical imaging"
+      ],
+      "key_gaps": [
+        "freelance/contract",
+        "image-analysis specialisation"
+      ],
+      "rationale": "Medical-image scientific-algorithm R&D with a research-to-production mandate is a good biomedical/CV fit, though it is freelance.",
+      "job_summary": "Freelance R&D Python engineer building scientific algorithms for medical image analysis in clinical trials; remote.",
+      "top_qualifications": [
+        "Python",
+        "scientific computing (NumPy/SciPy)",
+        "research-prototype-to-production"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
+      }
+    },
+    {
       "id": "8fcc0bd2f3443a45",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4432206841",
@@ -1348,6 +1654,117 @@
       }
     },
     {
+      "id": "1c523b3f9fca9c66",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4416342381",
+      "title": "Senior Applied Deep Learning Scientist - Large Vision Language Models",
+      "company": "NVIDIA",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.104300",
+      "score": 58,
+      "fit_category": "moderate",
+      "key_matches": [
+        "PyTorch",
+        "applied DL research",
+        "multimodal/computer vision"
+      ],
+      "key_gaps": [
+        "VLM/LLM domain not neuro",
+        "NL location"
+      ],
+      "rationale": "An applied deep-learning research role with real multimodal/CV depth at NVIDIA; the VLM/LLM focus and NL location keep it moderate.",
+      "job_summary": "Senior applied deep-learning scientist on NVIDIA's Nemotron vision-language models; multimodal data/training, Amsterdam.",
+      "top_qualifications": [
+        "PyTorch",
+        "applied DL research",
+        "multimodal/computer vision"
+      ],
+      "job_category": "Computer Vision / Perception",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NVIDIA"
+      }
+    },
+    {
+      "id": "40cbfb1ccfbdcfc3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436029777",
+      "title": "Machine Learning Engineer",
+      "company": "Haystack People",
+      "location": "South Holland, Netherlands",
+      "date_posted": "2026-07-05",
+      "date_found": "2026-07-06T13:31:54.070343",
+      "score": 58,
+      "fit_category": "moderate",
+      "key_matches": [
+        "Python",
+        "computer vision",
+        "production ML on video"
+      ],
+      "key_gaps": [
+        "NL location (stricter)",
+        "salary near visa threshold"
+      ],
+      "rationale": "Production computer vision on real-time video is a solid match on skills and category; NL location and borderline salary temper it.",
+      "job_summary": "Python ML engineer building production computer-vision systems on live video streams; South Holland (Dutch not required, \u20ac4.5-5k).",
+      "top_qualifications": [
+        "Python",
+        "computer vision",
+        "production ML on video"
+      ],
+      "job_category": "Computer Vision / Perception",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Haystack%20People&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Haystack%20People&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Haystack%20People&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Haystack%20People"
+      }
+    },
+    {
+      "id": "65bc493e0bffa96c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4355072021",
+      "title": "Sr. Robotics Software Engineer",
+      "company": "Axon",
+      "location": "",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.010411",
+      "score": 58,
+      "fit_category": "moderate",
+      "key_matches": [
+        "C++",
+        "perception/GNC",
+        "real-time systems"
+      ],
+      "key_gaps": [
+        "defence/robotics domain",
+        "not neuro"
+      ],
+      "rationale": "Real-time robotics/GNC and perception in Brussels align with the candidate's control/real-time strengths, though the domain is defence robotics.",
+      "job_summary": "Senior robotics software engineer on Axon's GNC team (Brussels) for defence drones/ground robots; perception, C++.",
+      "top_qualifications": [
+        "C++",
+        "perception/GNC",
+        "real-time systems"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axon"
+      }
+    },
+    {
       "id": "c1f302d83ae7244a",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4432212572",
@@ -1422,6 +1839,303 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=SoTalent&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=SoTalent"
+      }
+    },
+    {
+      "id": "ac06b7424a9236c0",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/intelliprove/jobs/80865073-computer-vision-engineer#content",
+      "title": "Computer Vision Engineer Featured",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.592966",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "computer vision",
+        "imec ecosystem"
+      ],
+      "key_gaps": [
+        "no description available",
+        "startup scope unknown"
+      ],
+      "rationale": "Computer-vision engineering at a Leuven imec.istart startup is squarely on-domain; limited only by the missing description.",
+      "job_summary": "Computer-vision engineer at IntelliProve startup via imec.istart (no description available).",
+      "top_qualifications": [
+        "computer vision",
+        "imec ecosystem"
+      ],
+      "job_category": "Computer Vision / Perception",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "09592c13476ac6e7",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4408764437",
+      "title": "Embedded Firmware Designer",
+      "company": "Sioux Technologies",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.143925",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "C/C++ real-time firmware",
+        "state-machine design",
+        "FPGA interfacing"
+      ],
+      "key_gaps": [
+        "firmware-design focus, no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Real-time firmware, state-machine design and FPGA interfacing map closely to the candidate's embedded/real-time experience; NL location and no AI angle temper it.",
+      "job_summary": "Embedded firmware designer (C/C++, RTOS, state machines, FPGA) for semiconductor/analytical/medical systems at Sioux, Eindhoven.",
+      "top_qualifications": [
+        "C/C++ real-time firmware",
+        "state-machine design",
+        "FPGA interfacing"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sioux%20Technologies&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sioux%20Technologies&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sioux%20Technologies&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sioux%20Technologies"
+      }
+    },
+    {
+      "id": "7ed7644e9cdeb4f3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435711477",
+      "title": "Data Scientist III",
+      "company": "Elsevier",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.127065",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "ML/NLP",
+        "scientific data/knowledge graphs",
+        "research-adjacent"
+      ],
+      "key_gaps": [
+        "NLP/knowledge domain not neuro",
+        "NL location"
+      ],
+      "rationale": "Scientific-discovery ML with research flavour is a reasonable fit; the NLP/knowledge-graph domain and NL location keep it moderate.",
+      "job_summary": "Data scientist building ML/NLP/GenAI systems for scientific discovery and knowledge extraction at Elsevier, Amsterdam.",
+      "top_qualifications": [
+        "ML/NLP",
+        "scientific data/knowledge graphs",
+        "research-adjacent"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Elsevier&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Elsevier"
+      }
+    },
+    {
+      "id": "762d646619a7f54a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436794751",
+      "title": "Medior Scientist Underwater Communications",
+      "company": "TNO",
+      "location": "The Hague, South Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.119496",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "signal processing/DSP",
+        "algorithm development",
+        "sensor systems",
+        "research institute"
+      ],
+      "key_gaps": [
+        "underwater-acoustics niche",
+        "defence domain",
+        "NL"
+      ],
+      "rationale": "Signal-processing algorithm research on acoustic sensor systems at TNO is a genuine skill match; the niche underwater domain and NL location keep it moderate.",
+      "job_summary": "Medior scientist in underwater communications at TNO (The Hague) developing acoustic sensor systems and signal-processing algorithms.",
+      "top_qualifications": [
+        "signal processing/DSP",
+        "algorithm development",
+        "sensor systems"
+      ],
+      "job_category": "Signal Processing / DSP",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TNO&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TNO"
+      }
+    },
+    {
+      "id": "e718ae18833e1250",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4426980118",
+      "title": "Senior Embedded Software Engineer",
+      "company": "Sphere Defense",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.013447",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "embedded Linux/RTOS",
+        "real-time sensing/actuation",
+        "low-latency"
+      ],
+      "key_gaps": [
+        "defence domain",
+        "MCU/bare-metal lean"
+      ],
+      "rationale": "Low-latency embedded sensing/actuation in Brussels matches the candidate's real-time hardware experience, though it is defence-focused.",
+      "job_summary": "Senior embedded software engineer at Sphere Defense (Brussels) building low-latency sensing/processing/actuation on Linux/RTOS/MCU.",
+      "top_qualifications": [
+        "embedded Linux/RTOS",
+        "real-time sensing/actuation",
+        "low-latency"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sphere%20Defense&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sphere%20Defense"
+      }
+    },
+    {
+      "id": "a0199ec0003f13db",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4407178250",
+      "title": "Senior Research Engineer (Diffusion / Generative Models | \u00a3300k)",
+      "company": "Dex",
+      "location": "",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:53.967729",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "PyTorch",
+        "distributed training",
+        "research (hypothesis-to-model)"
+      ],
+      "key_gaps": [
+        "generative-model domain not neuro",
+        "remote-only"
+      ],
+      "rationale": "Genuine research engineering with strong PyTorch/training depth, but generative models sit outside the candidate's neuro/signal domain.",
+      "job_summary": "Senior research engineer training diffusion/generative models at scale for a European AI company; remote EU.",
+      "top_qualifications": [
+        "PyTorch",
+        "distributed training",
+        "research (hypothesis-to-model)"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Dex&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Dex&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Dex&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Dex"
+      }
+    },
+    {
+      "id": "0298262eb2ca94e0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4416583577",
+      "title": "Fluid Dynamics & Machine Learning Expert",
+      "company": "Atlas Copco Group",
+      "location": "Antwerp, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.878903",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "simulation + ML",
+        "physics-based modelling",
+        "Python"
+      ],
+      "key_gaps": [
+        "fluid-dynamics domain",
+        "not neuro/bio"
+      ],
+      "rationale": "Simulation-plus-ML engineering is a real differentiator overlap; Belgium location, though the CFD/thermal domain is adjacent rather than core.",
+      "job_summary": "Fluid-dynamics & ML expert at Atlas Copco (Antwerp) combining CFD/thermal simulation with machine learning.",
+      "top_qualifications": [
+        "simulation + ML",
+        "physics-based modelling",
+        "Python"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Atlas%20Copco%20Group&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Atlas%20Copco%20Group&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Atlas%20Copco%20Group&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Atlas%20Copco%20Group"
+      }
+    },
+    {
+      "id": "052114063acbca53",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4368722322",
+      "title": "Senior NLP / ML Researcher (LLM Evaluation & Agentic Systems)",
+      "company": "Iris.ai",
+      "location": "",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:53.874584",
+      "score": 55,
+      "fit_category": "moderate",
+      "key_matches": [
+        "research + applied engineering",
+        "Python",
+        "grant writing",
+        "scientific data"
+      ],
+      "key_gaps": [
+        "NLP/LLM domain not neuro",
+        "evaluation focus"
+      ],
+      "rationale": "Genuine research role with grant-writing that matches the candidate's academic strengths, though NLP/LLM is outside his core neuro domain.",
+      "job_summary": "Senior NLP/ML researcher at Iris.ai doing applied research on LLM evaluation and agentic systems, plus EU grant writing.",
+      "top_qualifications": [
+        "research + applied engineering",
+        "Python",
+        "grant writing"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Iris.ai&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Iris.ai&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Iris.ai&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Iris.ai"
       }
     },
     {
@@ -1690,6 +2404,154 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Vivid%20Resourcing&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vivid%20Resourcing"
+      }
+    },
+    {
+      "id": "024ea1647263d1d3",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4353595324",
+      "title": "Research Engineer (Agentic Models)",
+      "company": "JetBrains",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-05",
+      "date_found": "2026-07-06T13:31:54.068027",
+      "score": 52,
+      "fit_category": "moderate",
+      "key_matches": [
+        "PyTorch",
+        "research + training/eval pipelines",
+        "LLM post-training"
+      ],
+      "key_gaps": [
+        "coding-agent/LLM domain not neuro",
+        "NL location"
+      ],
+      "rationale": "A genuine research-engineering role with strong training/eval depth, but the coding-agent LLM domain is outside the candidate's core and it is NL-based.",
+      "job_summary": "Research engineer on JetBrains' Agentic Models team building SFT/RL post-training and eval pipelines for coding agents; Amsterdam.",
+      "top_qualifications": [
+        "PyTorch",
+        "research + training/eval pipelines",
+        "LLM post-training"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=JetBrains"
+      }
+    },
+    {
+      "id": "d1f190bb4dc32f02",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4433905014",
+      "title": "Optical Wireless Communication Systems Expert",
+      "company": "imec in Vlaanderen",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.054360",
+      "score": 52,
+      "fit_category": "moderate",
+      "key_matches": [
+        "system/link modelling",
+        "imec",
+        "post-doc-level research"
+      ],
+      "key_gaps": [
+        "photonics/OWC domain",
+        "hands-on PIC integration"
+      ],
+      "rationale": "imec Leuven system-modelling research (link budgets, SNR/BER) overlaps the candidate's quantitative signal work, though photonics/OWC is outside his core.",
+      "job_summary": "Optical-wireless-communication systems expert at imec Leuven building PIC-based OWC demonstrators; link/system modelling.",
+      "top_qualifications": [
+        "system/link modelling",
+        "imec",
+        "post-doc-level research"
+      ],
+      "job_category": "Signal Processing / DSP",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20in%20Vlaanderen"
+      }
+    },
+    {
+      "id": "a5fd8fc87577cd28",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437179559",
+      "title": "Test Rig Engineer Endurance Test Rig (ETR)",
+      "company": "ENGIBEX",
+      "location": "St-Truiden, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.048357",
+      "score": 52,
+      "fit_category": "moderate",
+      "key_matches": [
+        "real-time test platforms",
+        "Python",
+        "HIL-style testing/DAQ"
+      ],
+      "key_gaps": [
+        "automotive-powertrain domain",
+        "test-operations focus"
+      ],
+      "rationale": "Real-time test rigs with Python/CANape echo the candidate's HIL/DAQ experience, though the automotive-test operations domain is adjacent.",
+      "job_summary": "Test-rig engineer developing hybrid-powertrain endurance test rigs on a real-time platform (Python/CANape) at ENGIBEX, Sint-Truiden.",
+      "top_qualifications": [
+        "real-time test platforms",
+        "Python",
+        "HIL-style testing/DAQ"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ENGIBEX"
+      }
+    },
+    {
+      "id": "fdcf822df58ddd68",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436091732",
+      "title": "Principal Biomarker Data Science Lead",
+      "company": "Planet Pharma",
+      "location": "Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.954573",
+      "score": 52,
+      "fit_category": "moderate",
+      "key_matches": [
+        "statistics/R",
+        "high-dimensional data",
+        "biomedical domain"
+      ],
+      "key_gaps": [
+        "biostatistics/strategy leadership",
+        "not ML/signal engineering"
+      ],
+      "rationale": "Strong biomedical domain and quantitative work, but the role is biostatistics/strategy leadership rather than the candidate's ML/engineering core.",
+      "job_summary": "Principal biomarker data-science lead shaping biomarker analytics across clinical development; Belgium.",
+      "top_qualifications": [
+        "statistics/R",
+        "high-dimensional data",
+        "biomedical domain"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Planet%20Pharma"
       }
     },
     {
@@ -2293,6 +3155,150 @@
       }
     },
     {
+      "id": "8d3bc5790740b652",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/common-sense-robotics/jobs/85317915-computer-scientist-for-touch-labor-robotic-applications#content",
+      "title": "Computer Scientist for Touch-Labor Robotic Applications",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.605277",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "tactile/mechanoreceptor relevance",
+        "robotics/AI domain"
+      ],
+      "key_gaps": [
+        "no description",
+        "robotics-software scope unknown"
+      ],
+      "rationale": "Touch/tactile robotics resonates with the candidate's mechanoreceptor-modelling background at an imec.istart startup, though no description is available to confirm scope.",
+      "job_summary": "Computer scientist for touch/tactile robotic applications at Common Sense Robotics via imec.istart (no description).",
+      "top_qualifications": [
+        "tactile/mechanoreceptor relevance",
+        "robotics/AI domain"
+      ],
+      "job_category": "Neuroscience / Neurotech / BCI",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "b47dbbc1440a1ded",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412289253",
+      "title": "Embedded Software Engineer",
+      "company": "TMC",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.181928",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "modern C++",
+        "embedded/mechatronic systems",
+        "CI/CD"
+      ],
+      "key_gaps": [
+        "consultancy delivery, no AI/neuro",
+        "NL location"
+      ],
+      "rationale": "Strong C++ embedded/mechatronic match across high-tech sectors, but no AI/neuro angle and NL-based.",
+      "job_summary": "Embedded software engineer (modern C++, 5+ yrs) on mechatronic systems across semiconductor/automotive/healthcare at TMC, Eindhoven.",
+      "top_qualifications": [
+        "modern C++",
+        "embedded/mechatronic systems",
+        "CI/CD"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=TMC&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=TMC"
+      }
+    },
+    {
+      "id": "25cbab380fc09557",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436918897",
+      "title": "Technical Product Manager (Biomedical AI) | Full-time",
+      "company": "HORAIZON",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.114532",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "biomedical AI domain",
+        "ML/system design familiarity"
+      ],
+      "key_gaps": [
+        "product-management role, not hands-on",
+        "NL"
+      ],
+      "rationale": "Biomedical-AI domain gives a moderate fit, but this is a product-management role rather than hands-on ML/research; NL.",
+      "job_summary": "Technical product manager for biomedical AI (omics/microbiome ML) at HORAIZON, Delft.",
+      "top_qualifications": [
+        "biomedical AI domain",
+        "ML/system design familiarity"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=HORAIZON&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=HORAIZON&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=HORAIZON&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=HORAIZON"
+      }
+    },
+    {
+      "id": "68b1759112e55d58",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437148090",
+      "title": "Tech Lead Software embarqu\u00e9 H/F",
+      "company": "Free-Work",
+      "location": "Lasne, Walloon Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.033851",
+      "score": 50,
+      "fit_category": "moderate",
+      "key_matches": [
+        "embedded C/C++",
+        "real-time/RTOS",
+        "technical leadership"
+      ],
+      "key_gaps": [
+        "railway-safety domain",
+        "no AI/neuro"
+      ],
+      "rationale": "Strong real-time embedded and technical-lead overlap in Belgium, though the safety-railway domain lacks any AI/neuro dimension.",
+      "job_summary": "Tech lead for embedded software on critical railway systems (real-time/safety), French; Lasne.",
+      "top_qualifications": [
+        "embedded C/C++",
+        "real-time/RTOS",
+        "technical leadership"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Free-Work"
+      }
+    },
+    {
       "id": "81dfbbe727788a64",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4432540765",
@@ -2587,6 +3593,187 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Eindhoven%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "650161b61f843a62",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/common-sense-robotics/jobs/85318034-neuro-symbolic-ai-engineer#content",
+      "title": "Neuro-symbolic AI Engineer",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.603448",
+      "score": 48,
+      "fit_category": "stretch",
+      "key_matches": [
+        "brain-inspired/AI domain"
+      ],
+      "key_gaps": [
+        "symbolic-AI emphasis",
+        "no description"
+      ],
+      "rationale": "Neuro-symbolic AI touches the candidate's brain-inspired interests, but symbolic reasoning differs from his ML background and no description is available.",
+      "job_summary": "Neuro-symbolic AI engineer at Common Sense Robotics via imec.istart (no description available).",
+      "top_qualifications": [
+        "brain-inspired/AI domain"
+      ],
+      "job_category": "Neuromorphic / Brain-Inspired",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "b03e8161bd0a6cb3",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/common-sense-robotics/jobs/85318041-senior-symoblic-ai-knowledge-engineer-robot-reasoning#content",
+      "title": "Senior Symoblic AI & Knowledge Engineer - Robot reasoning",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.602396",
+      "score": 48,
+      "fit_category": "stretch",
+      "key_matches": [
+        "AI/robotics domain",
+        "research flavour"
+      ],
+      "key_gaps": [
+        "symbolic-AI/knowledge domain",
+        "no description"
+      ],
+      "rationale": "Robot-reasoning/neuro-symbolic AI is an interesting adjacent domain at an imec.istart robotics startup, but symbolic AI differs from the candidate's ML and there is no description.",
+      "job_summary": "Senior symbolic-AI & knowledge engineer for robot reasoning at Common Sense Robotics via imec.istart (no description).",
+      "top_qualifications": [
+        "AI/robotics domain",
+        "research flavour"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "305b04404cce043b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4381948774",
+      "title": "Hardware Engineer",
+      "company": "Harnham",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.192275",
+      "score": 48,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "computer vision",
+        "sensors/hardware integration",
+        "leadership"
+      ],
+      "key_gaps": [
+        "team-lead/PM emphasis",
+        "mobility-inspection domain",
+        "NL"
+      ],
+      "rationale": "Combines CV, sensors and Python with hardware integration, but the role leans team-lead/management and is NL-based.",
+      "job_summary": "Hardware engineering team lead for an AI-powered inspection gate (optics/sensors/CV/Python) at Harnham client, Amsterdam.",
+      "top_qualifications": [
+        "Python",
+        "computer vision",
+        "sensors/hardware integration"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Harnham"
+      }
+    },
+    {
+      "id": "27539d6f6176565f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437130767",
+      "title": "D\u00e9veloppeur Logiciel Embarqu\u00e9 F/H",
+      "company": "Free-Work",
+      "location": "Lasne, Walloon Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.060029",
+      "score": 48,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded C/C++",
+        "real-time/RTOS",
+        "ARM/microcontrollers"
+      ],
+      "key_gaps": [
+        "industrial-embedded, no AI/neuro",
+        "medior level"
+      ],
+      "rationale": "Real-time embedded C/C++ on ARM transfers well, but the industrial-embedded role has no AI or neuro dimension.",
+      "job_summary": "French-language embedded software developer (C/C++, RTOS, ARM) for real-time industrial systems; Lasne.",
+      "top_qualifications": [
+        "embedded C/C++",
+        "real-time/RTOS",
+        "ARM/microcontrollers"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Free-Work&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Free-Work"
+      }
+    },
+    {
+      "id": "c8dfa34a6ec11677",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435453858",
+      "title": "D\u00e9veloppeur Logiciel Embarqu\u00e9 F/H",
+      "company": "Viveris",
+      "location": "",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.845844",
+      "score": 48,
+      "fit_category": "stretch",
+      "key_matches": [
+        "C/C++",
+        "real-time embedded",
+        "HIL/bench validation"
+      ],
+      "key_gaps": [
+        "pure industrial embedded, no AI/neuro angle",
+        "medior level"
+      ],
+      "rationale": "Real-time embedded C/C++ and bench validation transfer well, but the role has no AI/neuro component; French is fine for Belgium.",
+      "job_summary": "Embedded real-time software developer (C/C++) for complex electronic systems; French-language Belgian consultancy.",
+      "top_qualifications": [
+        "C/C++",
+        "real-time embedded",
+        "HIL/bench validation"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Viveris&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Viveris&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Viveris&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Viveris"
       }
     },
     {
@@ -3084,6 +4271,293 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=VITO&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=VITO&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=VITO"
+      }
+    },
+    {
+      "id": "d114fa8c5a51cd4e",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/ai-blox-bv-2/jobs/81760670-embedded-linux-engineer#content",
+      "title": "Embedded Linux Engineer Featured",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.591448",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded Linux"
+      ],
+      "key_gaps": [
+        "no description",
+        "startup/embedded"
+      ],
+      "rationale": "Embedded-Linux startup role at an imec.istart company; on-theme but no description to confirm scope.",
+      "job_summary": "Embedded Linux engineer at AI-Blox startup via imec.istart (no description available).",
+      "top_qualifications": [
+        "embedded Linux"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "cd351cb79d87581c",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4431311778",
+      "title": "Postdoc In Photonic Chips for Integrated Raman Sensing",
+      "company": "Eindhoven University of Technology",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.152146",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "research",
+        "sensing/wearables angle"
+      ],
+      "key_gaps": [
+        "photonics/microfabrication domain",
+        "not neuro/ML",
+        "NL"
+      ],
+      "rationale": "A funded postdoc with a real-time sensing/wearables angle, but photonic-chip microfabrication is outside the candidate's skill set; NL.",
+      "job_summary": "Postdoc developing photonic-chip Raman sensing (design/microfab/testing) at TU Eindhoven.",
+      "top_qualifications": [
+        "research",
+        "sensing/wearables angle"
+      ],
+      "job_category": "Research / Academic (Postdoc)",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Eindhoven%20University%20of%20Technology&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Eindhoven%20University%20of%20Technology"
+      }
+    },
+    {
+      "id": "38c66803d3e73379",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435466912",
+      "title": "Senior Machine Learning Scientist",
+      "company": "Adyen",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.130604",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML science",
+        "production algorithms",
+        "Python"
+      ],
+      "key_gaps": [
+        "payments/fintech domain (cap 45)",
+        "NL"
+      ],
+      "rationale": "Strong ML-science role but payments/fintech domain caps it, and it is NL-based.",
+      "job_summary": "Senior machine-learning scientist building production algorithms (risk, optimisation, AML) at Adyen, Amsterdam.",
+      "top_qualifications": [
+        "ML science",
+        "production algorithms",
+        "Python"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Adyen"
+      }
+    },
+    {
+      "id": "cce90f54794af48e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435476092",
+      "title": "GEN AI Scientific Programmer",
+      "company": "S[&]T",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.111357",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "applied research",
+        "Python",
+        "GenAI"
+      ],
+      "key_gaps": [
+        "software-engineering domain",
+        "GenAI focus",
+        "NL"
+      ],
+      "rationale": "Applied-research framing is appealing, but the GenAI-for-software-engineering domain is outside the candidate's core; NL.",
+      "job_summary": "GenAI scientific programmer doing applied research on LLMs for systems/software engineering at S&T, Eindhoven.",
+      "top_qualifications": [
+        "applied research",
+        "Python",
+        "GenAI"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=S%5B%26%5DT"
+      }
+    },
+    {
+      "id": "6630e492b67e4315",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4328807986",
+      "title": "Research Engineer (LLM Training and Performance)",
+      "company": "JetBrains",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.097264",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "PyTorch",
+        "performance/training engineering"
+      ],
+      "key_gaps": [
+        "LLM-infra/CUDA domain not neuro",
+        "NL"
+      ],
+      "rationale": "Deep training-infrastructure research, but LLM-performance/CUDA work is outside the candidate's neuro/signal domain; NL.",
+      "job_summary": "Research engineer owning LLM pre/post-training performance and GPU kernels for JetBrains' Mellum family; Amsterdam.",
+      "top_qualifications": [
+        "PyTorch",
+        "performance/training engineering"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=JetBrains&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=JetBrains"
+      }
+    },
+    {
+      "id": "67c5b35e2c25f7c8",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435474098",
+      "title": "System Engineer Electronics",
+      "company": "S[&]T",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.077851",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "electronic system design",
+        "requirements/architecture"
+      ],
+      "key_gaps": [
+        "electronics-architecture focus",
+        "no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Electronics/embedded system engineering transfers partially, but there is no AI/neuro dimension and it is NL-based.",
+      "job_summary": "System engineer (electronics/electrical architecture) for semiconductor/aerospace projects at S&T, Delft.",
+      "top_qualifications": [
+        "electronic system design",
+        "requirements/architecture"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=S%5B%26%5DT&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=S%5B%26%5DT"
+      }
+    },
+    {
+      "id": "680f10a8277ef515",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437176223",
+      "title": "Expert Machine Learning Engineer",
+      "company": "dataroots, a Talan company",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.036801",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "ML modelling/production",
+        "senior/mentoring"
+      ],
+      "key_gaps": [
+        "consulting delivery",
+        "no neuro/signal domain"
+      ],
+      "rationale": "Senior hands-on ML engineering in Leuven is a decent fit, but it is broad consulting without the candidate's research domain.",
+      "job_summary": "Expert ML engineer at dataroots (Leuven) building/deploying production ML models across industries.",
+      "top_qualifications": [
+        "Python",
+        "ML modelling/production",
+        "senior/mentoring"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=dataroots%2C%20a%20Talan%20company"
+      }
+    },
+    {
+      "id": "90d8a96fb66ca610",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4387765257",
+      "title": "Staff Characterization Engineer",
+      "company": "OMNIVISION",
+      "location": "Mechelen, Flemish Region, Belgium",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:53.963217",
+      "score": 45,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python/MATLAB",
+        "image-sensor/lab measurement"
+      ],
+      "key_gaps": [
+        "sensor characterisation not algorithms",
+        "hardware-validation focus"
+      ],
+      "rationale": "CMOS image-sensor characterization touches machine-vision hardware and uses Python/MATLAB, but it is validation work rather than algorithm/AI development.",
+      "job_summary": "Staff characterization engineer validating CMOS image-sensor performance; Python/MATLAB lab work, Mechelen.",
+      "top_qualifications": [
+        "Python/MATLAB",
+        "image-sensor/lab measurement"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=OMNIVISION&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=OMNIVISION&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=OMNIVISION&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=OMNIVISION"
       }
     },
     {
@@ -3715,6 +5189,329 @@
       }
     },
     {
+      "id": "ca0368fe4f55893f",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4430422212",
+      "title": "Machine Learning Engineer",
+      "company": "Koda Staff",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.852475",
+      "score": 44,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML production",
+        "sensor/satellite data",
+        "signal-adjacent"
+      ],
+      "key_gaps": [
+        "agriculture domain",
+        "MLOps focus not research"
+      ],
+      "rationale": "Sensor/satellite ML has faint signal-processing overlap, but agriculture is outside the candidate's neuro/bio domain.",
+      "job_summary": "ML engineer at an AgriTech firm processing sensor, drone and satellite data for precision farming, Brussels.",
+      "top_qualifications": [
+        "ML production",
+        "sensor/satellite data",
+        "signal-adjacent"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Koda%20Staff&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Koda%20Staff&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Koda%20Staff&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Koda%20Staff"
+      }
+    },
+    {
+      "id": "03e77f433d61b5f4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435464376",
+      "title": "Postdoc in Individual Patient Data Meta-Analysis",
+      "company": "UMC Utrecht",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.187826",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "statistics/methodology",
+        "biomedical domain",
+        "postdoc (salary-exempt)"
+      ],
+      "key_gaps": [
+        "meta-analysis/biostatistics focus",
+        "not ML/signal engineering",
+        "NL"
+      ],
+      "rationale": "University postdoc with a biomedical domain, but IPD meta-analysis biostatistics rather than the candidate's ML/signal engineering; NL.",
+      "job_summary": "Postdoc in individual-patient-data meta-analysis (cochlear implants/tinnitus) at UMC Utrecht.",
+      "top_qualifications": [
+        "statistics/methodology",
+        "biomedical domain",
+        "postdoc (salary-exempt)"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=UMC%20Utrecht&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=UMC%20Utrecht"
+      }
+    },
+    {
+      "id": "df42d2e1f2ee1314",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4357669728",
+      "title": "Quantitative Researcher | Trading Team",
+      "company": "Jump Trading",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.155333",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML/statistics",
+        "data engineering"
+      ],
+      "key_gaps": [
+        "HFT-trading domain",
+        "NL"
+      ],
+      "rationale": "Quantitative ML with strong statistics, but the trading domain is far from the candidate's focus; NL.",
+      "job_summary": "Quantitative researcher applying ML/statistics to trading models at Jump Trading, Amsterdam.",
+      "top_qualifications": [
+        "ML/statistics",
+        "data engineering"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jump%20Trading&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jump%20Trading&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jump%20Trading&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jump%20Trading"
+      }
+    },
+    {
+      "id": "c9e006e0898b482a",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436049370",
+      "title": "Machine Learning Scientist",
+      "company": "Adyen",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.139632",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML science",
+        "production algorithms"
+      ],
+      "key_gaps": [
+        "payments/fintech domain (cap 45)",
+        "NL"
+      ],
+      "rationale": "Solid ML science but capped by the payments domain and NL location.",
+      "job_summary": "Machine-learning scientist building production ML algorithms at Adyen, Amsterdam.",
+      "top_qualifications": [
+        "ML science",
+        "production algorithms"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Adyen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Adyen"
+      }
+    },
+    {
+      "id": "61c5b66ae6fc14ce",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4395484250",
+      "title": "Senior Deep Learning Compiler Engineer - PyTorch",
+      "company": "NVIDIA",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.102929",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "PyTorch",
+        "performance engineering"
+      ],
+      "key_gaps": [
+        "compiler-internals domain",
+        "not neuro/signal",
+        "NL"
+      ],
+      "rationale": "Strong PyTorch/GPU context but compiler internals are outside the candidate's applied-ML and neuro focus; NL.",
+      "job_summary": "Senior deep-learning compiler engineer (Thunder/PyTorch, GPUs) at NVIDIA, Amsterdam.",
+      "top_qualifications": [
+        "PyTorch",
+        "performance engineering"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NVIDIA"
+      }
+    },
+    {
+      "id": "d06bd86bb418ef30",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436080726",
+      "title": "Specialist - concept exploration",
+      "company": "MARIN (Maritime Research Institute Netherlands)",
+      "location": "Wageningen, Gelderland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.094534",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "simulation/modelling"
+      ],
+      "key_gaps": [
+        "maritime domain",
+        "not neuro/ML",
+        "NL"
+      ],
+      "rationale": "Simulation and Python toolchain work is on-theme, but the maritime domain is adjacent and it is NL-based.",
+      "job_summary": "Specialist building simulation/optimization toolchains for maritime concept design at MARIN, Wageningen; Python.",
+      "top_qualifications": [
+        "Python",
+        "simulation/modelling"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=MARIN%20%28Maritime%20Research%20Institute%20Netherlands%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=MARIN%20%28Maritime%20Research%20Institute%20Netherlands%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=MARIN%20%28Maritime%20Research%20Institute%20Netherlands%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=MARIN%20%28Maritime%20Research%20Institute%20Netherlands%29"
+      }
+    },
+    {
+      "id": "83512ad20ffbb753",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409188250",
+      "title": "IoT Engineer",
+      "company": "Sensorfact",
+      "location": "Utrecht, Utrecht, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.093190",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded software",
+        "wireless sensors"
+      ],
+      "key_gaps": [
+        "IoT/SaaS domain",
+        "no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Embedded wireless-sensor engineering overlaps the candidate's hardware background but has no AI/neuro dimension; NL.",
+      "job_summary": "IoT engineer architecting wireless sensor systems (embedded-to-cloud) at Sensorfact, Utrecht.",
+      "top_qualifications": [
+        "embedded software",
+        "wireless sensors"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Sensorfact&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Sensorfact&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Sensorfact&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Sensorfact"
+      }
+    },
+    {
+      "id": "5323b6444645f520",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4320493150",
+      "title": "Performance Engineer",
+      "company": "IMC Trading",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.072400",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "statistics/experimentation",
+        "low-latency systems"
+      ],
+      "key_gaps": [
+        "HFT-trading domain",
+        "reverse-engineering focus"
+      ],
+      "rationale": "Low-latency and quantitative-experimentation overlap exist, but the HFT domain is far from the candidate's neuro/bio focus; NL.",
+      "job_summary": "Performance engineer at IMC Trading applying quantitative research and low-latency system tuning; Amsterdam.",
+      "top_qualifications": [
+        "statistics/experimentation",
+        "low-latency systems"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=IMC%20Trading&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=IMC%20Trading&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=IMC%20Trading&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=IMC%20Trading"
+      }
+    },
+    {
+      "id": "d8459eab85f6d4b0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437162643",
+      "title": "AI/ML Engineer",
+      "company": "dataroots, a Talan company",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.850541",
+      "score": 42,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "ML in production"
+      ],
+      "key_gaps": [
+        "consulting/GenAI-MLOps focus",
+        "no neuro/signal domain"
+      ],
+      "rationale": "Belgium location and solid ML engineering, but generic GenAI consulting without the candidate's research/domain differentiators.",
+      "job_summary": "AI/ML engineer at a Ghent consultancy building GenAI/classical-ML production solutions.",
+      "top_qualifications": [
+        "Python",
+        "ML in production"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=dataroots%2C%20a%20Talan%20company"
+      }
+    },
+    {
       "id": "eb785183873ba940",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4429847274",
@@ -4321,6 +6118,530 @@
       }
     },
     {
+      "id": "0c04da9ca91d415c",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/ai-blox-bv-2/jobs/68529082-electronic-hardware-engineer#content",
+      "title": "Electronic Hardware Engineer Featured",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.601364",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "hardware engineering"
+      ],
+      "key_gaps": [
+        "no description",
+        "hardware-design focus"
+      ],
+      "rationale": "Hardware-engineering startup role at imec.istart; plausibly on-theme but no description and hardware-design leaning.",
+      "job_summary": "Electronic hardware engineer at AI-Blox startup via imec.istart (no description available).",
+      "top_qualifications": [
+        "hardware engineering"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "dd13cde7008916f1",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437156518",
+      "title": "Embedded Software Engineer",
+      "company": "Peblar",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.183248",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded software"
+      ],
+      "key_gaps": [
+        "EV-charging domain",
+        "no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Embedded software with partial overlap but no AI/neuro content; NL.",
+      "job_summary": "Embedded software engineer for EV-charging platforms at Peblar/Prodrive, Eindhoven.",
+      "top_qualifications": [
+        "embedded software"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Peblar&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Peblar&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Peblar&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Peblar"
+      }
+    },
+    {
+      "id": "b1967c2154273ed6",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436754008",
+      "title": "Quantitative Researcher",
+      "company": "Cedalion Capital",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.156727",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML/statistics/optimization",
+        "Python"
+      ],
+      "key_gaps": [
+        "finance/trading domain",
+        "NL"
+      ],
+      "rationale": "ML/statistics depth but a finance domain with no neuro/signal overlap; NL.",
+      "job_summary": "Quantitative researcher building ML/statistical investment models at Cedalion Capital, Amsterdam.",
+      "top_qualifications": [
+        "ML/statistics/optimization",
+        "Python"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Cedalion%20Capital&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Cedalion%20Capital&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Cedalion%20Capital&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Cedalion%20Capital"
+      }
+    },
+    {
+      "id": "ee00f5cf18963f09",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4422429148",
+      "title": "Machine Learning Lead",
+      "company": "Harnham",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.138301",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML leadership"
+      ],
+      "key_gaps": [
+        "marketplace domain",
+        "leadership not hands-on",
+        "NL"
+      ],
+      "rationale": "Leadership ML role in a marketplace domain with no neuro/signal fit; NL.",
+      "job_summary": "AI/ML lead setting strategy and leading data scientists in a digital-marketplace org; Amsterdam.",
+      "top_qualifications": [
+        "ML leadership"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Harnham"
+      }
+    },
+    {
+      "id": "795f7b3ab542a225",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4419462067",
+      "title": "Associate professor in Computer Systems",
+      "company": "Vrije Universiteit Amsterdam (VU Amsterdam)",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.100089",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "research track record",
+        "ML/embedded topics welcome"
+      ],
+      "key_gaps": [
+        "professor-level/computer-systems focus",
+        "not neuro",
+        "NL"
+      ],
+      "rationale": "A faculty appointment where ML/embedded topics are welcome, but computer-systems focus and professor level make it a stretch; NL.",
+      "job_summary": "Associate professor position in Computer Systems (HPC/networking, ML/embedded welcome) at VU Amsterdam.",
+      "top_qualifications": [
+        "research track record",
+        "ML/embedded topics welcome"
+      ],
+      "job_category": "Research / Academic (Postdoc)",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29"
+      }
+    },
+    {
+      "id": "c09f20e0ba90ace0",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437180011",
+      "title": "GenAI Software Engineer",
+      "company": "dataroots, a Talan company",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.035419",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "GenAI/software engineering"
+      ],
+      "key_gaps": [
+        "GenAI-consulting focus",
+        "no neuro/research"
+      ],
+      "rationale": "Production GenAI engineering in Leuven, but consulting delivery with no domain or research fit.",
+      "job_summary": "GenAI software engineer at dataroots (Leuven) building production LLM/GenAI applications.",
+      "top_qualifications": [
+        "Python",
+        "GenAI/software engineering"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=dataroots%2C%20a%20Talan%20company"
+      }
+    },
+    {
+      "id": "ccfcaeb8d2780180",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4433783915",
+      "title": "Compute R&D Project Leader",
+      "company": "imec in Vlaanderen",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.032486",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "R&D project leadership",
+        "imec"
+      ],
+      "key_gaps": [
+        "device/fab project management",
+        "not ML/neuro/signal"
+      ],
+      "rationale": "imec Leuven R&D leadership is attractive, but it is device/fab project management outside the candidate's computational domain.",
+      "job_summary": "Compute R&D project leader at imec Leuven leading device development (logic/3D/quantum) from design to validation.",
+      "top_qualifications": [
+        "R&D project leadership",
+        "imec"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20in%20Vlaanderen"
+      }
+    },
+    {
+      "id": "6278bb17cef88f0e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4378387669",
+      "title": "Senior Embedded Software Engineer",
+      "company": "Axon",
+      "location": "",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.008770",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded software",
+        "C/C++"
+      ],
+      "key_gaps": [
+        "no location given",
+        "consumer-device domain"
+      ],
+      "rationale": "Embedded software depth transfers, but the role lacks a stated location and has no AI/neuro dimension.",
+      "job_summary": "Senior embedded software engineer at Axon (safety/justice device ecosystem); location unspecified.",
+      "top_qualifications": [
+        "embedded software",
+        "C/C++"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Axon&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Axon"
+      }
+    },
+    {
+      "id": "627acd69c48c0d85",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435478045",
+      "title": "Biomarker Biostatistician Lead",
+      "company": "Planet Pharma",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.007337",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "statistics",
+        "biomedical domain"
+      ],
+      "key_gaps": [
+        "biostatistics/strategy leadership",
+        "not ML/signal engineering"
+      ],
+      "rationale": "Biomedical-domain bonus applies but the role is biomarker biostatistics leadership rather than ML or signal engineering.",
+      "job_summary": "Biomarker biostatistics lead driving statistical strategy for clinical development; Ghent (hybrid/remote).",
+      "top_qualifications": [
+        "statistics",
+        "biomedical domain"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Pharma&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Planet%20Pharma"
+      }
+    },
+    {
+      "id": "1aba190d8e1470ae",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437174340",
+      "title": "MLOps Engineer",
+      "company": "dataroots, a Talan company",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.987650",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "ML lifecycle/CI-CD"
+      ],
+      "key_gaps": [
+        "MLOps/consulting focus",
+        "no neuro/research domain"
+      ],
+      "rationale": "Solid MLOps consulting role but no domain or research alignment.",
+      "job_summary": "MLOps engineer building/deploying scalable ML pipelines at dataroots consultancy.",
+      "top_qualifications": [
+        "Python",
+        "ML lifecycle/CI-CD"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=dataroots%2C%20a%20Talan%20company&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=dataroots%2C%20a%20Talan%20company"
+      }
+    },
+    {
+      "id": "5be9559ba3476750",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435768778",
+      "title": "Embedded Linux Field Engineer for Devices/IoT",
+      "company": "Jobgether",
+      "location": "",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:53.979582",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded Linux",
+        "systems engineering"
+      ],
+      "key_gaps": [
+        "field/customer-facing role",
+        "no AI/neuro"
+      ],
+      "rationale": "Embedded Linux depth and Belgium base are positives, but it is a customer-facing deployment role without AI/neuro content.",
+      "job_summary": "Embedded Linux field engineer designing/deploying Linux systems for devices/IoT across industries; Belgium.",
+      "top_qualifications": [
+        "embedded Linux",
+        "systems engineering"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
+      }
+    },
+    {
+      "id": "8b883de43774801b",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4433792658",
+      "title": "Postdoctoral Researcher in In-Operando Photoemission for Semiconductor Technologies",
+      "company": "imec in Vlaanderen",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.973091",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "research/experimental rigour",
+        "imec"
+      ],
+      "key_gaps": [
+        "surface-science/photoemission domain",
+        "not ML/neuro/signal"
+      ],
+      "rationale": "Prestigious imec postdoc, but semiconductor photoemission characterization is far from the candidate's neuro/AI/signal expertise.",
+      "job_summary": "Postdoc at imec Leuven developing in-operando photoemission (XPS/HAXPES) characterization for semiconductors.",
+      "top_qualifications": [
+        "research/experimental rigour",
+        "imec"
+      ],
+      "job_category": "Research / Academic (Postdoc)",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec%20in%20Vlaanderen&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec%20in%20Vlaanderen"
+      }
+    },
+    {
+      "id": "20814b86bba5b567",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417179946",
+      "title": "Senior AI Engineer (Libra - Legal AI Assistant)",
+      "company": "Wolters Kluwer",
+      "location": "Mechelen, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.910554",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "LLM product engineering"
+      ],
+      "key_gaps": [
+        "legal-AI domain",
+        "product feature delivery"
+      ],
+      "rationale": "Solid LLM product engineering in Belgium, but the legal domain and feature-delivery focus offer no research/neuro overlap.",
+      "job_summary": "Senior AI engineer at Wolters Kluwer's Libra building LLM-powered legal-AI product features; Mechelen.",
+      "top_qualifications": [
+        "Python",
+        "LLM product engineering"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Wolters%20Kluwer&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Wolters%20Kluwer&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Wolters%20Kluwer&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Wolters%20Kluwer"
+      }
+    },
+    {
+      "id": "f510a3f1b0b0be24",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436797170",
+      "title": "Machine Learning Engineer - Data Scientist.",
+      "company": "AXA",
+      "location": "Brussels Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.876848",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "ML/statistics",
+        "Python",
+        "LLM/VLM fine-tuning"
+      ],
+      "key_gaps": [
+        "insurance domain (cap 45)",
+        "business analytics focus"
+      ],
+      "rationale": "Insurance data-science role capped by domain despite solid ML content; French is acceptable for Belgium.",
+      "job_summary": "ML engineer/data scientist at AXA (Brussels) building predictive models and fine-tuning LLM/VLM; French.",
+      "top_qualifications": [
+        "ML/statistics",
+        "Python",
+        "LLM/VLM fine-tuning"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=AXA&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=AXA&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=AXA&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=AXA"
+      }
+    },
+    {
+      "id": "930c6a1d9615e5d4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4219661251",
+      "title": "Data Engineer - QuantumBlack, AI by McKinsey",
+      "company": "QuantumBlack, AI by McKinsey",
+      "location": "Brussels, Brussels Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.871106",
+      "score": 40,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "data pipelines"
+      ],
+      "key_gaps": [
+        "data-engineering/consulting focus",
+        "no neuro/ML research"
+      ],
+      "rationale": "Prestigious firm and Belgium location, but data-engineering consulting rather than the candidate's ML/neuro research.",
+      "job_summary": "Data engineer at QuantumBlack (McKinsey) in Brussels building data pipelines for client analytics.",
+      "top_qualifications": [
+        "Python",
+        "data pipelines"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=QuantumBlack%2C%20AI%20by%20McKinsey"
+      }
+    },
+    {
       "id": "34b27cf2a452a4bc",
       "source": "linkedin",
       "url": "https://www.linkedin.com/jobs/view/4431463642",
@@ -4547,6 +6868,252 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Odoo&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Odoo&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Odoo"
+      }
+    },
+    {
+      "id": "13e16162ca4dafdd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436041546",
+      "title": "Applied Research Scientist [Machine Visibility]",
+      "company": "Jobgether",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.158405",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "applied research",
+        "large-scale data science"
+      ],
+      "key_gaps": [
+        "web/AI-crawler domain",
+        "not neuro/signal"
+      ],
+      "rationale": "A build-from-scratch research role, but the web-crawler/machine-visibility domain is unrelated to the candidate's expertise.",
+      "job_summary": "Applied research scientist pioneering 'machine visibility' research on web-crawler behaviour; remote NL.",
+      "top_qualifications": [
+        "applied research",
+        "large-scale data science"
+      ],
+      "job_category": "Data Science / Applied ML",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Jobgether&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Jobgether"
+      }
+    },
+    {
+      "id": "db0ba5f2f5814f85",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4427978085",
+      "title": "Device Metrology Tool Development Lead",
+      "company": "QuantWare",
+      "location": "Delft, South Holland, Netherlands",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:54.117551",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "tool development",
+        "technical leadership"
+      ],
+      "key_gaps": [
+        "quantum-device metrology domain",
+        "project-management lean",
+        "NL"
+      ],
+      "rationale": "Tool-development leadership overlaps somewhat, but the quantum-device metrology domain and PM emphasis limit fit; NL.",
+      "job_summary": "Device metrology tool-development lead building automated screening for quantum devices at QuantWare, Delft.",
+      "top_qualifications": [
+        "tool development",
+        "technical leadership"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantWare&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=QuantWare&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=QuantWare&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=QuantWare"
+      }
+    },
+    {
+      "id": "7c13e0def416adaf",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4419471038",
+      "title": "Full professor in Computer Systems",
+      "company": "Vrije Universiteit Amsterdam (VU Amsterdam)",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.105661",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "research track record"
+      ],
+      "key_gaps": [
+        "full-professor level",
+        "computer-systems focus",
+        "NL"
+      ],
+      "rationale": "Full-professor computer-systems chair \u2014 above and beside the candidate's profile despite ML/embedded topics being welcome.",
+      "job_summary": "Full professor position in Computer Systems (HPC/networking) at VU Amsterdam.",
+      "top_qualifications": [
+        "research track record"
+      ],
+      "job_category": "Research / Academic (Postdoc)",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Vrije%20Universiteit%20Amsterdam%20%28VU%20Amsterdam%29"
+      }
+    },
+    {
+      "id": "7ca4078ef14f6bcd",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4375521494",
+      "title": "Electronics Engineer",
+      "company": "Lely",
+      "location": "Maassluis, South Holland, Netherlands",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:54.087326",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "electronics/sensors",
+        "hardware testing"
+      ],
+      "key_gaps": [
+        "agriculture-robotics domain",
+        "electronics-design focus",
+        "NL"
+      ],
+      "rationale": "Sensor/electronics design with some robotics context, but no AI/neuro and NL-based.",
+      "job_summary": "Electronics engineer designing sensors/power/comms for dairy feeding robots at Lely, Maassluis.",
+      "top_qualifications": [
+        "electronics/sensors",
+        "hardware testing"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Lely&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Lely"
+      }
+    },
+    {
+      "id": "a92b984691ed0138",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435451524",
+      "title": "AI Transformation Lead",
+      "company": "Septentrio",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.027096",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "some technical delivery",
+        "Leuven/GNSS company"
+      ],
+      "key_gaps": [
+        "strategy/enablement focus",
+        "not hands-on research"
+      ],
+      "rationale": "Leuven GNSS company is appealing but the role is AI strategy/enablement rather than hands-on ML or signal research.",
+      "job_summary": "AI Transformation Lead defining AI strategy and delivering use cases at Septentrio (GNSS), Leuven.",
+      "top_qualifications": [
+        "some technical delivery",
+        "Leuven/GNSS company"
+      ],
+      "job_category": "Consulting / Business",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Septentrio&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Septentrio&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Septentrio&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Septentrio"
+      }
+    },
+    {
+      "id": "a565fcf0e9c5fc53",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437151288",
+      "title": "R&D engineer",
+      "company": "Securitas Technology Belgium",
+      "location": "Asse, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.969052",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "RF/signal concepts",
+        "prototyping/testing"
+      ],
+      "key_gaps": [
+        "RF-hardware/standards focus",
+        "no AI/neuro"
+      ],
+      "rationale": "RF communications R&D has faint signal-processing overlap but is hardware/standards-driven with no AI or neuro content.",
+      "job_summary": "R&D engineer developing MF/HF wireless (RF) communication solutions for aviation/maritime; Securitas, Asse.",
+      "top_qualifications": [
+        "RF/signal concepts",
+        "prototyping/testing"
+      ],
+      "job_category": "Signal Processing / DSP",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Securitas%20Technology%20Belgium&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Securitas%20Technology%20Belgium&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Securitas%20Technology%20Belgium&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Securitas%20Technology%20Belgium"
+      }
+    },
+    {
+      "id": "a85e420af35ad643",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436084462",
+      "title": "Senior Machine Learning Engineer | Python | PyTorch | Machine Learning | Large Language Models | RAG | Remote, UK and EU",
+      "company": "Enigma",
+      "location": "",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.887687",
+      "score": 38,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python/PyTorch",
+        "production ML"
+      ],
+      "key_gaps": [
+        "LLM/agent product domain",
+        "no neuro/signal"
+      ],
+      "rationale": "Solid production-ML role but LLM-agent product domain sits outside the candidate's research strengths.",
+      "job_summary": "Senior ML engineer at a well-funded LLM/agents startup, remote UK/EU, owning production ML and eval frameworks.",
+      "top_qualifications": [
+        "Python/PyTorch",
+        "production ML"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Enigma&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Enigma&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Enigma&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Enigma"
       }
     },
     {
@@ -5214,6 +7781,357 @@
         "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22S%22%5D",
         "combined": "https://www.linkedin.com/search/results/people/?keywords=Universiteit%20Leiden&network=%5B%22F%22%2C%22S%22%5D",
         "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Universiteit%20Leiden"
+      }
+    },
+    {
+      "id": "18c7ffb404f6dea9",
+      "source": "getro",
+      "url": "https://jobs.imecistart.com/companies/common-sense-robotics/jobs/85317984-robotics-engineer-junior-medior#content",
+      "title": "Robotics Engineer (junior-medior)",
+      "company": "imec.istart",
+      "location": "",
+      "date_posted": null,
+      "date_found": "2026-07-06T13:32:54.604384",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "robotics domain"
+      ],
+      "key_gaps": [
+        "junior-medior level",
+        "no description"
+      ],
+      "rationale": "Robotics-engineering startup role, but junior-medior level and no description limit the fit.",
+      "job_summary": "Junior-medior robotics engineer at Common Sense Robotics via imec.istart (no description available).",
+      "top_qualifications": [
+        "robotics domain"
+      ],
+      "job_category": "Real-Time Systems / Control",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=imec.istart&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=imec.istart"
+      }
+    },
+    {
+      "id": "8d27ed46019244d4",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4430975401",
+      "title": "MLOps Engineer",
+      "company": "Harnham",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.163064",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "MLOps"
+      ],
+      "key_gaps": [
+        "payments/MLOps domain",
+        "junior-leaning",
+        "NL"
+      ],
+      "rationale": "Entry-to-mid MLOps at a payments-scale company with no neuro/research fit; NL.",
+      "job_summary": "MLOps engineer building/deploying ML systems for real-time decisioning at a payments-scale firm; Amsterdam.",
+      "top_qualifications": [
+        "Python",
+        "MLOps"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Harnham&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Harnham"
+      }
+    },
+    {
+      "id": "e72d7abfe6df6e11",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4398244357",
+      "title": "Senior Test & Measurement Engineer",
+      "company": "SMART Photonics",
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.150713",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python/C++",
+        "data-processing algorithms",
+        "measurement"
+      ],
+      "key_gaps": [
+        "photonics-production T&M focus",
+        "no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Some algorithm/measurement overlap, but photonics-production test engineering is adjacent and NL-based.",
+      "job_summary": "Senior test & measurement engineer developing procedures/data-analysis algorithms for photonic-chip production at SMART Photonics, Eindhoven.",
+      "top_qualifications": [
+        "Python/C++",
+        "data-processing algorithms",
+        "measurement"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=SMART%20Photonics&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=SMART%20Photonics&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=SMART%20Photonics&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=SMART%20Photonics"
+      }
+    },
+    {
+      "id": "d69ddbe2ba9c9edf",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436733873",
+      "title": "Embedded Engineer",
+      "company": "Priva",
+      "location": "De Lier, South Holland, Netherlands",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.142524",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded control"
+      ],
+      "key_gaps": [
+        "horticulture-automation domain",
+        "no AI/neuro",
+        "NL"
+      ],
+      "rationale": "Embedded control engineering with partial overlap but no AI/neuro content; NL.",
+      "job_summary": "Embedded engineer building horticulture/building-automation control platforms at Priva, De Lier.",
+      "top_qualifications": [
+        "embedded control"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Priva&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Priva&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Priva&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Priva"
+      }
+    },
+    {
+      "id": "9d2e29d8ca589423",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436750537",
+      "title": "Software Engineer",
+      "company": "RELYzIT",
+      "location": "Leuven, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.029646",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "large-scale data platforms"
+      ],
+      "key_gaps": [
+        "platform/data-engineering focus",
+        "no neuro/research"
+      ],
+      "rationale": "Leuven-based data-platform engineering with only general Python overlap and no domain fit.",
+      "job_summary": "Freelance software engineer building big-data/AI data-processing platforms for a Leuven client (24 months).",
+      "top_qualifications": [
+        "Python",
+        "large-scale data platforms"
+      ],
+      "job_category": "Software Engineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=RELYzIT&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=RELYzIT&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=RELYzIT&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=RELYzIT"
+      }
+    },
+    {
+      "id": "6650b5d6a016e37e",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4435466257",
+      "title": "Principal Biostatistician - Chemistry, Manufacturing and Control -",
+      "company": "Cytel",
+      "location": "",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:54.000379",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Bayesian statistics",
+        "biomedical domain"
+      ],
+      "key_gaps": [
+        "pure biostatistics/CMC",
+        "not ML/signal engineering"
+      ],
+      "rationale": "Bayesian statistics and biomedical domain give partial fit, but this is CMC biostatistics rather than ML/engineering.",
+      "job_summary": "Principal biostatistician (Bayesian) supporting pharma CMC data analysis; recent PhDs welcome.",
+      "top_qualifications": [
+        "Bayesian statistics",
+        "biomedical domain"
+      ],
+      "job_category": "Biomedical / Bioengineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Cytel&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Cytel&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Cytel&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Cytel"
+      }
+    },
+    {
+      "id": "e36e1376ebc1c31d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4437191017",
+      "title": "Automotive Embedded Software Developer - Diagnostic",
+      "company": "ENGIBEX",
+      "location": "St-Truiden, Flemish Region, Belgium",
+      "date_posted": "nan",
+      "date_found": "2026-07-06T13:31:53.981095",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "embedded C",
+        "real-time systems"
+      ],
+      "key_gaps": [
+        "automotive-diagnostics domain",
+        "no AI/neuro"
+      ],
+      "rationale": "Automotive embedded C transfers partially, but diagnostics/AUTOSAR work has no AI or neuro dimension.",
+      "job_summary": "Automotive embedded-software developer (diagnostics, AUTOSAR) at consultancy ENGIBEX, Sint-Truiden.",
+      "top_qualifications": [
+        "embedded C",
+        "real-time systems"
+      ],
+      "job_category": "Hardware / Embedded Systems",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=ENGIBEX&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=ENGIBEX"
+      }
+    },
+    {
+      "id": "3a4d6b364cb77610",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4436997528",
+      "title": "Machine Learning Engineer",
+      "company": "Lumenalta",
+      "location": "",
+      "date_posted": "2026-07-05",
+      "date_found": "2026-07-06T13:31:53.935303",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "ML lifecycle/CI-CD"
+      ],
+      "key_gaps": [
+        "MLOps/platform focus",
+        "no research/neuro domain"
+      ],
+      "rationale": "Pure MLOps platform engineering; strong tooling but no domain or research alignment.",
+      "job_summary": "MLOps engineer operationalising ML on Databricks (MLflow, feature store, CI/CD); remote.",
+      "top_qualifications": [
+        "Python",
+        "ML lifecycle/CI-CD"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Lumenalta&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Lumenalta&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Lumenalta&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Lumenalta"
+      }
+    },
+    {
+      "id": "2613b5de7c38d3cf",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417135339",
+      "title": "GenAI Expert",
+      "company": "NRB",
+      "location": "Li\u00e8ge, Walloon Region, Belgium",
+      "date_posted": "2026-07-04",
+      "date_found": "2026-07-06T13:31:53.889252",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "Python",
+        "ML/GenAI"
+      ],
+      "key_gaps": [
+        "IT consulting delivery",
+        "no research/neuro"
+      ],
+      "rationale": "Li\u00e8ge location is ideal but the role is generic GenAI consulting without research or domain fit.",
+      "job_summary": "GenAI expert at NRB/KEYES (Li\u00e8ge) driving prompt engineering, model optimisation and cloud ML; French.",
+      "top_qualifications": [
+        "Python",
+        "ML/GenAI"
+      ],
+      "job_category": "Machine Learning / Deep Learning",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=NRB&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=NRB&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=NRB&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=NRB"
+      }
+    },
+    {
+      "id": "76e8c17d7c59c33d",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4427708580",
+      "title": "Compiler Engineer C++/LLVM - Gent",
+      "company": "Guardsquare",
+      "location": "Ghent, Flemish Region, Belgium",
+      "date_posted": "2026-07-03",
+      "date_found": "2026-07-06T13:31:53.848659",
+      "score": 35,
+      "fit_category": "stretch",
+      "key_matches": [
+        "modern C++",
+        "low-level programming"
+      ],
+      "key_gaps": [
+        "compiler internals/security domain",
+        "no ML/neuro/signal work"
+      ],
+      "rationale": "Strong C++ but the compiler/software-protection domain is outside the candidate's AI, signal, and neuro focus.",
+      "job_summary": "Compiler engineer (C++/LLVM) hardening iOS apps against reverse engineering, Ghent.",
+      "top_qualifications": [
+        "modern C++",
+        "low-level programming"
+      ],
+      "job_category": "Software Engineering",
+      "status": "new",
+      "feedback": 0,
+      "linkedin_urls": {
+        "first_degree": "https://www.linkedin.com/search/results/people/?keywords=Guardsquare&network=%5B%22F%22%5D",
+        "second_degree": "https://www.linkedin.com/search/results/people/?keywords=Guardsquare&network=%5B%22S%22%5D",
+        "combined": "https://www.linkedin.com/search/results/people/?keywords=Guardsquare&network=%5B%22F%22%2C%22S%22%5D",
+        "company_search": "https://www.linkedin.com/search/results/companies/?keywords=Guardsquare"
       }
     },
     {
