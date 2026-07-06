@@ -13,7 +13,16 @@ Automated daily job search tailored to your profile. Runs via GitHub Actions, sc
    ```bash
    export GITHUB_TOKEN=your_personal_access_token  # needs models:read scope
    ```
-   For GitHub Actions, add `GITHUB_TOKEN` as a repository secret (it's also available automatically in Actions).
+   For GitHub Actions, add these repository secrets:
+   - `MODELS_TOKEN` — PAT with `models:read` scope, used for LLM scoring
+   - `GMAIL_APP_PASSWORD` / `NOTIFY_EMAIL` — for high-score alerts and the weekly digest email
+   - `PROFILE_PRIVATE_B64` — your real candidate profile, kept out of the public repo.
+     Copy `scraper/profile.py` to `scraper/profile_private.py` (gitignored), fill in your
+     details, then store it base64-encoded:
+     ```bash
+     base64 -i scraper/profile_private.py   # paste output into the secret
+     ```
+     Without it, scoring falls back to the template profile in `scraper/profile.py`.
 
 3. **Run locally:**
    ```bash
