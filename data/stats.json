@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
   "total": 2102,
   "scored": 1687,
   "liked": 18,
   "skipped": 0,
   "applied": 3,
   "last_updated": "2026-07-24T11:14:12+02:00"
+=======
+  "total": 1864,
+  "scored": 1864,
+  "liked": 18,
+  "skipped": 0,
+  "applied": 3,
+  "last_updated": "2026-07-22T15:27:32+02:00"
+>>>>>>> 2b5904b (feat: EU/NATO citizenship filter, Haiku+Sonnet scoring funnel, move pipeline local)
 }
