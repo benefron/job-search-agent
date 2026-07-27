@@ -271,6 +271,18 @@ function saveFeedback(fb) {
   updateFeedbackCount();
 }
 
+// When the dashboard is served by the local feedback server (scraper/local_server.py),
+// also save each change straight to the local DB — no download/GitHub-sync needed.
+const IS_LOCAL_SERVER = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+function syncToLocalServer(record) {
+  if (!IS_LOCAL_SERVER) return;
+  fetch("/api/feedback", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(record),
+  }).catch(e => console.warn("local server sync failed:", e));
+}
+
 // ─── Fetch data ───────────────────────────────────────────────────────────────
 async function loadJobs() {
   try {
@@ -497,7 +509,12 @@ function render() {
     card.querySelector(".notes-input").addEventListener("input", e => {
       const fb = loadFeedback();
       fb[job.id] = { ...( fb[job.id] || {}), connection_notes: e.target.value };
+      fb[job.id].id = job.id;
+      fb[job.id].record_type = "job";
+      fb[job.id].url = job.url || fb[job.id].url;
+      fb[job.id].name = job.title || fb[job.id].name;
       saveFeedback(fb);
+      syncToLocalServer(fb[job.id]);
     });
 
     grid.appendChild(card);
@@ -522,6 +539,7 @@ function updateJob(jobId, el) {
   fb[jobId].url = job.url || fb[jobId].url;
   fb[jobId].name = job.title || fb[jobId].name;
   saveFeedback(fb);
+  syncToLocalServer(fb[jobId]);
   render();
 }
 
@@ -595,6 +613,7 @@ function renderLabs() {
         status: e.target.value,
       };
       saveFeedback(next);
+      syncToLocalServer(next[key]);
       renderLabs();
     });
 
@@ -609,6 +628,7 @@ function renderLabs() {
         connection_notes: e.target.value,
       };
       saveFeedback(next);
+      syncToLocalServer(next[key]);
     });
 
     grid.appendChild(card);
@@ -772,6 +792,10 @@ document.getElementById("btn-sync-github").addEventListener("click", async () =>
 });
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
+if (IS_LOCAL_SERVER) {
+  document.querySelector("#export-bar span").textContent =
+    "Connected to the local feedback server — likes, status, and notes save automatically.";
+}
 setView("jobs");
 loadJobs();
 </script>
